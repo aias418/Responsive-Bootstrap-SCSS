@@ -1,0 +1,235 @@
+.toplist-variation-08 {
+  float: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 0;
+  background-color: #e5e5e5;
+}
+
+.toplist-variation-08 .container {
+  max-width: 1200px;
+  padding: 0 35px;
+}
+
+@media only screen and (max-width: 992px) {
+  .toplist-variation-08 .container {
+    padding: 0 15px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .toplist-variation-08 .container {
+    padding: 0 15px;
+  }
+}
+
+.toplist-variation-08 .container .title {
+  font-size: 25px;
+  line-height: 1em;
+  font-weight: 300;
+  color: #dc3545;
+  margin-top: 0;
+}
+
+.toplist-variation-08 .container .text {
+  margin-bottom: 0;
+}
+
+.toplist-variation-08 .container .table-container .showrating {
+  font-size: 19px;
+  line-height: 1.158em;
+  font-weight: 300;
+  color: #dc3545;
+}
+
+@media only screen and (max-width: 480px) {
+  .toplist-variation-08 .container .table-container .showrating {
+    font-size: 17px;
+    line-height: 1.176em;
+  }
+}
+
+.toplist-variation-08 .container .table-container .showrating i {
+  font-size: 18px;
+  color: #ffc107;
+}
+
+.toplist-variation-08 .container .table-container .showrating i:not(:first-child) {
+  margin-left: -5px;
+}
+
+.toplist-variation-08 .container .table-container .table-wrapper .casino-table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.toplist-variation-08 .container .table-container .table-wrapper .casino-table .tbl-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.toplist-variation-08 .container .table-container .table-wrapper .casino-table .tbl-row .head-cell {
+  padding: 8px;
+  color: #ffffff;
+  background-color: #212529;
+  font-weight: 500;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.375em;
+  border-bottom: 1px solid #eee;
+  width: 20%;
+}
+
+.toplist-variation-08 .container .table-container .table-wrapper .casino-table .tbl-row .head-cell:first-child {
+  width: 10%;
+}
+
+.toplist-variation-08 .container .table-container .table-wrapper .casino-table .tbl-row .head-cell:nth-child(3) {
+  width: 30%;
+}
+
+@media only screen and (max-width: 767px) {
+  .toplist-variation-08 .container .table-container .table-wrapper .casino-table .tbl-row .head-cell:nth-child(2) {
+    width: 40%;
+  }
+  .toplist-variation-08 .container .table-container .table-wrapper .casino-table .tbl-row .head-cell:nth-child(3) {
+    width: 60%;
+  }
+}
+
+.toplist-variation-08 .container .table-container .table-wrapper .casino-table .tbl-row .tbl-cell {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  background-color: #ffffff;
+  color: #212529;
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.toplist-variation-08 .container .table-container .table-wrapper .casino-table .tbl-row .tbl-cell:first-child {
+  width: 10%;
+}
+
+.toplist-variation-08 .container .table-container .table-wrapper .casino-table .tbl-row .tbl-cell:nth-child(3) {
+  width: 30%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .toplist-variation-08 .container .table-container .table-wrapper .casino-table .tbl-row .tbl-cell:nth-child(2) {
+    width: 40%;
+  }
+  .toplist-variation-08 .container .table-container .table-wrapper .casino-table .tbl-row .tbl-cell:nth-child(3) {
+    width: 60%;
+  }
+}
+
+.toplist-variation-08 .container .table-container .table-wrapper .casino-table .tbl-row .tbl-cell.bonus {
+  font-size: 17px;
+  line-height: 1.3em;
+}
+
+.toplist-variation-08 .container .table-container .table-wrapper .casino-table .tbl-row .tbl-cell .icon-btn {
+  background-color: #0dcaf0;
+  color: #ffffff;
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  line-height: 2em;
+  -webkit-transition: -webkit-transform ease-in-out .2s;
+  transition: -webkit-transform ease-in-out .2s;
+  transition: transform ease-in-out .2s;
+  transition: transform ease-in-out .2s, -webkit-transform ease-in-out .2s;
+  text-align: center;
+}
+
+.toplist-variation-08 .container .table-container .table-wrapper .casino-table .tbl-row .tbl-cell .icon-btn:hover, .toplist-variation-08 .container .table-container .table-wrapper .casino-table .tbl-row .tbl-cell .icon-btn:focus {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.toplist-variation-08 .container .table-container .table-wrapper .casino-table .tbl-row .tbl-cell .icon-btn.first-item {
+  background-color: #dc3545;
+}
+
+.toplist-variation-08 .container .table-container .table-wrapper .casino-table .tbl-row .tbl-cell .rating {
+  font-size: 19px;
+  line-height: 1.158em;
+}
+
+.toplist-variation-08 .container .table-container .table-wrapper .casino-table .tbl-row .tbl-cell .rating i {
+  color: #ffc107;
+}
+
+.toplist-variation-08 .container .table-container .table-wrapper .casino-table .tbl-row .tbl-cell .rating i:not(:first-child) {
+  margin-left: -2px;
+}
+
+.toplist-variation-08 .container .table-container .table-wrapper .casino-table .tbl-row .tbl-cell .rating.small {
+  font-size: 18px;
+}
+
+.toplist-variation-08 .container .table-container .table-wrapper .casino-table .tbl-row .tbl-cell .rating.small i:not(:first-child) {
+  margin-left: -5px;
+}
+
+.toplist-variation-08 .container .table-container .table-wrapper .casino-table .tbl-row .tbl-cell .review-link {
+  font-size: 16px;
+  line-height: 1.375em;
+}
+
+.toplist-variation-08 .container .table-container .table-wrapper .casino-table .tbl-row .tbl-cell .review-link:hover {
+  text-decoration: underline;
+}
+
+.toplist-variation-08 img {
+  max-width: 100%;
+  border: none;
+  height: auto;
+  text-decoration: none;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.toplist-variation-08 p {
+  margin: 15px 0;
+  font-size: 16px;
+  line-height: 1.375em;
+}
+
+.toplist-variation-08 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.toplist-variation-08 ul li {
+  margin: 0;
+}
+
+.toplist-variation-08 a {
+  text-decoration: none;
+}

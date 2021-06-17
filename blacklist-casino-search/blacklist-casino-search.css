@@ -1,0 +1,231 @@
+.blacklist-casino-search {
+  float: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+  width: 100%;
+  margin: 30px auto;
+  max-width: 795px;
+  font-size: 16px;
+  line-height: 1em;
+}
+
+.blacklist-casino-search .blacklist-wrapper {
+  border: 1px solid #eee;
+  border-top: 4px solid #dc3545;
+  border-radius: 6px;
+}
+
+.blacklist-casino-search .blacklist-wrapper .blacklist-header {
+  padding: 20px;
+  background-color: #e5e5e5;
+  border-bottom: 1px solid #eee;
+}
+
+.blacklist-casino-search .blacklist-wrapper .blacklist-header .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 480px) {
+  .blacklist-casino-search .blacklist-wrapper .blacklist-header .heading {
+    display: block;
+  }
+}
+
+.blacklist-casino-search .blacklist-wrapper .blacklist-header .heading .title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.2em;
+  font-weight: 700;
+}
+
+.blacklist-casino-search .blacklist-wrapper .blacklist-header .heading .date {
+  font-size: 11px;
+  line-height: 1em;
+}
+
+@media only screen and (max-width: 480px) {
+  .blacklist-casino-search .blacklist-wrapper .blacklist-header .heading .date {
+    margin-top: 10px;
+  }
+}
+
+.blacklist-casino-search .blacklist-wrapper .blacklist-header .filters-search-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: initial;
+      -ms-flex-align: initial;
+          align-items: initial;
+}
+
+@media only screen and (max-width: 480px) {
+  .blacklist-casino-search .blacklist-wrapper .blacklist-header .filters-search-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+}
+
+.blacklist-casino-search .blacklist-wrapper .blacklist-header .filters-search-container label.filter-labels {
+  position: absolute;
+  top: -20px;
+  left: 5px;
+  font-weight: 700;
+}
+
+.blacklist-casino-search .blacklist-wrapper .blacklist-header .filters-search-container .search-bar {
+  position: relative;
+  width: 100%;
+}
+
+.blacklist-casino-search .blacklist-wrapper .blacklist-header .filters-search-container .search-bar input {
+  width: 100%;
+  height: 44px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  color: #6c757d;
+  padding: 10px 35px 10px 10px;
+}
+
+.blacklist-casino-search .blacklist-wrapper .blacklist-header .filters-search-container .search-bar i {
+  position: absolute;
+  right: 5px;
+  top: 2px;
+  height: 42px;
+  background: none;
+  color: #ffc107;
+  padding: 10px;
+}
+
+.blacklist-casino-search .blacklist-wrapper .blacklist-header .filters-search-container .blacklist-filters {
+  position: relative;
+  width: 100%;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+  .blacklist-casino-search .blacklist-wrapper .blacklist-header .filters-search-container .blacklist-filters {
+    margin-left: 0;
+    margin-top: 35px;
+  }
+}
+
+.blacklist-casino-search .blacklist-wrapper .blacklist-header .filters-search-container .blacklist-filters .blacklist-filters-select {
+  padding: 7.5px;
+  background: #ffffff;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  width: 100%;
+  height: 44px;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+.blacklist-casino-search .blacklist-wrapper .blacklist-header .filters-search-container .blacklist-filters i {
+  position: absolute;
+  right: 15px;
+  top: 11px;
+  padding-left: 10px;
+  border-left: 1px solid #eee;
+  color: #ffc107;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1em;
+  pointer-events: none;
+}
+
+.blacklist-casino-search .blacklist-wrapper .blacklist-header .filters-search-container .clear-filters {
+  display: block;
+  font-size: 11px;
+  line-height: 1.73em;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 10px 0;
+  margin-left: 10px;
+  width: 132px;
+}
+
+@media only screen and (max-width: 480px) {
+  .blacklist-casino-search .blacklist-wrapper .blacklist-header .filters-search-container .clear-filters {
+    width: auto;
+  }
+}
+
+.blacklist-casino-search .blacklist-wrapper .blacklist-table {
+  display: block;
+  width: 100%;
+  height: 350px;
+  overflow: auto;
+}
+
+.blacklist-casino-search .blacklist-wrapper .blacklist-table .tbl-row {
+  height: 58px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blacklist-casino-search .blacklist-wrapper .blacklist-table .tbl-row:nth-child(2n) {
+  background-color: #e5e5e5;
+}
+
+.blacklist-casino-search .blacklist-wrapper .blacklist-table .tbl-row .tbl-cell {
+  padding: 5px;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 1em;
+  width: 45%;
+}
+
+.blacklist-casino-search .blacklist-wrapper .blacklist-table .tbl-row .tbl-cell:first-child {
+  padding-left: 15px;
+  font-weight: 700;
+}
+
+.blacklist-casino-search .blacklist-wrapper .blacklist-table .tbl-row .tbl-cell:nth-child(2) {
+  width: 10%;
+  text-align: center;
+}
+
+.blacklist-casino-search .blacklist-wrapper .blacklist-table .tbl-row .tbl-cell i {
+  color: #dc3545;
+}
+
+.blacklist-casino-search p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.46em;
+}
+
+.blacklist-casino-search label, .blacklist-casino-search input, .blacklist-casino-search select {
+  font-size: 13px;
+  line-height: 1em;
+}

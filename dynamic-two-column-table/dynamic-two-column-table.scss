@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+@import "sass-styling-vars";
+
+%d-flex{
+  display: -webkit-box;     
+  display: -moz-box;        
+  display: -ms-flexbox;     
+  display: -webkit-flex;    
+  display: flex; 
+}
+%flex-1{
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -webkit-flex: 1; 
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.dynamic-two-column-table {
+    font-family: $font-family-default;
+    a{
+        text-decoration: none;
+        color: $theme-primary;
+        font-weight: $font-weight-heavy;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    p{
+        font-size: $font-size-h4;
+        color: $theme-dark;
+        margin-bottom: 24px;
+    }
+   
+    .app-container{
+        max-width: 918px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .main-title{
+        font-size: $font-size-h2;
+        color: $theme-dark;
+        margin-bottom: 24px;
+        font-weight: $font-weight-heavy;
+    }
+    .sub-title{
+        font-size: $font-size-h3;
+        font-weight: $font-weight-heavy;
+        color: $theme-dark;
+    }
+   
+
+    .app-tbl-flex{
+        margin-bottom: 40px;
+        .app-tbl{
+            @extend %d-flex;
+            flex-direction: column;
+        }
+        .tbl-row{
+            @extend %d-flex;
+            .tbl-cell{
+                @extend %flex-1;
+                text-align: center;
+            }
+            &:last-child{
+                .tbl-cell{
+                    border-bottom: 1px solid $theme-dark;
+                }
+            }
+        }
+        .tbl-cell{
+            font-size: $font-size-h4;
+            padding: 13px 5px;
+            min-height: 48px;
+            border-top: 1px solid $theme-dark;
+            border-right: 1px solid $theme-dark;
+            border-collapse: collapse;
+            &:first-child{
+                border-left: 1px solid $theme-dark;
+            }
+            &.pink-bg{
+                background-color: lighten($theme-primary, 30%);
+            }
+            &.green-bg{
+                background-color: lighten($theme-success, 50%);
+            }
+        }
+        .head-cell{
+            background-color: $theme-primary;
+            color: $theme-white;
+            font-weight: $font-weight-heavy;
+            border-collapse: collapse;
+
+        }
+        .tbl-content{
+            @extend %d-flex;
+            flex-direction: column;
+            position: relative;
+        }
+        
+    }
+    .text-section{
+        margin-bottom: 45px;
+    }
+    @media(max-width: 767px){
+        .app-tbl-flex{
+
+            .app-tbl{
+                flex-direction: row;
+            }
+            .tbl-content{
+                flex-direction: row;
+    
+            }
+            .tbl-row{
+                flex-direction: column;
+                .head-cell{
+                    width: auto;
+                }
+                .tbl-cell{
+                    padding: 13px 8px;
+                    white-space: nowrap;
+                    font-size: $font-size-sm;
+                    text-align: center;
+                    width: auto ;
+                    &:first-child{
+                        border-left: none;
+                    }
+                    &:last-child{
+                        border-bottom: 1px solid $theme-dark;
+                    }
+                }
+                &:last-child{
+                    .tbl-cell:not(:last-child){
+                        border-bottom: none;
+                        
+                    }
+                }
+                &:first-child{
+                    position: sticky;
+                    left: 0px;
+                    .tbl-cell{
+                        border-left: 1px solid $theme-dark;
+                    }
+                }
+            }
+            .header-row{
+                position: sticky;
+                left: 0;
+                z-index: 1;
+            }
+        }
+        p{
+            font-size: $font-size-h6;
+            line-height: 24px;
+        }
+        
+    }
+}

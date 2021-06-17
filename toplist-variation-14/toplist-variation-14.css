@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+.toplist-variation-14 .slot-info-card .logo-box, .toplist-variation-14 .slot-info-card .info-box .info-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.toplist-variation-14 .slot-info-card .logo-box {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.toplist-variation-14 .slot-info-card .info-box .info-row .rating-info:before {
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.toplist-variation-14 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.toplist-variation-14 a {
+  text-decoration: none;
+}
+
+.toplist-variation-14 p {
+  font-size: 14px;
+  line-height: 26px;
+  color: #212529;
+  margin-bottom: 15px;
+}
+
+.toplist-variation-14 p a {
+  text-decoration: underline;
+}
+
+.toplist-variation-14 img {
+  max-width: 100%;
+}
+
+.toplist-variation-14 .app-container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.toplist-variation-14 .inner-container {
+  background-color: #f3f4f5;
+  padding: 15px 25px;
+}
+
+.toplist-variation-14 .main-title {
+  font-size: 28px;
+  color: #212529;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.toplist-variation-14 .slot-info-card {
+  background-color: #ffffff;
+  border: 1px solid #eee;
+  padding: 5px;
+  border-radius: 6px;
+  min-height: 302px;
+  margin-bottom: 15px;
+}
+
+.toplist-variation-14 .slot-info-card .card-content {
+  padding: 0 8% 6%;
+}
+
+.toplist-variation-14 .slot-info-card .logo-box {
+  background-color: #f3f4f5;
+  padding: 10px 0;
+  margin-bottom: 15px;
+}
+
+.toplist-variation-14 .slot-info-card .logo-box .logo {
+  height: 60px;
+  width: 150px;
+}
+
+.toplist-variation-14 .slot-info-card .info-box .info-row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.toplist-variation-14 .slot-info-card .info-box .info-row + .info-row {
+  margin-top: 10px;
+}
+
+.toplist-variation-14 .slot-info-card .info-box .info-row span, .toplist-variation-14 .slot-info-card .info-box .info-row strong {
+  font-size: 15px;
+  color: #212529;
+}
+
+.toplist-variation-14 .slot-info-card .info-box .info-row strong {
+  max-width: 130px;
+  word-break: break-word;
+  white-space: normal;
+  overflow: hidden;
+  display: inline-block;
+  text-align: right;
+  text-overflow: ellipsis;
+}
+
+.toplist-variation-14 .slot-info-card .info-box .info-row .rating-info {
+  position: relative;
+  background-color: #f3f4f5;
+  padding: 3px 12px;
+  border-radius: 18px;
+  padding-left: 30px;
+  margin-right: -12px;
+  height: 28px;
+}
+
+.toplist-variation-14 .slot-info-card .info-box .info-row .rating-info:before {
+  content: "\f005";
+  position: absolute;
+  left: 8px;
+  top: 6px;
+  font-size: 16px;
+  color: #ffc107;
+}
+
+.toplist-variation-14 .slot-info-card .btn-box {
+  padding-top: 15px;
+}
+
+.toplist-variation-14 .info-cards-wrapper {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.toplist-variation-14 .info-cards-wrapper .info-card {
+  display: inline-block;
+  min-width: 135px;
+  margin: 5px 5px 5px;
+  background-color: #ffffff;
+}
+
+.toplist-variation-14 .info-cards-wrapper .info-card .img-box {
+  width: 100%;
+  height: 88px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.toplist-variation-14 .info-cards-wrapper .info-card .info-card-txt {
+  display: block;
+  padding: 10px 2px;
+  color: #0143a3;
+  font-size: 11px;
+}
+
+@media (max-width: 991px) {
+  .toplist-variation-14 .main-title {
+    font-size: 20px;
+  }
+  .toplist-variation-14 .app-container {
+    padding: 0 10px;
+  }
+  .toplist-variation-14 .inner-container {
+    padding: 15px 10px;
+  }
+  .toplist-variation-14 .slot-info-card {
+    min-height: auto;
+  }
+  .toplist-variation-14 .slot-info-card .card-content {
+    padding: 0 4% 3%;
+  }
+}
+
+@media (max-width: 575px) {
+  .toplist-variation-14 .info-cards-wrapper .info-card {
+    margin: 5px 1px 5px;
+  }
+}
+/*# sourceMappingURL=toplist-variation-14.css.map */

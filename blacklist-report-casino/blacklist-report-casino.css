@@ -1,0 +1,400 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+.blacklist-report-casino .report-form-section .info-container .info-text, .blacklist-report-casino .report-form-section .form-container .btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blacklist-report-casino {
+  font-family: "Montserrat", sans-serif;
+}
+
+.blacklist-report-casino a {
+  text-decoration: none;
+  color: #0d6efd;
+  font-weight: 700;
+}
+
+.blacklist-report-casino a:hover {
+  text-decoration: underline;
+}
+
+.blacklist-report-casino p {
+  font-size: 16px;
+  color: #212529;
+  margin-bottom: 24px;
+}
+
+.blacklist-report-casino img {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: top;
+}
+
+.blacklist-report-casino .app-container {
+  max-width: 930px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.blacklist-report-casino .main-title {
+  font-size: 32px;
+  color: #0d6efd;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+
+.blacklist-report-casino .sub-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #212529;
+}
+
+.blacklist-report-casino .sub-title i {
+  font-size: 22px;
+}
+
+.blacklist-report-casino .nav-link-box {
+  padding-top: 15px;
+  text-align: right;
+  font-size: 16px;
+}
+
+.blacklist-report-casino .nav-link-box a {
+  text-decoration: underline;
+}
+
+.blacklist-report-casino .nav-link-box a i {
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+.blacklist-report-casino .cust-select {
+  position: relative;
+}
+
+.blacklist-report-casino .cust-select:before {
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f107";
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 24px;
+  color: #ffc107;
+}
+
+.blacklist-report-casino .cust-select:after {
+  content: "";
+  height: 30px;
+  border-right: 1px solid #eee;
+  position: absolute;
+  right: 44px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.blacklist-report-casino .cust-select select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+}
+
+.blacklist-report-casino .sec-title i, .blacklist-report-casino .sec-title span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.blacklist-report-casino .sec-title i {
+  color: #0d6efd;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.blacklist-report-casino .sec-title span {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.blacklist-report-casino .btn.btn-lg {
+  min-height: 48px;
+  border-radius: 6px;
+  background-image: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  min-width: 200px;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.blacklist-report-casino .btn.btn-lg i {
+  font-size: 16px;
+  margin-left: 5px;
+  margin-top: 0;
+  vertical-align: top;
+  color: #ffffff;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  line-height: normal;
+}
+
+.blacklist-report-casino .btn.btn-lg.btn-danger {
+  background-color: #0d6efd;
+  color: #ffffff;
+}
+
+.blacklist-report-casino .app-card {
+  background-color: #e1edff;
+  min-height: 380px;
+  padding: 20px 20px 22px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.blacklist-report-casino .card-row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.blacklist-report-casino .card-col {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.blacklist-report-casino .img-container {
+  height: 100px;
+  text-align: center;
+}
+
+.blacklist-report-casino .img-container img {
+  -webkit-filter: grayscale(100%) brightness(35%) sepia(100%) hue-rotate(-50deg) saturate(2000%) contrast(0.8);
+          filter: grayscale(100%) brightness(35%) sepia(100%) hue-rotate(-50deg) saturate(2000%) contrast(0.8);
+}
+
+.blacklist-report-casino .info-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.blacklist-report-casino .info-list li {
+  position: relative;
+  padding-left: 30px;
+  margin-top: 7px;
+  font-size: 15px;
+}
+
+.blacklist-report-casino .info-list li:before {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-size: 20px;
+  color: #0d6efd;
+  content: "\f05c";
+}
+
+.blacklist-report-casino .info-list .list-header {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.blacklist-report-casino .info-list .list-header:before {
+  content: "\f071";
+}
+
+.blacklist-report-casino .info-list .list-header p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.blacklist-report-casino .info-list .list-header span {
+  font-weight: 500;
+  color: #0d6efd;
+}
+
+.blacklist-report-casino .info-list .list-header span strong {
+  font-size: 18px;
+}
+
+.blacklist-report-casino .report-form-section .info-container {
+  background-color: #212529;
+  border-radius: 6px;
+  padding: 25px;
+}
+
+.blacklist-report-casino .report-form-section .info-container .info-text {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.blacklist-report-casino .report-form-section .info-container .info-text p {
+  margin-right: 90px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+.blacklist-report-casino .report-form-section .info-container:hover .btn-danger {
+  background-color: #013e99;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.blacklist-report-casino .report-form-section .form-container {
+  display: none;
+  position: relative;
+  background-color: #434b53;
+  padding: 25px;
+  border-radius: 0 0 6px 6px;
+  padding-top: 62px;
+}
+
+.blacklist-report-casino .report-form-section .form-container:before {
+  content: "";
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-color: #212529;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  position: absolute;
+  right: 150px;
+  top: -10px;
+}
+
+.blacklist-report-casino .report-form-section .form-container .close-btn {
+  background: none;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-size: 20px;
+  position: absolute;
+  right: 11px;
+  top: 16px;
+}
+
+.blacklist-report-casino .report-form-section .form-container .form-control, .blacklist-report-casino .report-form-section .form-container .form-control::-webkit-input-placeholder {
+  min-height: 48px;
+  border-radius: 6px;
+  color: #212529;
+}
+
+.blacklist-report-casino .report-form-section .form-container .form-control, .blacklist-report-casino .report-form-section .form-container .form-control:-ms-input-placeholder {
+  min-height: 48px;
+  border-radius: 6px;
+  color: #212529;
+}
+
+.blacklist-report-casino .report-form-section .form-container .form-control, .blacklist-report-casino .report-form-section .form-container .form-control::-ms-input-placeholder {
+  min-height: 48px;
+  border-radius: 6px;
+  color: #212529;
+}
+
+.blacklist-report-casino .report-form-section .form-container .form-control, .blacklist-report-casino .report-form-section .form-container .form-control::placeholder {
+  min-height: 48px;
+  border-radius: 6px;
+  color: #212529;
+}
+
+.blacklist-report-casino .report-form-section .form-container .btn-box {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blacklist-report-casino .report-form-section .form-container .btn-box span {
+  color: #ffffff;
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.blacklist-report-casino .report-form-section.form-active .info-container {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.blacklist-report-casino .report-form-section.form-active .form-container {
+  display: block;
+}
+
+.blacklist-report-casino .report-form-section.message-sent .form-container {
+  padding-top: 35px;
+  padding-bottom: 6px;
+}
+
+.blacklist-report-casino .report-form-section.message-sent .report-casino-form {
+  display: none;
+}
+
+.blacklist-report-casino .report-form-section.message-sent .message-box {
+  display: block;
+}
+
+.blacklist-report-casino .report-form-section .message-box {
+  display: none;
+}
+
+.blacklist-report-casino .report-form-section .message-box .message-title {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+.blacklist-report-casino .report-form-section .message-box .message-title i {
+  font-size: 26px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.blacklist-report-casino .report-form-section .message-box p {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .blacklist-report-casino .main-title {
+    font-size: 22px;
+    line-height: normal;
+  }
+  .blacklist-report-casino .app-card {
+    min-height: auto;
+  }
+  .blacklist-report-casino .report-form-section .info-container .info-text {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .blacklist-report-casino .report-form-section .info-container .info-text p {
+    min-width: 100%;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .blacklist-report-casino .report-form-section .form-container .btn-box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .blacklist-report-casino .report-form-section .form-container .btn-box span {
+    min-width: 100%;
+    padding-top: 20px;
+  }
+}
+/*# sourceMappingURL=blacklist-report-casino.css.map */

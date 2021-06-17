@@ -1,0 +1,286 @@
+@import "sass-styling-vars";
+
+.content-blocks-variation-08 {
+    float: none;
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    margin: 30px auto;
+    max-width: 795px;
+    font-size: $font-size-default + 3;
+    line-height: 1em;
+    .content-blocks-container{
+        background-color: $theme-light;
+        background-clip: content-box;
+        padding: 0 15px;
+        .text-block {
+            background-color: $theme-white;
+            padding: 30px 0 17px 0;
+            p.title {
+                margin-bottom: 15px;
+                font-size: $font-size-default + 11;
+                line-height: 1em;
+                font-weight: $font-weight-heavy;
+                @media only screen and (max-width : 480px) {
+                    font-size: $font-size-default + 7;
+                    line-height: 1.2em;
+                }
+                
+            }
+        }
+        .header {
+            background-color: $theme-info;
+            padding: 30px 20px 44px;
+            position: relative;
+            color: $theme-white;
+            .heading {
+                margin-bottom: 15px;
+                font-size: $font-size-default + 11;
+                line-height: 1em;
+                font-weight: $font-weight-heavy;
+                @media only screen and (max-width : 480px) {
+                    font-size: $font-size-default + 7;
+                    line-height: 1.2em;
+                }
+                
+            }
+        }
+        .versus-container {
+            position: relative;
+            background-color: $theme-light;
+            padding: 15px;
+            .first-element {
+                margin-top: -54px;
+                .inner-header {
+                    background-color: $theme-primary;
+                    position: relative;
+                    display: flex;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    border-radius: $theme-border-radius $theme-border-radius 0 0;
+                    border: 0;
+                    list-style: none;
+                    @media only screen and (max-width : 480px) {
+                        border: $theme-border;
+                        border-bottom-width: 0;
+                    }
+                    .compared-item {
+                        padding: 20px 15px;
+                        margin: 0;
+                        flex-basis: 50%;
+                        color: $theme-white;
+                        text-align: center;
+                        font-weight: $font-weight-heavy;
+                        font-size: $font-size-default + 5;
+                        cursor: auto;
+                        @media only screen and (max-width : 480px) {
+                            font-size: $font-size-default + 3;
+                            cursor: pointer;
+                        }
+                        &.active {
+                            color: $theme-white;
+                            background-color: $theme-primary;
+                            @media only screen and (max-width : 480px) {
+                                background-color: $theme-white;
+                                color: $theme-primary;
+                            }
+                        }
+                    }
+                    &:after {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+                        font-size: $font-size-default + 5;
+                        font-weight: $font-weight-heavy;
+                        color: $theme-warning;
+                        content: "vs";
+                        @media only screen and (max-width : 480px) {
+                            content: none;
+                        }
+                    }
+                }
+            }
+            .versus-table {
+                border: $theme-border;
+                border-top-width: 0;
+                background-color: $theme-white;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                border-radius: 0 0 $theme-border-radius $theme-border-radius;
+                padding: 0;
+                .table-column {
+                    flex-basis: 50%;
+                    @media only screen and (max-width : 480px) {
+                        flex-basis: 100%;
+                    }
+                    .table-element {
+                        position: relative;
+                        display: block;
+                        align-items: center;
+                        border-bottom: $theme-border;
+                        width: 100%;
+                        padding: 15px 50px;
+                        min-height: 102px;
+                        &[data-compare]:before {
+                            position: absolute;
+                            width: 30px;
+                            font-family: "FontAwesome";
+                            font-size: $font-size-default + 7;
+                            color: $theme-success;
+                            left: 22px;
+                            top: 15px;
+                            content: "\f00c";
+                        }
+                        &[data-compare=miss]:before {
+                            content: "\f00d";
+                            color: $theme-danger;
+                        }
+                        p {
+                            margin: 0;
+                        }
+                    }
+                    &:last-child {
+                        border-left: $theme-border;
+                        @media only screen and (max-width : 480px) {
+                            border-left: none;
+                        }
+                    }
+                    &.tab-pane {
+                        display: block;
+                        @media only screen and (max-width : 480px) {
+                            display:none;
+                        }
+                        &.active {
+                            display: block;
+                        }
+                    }
+                    
+                }
+            }
+            .yellow-block {
+                position: relative;
+                padding: 18px 15px;
+                background-color: $theme-warning;
+                text-align: center;
+                border-bottom-left-radius: $theme-border-radius;
+                border-bottom-right-radius: $theme-border-radius;
+                margin-top: -3px;
+                p {
+                    margin-bottom: 0;
+                    span {
+                        font-weight: $font-weight-heavy;
+                        font-size: $font-size-default + 5;
+                    }
+                }
+            }
+            .expert-verdict {
+                padding: 30px 0 15px;
+                .verdict-title {
+                    font-size: $font-size-default + 5;
+                    margin-bottom: 7px;
+                    @media only screen and (max-width : 480px) {
+                        font-size: $font-size-default + 3;
+                        margin-bottom: 3px;
+                    }
+                }
+                .verdict-card {
+                    background-color: $theme-white;
+                    border: $theme-border;
+                    padding: 19px 15px;
+                    display: flex;
+                    justify-content: space-between;
+                    @media only screen and (max-width : 480px) {
+                        flex-direction: column-reverse;
+                        justify-content: normal;
+                        padding: 19px 12px;
+                    }
+                    .verdict-col{
+
+                        &:first-child {
+                            display: flex;
+                            flex-wrap: wrap;
+                            align-items: center;
+                            justify-content: center;
+                            flex-basis: 23%;
+                            text-align: center;
+                            padding-left: 0;
+                            @media only screen and (max-width : 480px) {
+                                padding-left: 40px;
+                                flex-wrap: nowrap;
+                            }
+                        }
+                        &:last-child {
+                            flex-basis: 75%;
+                            margin-bottom: 0;
+                            @media only screen and (max-width : 480px) {
+                                margin-bottom: 12px;
+                            }
+                        }
+                        .verdict-img {
+                            display: inline-block;
+                            margin-right: 0;
+                            margin-bottom: 6px;
+                            width: 65px;
+                            min-width: 65px;
+                            @media only screen and (max-width : 480px) {
+                                margin-right: 10px;
+                                width: 46px;
+                                min-width: 46px;
+                            }
+                        }
+                        .content {
+                            p {
+                                @media only screen and (max-width : 480px) {
+                                    text-align: start;
+                                }
+                            }
+                            .content-name {
+                                font-size: $font-size-default + 3;
+                                color: $theme-primary;
+                                font-weight: $font-weight-heavy;
+                                margin-bottom: 2px;
+                            }
+                        }
+                        .quote {
+                            position: relative;
+                            padding-left: 45px;
+                            padding-top: 10px;
+                            @media only screen and (max-width : 480px) {
+                                padding-left: 40px;
+                            }
+                            p {
+                                margin-bottom: 0;
+                                font-size: $font-size-default + 3;
+                                line-height: 1.18em;
+                            }
+                            &:after {
+                                content: "“";
+                                position: absolute;
+                                top: -5px;
+                                left: 0;
+                                font-size: $font-size-default * 6.9;
+                                line-height: 1em;
+                                color: $theme-light;
+                                @media only screen and (max-width : 480px) {
+                                    font-size: $font-size-default * 6.2;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    p {
+        margin: 0 0 13px;
+        font-size: $font-size-default;
+        line-height: 1.46em;
+    }
+}

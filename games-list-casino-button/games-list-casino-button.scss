@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+@import "sass-styling-vars";
+
+%d-flex{
+  display: -webkit-box;     
+  display: -moz-box;        
+  display: -ms-flexbox;     
+  display: -webkit-flex;    
+  display: flex; 
+}
+
+%flex-1{
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -webkit-flex: 1; 
+  -ms-flex: 1;
+  flex: 1;
+}
+
+%flex-full-center{
+    align-items: center;
+    justify-content: center;
+}
+%fas-icons{
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.games-list-casino-button {
+    font-family: $font-family-default;
+    background-color: $theme-dark;
+    a{
+        text-decoration: none;
+    }
+    p{
+        font-size: $font-size-h6;
+        line-height: 26px;
+        color: $theme-dark;
+        margin-bottom: 15px;
+        a{
+            text-decoration: underline;
+        }
+    }
+    img{
+        max-width: 100%;
+    }
+    .app-container{
+        max-width: 850px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .sec-pad{
+        padding: 50px 0;
+    }
+    
+    
+
+    .info-box-wrapper{
+        background-color: lighten($theme-dark , 5%);
+        padding: 10px;
+        box-shadow: 0px 1px 12px 3px rgba(29, 32, 35, 0.66);
+        .main-title{
+            padding: 10px 1%;
+            margin-bottom: 8px;
+            .icon-container{
+                display: inline-block;
+                vertical-align: middle;
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                background-color: $theme-danger;
+                padding: 5px;
+                margin-right: 10px;
+                svg{
+                    height: 100%;
+                    width: 100%;
+                    fill: $theme-white;
+                }
+            }
+            span{
+                font-size: $font-size-h1 + 2;
+                color: $theme-white;
+                font-weight: $font-weight-bold;
+                line-height: 20px;
+                margin-bottom: 0px;
+            }
+        }
+        .info-boxes-row{
+            margin-left: -1%;
+            margin-right: -1%;
+            padding: 0 1%;
+            .info-box-col{
+                padding-left: 1%;
+                padding-right: 1%;
+                padding-top: 1%;
+                padding-bottom: 1%;
+            }
+        }
+        .info-box{
+            background-color: $theme-white;
+            .box-link{
+                display: block;
+            }
+            .imgs-box{
+                background-color: $theme-white;
+                position: relative;
+                overflow: hidden;
+                .game-img{
+                    width: 100%;
+                }
+                .softw-logo{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                }
+                .game-marker{
+                    position: absolute;
+                    width: 300px;
+                    background-color: $theme-danger;
+                    text-align: center;
+                    padding: 21px 0px 7px;
+                    -moz-transform: rotate(45deg);
+                    -webkit-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                    top: -14px;
+                    right: -135px;
+                    svg{
+                        display: inline-block;
+                        height: 15px;
+                        width: 15px;
+                        fill: $theme-white;
+                        margin-bottom: 3px;
+                    }
+                    .marker-text{
+                        color: $theme-white;
+                        font-size: $font-size-default - 4;
+                        line-height: 4px;
+                        margin-bottom: 0;
+                        letter-spacing: 0.6px;
+                        font-weight: $font-weight-medium;
+                    }
+                }
+            }
+            .info-box-title{
+                padding: 8px 10px 8px;
+                font-size: $font-size-h6;
+                color: $theme-dark;
+                font-weight: $font-weight-medium;
+                line-height: 20px;
+                margin-bottom: 0px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .info-box-footer{
+                padding: 0 10px 10px;
+                .btn{
+                    padding-top: 3px;
+                    padding-bottom: 3px;
+                    .casino-logo{
+                        width: 40px;
+                        height: 40px;
+                        border: 0;
+                        vertical-align: middle;
+                        border-radius: 50%;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+        .btn-box{
+            margin-left: -1%;
+            margin-right: -1%;
+            padding-left: 1.7%;
+            padding-right: 1.7%;
+            padding-top: 15px;
+            padding-bottom: 10px;
+        }
+    }
+   
+  
+    @media(max-width: 991px){
+        .main-title{
+            font-size: $font-size-h2;
+        }
+        .app-container{
+            padding: 0 10px;
+        }
+        .info-box-wrapper .main-title span{
+            font-size: $font-size-h2;
+        }
+    }
+}

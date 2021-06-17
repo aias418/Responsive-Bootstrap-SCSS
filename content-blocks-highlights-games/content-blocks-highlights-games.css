@@ -1,0 +1,570 @@
+.content-blocks-highlights-games {
+  float: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  padding-bottom: 48px;
+  width: 100%;
+  margin: 30px auto;
+  max-width: 1100px;
+  background-color: #e5e5e5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@media only screen and (max-width: 992px) {
+  .content-blocks-highlights-games {
+    background: none;
+    display: block;
+  }
+}
+
+.content-blocks-highlights-games .intro {
+  width: calc(100% - 730px);
+  padding: 40px 30px 0 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .content-blocks-highlights-games .intro {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.content-blocks-highlights-games .intro .title {
+  display: block;
+  font-size: 32px;
+  line-height: 1.2em;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 992px) {
+  .content-blocks-highlights-games .intro .title {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .content-blocks-highlights-games .intro .title {
+    font-size: 20px;
+    line-height: 1.1em;
+  }
+}
+
+.content-blocks-highlights-games .intro .title .color-brand {
+  color: #0d6efd;
+}
+
+.content-blocks-highlights-games .intro .content {
+  font-size: 18px;
+  line-height: 1.4em;
+  margin-bottom: 24px;
+}
+
+@media only screen and (max-width: 480px) {
+  .content-blocks-highlights-games .intro .content {
+    font-size: 13px;
+    line-height: 1.3em;
+    margin-bottom: 12px;
+  }
+}
+
+.content-blocks-highlights-games .intro .list {
+  padding-left: 28px;
+  margin-bottom: 24px;
+}
+
+@media only screen and (max-width: 480px) {
+  .content-blocks-highlights-games .intro .list {
+    padding-left: 20px;
+    margin-bottom: 12px;
+  }
+}
+
+.content-blocks-highlights-games .intro .list .item {
+  display: block;
+  position: relative;
+  font-size: 18px;
+  line-height: 1.4em;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 480px) {
+  .content-blocks-highlights-games .intro .list .item {
+    font-size: 13px;
+    line-height: 1.3em;
+    margin-bottom: 6px;
+  }
+}
+
+.content-blocks-highlights-games .intro .list .item::after {
+  position: absolute;
+  top: 4px;
+  left: -28px;
+  content: "";
+  width: 18px;
+  height: 18px;
+  background-image: url(./img/icon-check-circle-solid.svg);
+}
+
+@media only screen and (max-width: 480px) {
+  .content-blocks-highlights-games .intro .list .item::after {
+    top: 0;
+    left: -20px;
+    width: 13px;
+    height: 13px;
+  }
+}
+
+.content-blocks-highlights-games .intro .btn-wrap {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  padding: 6px;
+}
+
+@media only screen and (max-width: 480px) {
+  .content-blocks-highlights-games .intro .btn-wrap {
+    display: block;
+    background: 0 0;
+  }
+}
+
+.content-blocks-highlights-games .intro .btn-wrap .btn {
+  width: 100%;
+}
+
+.content-blocks-highlights-games .intro .btn-wrap .btn:hover {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+.content-blocks-highlights-games .promote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding-top: 40px;
+  width: 730px;
+}
+
+@media only screen and (max-width: 992px) {
+  .content-blocks-highlights-games .promote {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .content-blocks-highlights-games .promote {
+    display: block;
+    padding-top: 12px;
+  }
+}
+
+.content-blocks-highlights-games .promote .column.column-first {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  padding-right: 12px;
+}
+
+@media only screen and (max-width: 480px) {
+  .content-blocks-highlights-games .promote .column.column-first {
+    width: auto;
+    padding: 0;
+  }
+}
+
+.content-blocks-highlights-games .promote .column.column-first .box {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #212529), color-stop(49%, #212529), to(#212529));
+  background: linear-gradient(to bottom, #212529 0, #212529 49%, #212529 100%);
+  margin-bottom: 12px;
+  height: 207px;
+}
+
+@media only screen and (max-width: 480px) {
+  .content-blocks-highlights-games .promote .column.column-first .box {
+    height: auto;
+  }
+}
+
+.content-blocks-highlights-games .promote .column.column-first .box.box-promo {
+  position: relative;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 480px) {
+  .content-blocks-highlights-games .promote .column.column-first .box.box-promo {
+    height: 110px;
+  }
+}
+
+.content-blocks-highlights-games .promote .column.column-first .box.box-promo img {
+  position: absolute;
+  top: 0;
+}
+
+.content-blocks-highlights-games .promote .column.column-first .box.box-promo .promo-link {
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+  padding: 22px 65px 22px 17px;
+  text-shadow: 0 0 14px #212529;
+}
+
+.content-blocks-highlights-games .promote .column.column-first .box.box-promo .promo-link .sub-title {
+  display: block;
+  color: #dc3545;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+.content-blocks-highlights-games .promote .column.column-first .box.box-promo .promo-link .title {
+  display: block;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1em;
+  color: #ffffff;
+}
+
+.content-blocks-highlights-games .promote .column.column-first .box.box-promo .promo-link .promo-icon {
+  position: absolute;
+  bottom: 23px;
+  right: 21px;
+  width: 39px;
+  height: 39px;
+  border: 2px solid #ffc107;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  -webkit-transition: right .2s ease-in-out;
+  transition: right .2s ease-in-out;
+  font-size: 17px;
+}
+
+.content-blocks-highlights-games .promote .column.column-first .box.box-promo .promo-link:hover {
+  text-decoration: none;
+}
+
+.content-blocks-highlights-games .promote .column.column-first .box.box-promo .promo-link:hover .promo-icon {
+  right: 15px;
+}
+
+.content-blocks-highlights-games .promote .column.column-first .box.box-counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  height: 207px;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 480px) {
+  .content-blocks-highlights-games .promote .column.column-first .box.box-counter {
+    height: auto;
+  }
+}
+
+.content-blocks-highlights-games .promote .column.column-first .box.box-counter .win-counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 480px) {
+  .content-blocks-highlights-games .promote .column.column-first .box.box-counter .win-counter {
+    font-size: 22px;
+  }
+}
+
+.content-blocks-highlights-games .promote .column.column-first .box.box-counter .win-counter .curr {
+  margin-right: 6px;
+}
+
+.content-blocks-highlights-games .promote .column.column-first .box.box-counter .visitors {
+  font-size: 16px;
+  line-height: 1.375em;
+  color: #ffc107;
+  text-align: center;
+}
+
+.content-blocks-highlights-games .promote .column.column-last .tiles {
+  margin: calc(-12px / 2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+}
+
+.content-blocks-highlights-games .promote .column.column-last .tiles .item {
+  margin: 6px;
+  padding: 6px;
+  width: calc(50% - 12px);
+  height: 134px;
+  text-decoration: none;
+  outline: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+}
+
+@media only screen and (max-width: 480px) {
+  .content-blocks-highlights-games .promote .column.column-last .tiles .item {
+    height: 115px;
+  }
+}
+
+.content-blocks-highlights-games .promote .column.column-last .tiles .item:hover {
+  text-decoration: none;
+}
+
+.content-blocks-highlights-games .promote .column.column-last .tiles .item:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.content-blocks-highlights-games .promote .column.column-last .tiles .item.color-1 {
+  background-color: #d7700c;
+}
+
+.content-blocks-highlights-games .promote .column.column-last .tiles .item.color-2 {
+  background-color: #4b9fef;
+}
+
+.content-blocks-highlights-games .promote .column.column-last .tiles .item.color-3 {
+  background-color: #82be37;
+}
+
+.content-blocks-highlights-games .promote .column.column-last .tiles .item.color-4 {
+  background-color: #173959;
+}
+
+.content-blocks-highlights-games .promote .column.column-last .tiles .item.color-5 {
+  background-color: #cc8e76;
+}
+
+.content-blocks-highlights-games .promote .column.column-last .tiles .item.color-6 {
+  background-color: #666;
+}
+
+.content-blocks-highlights-games .promote .column.column-last .tiles .item img {
+  -webkit-transition: -webkit-transform .1s ease-in-out;
+  transition: -webkit-transform .1s ease-in-out;
+  transition: transform .1s ease-in-out;
+  transition: transform .1s ease-in-out, -webkit-transform .1s ease-in-out;
+}
+
+.content-blocks-highlights-games .promote .column.column-last .tiles .item .item-text {
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1em;
+  font-size: 18px;
+  padding-top: 12px;
+}
+
+@media only screen and (max-width: 480px) {
+  .content-blocks-highlights-games .promote .column.column-last .tiles .item .item-text {
+    padding-top: 6px;
+    font-size: 14px;
+  }
+}
+
+.content-blocks-highlights-games .promote .column.column-last .tiles .tiles-link {
+  position: absolute;
+  bottom: -24px;
+  right: 6px;
+  font-size: 18px;
+  line-height: normal;
+  color: #dc3545;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.content-blocks-highlights-games p {
+  margin: 0 0 13px;
+  font-size: 13px;
+  line-height: 1.46em;
+}
+
+.content-blocks-highlights-games ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.content-blocks-highlights-games .odometer-inside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content-blocks-highlights-games .odometer-digit {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  border-radius: .1em;
+  padding: 0 .15em;
+  background-color: #eee;
+  color: #212529;
+}
+
+.content-blocks-highlights-games .odometer-digit + .odometer-digit {
+  margin-left: .1em;
+}
+
+.content-blocks-highlights-games .odometer-digit-spacer {
+  display: inline-block;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.content-blocks-highlights-games .odometer-digit-inner {
+  text-align: left;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.content-blocks-highlights-games .odometer-digit:last-child {
+  display: none;
+}
+
+.content-blocks-highlights-games .odometer-ribbon {
+  display: block;
+  margin-top: .05em;
+  margin-left: .15em;
+}
+
+.content-blocks-highlights-games .odometer-ribbon-inner {
+  display: block;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.content-blocks-highlights-games .odometer-value {
+  display: block;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+}
+
+.content-blocks-highlights-games .odometer-value.odometer-last-value {
+  position: absolute;
+}
+
+.content-blocks-highlights-games .odometer-formatting-mark {
+  margin: 0 .1em;
+}
+
+.content-blocks-highlights-games .odometer-animating-up .odometer-ribbon-inner {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.content-blocks-highlights-games .odometer-animating-down .odometer-ribbon-inner,
+.content-blocks-highlights-games .odometer-animating-up.odometer-animating .odometer-ribbon-inner {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+.content-blocks-highlights-games .odometer-animating-down.odometer-animating .odometer-ribbon-inner {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}

@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Karla:400&display=swap');
+@import "sass-styling-vars";
+
+img {
+    max-width: 100%;
+}
+
+.toplist-variation-16 {
+    .toplist-variation-16-col{
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .toplist-variation-16-listing {
+        font-family: $font-family-default;
+        overflow: hidden;
+        background: $toplist-headings-bg;
+        position: relative;
+        padding: 0 0 10px 0;
+        font-size: $font-size-default;
+        position: relative;
+
+        .toplist-variation-16-listing-image {
+            position: relative;
+            width: 100%;
+            height: 110px;
+
+            .in-flag {
+                position: absolute;
+                top: 5px;
+                right: 5px;
+                height: 25px;
+                width: 25px;
+            }
+
+            .toplist-variation-16-listing-image-img {
+                text-align: center;
+                width: 100%;
+                float: left;
+
+                img {
+                    display: inline-block;
+                    margin: auto;
+                }
+            }
+        }
+
+        .toplist-variation-16-bonusCardNameFiltr {
+            text-decoration: none;
+            color: $theme-white;
+            transition: all .2s ease 0s;
+            padding: 8px 0 6px;
+            margin: 0 3%;
+            font-size: $font-size-md;
+            line-height: 24px;
+            height: auto;
+            text-align: center;
+            font-weight: $font-weight-medium;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            float: left;
+            width: 94%;
+        }
+
+        .toplist-variation-16-bonusCardFiltr-button-code {
+            position: relative;
+            border-radius: $theme-border-radius;
+            margin: 0 3% 5px;
+            height: 32px;
+            width: 94%;
+            cursor: pointer;
+            display: block;
+            font-weight: 400;
+            float: left;
+
+            &:hover {
+                -webkit-transition-delay: .2s;
+                transition-delay: .2s;
+
+                .toplist-variation-16-bonusCardFiltr_bon-apla {
+                    width: calc(100% - 44px);
+                }
+
+                .toplist-variation-16-bonusCardFiltr_bon-corner {
+                    right: 10px;
+                }
+            }
+
+            .toplist-variation-16-bonusCardFiltr_bon-apla {
+                background: $theme-success;
+                position: absolute;
+                left: 0;
+                top: 0;
+                text-align: center;
+                width: 100%;
+                width: calc(100% - 36px);
+                height: 100%;
+                z-index: 2;
+                border-radius: $theme-border-radius 0 0 $theme-border-radius;
+                display: block;
+                transition: width .2s, transform .2s;
+            }
+
+            .toplist-variation-16-bonusCardFiltr_bon-btn-label {
+                color: $theme-white;
+                font-size: $font-size-md;
+                font-weight: $font-weight-heavy;
+                text-align: center;
+                line-height: 32px;
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 4;
+                text-transform: uppercase;
+            }
+
+            .toplist-variation-16-bonusCardFiltr_bon-corner {
+                background: url(img/button-corner.png) left top no-repeat;
+                background-size: 60.2% auto;
+                position: absolute;
+                z-index: 2;
+                height: 34px;
+                right: 1px;
+                width: 36px;
+                top: 0;
+                transition: right .2s, transform .2s;
+            }
+
+            .toplist-variation-16-bonusCardFiltr_bon-in {
+                font-size: $font-size-default;
+                border: $theme-border;
+                position: absolute;
+                top: 0;
+                left: 0;
+                border-radius: $theme-border-radius;
+                text-align: right;
+                padding: 0 7px;
+                width: 100%;
+                height: 100%;
+                line-height: 28px;
+                z-index: 1;
+                color: $theme-white;
+                font-weight: $font-weight-medium;
+            }
+        }
+
+        .toplist-variation-16-bonuseCardFiltr-play {
+            background: $theme-success;
+            padding: 0;
+            margin: 0 3% 5px;
+            position: relative;
+            width: 94%;
+            height: 32px;
+            color: $theme-white;
+            font-weight: $font-weight-heavy;
+            float: left;
+            font-size: $font-size-md;
+            line-height: 32px;
+            text-align: center;
+            text-transform: uppercase;
+            border-radius: $theme-border-radius;
+            transition: all .2s ease 0s;
+        }
+    }
+
+    .toplist-variation-16-openline {
+        background: $toplist-headings-bg;
+        float: left;
+        width: 100%;
+        padding: 0 0 10px;
+        margin: 0;
+
+        .toplist-variation-16-applyLine {
+            padding: 0;
+            margin: 6px 0 0 3%;
+            width: 80%;
+            float: left;
+            font-size: $font-size-sm;
+            color: $theme-light;
+            line-height: 12px;
+            text-align: left;
+            font-weight: $font-weight-medium;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            display: block;
+
+            a {
+                color: $theme-light;
+            }
+        }
+
+        .toplist-variation-16-down-arrow {
+            height: 26px;
+            width: 26px;
+            cursor: pointer;
+            font-size: $font-size-xl;
+            float: right;
+            text-align: center;
+            margin-right: 10px;
+            color: $theme-white;
+            &.providerCard-opened{
+                i:before{
+                    content:"\f106";
+                }
+            }
+        }
+    }
+    .toplist-variation-16-spoiler-body-bonuseCardFiltr{
+        padding: 0;
+        top: 100%;
+        margin: 0;
+        width: calc(100% - 30px);
+        float: left;
+        position: absolute;
+        background: $toplist-headings-bg;
+        z-index: 10;
+        box-shadow: $wrapper-box-shadow;
+        .toplist-variation-16-spoiler-body-bonuseCardFiltr-in{
+            border-top: $theme-border;
+            padding: 0;
+            margin: 0 3%;
+            width: 94%;
+            float: left;
+            .toplist-variation-16-bonusCardBlockBonus{
+                padding: 0;
+                margin: 5px 0 0;
+                width: 100%;
+                float: left;
+                .toplist-variation-16-outerCardBonusItem{
+                    position: relative;
+                    float: left;
+                    width: 100%;
+                    margin: 0 0 5px;
+                    padding: 0 0 5px;
+                    border-bottom: $theme-border;
+                    .toplist-variation-16-inCardBonusNum{
+                        padding: 0;
+                        margin: 0;
+                        font-size: $font-size-lg;
+                        color: $theme-white;
+                        line-height: 30px;
+                        text-align: left;
+                        font-weight: $font-weight-heavy;
+                        i,.inCardBonusYel{
+                            color: $theme-success;
+                        }
+                    }
+                    .toplist-variation-16-inCardBonusWeg{
+                        padding: 5px 0;
+                        margin: 0;
+                        font-size: $font-size-sm;
+                        color: $theme-light;
+                        line-height: 12px;
+                        text-align: left;
+                        font-weight: $font-weight-medium;
+                        span{
+                            color: $theme-success;
+                        }
+                    }
+                }
+            }
+            .toplist-variation-16-providerCard-prewBlock{
+                padding: 10px 0;
+                margin: 0;
+                width: 100%;
+                float: left;
+                .toplist-variation-16-prewBlockTextLeft{
+                    padding: 0;
+                    margin: 0;
+                    width: 50%;
+                    float: left;
+                    font-size: $font-size-default;
+                    text-transform: uppercase;
+                    a{
+                        color: $theme-white;
+                        text-transform: uppercase;
+                        text-decoration: underline;
+                    }
+                }
+                .toplist-variation-16-providerCard-prewBlock-in{
+                    padding: 0;
+                    margin: 0;
+                    width: 100%;
+                    float: left;
+                    overflow: hidden;
+                   .toplist-variation-16-providerCard-prewBlock-item{
+                        position: relative;
+                        padding: 0;
+                        margin: 10px 2.66% 0 0;
+                        width: 23%;
+                        float: left;
+                        a img{
+                            width: 100%;
+                            height: 100%;
+                            padding: 0;
+                            margin: 0;
+                            -webkit-border-radius: 50%;
+                            -moz-border-radius: 50%;
+                            border-radius: 50%;
+                            border: 3px solid $theme-border-color;
+                        }
+                   }
+                }
+            }
+            .btn-review{
+                margin: 10px 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,322 @@
+@import 'sass-styling-vars';
+
+body {
+    color: $theme-dark;
+}
+
+.casino-user-reviews {
+    clear: both;
+    margin-top: 20px;
+    .title {
+        display: block;
+        font-weight: $font-weight-heavy;
+        line-height: 1.4;
+        margin: 0;
+        text-transform: capitalize;
+        &.h3 {
+            font-size: $font-size-default + 9;
+        }
+        &.h4 {
+            font-size: $font-size-default + 5;
+        }
+        &.h5 {
+            font-size: $font-size-default + 3;
+        }
+    }
+    .heading-review {
+        margin-top: 28px;
+        @media only screen and (min-width: 768px) {
+            display: flex;
+            height: 65px;
+            justify-content: space-between;
+        }
+        .casino-rate {
+            border-radius: 500px;
+            display: inline-flex;
+            height: 110px;
+            .comment-icon {
+                align-items: center;
+                background: $theme-primary;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                height: 74px;
+                min-width: 74px;
+                position: relative;
+                img {
+                    height: 45px;
+                    max-width: 100%;
+                    width: 45px; 
+                }
+            }
+            .rating {
+                margin-left: 30px;
+                .review-rating {
+                    display: inline-flex;
+                    i {
+                        color: $theme-warning;
+                        font-size: $font-size-default + 17;
+                        font-style: normal;
+                    }
+                }
+            }
+        }
+        .btn-primary {
+            align-items: center;
+            background: $theme-primary;
+            border-radius: 2px;
+            color: $theme-white;
+            display: flex;
+            font-size: $font-size-default + 1;
+            font-weight: $font-weight-heavy;
+            height: 48px;
+            justify-content: center;
+            text-decoration: none;
+            text-transform: none;
+            transition: all .2s ease-in-out;
+            width: 100%;
+            @media only screen and (min-width: 768px) {
+                width: 20%;
+            }
+            &:hover {
+                background: $theme-primary;
+            }
+        }
+    }
+    .filter-list {
+        border-bottom: 1px solid $theme-light;
+        margin-top: 20px;
+        padding-bottom: 15px;
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li {
+                display: inline-block;
+                margin-right: 7.2%;
+                span {
+                    align-items: center;
+                    color: $theme-body-font-color;
+                    cursor: pointer;
+                    display: flex;
+                    font-size: $font-size-default + 3;
+                    font-weight: $font-weight-medium;
+                    &.sort-arrow-down {
+                        &:after {
+                            border-left: 5px solid transparent;
+                            border-right: 5px solid transparent;
+                            border-top: 5px solid $theme-primary;
+                            content: '';
+                            display: inline-block;
+                            height: 0;
+                            margin: 0 7px;
+                            transition: all .3s linear;
+                            transform: rotate(0deg);
+                            width: 0;
+                        }
+                    }
+                    &.sort-arrow-up {
+                        &:after {
+                            content: '';
+                            display: inline-block;
+                            transform: rotate(180deg);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #comment-section {
+        .reviews {
+            background: $theme-light;
+            font-weight: $font-weight-medium;
+            margin-top: 15px;
+            padding: 10px 20px;
+            .player-reviews {
+                color: #666;
+                ul {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    li {
+                        padding: 20px 0;
+                        .details {
+                            display: flex;
+                            justify-content: space-between;
+                            span {
+                                font-weight: $font-weight-medium;
+                                text-transform: uppercase;
+                                &.player {
+                                    color: $theme-primary;
+                                    display: flex;
+                                    margin-bottom: 10px;
+                                    margin-right: 6px;
+                                }
+                                &.date {
+                                    color: $theme-body-font-color;
+                                    display: block;
+                                    font-size: $font-size-default - 1;
+                                }
+                            }
+                            .operator-ratings {
+                                .review-rating {
+                                    display: inline-flex;
+                                    i {
+                                        color: $theme-secondary;
+                                        font-size: $font-size-default + 7;
+                                        font-style: normal;
+                                        &.star-on-png {
+                                            color: $theme-warning;
+                                        }
+                                        &.star-off-png {
+                                            color: $theme-secondary;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        p {
+                            color: $theme-body-font-color;
+                            font-size: $font-size-default + 1;
+                            font-weight: $font-weight-medium;
+                            margin-top: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #write-review {
+        background: $theme-light;
+        display: none;
+        font-weight: $font-weight-medium;
+        margin-top: 15px;
+        padding: 10px 20px;
+        &.active {
+            display: block;
+        }
+        .title {
+            margin: 10px 0;
+        }
+        .error-text, .success {
+            font-size: $font-size-default + 1;
+            font-weight: $font-weight-heavy;
+            margin: 10px 0;
+        }
+        .error-text {
+            color: #df0e14;
+        }
+        .success {
+            color: #090;
+        }
+        form {
+            @media only screen and (min-width: 768px) {
+                position: relative;
+            }
+            .select-rating {
+                align-items: center;
+                cursor: pointer;
+                display: flex;
+                margin: 5px 0;
+                i {
+                    color: $theme-secondary;
+                    font-size: $font-size-default + 22;
+                    font-style: normal;
+                    &.star-on-png {
+                        color: $theme-warning;
+                    }
+                    &.star-off-png {
+                        color: $theme-secondary;
+                    }
+                }
+            }
+            label {
+                font-size: $font-size-default + 1;
+                font-weight: $font-weight-heavy;
+                margin: 5px 0;
+            }
+            .title {
+                margin: 10px 0 0;
+            }
+            input:not(#comment_checkbox), textarea {
+                border: none;
+                font-weight: $font-weight-medium;
+                margin: 0;
+                margin-top: 5px;
+                padding: 13px 20px;
+                width: 100%;
+            }
+            textarea {
+                font-size: 100%;
+                line-height: 1.15px;
+                height: 180px;
+            }
+            .checkbox {
+                align-items: center;
+                display: flex;
+                font-size: $font-size-default + 1;
+                @media only screen and (min-width: 768px) {
+                    margin: 15px 5px 0;
+                }
+                input {
+                    border: 0;
+                    box-sizing: border-box;
+                    margin: 0;
+                    padding: 0;
+                }
+                label {
+                    margin: 20px 0 0 15px;
+                    @media only screen and (min-width: 768px) {
+                        margin: 0;
+                    }
+                }
+            }
+            .content {
+                font-size: $font-size-default + 1;
+                font-weight: $font-weight-medium;
+                margin: 0;
+                margin-left: 30px;
+                a {
+                    color: $theme-primary;
+                    cursor: pointer;
+                    display: inline-block;
+                    font-weight: $font-weight-heavy;
+                    text-decoration: none;
+                }
+            }
+            .btn-primary {
+                align-items: center;
+                background: $theme-primary;
+                border-radius: 2px;
+                color: $theme-white;
+                display: flex;
+                font-weight: $font-weight-heavy;
+                font-size: $font-size-default + 1;
+                justify-content: center;
+                height: 48px;
+                margin-top: 15px;
+                text-decoration: none;
+                text-transform: none;
+                transition: all .2s ease-in-out;
+                width: 100%;
+                @media only screen and (min-width: 768px) {
+                    width: 20%;
+                }
+            }
+        }
+        .guidelines {
+            font-size: $font-size-default - 3;
+            font-weight: $font-weight-heavy;
+            margin: 10px 0;
+            overflow-wrap: break-word;
+            a {
+                color: $theme-primary;
+                cursor: pointer;
+                display: inline-block;
+                font-weight: $font-weight-heavy;
+                margin: 0;
+                text-decoration: none;
+            }
+        }
+    }
+}

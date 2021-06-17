@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="casino-payments" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="-299 -200 1400 900" style="enable-background:new -299 -200 1400 900;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#card-form_1_);}
+	.st1{fill:#F69531;}
+	.st2{fill:#FFFFFF;}
+</style>
+<g id="bitcoin">
+	
+		<linearGradient id="card-form_1_" gradientUnits="userSpaceOnUse" x1="401" y1="-200" x2="401" y2="700" gradientTransform="matrix(1 0 0 -1 0 500)">
+		<stop  offset="0" style="stop-color:#CDCCCC"/>
+		<stop  offset="0.6582" style="stop-color:#FFFFFF"/>
+	</linearGradient>
+	<path id="card-form_10_" class="st0" d="M1001,700H-199c-55,0-100-45-100-100v-700c0-55,45-100,100-100h1200c55,0,100,45,100,100
+		v700C1101,655,1056,700,1001,700z"/>
+	<g id="paysafecard_копия_2_1_">
+	</g>
+	<g id="Layer_1">
+		<circle id="XMLID_223_" class="st1" cx="401" cy="250" r="394"/>
+		<path id="XMLID_228_" class="st2" d="M555.3,152.4c-5.5-52.8-51.1-70.1-108.7-74.8l-0.5-73.2l-44.5,0.3L402,76
+			c-11.7,0.1-23.7,0.4-35.6,0.7l-0.5-71.8l-44.5,0.3l0.5,73.2c-9.6,0.3-19.1,0.5-28.4,0.6v-0.2L232,79.2l0.3,47.6
+			c0,0,32.9-0.9,32.4-0.2c18-0.1,24,10.3,25.7,19.3l0.6,83.4c1.3,0,2.9,0.1,4.7,0.3c-1.5,0-3.1,0-4.7,0l0.8,116.8
+			c-0.7,5.7-4,14.8-16.6,14.9c0.6,0.5-32.4,0.2-32.4,0.2l-8.5,53.3l58-0.4c10.8-0.1,21.4,0,31.8,0.1l0.6,74.1l44.5-0.3l-0.5-73.3
+			c12.3,0.2,24.1,0.2,35.6,0.1l0.5,73l44.6-0.3l-0.5-73.9c74.9-4.8,127.2-24.1,133.2-94.5c4.9-56.7-22-81.8-64.6-91.7
+			C543.3,214.3,559.3,191,555.3,152.4z M494.1,311.2c0.4,55.3-94.4,49.7-124.6,49.9l-0.7-98.1C399,262.8,493.6,253.4,494.1,311.2z
+			 M472.4,172.9c0.3,50.4-78.7,45-103.9,45.2l-0.6-89C393,129,471.9,120.4,472.4,172.9z"/>
+	</g>
+</g>
+</svg>

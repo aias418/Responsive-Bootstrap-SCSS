@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Toplist Variation</title>
+    <link rel="stylesheet" type="text/css" href="./default-style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="./casino-info-tabs.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+$(document).ready(function () {
+$(".casino-info-tabs-listing-desc-column-list > li").on("click", function (e) {
+0 < $(e.currentTarget).children(".toggle-states").length &&
+($(e.target).parent().hasClass("casino-info-tabs-listing-desc-column-list") || $(e.target).hasClass("toggle-states")) &&
+($(e.currentTarget).toggleClass("open"),
+$(e.currentTarget).hasClass("open")
+? ($(e.currentTarget).siblings("li").hide(), $(e.currentTarget).parent().addClass("collapsed"))
+: ($(e.currentTarget).siblings("li").show(), $(e.currentTarget).parent().removeClass("collapsed")));
+});
+});
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="casino-info-tabs">
+                    <!-- tabs -->
+                    <ul class="nav nav-tabs casino-info-tabs-navs">
+                        <li><a data-toggle="tab" href="#home"><img src="img/details.49e19009154658c22e9562dad71c49be.svg"> <span>Casino details</span></a></li>
+                        <li class="active"><a data-toggle="tab" href="#menu1"><img src="img/more-details.9327f1f3a5c0aede8de5a04651bf3b3e.svg">
+                            <span class="casino-info-tabs-navs-desktop">More Casino Details</span>
+                            <span class="casino-info-tabs-navs-mobile">More details</span></a>
+                        </li>
+                    </ul>
+                    <!-- tabs-end -->
+                    <div class="tab-content">
+                        <!-- first-tab -->
+                        <ul id="home" class="tab-pane fade casino-info-tabs-listing-prt">
+                            <li class="casino-info-tabs-listing">
+                                <p class="casino-info-tabs-listing-heading"> <img src="img/1.png" alt="" /> Website</p>
+                                <div class="casino-info-tabs-listing-desc">
+                                    <a href="#" target="_blank" rel="nofollow"> https://winota.com/en/ </a>
+                                </div>
+                            </li>
+                            <li class="casino-info-tabs-listing">
+                                <p class="casino-info-tabs-listing-heading"> <img src="img/2.png" alt="" /> Software</p>
+                                <div class="casino-info-tabs-listing-desc">
+                                    <a href="#"> Playtech</a>,
+                                    <a href="#"> NetEnt</a>,
+                                    <a href="#"> Play'n GO</a>,
+                                    <a href="#"> Amatic Industries</a>,
+                                    <a href="#"> Red Rake Gaming</a>,
+                                    <a href="#"> Pragmatic Play</a>,
+                                    <a href="#"> Quickspin</a>,
+                                    <a href="#"> Red Tiger Gaming</a>,
+                                    <a href="#"> Yggdrasil Gaming</a>,
+                                    <a href="#"> Betsoft</a>,
+                                    <a href="#"> Push Gaming</a>,
+                                    <a href="#"> Relax Gaming</a>,
+                                    <a href="#"> Evolution Gaming</a>,
+                                    <a href="#"> Wazdan</a>,
+                                    <a href="#"> BF Games</a>,
+                                    <a href="#"> Tom Horn Gaming</a>,
+                                    <a href="#"> Nolimit City</a>,
+                                    <a href="#"> Elk Studios</a>,
+                                    <a href="#"> Skywind Group</a>
+                                </div>
+                            </li>
+                            <li class="casino-info-tabs-listing">
+                                <p class="casino-info-tabs-listing-heading"> <img src="img/3.png" alt="" /> Deposit Methods</p>
+                                <div class="casino-info-tabs-listing-desc">
+                                    <a href="#"> Visa</a>,
+                                    <a href="#"> MasterCard</a>,
+                                    <a href="#"> EcoPayz</a>,
+                                    <a href="#"> Neosurf</a>,
+                                    <a href="#"> MiFinity</a>,
+                                    <a href="#"> Interac</a>,
+                                    <a href="#"> Neteller</a>,
+                                    <a href="#"> MuchBetter</a>,
+                                    <a href="#"> Nordea</a>,
+                                    <a href="#"> Paysafe Card</a>,
+                                    <a href="#"> Skrill</a>,
+                                    <a href="#"> Trustly</a>,
+                                    <a href="#"> OP-Pohjola Group</a>,
+                                    <a href="#"> S-Pankki</a>,
+                                    <a href="#"> Rapid Transfer</a>,
+                                    <a href="#"> Siru Mobile</a>,
+                                    <a href="#"> Sofortuberweisung</a>,
+                                    <a href="#"> Suomen Verkkomaksut</a>,
+                                    <a href="#"> Klarna</a>,
+                                    <a href="#"> Bank Wire Transfer</a>,
+                                    <a href="#"> Aktia</a>
+                                </div>
+                            </li>
+                            <li class="casino-info-tabs-listing">
+                                <p class="casino-info-tabs-listing-heading"> <img src="img/4.png" alt="" /> Withdrawal Methods</p>
+                                <div class="casino-info-tabs-listing-desc">
+                                    <a href="#"> Visa</a>,
+                                    <a href="#"> MasterCard</a>,
+                                    <a href="#"> EcoPayz</a>,
+                                    <a href="#"> MiFinity</a>,
+                                    <a href="#"> Neteller</a>,
+                                    <a href="#"> Skrill</a>,
+                                    <a href="#"> Paysafe Card</a>,
+                                    <a href="#"> Trustly</a>,
+                                    <a href="#"> Bank Wire Transfer</a>
+                                </div>
+                            </li>
+                            <li class="casino-info-tabs-listing">
+                                <p class="casino-info-tabs-listing-heading"> <img src="img/5.png" alt="" /> Withdrawal Times</p>
+                                <div class="casino-info-tabs-listing-desc">
+                                    <p class="casino-info-tabs-listing-desc-desc"> EWallets: <a href="#"> 0-24 hours </a> </p>
+                                    <p class="casino-info-tabs-listing-desc-desc"> Card Payments: <a href="#"> 1-5 days </a> </p>
+                                    <p class="casino-info-tabs-listing-desc-desc"> Bank Transfers: <a href="#"> 3-7 days </a> </p>
+                                    <p class="casino-info-tabs-listing-desc-desc"> Cheques: <a href="#"> Not offered </a> </p>
+                                    <p class="casino-info-tabs-listing-desc-desc"> Pending Time: <a href="#"> 24-72 hours </a> </p>
+                                </div>
+                            </li>
+                            <li class="casino-info-tabs-listing">
+                                <p class="casino-info-tabs-listing-heading"> <img src="img/6.png" alt="" /> Withdrawal Limit</p>
+                                <div class="casino-info-tabs-listing-desc">
+                                    <a href="#"> EUR 500 per transaction, EUR 500 per day, EUR 10,000 per month </a>
+                                </div>
+                            </li>
+                            <li class="casino-info-tabs-listing">
+                                <p class="casino-info-tabs-listing-heading"> <img src="img/7.png" alt="" /> Affiliate Program</p>
+                                <div class="casino-info-tabs-listing-desc">
+                                    <a href="#"> Mate Affiliates </a>
+                                </div>
+                            </li>
+                        </ul>
+                        <!-- second tab -->
+                        <ul id="menu1" class="tab-pane fade in active casino-info-tabs-listing-prt">
+                            <li class="casino-info-tabs-listing">
+                                <p class="casino-info-tabs-listing-heading"> <img src="img/8.png" alt="" /> Restricted Countries</p>
+                                <div class="casino-info-tabs-listing-desc">
+                                    <ul class="casino-info-tabs-listing-desc-column-list">
+                                        <li> Afghanistan </li>
+                                        <li> Albania </li>
+                                        <li> Algeria </li>
+                                        <li> Angola </li>
+                                        <li>
+                                            <button type="button" class="toggle-states"></button>
+                                            Australia
+                                            [8]
+                                            <ul class="state-list">
+                                                <li>Australian Capital Territory</li>
+                                                <li>New South Wales</li>
+                                                <li>Northern Territory</li>
+                                                <li>Queensland</li>
+                                                <li>South Australia</li>
+                                                <li>Tasmania</li>
+                                                <li>Victoria</li>
+                                                <li>Western Australia</li>
+                                            </ul>
+                                        </li>
+                                        <li> Austria </li>
+                                        <li> Belarus </li>
+                                        <li> Belgium </li>
+                                        <li> Bulgaria </li>
+                                        <li> Burundi </li>
+                                        <li> Central African Republic </li>
+                                        <li> Colombia </li>
+                                        <li> Curaçao </li>
+                                        <li> Cyprus </li>
+                                        <li> Czech Republic </li>
+                                        <li> Democratic Republic of Congo </li>
+                                        <li> Denmark </li>
+                                        <li> Ecuador </li>
+                                        <li> Egypt </li>
+                                        <li> Equatorial Guinea </li>
+                                        <li> Estonia </li>
+                                        <li> Ethiopia </li>
+                                        <li> France </li>
+                                        <li> Georgia </li>
+                                        <li> Gibraltar </li>
+                                        <li> Greece </li>
+                                        <li> Guinea </li>
+                                        <li> Guinea-Bissau </li>
+                                        <li> Guyana </li>
+                                        <li> Hong Kong </li>
+                                        <li> Iran </li>
+                                        <li> Iraq </li>
+                                        <li> Israel </li>
+                                        <li> Italy </li>
+                                        <li> Latvia </li>
+                                        <li> Libya </li>
+                                        <li> Lithuania </li>
+                                        <li> Moldova </li>
+                                        <li> Myanmar [Burma] </li>
+                                        <li> Netherlands </li>
+                                        <li> North Korea </li>
+                                        <li> Pakistan </li>
+                                        <li> Papua New Guinea </li>
+                                        <li> Philippines </li>
+                                        <li> Portugal </li>
+                                        <li> Puerto Rico </li>
+                                        <li> Romania </li>
+                                        <li> Saudi Arabia </li>
+                                        <li> Serbia </li>
+                                        <li> Singapore </li>
+                                        <li> Slovakia </li>
+                                        <li> Slovenia </li>
+                                        <li> Somalia </li>
+                                        <li> South Korea </li>
+                                        <li> South Sudan </li>
+                                        <li> Spain </li>
+                                        <li> Sri Lanka </li>
+                                        <li> Sudan </li>
+                                        <li> Sweden </li>
+                                        <li> Switzerland </li>
+                                        <li> Syria </li>
+                                        <li> Trinidad and Tobago </li>
+                                        <li> Tunisia </li>
+                                        <li> Turkey </li>
+                                        <li> Ukraine </li>
+                                        <li> United Kingdom </li>
+                                        <li>
+                                            <button type="button" class="toggle-states"></button>
+                                            United States
+                                            [55]
+                                            <ul class="state-list">
+                                                <li>Alabama</li>
+                                                <li>Alaska</li>
+                                                <li>American Samoa</li>
+                                                <li>Arizona</li>
+                                                <li>Arkansas</li>
+                                                <li>California</li>
+                                                <li>Colorado</li>
+                                                <li>Connecticut</li>
+                                                <li>Delaware</li>
+                                                <li>District of Columbia</li>
+                                                <li>Florida</li>
+                                                <li>Georgia(US)</li>
+                                                <li>Guam</li>
+                                                <li>Hawaii</li>
+                                                <li>Idaho</li>
+                                                <li>Illinois</li>
+                                                <li>Indiana</li>
+                                                <li>Iowa</li>
+                                                <li>Kansas</li>
+                                                <li>Kentucky</li>
+                                                <li>Louisiana</li>
+                                                <li>Maine</li>
+                                                <li>Maryland</li>
+                                                <li>Massachusetts</li>
+                                                <li>Michigan</li>
+                                                <li>Minnesota</li>
+                                                <li>Mississippi</li>
+                                                <li>Missouri</li>
+                                                <li>Montana</li>
+                                                <li>Nebraska</li>
+                                                <li>Nevada</li>
+                                                <li>New Hampshire</li>
+                                                <li>New Jersey</li>
+                                                <li>New Mexico</li>
+                                                <li>New York</li>
+                                                <li>North Carolina</li>
+                                                <li>North Dakota</li>
+                                                <li>Northern Mariana Islands</li>
+                                                <li>Ohio</li>
+                                                <li>Oklahoma</li>
+                                                <li>Oregon</li>
+                                                <li>Pennsylvania</li>
+                                                <li>Rhode Island</li>
+                                                <li>South Carolina</li>
+                                                <li>South Dakota</li>
+                                                <li>Tennessee</li>
+                                                <li>Texas</li>
+                                                <li>U.S. Virgin Islands</li>
+                                                <li>Utah</li>
+                                                <li>Vermont</li>
+                                                <li>Virginia</li>
+                                                <li>Washington</li>
+                                                <li>West Virginia</li>
+                                                <li>Wisconsin</li>
+                                                <li>Wyoming</li>
+                                            </ul>
+                                        </li>
+                                        <li> Vatican City </li>
+                                        <li> Venezuela </li>
+                                        <li> Yemen </li>
+                                        <li> Zimbabwe </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="casino-info-tabs-listing">
+                                <p class="casino-info-tabs-listing-heading"> <img src="img/9.png" alt="" /> Casino Type</p>
+                                <div class="casino-info-tabs-listing-desc"> <a href="#"> Instant Play</a>, <a href="#"> Mobile</a> </div>
+                            </li>
+                            <li class="casino-info-tabs-listing">
+                                <p class="casino-info-tabs-listing-heading"> <img src="img/10.png" alt="" /> Manual Flushing</p>
+                                <div class="casino-info-tabs-listing-desc"> <a href="#"> No</a> </div>
+                            </li>
+                            <li class="casino-info-tabs-listing">
+                                <p class="casino-info-tabs-listing-heading"> <img src="img/11.png" alt="" /> RTP</p>
+                                <div class="casino-info-tabs-listing-desc"> <a href="#"> Not stated</a> </div>
+                            </li>
+                            <li class="casino-info-tabs-listing">
+                                <p class="casino-info-tabs-listing-heading"> <img src="img/12.png" alt="" /> Currencies</p>
+                                <div class="casino-info-tabs-listing-desc">
+                                    <a href="#"> Euros</a>, <a href="#"> Norwegian kroner</a>, <a href="#"> Canadian dollars</a>, <a href="#"> Russian rubles</a>, <a href="#"> Hungarian forints</a>, <a href="#"> New Zealand dollars</a>, <a href="#"> Indian rupees</a>
+                                </div>
+                            </li>
+                            <li class="casino-info-tabs-listing">
+                                <p class="casino-info-tabs-listing-heading"> <img src="img/13.png" alt="" /> Languages</p>
+                                <div class="casino-info-tabs-listing-desc">
+                                    <a href="#"> English</a>, <a href="#"> German</a>, <a href="#"> Finnish</a>, <a href="#"> Polish</a>, <a href="#"> Hungarian</a>, <a href="#"> Norwegian</a>, <a href="#"> Russian</a>
+                                </div>
+                            </li>
+                            <li class="casino-info-tabs-listing">
+                                <p class="casino-info-tabs-listing-heading"> <img src="img/14.png" alt="" /> Licences</p>
+                                <div class="casino-info-tabs-listing-desc"> <a href="#"> Malta Gaming Authority</a> </div>
+                            </li>
+                            <li class="casino-info-tabs-listing">
+                                <p class="casino-info-tabs-listing-heading"> <img src="img/15.png" alt="" /> Company</p>
+                                <div class="casino-info-tabs-listing-desc"> <a href="#"> Romix Ltd. </a> </div>
+                            </li>
+                            <li class="casino-info-tabs-listing">
+                                <p class="casino-info-tabs-listing-heading"> <img src="img/16.png" alt="" /> Established</p>
+                                <div class="casino-info-tabs-listing-desc"> <a href="#"> 2021 </a> </div>
+                            </li>
+                            <li class="casino-info-tabs-listing">
+                                <p class="casino-info-tabs-listing-heading"> <img src="img/17.png" alt="" /> Live Chat</p>
+                                <div class="casino-info-tabs-listing-desc"> <a href="#"> Yes</a> </div>
+                            </li>
+                            <li class="casino-info-tabs-listing">
+                                <p class="casino-info-tabs-listing-heading"> <img src="img/18.png" alt="" /> Contact</p>
+                                <div class="casino-info-tabs-listing-desc">
+                                    <p class="casino-info-tabs-listing-desc-desc">
+                                        Support Email:
+                                        <a href="mailto:" rel="nofollow">support@winota.com</a>
+                                    </p>
+                                    <p class="casino-info-tabs-listing-desc-desc">
+                                        Support Telephone:
+                                        <a href="tel:">+35627781412</a>
+                                    </p>
+                                    <p class="casino-info-tabs-listing-desc-desc">
+                                        Support (Finland) Telephone:
+                                        <a href="tel:">+358800552071</a>
+                                    </p>
+                                    <p class="casino-info-tabs-listing-desc-desc">
+                                        Support (Russia) Telephone:
+                                        <a href="tel:">+74991120800</a>
+                                    </p>
+                                    <p class="casino-info-tabs-listing-desc-desc">
+                                        Support (Hungary) Telephone:
+                                        <a href="tel:">+3680088233</a>
+                                    </p>
+                                    <p class="casino-info-tabs-listing-desc-desc">
+                                        Support (Norway) Telephone:
+                                        <a href="tel:">+4780024919</a>
+                                    </p>
+                                    <p class="casino-info-tabs-listing-desc-desc">
+                                        Support (Poland) Telephone:
+                                        <a href="tel:">+488003211475</a>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <a href="#" class="review-suggest-edit">Suggest an edit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

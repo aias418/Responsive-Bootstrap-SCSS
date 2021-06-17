@@ -1,0 +1,163 @@
+@import "sass-styling-vars";
+
+.content-blocks-variation-01 {
+    float: none;
+    box-sizing: border-box;
+    background-color: $theme-white;
+    padding: 20px;
+    width: 100%;
+    margin: 30px auto;
+    max-width: 935px;
+    .review-container {
+        p.title {
+            margin-bottom: 0;
+            font-size: $font-size-h1 + 10;
+            line-height: 1.25em;
+            @media only screen and (max-width: 480px){
+                font-size: $font-size-h1;
+                line-height: 1em;
+            }
+        }
+        p.intro {
+            margin-top: 15px;
+            margin-bottom: 0;
+        }
+        .steps {
+            display: flex;
+            flex-direction: column;
+            .step-wrapper {
+                .step {
+                    padding: 0 0 0 80px;
+                    flex-direction: row;
+                    position: relative;
+                    @media only screen and (max-width: 480px) {
+                        flex-direction: column;
+                        padding: 0 15px 0 70px;
+                    }
+                    &::before {
+                        content: "";
+                        width: 3px;
+                        height: 101%;
+                        background: $theme-primary;
+                        position: absolute;
+                        left: 39px;
+                        top: 35px;
+                        z-index: 1;
+                        display: block;
+                        @media only screen and (max-width: 480px) {
+                            left: 30px;
+                        }
+                    }
+                    &.last-step::before {
+                        display: none;
+                    }
+                    .step-content-wrapper {
+                        display: flex ;
+                        flex-direction: row;
+                        border-top: $theme-border;
+                        border-color: $theme-light;
+                        padding: 30px 0;
+                        @media only screen and (max-width: 480px) {
+                            flex-direction: column;
+                        }
+    
+                        .step-num {
+                            background-color: $theme-primary;
+                            color: $theme-white;
+                            width: 40px;
+                            height: 40px;
+                            top: 23px;
+                            left: 21px;
+                            font-size: $font-size-lg;
+                            line-height: 2.35em;
+                            border-radius: 50%;
+                            text-align: center;
+                            font-weight: $font-weight-heavy;
+                            position: absolute;
+                            z-index: 2;
+                            @media only screen and (max-width: 480px) {
+                                width: 33px;
+                                height: 33px;
+                                left: 15px;
+                                top: 25px;
+                                font-size: $font-size-md;
+                                line-height: 2.2em;
+                            }
+                        }
+                        .step-heading {
+                            font-size: $font-size-h2;
+                            line-height: 1.6em;
+                            margin-bottom: 10px;
+                            @media only screen and (max-width: 480px) {
+                                line-height: 1.4em;
+                            }
+                        }
+                        .step-description {
+                            margin-bottom: 0;
+                            @media only screen and (max-width: 480px) {
+                                margin-bottom: 20px;
+                            }
+                            a {
+                                text-decoration: none;
+                                font-weight: $font-weight-heavy;
+                            }
+                        }
+                        .step-images {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            width: 100%;
+                            margin-left: 50px;
+                            min-width: 150px;
+                            width: auto;
+                            @media only screen and (max-width: 480px) {
+                                flex-direction: row;
+                                justify-content: flex-start;
+                                margin-left: 0;
+                            }
+                            .step-images-item {
+                                width: auto;
+                                text-align: center;
+                                @media only screen and (max-width: 480px) {
+                                    width: 50%;
+                                    text-align: left;
+                                }
+                            }
+                        }
+                    }
+    
+                }
+                &:first-child .step-content-wrapper{
+                    border-top: none;
+                }
+                &:nth-last-child(2) .step::before {
+                    display: none;    
+                }
+            }
+            .button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 20px;
+            }
+        }
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    p {
+        color: $theme-dark;
+        margin-bottom: 16px;
+        font-size: $font-size-md;
+        line-height: 1.6em;
+        @media only screen and (max-width: 480px){
+            font-size: $font-size-default;
+            line-height: 1.7em;
+        }
+    }
+    p:last-of-type {
+        margin-bottom: 0;
+    }
+}

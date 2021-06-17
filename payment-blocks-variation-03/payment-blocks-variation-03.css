@@ -1,0 +1,329 @@
+.payment-blocks-variation-03 {
+  float: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #e5e5e5;
+  width: 100%;
+  padding: 80px 0 50px;
+}
+
+@media only screen and (max-width: 992px) {
+  .payment-blocks-variation-03 {
+    padding: 30px 0;
+  }
+}
+
+.payment-blocks-variation-03 .container {
+  max-width: 1170px;
+  color: #212529;
+}
+
+@media only screen and (max-width: 992px) {
+  .payment-blocks-variation-03 .container {
+    padding-right: 0;
+  }
+}
+
+.payment-blocks-variation-03 .container .section-title {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.31em;
+  margin-bottom: 22px;
+}
+
+@media only screen and (max-width: 992px) {
+  .payment-blocks-variation-03 .container .section-title {
+    font-size: 26px;
+    line-height: 1.23em;
+  }
+}
+
+.payment-blocks-variation-03 .container ul {
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+  .payment-blocks-variation-03 .container ul {
+    white-space: nowrap;
+    overflow-x: auto;
+    padding-bottom: 20px;
+  }
+}
+
+.payment-blocks-variation-03 .container ul li {
+  display: inline-block;
+  margin: 0 7px;
+}
+
+.payment-blocks-variation-03 .container ul li a {
+  font-size: 10px;
+  line-height: 1.4em;
+  font-weight: 600;
+  color: #212529;
+  padding: 10px;
+  outline: none;
+  letter-spacing: 2.4px;
+}
+
+@media only screen and (max-width: 480px) {
+  .payment-blocks-variation-03 .container ul li a {
+    padding: 10px 0;
+  }
+}
+
+.payment-blocks-variation-03 .container ul li.active a {
+  border-bottom: 2px solid #0d6efd;
+}
+
+.payment-blocks-variation-03 .container .blocks {
+  position: relative;
+  margin: 40px 0 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .payment-blocks-variation-03 .container .blocks {
+    margin: 20px 0 0;
+  }
+}
+
+.payment-blocks-variation-03 .container .blocks .list {
+  position: relative;
+  width: 100%;
+}
+
+.payment-blocks-variation-03 .container .blocks .list .row-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+@media only screen and (max-width: 992px) {
+  .payment-blocks-variation-03 .container .blocks .list .row-flex {
+    overflow: auto;
+    margin: 0 -7.5px;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    white-space: nowrap;
+  }
+}
+
+.payment-blocks-variation-03 .container .blocks .list .row-flex .col {
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 992px) {
+  .payment-blocks-variation-03 .container .blocks .list .row-flex .col {
+    width: auto;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    padding: 0 7.5px;
+  }
+}
+
+.payment-blocks-variation-03 .container .blocks .list .row-flex .col .payment-box {
+  background: #ffffff;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+  height: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .payment-blocks-variation-03 .container .blocks .list .row-flex .col .payment-box {
+    max-width: 260px;
+    min-width: 260px;
+    white-space: normal;
+    margin-bottom: 0;
+  }
+}
+
+.payment-blocks-variation-03 .container .blocks .list .row-flex .col .payment-box .payment-box-top {
+  padding: 30px 20px 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  .payment-blocks-variation-03 .container .blocks .list .row-flex .col .payment-box .payment-box-top {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .payment-blocks-variation-03 .container .blocks .list .row-flex .col .payment-box .payment-box-top .title-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+  }
+}
+
+.payment-blocks-variation-03 .container .blocks .list .row-flex .col .payment-box .payment-box-top .title-logo .logo-box {
+  width: 165px;
+  height: 165px;
+  margin: 0 auto 25px;
+}
+
+@media only screen and (max-width: 992px) {
+  .payment-blocks-variation-03 .container .blocks .list .row-flex .col .payment-box .payment-box-top .title-logo .logo-box {
+    width: 82px;
+    height: 82px;
+    margin: 0;
+  }
+}
+
+.payment-blocks-variation-03 .container .blocks .list .row-flex .col .payment-box .payment-box-top .title-logo .logo-box img {
+  width: 100%;
+  height: 100%;
+}
+
+.payment-blocks-variation-03 .container .blocks .list .row-flex .col .payment-box .payment-box-top .title-logo .title {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .payment-blocks-variation-03 .container .blocks .list .row-flex .col .payment-box .payment-box-top .title-logo .title {
+    display: block;
+    padding-left: 13px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+}
+
+.payment-blocks-variation-03 .container .blocks .list .row-flex .col .payment-box .payment-box-top .desc-box {
+  text-align: center;
+  min-height: 161px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (max-width: 992px) {
+  .payment-blocks-variation-03 .container .blocks .list .row-flex .col .payment-box .payment-box-top .desc-box {
+    padding: 0 20px 7px;
+  }
+}
+
+.payment-blocks-variation-03 .container .blocks .list .row-flex .col .payment-box .payment-box-top .desc-box .desc-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2em;
+  margin-bottom: 13px;
+}
+
+@media only screen and (max-width: 992px) {
+  .payment-blocks-variation-03 .container .blocks .list .row-flex .col .payment-box .payment-box-top .desc-box .desc-title {
+    display: none;
+  }
+}
+
+.payment-blocks-variation-03 .container .blocks .list .row-flex .col .payment-box .payment-box-top .desc-box .desc {
+  font-size: 16px;
+  line-height: 1.5em;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .payment-blocks-variation-03 .container .blocks .list .row-flex .col .payment-box .payment-box-top .desc-box .desc {
+    font-size: 14px;
+    line-height: 1.43em;
+  }
+}
+
+.payment-blocks-variation-03 .container .blocks .list .row-flex .col .payment-box .payment-box-top .desc-box .btn {
+  margin-top: 16px;
+}
+
+.payment-blocks-variation-03 .container .blocks .list .row-flex .col .payment-box .payment-box-bottom {
+  padding: 20px 15px;
+  border-top: 1px solid #eee;
+}
+
+@media only screen and (max-width: 992px) {
+  .payment-blocks-variation-03 .container .blocks .list .row-flex .col .payment-box .payment-box-bottom {
+    padding: 10px;
+  }
+}
+
+.payment-blocks-variation-03 .container .blocks .list .row-flex .col .payment-box .payment-box-bottom ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.payment-blocks-variation-03 .container .blocks .list .row-flex .col .payment-box .payment-box-bottom ul li {
+  display: inline-block;
+  width: 78px;
+  height: 78px;
+  margin: 0 2.2px 5px;
+}
+
+@media only screen and (max-width: 992px) {
+  .payment-blocks-variation-03 .container .blocks .list .row-flex .col .payment-box .payment-box-bottom ul li {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+.payment-blocks-variation-03 .container .blocks .list .row-flex .col .payment-box .payment-box-bottom ul li img {
+  width: 100%;
+  height: 100%;
+}
+
+.payment-blocks-variation-03 img {
+  max-width: 100%;
+  border: none;
+  text-decoration: none;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.payment-blocks-variation-03 p {
+  margin: 0;
+}
+
+.payment-blocks-variation-03 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.payment-blocks-variation-03 ul li {
+  margin: 0;
+}
+
+.payment-blocks-variation-03 a {
+  text-decoration: none;
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}

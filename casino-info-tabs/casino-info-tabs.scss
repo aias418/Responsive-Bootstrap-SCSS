@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Karla:400&display=swap');
+@import "sass-styling-vars";
+img{max-width: 100%;}
+.casino-info-tabs{
+    border: $theme-border;
+    font-family: $font-family-default;
+    border-radius: $theme-border-radius;
+    overflow: hidden;
+    background: $theme-toplist-bg;
+    font-size: $font-size-default;
+    .casino-info-tabs-navs{
+        margin: 0;
+        li{
+            margin: 0;
+            margin-bottom: -1px;
+            width: 50%;
+            background: $theme-toplist-bg;
+            @media (max-width: 667px){
+                text-align: center;
+            }
+            a{
+                background:$toplist-headings-bg;
+                    color: $theme-white;
+                
+                vertical-align: middle;
+                img{
+                    margin-right: 10px;
+                }
+            }
+            &.active{
+                a{
+                    color: $theme-body-font-color;
+                    background: $theme-toplist-bg;
+                }
+            }
+            &:last-child{
+                a{
+                    margin-right:0;
+                }
+            }
+        }
+        .casino-info-tabs-navs-desktop{
+            display: inline-block;
+            @media (max-width: 667px){
+                display: none;
+            }
+        }
+        .casino-info-tabs-navs-mobile{
+            display: none;
+            @media (max-width: 667px){
+                display: inline-block;
+            }
+        }
+    }
+    .casino-info-tabs-listing-prt{
+        padding-left: 20px;
+        margin-bottom: 10px;
+        .casino-info-tabs-listing{
+            font-size: $font-size-default;
+            color: $theme-body-font-color;
+            list-style: none;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            .casino-info-tabs-listing-heading{
+                display: inline-block;
+                vertical-align: top;
+                font-weight: $font-weight-bold;
+                padding-right: 10px;
+                width: 100%;
+                margin-bottom: 5px;
+                @media (min-width: 768px){
+                    width: 22%;
+                }
+                img{
+                    width: 20px;
+                    margin-right: 10px;
+                }
+            }
+            .casino-info-tabs-listing-desc{
+                vertical-align: top;
+                display: inline-block;
+                width: 100%;
+                padding-left: 32px;
+                @media (min-width: 768px){
+                    width: 77%;
+                    padding-left: 0;
+                }
+                .casino-info-tabs-listing-desc-desc{
+                    color: $theme-body-font-color;
+                    margin-bottom: 5px;
+                }
+            }
+            .casino-info-tabs-listing-desc-column-list{
+                text-align: left;
+                padding: 0;
+                margin: 0;
+                column-fill: balance;
+                height: auto;
+                overflow: hidden;
+                width: 100%;
+                column-count: 1;
+                vertical-align: top;
+                list-style: none;
+                @media (min-width: 667px){
+                    &{
+                        column-count: 2;
+                    }
+                }
+                @media (min-width: 768px){
+                    &{
+                        column-count: 3;
+                    }
+                }
+                @media (min-width: 992px){
+                    &{
+                        column-count: 4;
+                    }
+                }
+                &.collapsed{
+                    column-count: 1;
+                }
+                li{
+                    margin: 0;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    .toggle-states{
+                        position: relative;
+                        letter-spacing: 0;
+                        padding: 0;
+                        background: 0 0;
+                        width: 14px;
+                        height: 14px;
+                        border: $theme-border;
+                        box-shadow: none;
+                        outline: none;
+                        
+                        &:after{
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%,-50%);
+                            content: "+";
+                        }
+                    }
+                    &.open .toggle-states:after{
+                        content: '-';
+                    }
+                    .state-list{
+                        display: none;
+                        text-align: left;
+                        padding: 0;
+                        margin: 0;
+                        column-fill: balance;
+                        height: auto;
+                        overflow: hidden;
+                        width: 100%;
+                        column-count: 1;
+                        vertical-align: top;
+                        list-style: none;
+                        @media (min-width: 667px){
+                            &{
+                                column-count: 2;
+                            }
+                        }
+                        @media (min-width: 768px){
+                            &{
+                                column-count: 3;
+                            }
+                        }
+                        @media (min-width: 992px){
+                            &{
+                                column-count: 4;
+                            }
+                        }
+                    }
+                    &.open{
+                        .state-list{
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .review-suggest-edit{
+        float: right;
+        padding: 15px;
+    }
+}

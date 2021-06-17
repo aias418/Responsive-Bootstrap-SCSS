@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Player Reviews Form
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.4/jquery.rateyo.min.css" integrity="sha512-JEUoTOcC35/ovhE1389S9NxeGcVLIqOAEzlpcJujvyUaxvIXJN9VxPX0x1TwSo22jCxz2fHQPS1de8NgUyg+nA==" crossorigin="anonymous" />
+        <link rel="stylesheet" type="text/css" href="./default-style.css">
+        <link rel="stylesheet" type="text/css" href="./player-reviews-form.css">
+        <script src="https://code.jquery.com/jquery-3.1.0.js" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.4/jquery.rateyo.min.js" integrity="sha512-09bUVOnphTvb854qSgkpY/UGKLW9w7ISXGrN0FR/QdXTkjs0D+EfMFMTB+CGiIYvBoFXexYwGUD5FD8xVU89mw==" crossorigin="anonymous"></script>
+        <script src="./player-reviews-form.js"></script>
+    </head>
+    <body>
+        <div class="player-reviews-form">
+            <div class="playerReviews" id="playerReviews">
+                <p class="title">WINOTA CASINO REVIEWS BY PLAYERS</p>
+                <div class="reviews">
+                    <div class="reviews-header">
+                        <div class="rev-rate">
+                            <img src="./img/avatar.png" alt="" class="rev-rate-img">
+                            <div class="rev-rate-content">
+                                <p class="rev-rate-title">RATE CASINO AND WRITE A REVIEW</p>
+                                <div class="rev-rate-rating">
+                                    <div class="do-rating-top"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary btn-lg" id="write-link">Write a review</a>
+                    </div>
+                </div>
+                <div class="write" data-layer-location="casino">
+                    <form name="PlayerReview" method="post" action="" id="writeYourReview" novalidate="novalidate" class="review-form">
+                        <div class="reviews-header">
+                            <div class="rev-rate">
+                                <img src="./img/avatar.png" alt="" class="rev-rate-img">
+                                <div class="rev-rate-content">
+                                    <p class="rev-rate-title">RATE CASINO AND WRITE A REVIEW</p>
+                                    <div class="rev-rate-rating">
+                                        <div class="do-rating-write" data-rating="0" readonly="readonly"></div>
+                                        <select id="PlayerReview_rating" name="PlayerReview[rating]" class="is-hidden">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review-character">
+                                <span class="review-character-counter">150 CHARACTERS LEFT FOR PROS</span>
+                                <span class="review-character-counter-negativ">150 CHARACTERS LEFT FOR CONS</span>
+                            </div>
+                        </div>
+                        <div class="write-review">
+                            <div class="write-txtcontainer">
+                                <div class="write-txt write-txt-positive">
+                                    <textarea id="PlayerReview_positiveComment" name="PlayerReview[positiveComment]" required="required" class="write-textarea write-like" placeholder="What do you like?" spellcheck="false"></textarea>
+                                </div>
+                                <div class="write-txt write-txt-negative">
+                                    <textarea id="PlayerReview_negativeComment" name="PlayerReview[negativeComment]" required="required" class="write-textarea write-dislike" placeholder="What do you dislike?" spellcheck="false"></textarea>
+                                </div>
+                            </div>
+                            <label class="write-agree">
+                                <span class="agree-check">
+                                    <input type="checkbox" name="notify-me">
+                                </span>
+                                <span class="agree-text">Notify me about new player reviews on this page</span>
+                            </label>
+                            <label class="write-agree">
+                                <span class="agree-check">
+                                    <input type="checkbox" id="review-terms-and-conditions">
+                                </span>
+                                <span class="agree-text agree-text-declare">
+                                    I declare that my review is based on my own experience and represents my genuine opinion of this casino. I'm not a casino employee and have not been offered any incentive or payment by the casino to write this review. I understand that AskGamblers has zero-tolerance policy on fake reviews. <a href="#" target="_blank">View Posting Guidelines. </a>
+                                </span>
+                            </label>
+                            <div class="write-captcha">
+                                <script src="https://www.google.com/recaptcha/api.js?hl=en"></script>
+                                <div class="user-review-checkboxes">
+                                    <div class="g-recaptcha" data-sitekey="6LeMhaMaAAAAACszpIK7knL5y5Hc8qwjn4R6ZVjz"></div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg">POST MY REVIEW</button>
+                            <div class="write-errors-container"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>       
+        </div>
+    </body>
+</html>

@@ -1,0 +1,509 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Karla:400&display=swap");
+img {
+  max-width: 100%;
+}
+
+.toplist-variation-16 .toplist-variation-16-col {
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.toplist-variation-16 .toplist-variation-16-listing {
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  background: #212529;
+  position: relative;
+  width: 100%;
+  padding: 0 0 10px 0;
+  font-size: 13px;
+}
+.toplist-variation-16 .toplist-variation-16-listing .toplist-variation-16-listing-image {
+  position: relative;
+  width: 100%;
+  height: 110px;
+}
+@media (max-width: 1280px) {
+  .toplist-variation-16 .toplist-variation-16-listing .toplist-variation-16-listing-image {
+    height: auto;
+  }
+}
+.toplist-variation-16 .toplist-variation-16-listing .toplist-variation-16-listing-image .in-flag {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 25px;
+  width: 25px;
+}
+.toplist-variation-16 .toplist-variation-16-listing .toplist-variation-16-listing-image .toplist-variation-16-listing-image-img {
+  text-align: center;
+  width: 100%;
+  float: left;
+}
+.toplist-variation-16 .toplist-variation-16-listing .toplist-variation-16-listing-image .toplist-variation-16-listing-image-img img {
+  display: inline-block;
+  margin: auto;
+}
+.toplist-variation-16 .toplist-variation-16-listing .toplist-variation-16-bonusCardNameFiltr {
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.2s ease 0s;
+  padding: 8px 0 6px;
+  margin: 0 3%;
+  font-size: 15px;
+  line-height: 24px;
+  height: auto;
+  text-align: center;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  float: left;
+  width: 94%;
+}
+@media (max-width: 991px) {
+  .toplist-variation-16 .toplist-variation-16-listing .toplist-variation-16-bonusCardNameFiltr {
+    font-size: 11px;
+  }
+}
+.toplist-variation-16 .toplist-variation-16-listing .toplist-variation-16-bonusCardFiltr-button-code {
+  position: relative;
+  border-radius: 6px;
+  margin: 0 3% 5px;
+  height: 32px;
+  width: 94%;
+  cursor: pointer;
+  display: block;
+  font-weight: 400;
+  float: left;
+}
+.toplist-variation-16 .toplist-variation-16-listing .toplist-variation-16-bonusCardFiltr-button-code:hover {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.toplist-variation-16 .toplist-variation-16-listing .toplist-variation-16-bonusCardFiltr-button-code:hover .toplist-variation-16-bonusCardFiltr_bon-apla {
+  width: calc(100% - 44px);
+}
+.toplist-variation-16 .toplist-variation-16-listing .toplist-variation-16-bonusCardFiltr-button-code:hover .toplist-variation-16-bonusCardFiltr_bon-corner {
+  right: 10px;
+}
+.toplist-variation-16 .toplist-variation-16-listing .toplist-variation-16-bonusCardFiltr-button-code .toplist-variation-16-bonusCardFiltr_bon-apla {
+  background: #0d6efd;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  width: calc(100% - 36px);
+  height: 100%;
+  z-index: 2;
+  border-radius: 6px 0 0 6px;
+  display: block;
+  transition: width 0.2s, transform 0.2s;
+}
+.toplist-variation-16 .toplist-variation-16-listing .toplist-variation-16-bonusCardFiltr-button-code .toplist-variation-16-bonusCardFiltr_bon-btn-label {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 32px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  text-transform: uppercase;
+}
+@media (max-width: 991px) {
+  .toplist-variation-16 .toplist-variation-16-listing .toplist-variation-16-bonusCardFiltr-button-code .toplist-variation-16-bonusCardFiltr_bon-btn-label {
+    font-size: 11px;
+  }
+}
+.toplist-variation-16 .toplist-variation-16-listing .toplist-variation-16-bonusCardFiltr-button-code .toplist-variation-16-bonusCardFiltr_bon-corner {
+  background: url(img/button-corner.png) left top no-repeat;
+  background-size: 60.2% auto;
+  position: absolute;
+  z-index: 2;
+  height: 34px;
+  right: 1px;
+  width: 36px;
+  top: 0;
+  transition: right 0.2s, transform 0.2s;
+}
+.toplist-variation-16 .toplist-variation-16-listing .toplist-variation-16-bonusCardFiltr-button-code .toplist-variation-16-bonusCardFiltr_bon-in {
+  font-size: 13px;
+  border: 1px solid #eee;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+  text-align: right;
+  padding: 0 7px;
+  width: 100%;
+  height: 100%;
+  line-height: 28px;
+  z-index: 1;
+  color: #ffffff;
+  font-weight: 400;
+}
+.toplist-variation-16 .toplist-variation-16-listing .toplist-variation-16-bonuseCardFiltr-play {
+  background: #0d6efd;
+  padding: 0;
+  margin: 0 3% 5px;
+  position: relative;
+  width: 94%;
+  height: 32px;
+  color: #ffffff;
+  font-weight: 700;
+  float: left;
+  font-size: 15px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 6px;
+  transition: all 0.2s ease 0s;
+}
+@media (max-width: 991px) {
+  .toplist-variation-16 .toplist-variation-16-listing .toplist-variation-16-bonuseCardFiltr-play {
+    font-size: 11px;
+  }
+}
+.toplist-variation-16 .toplist-variation-16-openline {
+  background: #212529;
+  float: left;
+  width: 100%;
+  padding: 0 0 10px;
+  margin: 0;
+}
+.toplist-variation-16 .toplist-variation-16-openline .toplist-variation-16-applyLine {
+  padding: 0;
+  margin: 6px 0 0 3%;
+  width: 80%;
+  float: left;
+  font-size: 11px;
+  color: #e5e5e5;
+  line-height: 12px;
+  text-align: left;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+.toplist-variation-16 .toplist-variation-16-openline .toplist-variation-16-applyLine a {
+  color: #e5e5e5;
+}
+.toplist-variation-16 .toplist-variation-16-openline .toplist-variation-16-down-arrow {
+  height: 26px;
+  width: 26px;
+  cursor: pointer;
+  font-size: 23px;
+  float: right;
+  text-align: center;
+  margin-right: 10px;
+  color: #ffffff;
+}
+.toplist-variation-16 .toplist-variation-16-openline .toplist-variation-16-down-arrow.providerCard-opened i:before {
+  content: "";
+}
+.toplist-variation-16 .toplist-variation-16-spoiler-body-bonuseCardFiltr {
+  padding: 0;
+  top: 100%;
+  margin: 0;
+  width: calc(100% - 30px);
+  float: left;
+  position: absolute;
+  background: #212529;
+  z-index: 10;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 767px) {
+  .toplist-variation-16 .toplist-variation-16-spoiler-body-bonuseCardFiltr {
+    position: relative;
+    width: 100%;
+    padding-top: 10px;
+  }
+}
+.toplist-variation-16 .toplist-variation-16-spoiler-body-bonuseCardFiltr .toplist-variation-16-spoiler-body-bonuseCardFiltr-in {
+  border-top: 1px solid #eee;
+  padding: 0;
+  margin: 0 3%;
+  width: 94%;
+  float: left;
+}
+.toplist-variation-16 .toplist-variation-16-spoiler-body-bonuseCardFiltr .toplist-variation-16-spoiler-body-bonuseCardFiltr-in .toplist-variation-16-bonusCardBlockBonus {
+  padding: 0;
+  margin: 5px 0 0;
+  width: 100%;
+  float: left;
+}
+.toplist-variation-16 .toplist-variation-16-spoiler-body-bonuseCardFiltr .toplist-variation-16-spoiler-body-bonuseCardFiltr-in .toplist-variation-16-bonusCardBlockBonus .toplist-variation-16-outerCardBonusItem {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 0 0 5px;
+  padding: 0 0 5px;
+  border-bottom: 1px solid #eee;
+}
+.toplist-variation-16 .toplist-variation-16-spoiler-body-bonuseCardFiltr .toplist-variation-16-spoiler-body-bonuseCardFiltr-in .toplist-variation-16-bonusCardBlockBonus .toplist-variation-16-outerCardBonusItem .toplist-variation-16-inCardBonusNum {
+  padding: 0;
+  margin: 0;
+  font-size: 17px;
+  color: #ffffff;
+  line-height: 30px;
+  text-align: left;
+  font-weight: 700;
+}
+.toplist-variation-16 .toplist-variation-16-spoiler-body-bonuseCardFiltr .toplist-variation-16-spoiler-body-bonuseCardFiltr-in .toplist-variation-16-bonusCardBlockBonus .toplist-variation-16-outerCardBonusItem .toplist-variation-16-inCardBonusNum i,
+.toplist-variation-16 .toplist-variation-16-spoiler-body-bonuseCardFiltr .toplist-variation-16-spoiler-body-bonuseCardFiltr-in .toplist-variation-16-bonusCardBlockBonus .toplist-variation-16-outerCardBonusItem .toplist-variation-16-inCardBonusNum .inCardBonusYel {
+  color: #0d6efd;
+}
+.toplist-variation-16 .toplist-variation-16-spoiler-body-bonuseCardFiltr .toplist-variation-16-spoiler-body-bonuseCardFiltr-in .toplist-variation-16-bonusCardBlockBonus .toplist-variation-16-outerCardBonusItem .toplist-variation-16-inCardBonusWeg {
+  padding: 5px 0;
+  margin: 0;
+  font-size: 11px;
+  color: #e5e5e5;
+  line-height: 12px;
+  text-align: left;
+  font-weight: 400;
+}
+.toplist-variation-16 .toplist-variation-16-spoiler-body-bonuseCardFiltr .toplist-variation-16-spoiler-body-bonuseCardFiltr-in .toplist-variation-16-bonusCardBlockBonus .toplist-variation-16-outerCardBonusItem .toplist-variation-16-inCardBonusWeg span {
+  color: #0d6efd;
+}
+.toplist-variation-16 .toplist-variation-16-spoiler-body-bonuseCardFiltr .toplist-variation-16-spoiler-body-bonuseCardFiltr-in .toplist-variation-16-providerCard-prewBlock {
+  padding: 10px 0;
+  margin: 0;
+  width: 100%;
+  float: left;
+}
+.toplist-variation-16 .toplist-variation-16-spoiler-body-bonuseCardFiltr .toplist-variation-16-spoiler-body-bonuseCardFiltr-in .toplist-variation-16-providerCard-prewBlock .toplist-variation-16-prewBlockTextLeft {
+  padding: 0;
+  margin: 0;
+  width: 50%;
+  float: left;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.toplist-variation-16 .toplist-variation-16-spoiler-body-bonuseCardFiltr .toplist-variation-16-spoiler-body-bonuseCardFiltr-in .toplist-variation-16-providerCard-prewBlock .toplist-variation-16-prewBlockTextLeft a {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.toplist-variation-16 .toplist-variation-16-spoiler-body-bonuseCardFiltr .toplist-variation-16-spoiler-body-bonuseCardFiltr-in .toplist-variation-16-providerCard-prewBlock .toplist-variation-16-providerCard-prewBlock-in {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
+.toplist-variation-16 .toplist-variation-16-spoiler-body-bonuseCardFiltr .toplist-variation-16-spoiler-body-bonuseCardFiltr-in .toplist-variation-16-providerCard-prewBlock .toplist-variation-16-providerCard-prewBlock-in .toplist-variation-16-providerCard-prewBlock-item {
+  position: relative;
+  padding: 0;
+  margin: 10px 2.66% 0 0;
+  width: 23%;
+  float: left;
+}
+.toplist-variation-16 .toplist-variation-16-spoiler-body-bonuseCardFiltr .toplist-variation-16-spoiler-body-bonuseCardFiltr-in .toplist-variation-16-providerCard-prewBlock .toplist-variation-16-providerCard-prewBlock-in .toplist-variation-16-providerCard-prewBlock-item a img {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 3px solid #eee;
+}
+.toplist-variation-16 .toplist-variation-16-spoiler-body-bonuseCardFiltr .toplist-variation-16-spoiler-body-bonuseCardFiltr-in .btn-link {
+  float: left;
+  width: 100%;
+  margin: 15px 0 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.toplist-variation-16-popup {
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  background: #212529;
+  position: relative;
+  width: 100%;
+  color: #ffffff;
+}
+.toplist-variation-16-popup a {
+  color: #0d6efd;
+}
+.toplist-variation-16-popup .cao-text {
+  float: left;
+  width: 100%;
+}
+.toplist-variation-16-popup .cao-text .caohl {
+  padding: 0 36px 0 0;
+  margin: 0;
+  color: #0d6efd;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.toplist-variation-16-popup .cao-text .caopl {
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+}
+.toplist-variation-16-popup .bonus_item_popup {
+  padding: 0;
+  margin: 10px 0 0;
+  width: 100%;
+  float: left;
+}
+.toplist-variation-16-popup .bonus_item_popup .bonus_img_popup {
+  padding: 0;
+  margin: 0;
+  width: 90px;
+  float: left;
+  position: relative;
+}
+.toplist-variation-16-popup .bonus_item_popup .bonus_img_popup img {
+  width: 100%;
+}
+.toplist-variation-16-popup .bonus_item_popup .bonus_info_popup {
+  min-height: 90px;
+  margin: 0;
+  width: calc(100% - 100px);
+  float: left;
+  padding-left: 10px;
+}
+.toplist-variation-16-popup .bonus_item_popup .bonus_info_popup h3 {
+  padding: 0;
+  margin: 0 0 3px;
+  font-weight: 500;
+  font-size: 13px;
+  color: #0d6efd;
+  line-height: 18px;
+  width: 100%;
+  float: left;
+}
+.toplist-variation-16-popup .bonus_item_popup .bonus_info_popup p {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  font-size: 11px;
+  color: #ffffff;
+  line-height: 14px;
+  min-height: 44px;
+  overflow: hidden;
+  width: 100%;
+  float: left;
+}
+.toplist-variation-16-popup .bonus_item_popup .bonus_info_popup a {
+  margin: 0;
+  font-weight: 400;
+  font-size: 11px;
+  color: #ffffff;
+  line-height: 9px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  padding: 1px 5px;
+  text-decoration: underline;
+}
+.toplist-variation-16-popup .getcod-block {
+  padding: 0;
+  margin: 8px 0 0;
+  float: left;
+  width: 100%;
+}
+.toplist-variation-16-popup .getcod-block input {
+  color: #000;
+}
+.toplist-variation-16-popup .getcod-block .btn {
+  font-size: 13px;
+}
+.toplist-variation-16-popup .close {
+  font-size: 20px;
+  opacity: 1;
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  color: #0d6efd;
+}
+.toplist-variation-16-popup .claim-block-popup {
+  padding: 0 0 10px;
+  margin: 8px 0;
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+.toplist-variation-16-popup .claim-block-popup .cbpopup-left {
+  margin: 0;
+  float: left;
+  width: calc(100% - 120px);
+}
+@media (max-width: 480px) {
+  .toplist-variation-16-popup .claim-block-popup .cbpopup-left {
+    width: 100%;
+  }
+}
+.toplist-variation-16-popup .claim-block-popup .cbpopup-left .claimbatpop {
+  padding: 0;
+  margin: 0 0 5px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  float: left;
+}
+.toplist-variation-16-popup .claim-block-popup .cbpopup-left .claimbatpop .btn {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.toplist-variation-16-popup .claim-block-popup .cbpopup-left .claimbatpop-text {
+  padding: 0;
+  margin: 5px 0 0;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.toplist-variation-16-popup .claim-block-popup .cbpopup-left .claimbatpop-text p {
+  font-size: 11px;
+  color: #ffffff;
+}
+.toplist-variation-16-popup .claim-block-popup .cbpopup-right {
+  padding: 0;
+  float: right;
+  width: 115px;
+}
+@media (max-width: 480px) {
+  .toplist-variation-16-popup .claim-block-popup .cbpopup-right {
+    width: 100%;
+  }
+}
+.toplist-variation-16-popup .claim-block-popup .cbpopup-right .bonus-actions-popup-in {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.toplist-variation-16-popup .claim-block-popup .cbpopup-right .bonus-actions-popup-in li {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  margin: 0 0 0 5px;
+  cursor: pointer;
+}
+.toplist-variation-16-popup .claim-block-popup .cbpopup-right .bonus-actions-popup-in li img, .toplist-variation-16-popup .claim-block-popup .cbpopup-right .bonus-actions-popup-in li i {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  margin: 0;
+  float: left;
+  border: 1px solid #eee;
+  font-size: 32px;
+}
+
+/*# sourceMappingURL=toplist-variation-16.css.map */

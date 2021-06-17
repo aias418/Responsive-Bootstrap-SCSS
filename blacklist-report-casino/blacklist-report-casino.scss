@@ -1,0 +1,352 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+@import "sass-styling-vars";
+
+%d-flex{
+  display: -webkit-box;     
+  display: -moz-box;        
+  display: -ms-flexbox;     
+  display: -webkit-flex;    
+  display: flex; 
+}
+%flex-1{
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -webkit-flex: 1; 
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.blacklist-report-casino {
+    font-family: $font-family-default;
+    a{
+        text-decoration: none;
+        color: $theme-primary;
+        font-weight: $font-weight-heavy;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    p{
+        font-size: $font-size-h4;
+        color: $theme-dark;
+        margin-bottom: 24px;
+    }
+    img{
+        max-width: 100%;
+        max-height: 100%;
+        vertical-align: top;
+    }
+    .app-container{
+        max-width: 930px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .main-title{
+        font-size: $font-size-h4 * 2;
+        color: $theme-primary;
+        margin-bottom: 24px;
+        font-weight: $font-weight-heavy;
+    }
+    .sub-title{
+        font-size: $font-size-h2;
+        font-weight: $font-weight-bold;
+        color: $theme-dark;
+        i{
+            font-size: $font-size-h1;
+        }
+    }
+    .nav-link-box{
+        padding-top: 15px;
+        text-align: right;
+        font-size: $font-size-h4;
+        a{
+            text-decoration: underline;
+            i{
+                vertical-align: middle;
+                margin-left: 8px;
+            }
+        }
+    }
+    .cust-select{
+        position: relative;
+        &:before{
+            font: normal normal normal 14px/1 FontAwesome;
+            font-size: inherit;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            content: "\f107";
+            position: absolute;
+            right: 14px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: $font-size-h1 + 2;
+            color: $theme-warning;
+        }
+        &:after{
+            content: "";
+            height: 30px;
+            border-right: 1px solid $theme-border-color;
+            position: absolute;
+            right: 44px;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+
+        }
+        select{
+            -webkit-appearance: none;
+            appearance: none;
+        }
+    }
+    .sec-title{
+        i,span{
+            display: inline-block;
+            vertical-align: middle;
+        }
+        i{
+            color: $theme-primary;
+            font-size: $font-size-h2;
+            margin-right: 10px;
+        }
+        span{
+            font-size: $font-size-h3;
+            color: $theme-white; 
+            font-weight: $font-weight-bold
+        }
+        
+    }
+    .btn.btn-lg{
+        min-height: 48px;
+        border-radius: $theme-border-radius;
+        background-image: none;
+        border: none;
+        box-shadow: none;
+        min-width: 200px;
+        transition: all 200ms ease-in-out;
+        i{
+            font-size: $font-size-h4;
+            margin-left: 5px;
+            margin-top: 0;
+            vertical-align: top;
+            color: $theme-white;
+            box-shadow: none;
+            line-height: normal;
+        }
+        &.btn-danger{
+            background-color: $theme-primary;
+            color: $theme-white;
+        }
+       
+    }
+    .app-card{
+        background-color: lighten($theme-primary, 42%);
+        min-height: 380px;
+        padding: 20px 20px 22px;
+        border-radius: $theme-border-radius;
+        margin-bottom: 15px;
+    }
+    .card-row{
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .card-col{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .img-container{
+        height: 100px;
+        text-align: center;
+        img{
+            filter: grayscale(100%) brightness(35%) sepia(100%) hue-rotate(-50deg) saturate(2000%) contrast(.8);
+        }
+    }
+    .info-list{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        li{
+            position: relative;
+            padding-left: 30px;
+            margin-top: 7px;
+            font-size: $font-size-h5;
+            &:before{
+                display: inline-block;
+                font: normal normal normal 14px/1 FontAwesome;
+                font-size: inherit;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                font-size: 20px;
+                color: $theme-primary;
+                content: "\f05c";
+            }
+        }
+        .list-header{
+            margin-top: 0px;
+            margin-bottom: 15px;
+            &:before{
+                content: "\f071";
+            }
+            p{
+               font-size: $font-size-h4; 
+               font-weight: $font-weight-bold;
+               margin-bottom: 3px;
+            }
+            span{
+                font-weight: $font-weight-bold;
+                color: $theme-primary;
+                strong{
+                    font-size: $font-size-h3;
+                }
+            }
+        }
+    }
+    .report-form-section{
+        .info-container{
+            background-color: $theme-dark;
+            border-radius: $theme-border-radius;
+            padding: 25px;
+    
+            .info-text{
+                @extend %d-flex;
+                align-items: flex-start;
+                p{
+                    margin-right: 90px;
+                    color: $theme-white;
+                    margin-bottom: 0px;
+                }
+                
+            }
+            &:hover{
+                .btn-danger{
+                  
+                    background-color: darken($theme-primary, 22%);
+                    outline: none;
+                    box-shadow: none;
+                    
+                }
+            }
+        }
+        .form-container{
+            display: none;
+            position: relative;
+            background-color: lighten($theme-dark, 15%);
+            padding: 25px;
+            border-radius: 0 0 $theme-border-radius $theme-border-radius;
+            padding-top: 62px;
+            &:before{
+                content: "";
+                display: inline-block;
+                height: 20px;
+                width: 20px;
+                background-color: $theme-dark;
+                transform: rotate(45deg);
+                position: absolute;
+                right: 150px;
+                top: -10px;
+
+            }
+            .close-btn{
+                background: none;
+                border: none;
+                outline: none;
+                box-shadow: none;
+                font-size: 20px;
+                position: absolute;
+                right: 11px;
+                top: 16px;
+            }
+            .form-control, .form-control::placeholder{
+                min-height: 48px;
+                border-radius: $theme-border-radius;
+                color: $theme-dark;
+            }
+            .btn-box{
+                @extend %d-flex;
+                align-items: center;
+                justify-content: space-between;
+                span{
+                    color: $theme-white;
+                    margin-bottom: 0px;
+                    font-size: $font-size-h4;
+                    font-style: italic;
+                }
+            }
+        }
+        &.form-active{
+            .info-container{
+                border-bottom-left-radius: 0px;
+                border-bottom-right-radius: 0px;
+            }
+            .form-container{
+                display: block;
+            }
+        }
+        &.message-sent{
+            .form-container{
+                padding-top: 35px;
+                padding-bottom: 6px;
+            }
+            .report-casino-form{
+                display: none;
+            }
+            .message-box{
+                display: block;
+            }
+        }
+        .message-box{
+            display: none;
+            .message-title{
+                color: $theme-white;
+                font-size: $font-size-h1 + 2;
+                margin-bottom: 18px;
+                i{
+                    font-size: $font-size-h1 + 4;
+                    vertical-align: middle;
+                    margin-left: 5px;
+                }
+            }
+            p{
+                color: $theme-white;
+            }
+        }
+    }
+    @media (max-width: 767px) {
+        .main-title{
+            font-size: $font-size-h1;
+            line-height: normal;
+        }
+        .app-card{
+            min-height: auto;   
+        }
+        .report-form-section{
+
+            .info-container{
+                .info-text{
+                    flex-wrap: wrap;
+                    p{
+                        min-width: 100%;
+                        margin-right: 0px;
+                        margin-bottom: 20px;
+                    }
+                }
+            } 
+            .form-container{
+                .btn-box{
+                    flex-wrap: wrap;
+                    span{
+                        min-width: 100%;
+                        padding-top: 20px;
+                    }
+                }
+            }
+        } 
+        
+    }
+}

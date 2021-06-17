@@ -1,0 +1,67 @@
+$font-family-default:  'Montserrat', sans-serif;
+$font-size-default: 13px;
+
+$font-size-sm: $font-size-default - 2;
+$font-size-md: $font-size-default + 2;
+$font-size-lg: $font-size-default + 4;
+$font-size-xl: $font-size-default + 10;
+
+$font-size-h1: 22px;
+$font-size-h2: 20px;
+$font-size-h3: 18px;
+$font-size-h4: 16px;
+$font-size-h5: 15px;
+$font-size-h6: 14px;
+
+// COLORS
+$theme-body-bg: #fafafa;
+$theme-body-font-color: #000;
+
+$theme-primary:         #0d6efd !default;
+$theme-secondary:       #6c757d !default;
+$theme-success:         #198754 !default;
+$theme-info:            #0dcaf0 !default;
+$theme-warning:         #ffc107 !default;
+$theme-danger:          #dc3545 !default;
+$theme-light:           #e5e5e5 !default;
+$theme-dark:            #212529 !default;
+$theme-white:           #ffffff !default;
+$theme-toplist-bg:      #ffffff !default;
+$theme-border-color:    #eee;
+$theme-border: 1px solid $theme-border-color;
+$theme-border-radius: 6px;
+
+// Toplists
+$toplist-headings-bg: $theme-dark;
+$toplist-logo-bg: #e5e5e5;
+$toplist-features-color: $theme-dark;
+
+// WRAPPER
+$wrapper-bg: #fff;
+$wrapper-border: none;
+$wrapper-box-shadow: 0 1px 1px 0 rgba(0,0,0,.3);
+
+$banner-bg: $theme-dark;
+
+// Font Weight
+$font-weight-light: 100;
+$font-weight-regular: 300;
+$font-weight-medium: 400;
+$font-weight-bold: 500;
+$font-weight-heavy: 700;
+
+// LABELS
+$label-recommended-bg: $theme-light;
+$label-exclusive-bg: $theme-light;
+$label-new-bg: $theme-light;
+$label-hot-bg: $theme-light;
+$label-country-bg: $theme-dark;
+$label-font-size: 8px;
+$label-font-weight: $font-weight-bold;
+
+// Rating Stars
+$star-rating-color:     $theme-info;
+$star-rating-font-size-lg: ($font-size-default + 2px);
+$star-rating-font-size-md: $font-size-default;
+$star-rating-font-size-sm: ($font-size-default - 2px);
+$star-rating-font-size-xs: ($font-size-default - 5px);

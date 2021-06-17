@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+.why-trust-us-testimonials .check-list li:before, .why-trust-us-testimonials .app-slider .quote-box:before {
+  font: normal normal normal 14px FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.why-trust-us-testimonials {
+  font-family: "Montserrat", sans-serif;
+}
+
+.why-trust-us-testimonials .inner-container {
+  background-color: #f3f4f5;
+  padding: 15px 15px 15px 15px;
+  position: relative;
+}
+
+.why-trust-us-testimonials .text-section {
+  padding-right: 190px;
+}
+
+.why-trust-us-testimonials img {
+  max-width: 100%;
+}
+
+.why-trust-us-testimonials .app-container {
+  max-width: 795px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.why-trust-us-testimonials .main-title {
+  font-size: 18px;
+  color: #212529;
+  font-weight: 700;
+}
+
+.why-trust-us-testimonials .app-slider .quote-box {
+  background-color: #6c757d;
+}
+
+.why-trust-us-testimonials p a {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+.why-trust-us-testimonials .check-list {
+  padding-left: 20px;
+  margin-bottom: 46px;
+}
+
+.why-trust-us-testimonials .check-list li {
+  position: relative;
+  padding-left: 42px;
+  padding-top: 5px;
+}
+
+.why-trust-us-testimonials .check-list li:before {
+  content: "\f00c";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  height: 28px;
+  width: 28px;
+  line-height: 28px;
+  border-radius: 50%;
+  background-color: #198754;
+  text-align: center;
+  color: #ffffff;
+}
+
+.why-trust-us-testimonials .display-image {
+  position: absolute;
+  right: 15px;
+  top: 82px;
+}
+
+.why-trust-us-testimonials .app-slider .owl-item .item {
+  width: 360px;
+}
+
+.why-trust-us-testimonials .app-slider .quote-box {
+  min-height: 138px;
+  background-color: #ffffff;
+  padding: 20px 20px 20px 85px;
+  border: 1px solid #c5cbd0;
+  -webkit-box-shadow: 0 2px 5px #caced1;
+          box-shadow: 0 2px 5px #caced1;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+.why-trust-us-testimonials .app-slider .quote-box:before {
+  content: "\f10d";
+  position: absolute;
+  left: 25px;
+  top: 20px;
+  font-size: 30px;
+  color: #d8dbdd;
+}
+
+.why-trust-us-testimonials .app-slider .quote-box .quote {
+  font-size: 16px;
+  color: #0143a3;
+  font-weight: 700;
+  line-height: 17px;
+  margin-bottom: 7px;
+}
+
+.why-trust-us-testimonials .app-slider .quote-box .quote a {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+.why-trust-us-testimonials .app-slider .quote-box .name {
+  font-size: 16px;
+  color: #212529;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.why-trust-us-testimonials .app-slider .quote-box .location {
+  font-size: 13px;
+  color: #6c757d;
+  font-style: italic;
+  margin-bottom: 0px;
+  line-height: normal;
+}
+
+.why-trust-us-testimonials .app-slider .owl-dots .owl-dot {
+  outline: none;
+}
+
+.why-trust-us-testimonials .app-slider .owl-dots .owl-dot span {
+  background-color: #a1a8ae;
+}
+
+.why-trust-us-testimonials .app-slider .owl-dots .owl-dot.active span {
+  background-color: #edb100;
+  position: relative;
+}
+
+.why-trust-us-testimonials .app-slider .owl-dots .owl-dot.active span::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  z-index: -1;
+  -webkit-transform: scale(1.8);
+          transform: scale(1.8);
+  background-color: #ffc107;
+  opacity: 0.4;
+}
+
+@media (max-width: 767px) {
+  .why-trust-us-testimonials .app-slider .owl-item .item {
+    width: 100%;
+  }
+  .why-trust-us-testimonials .app-slider .quote-box {
+    padding: 15px 12px 15px 53px;
+  }
+  .why-trust-us-testimonials .app-slider .quote-box:before {
+    left: 16px;
+    top: 15px;
+    font-size: 20px;
+  }
+  .why-trust-us-testimonials .app-slider .why-trust-us-testimonials .app-slider .quote-box {
+    background-color: #6c757d;
+  }
+  .why-trust-us-testimonials .display-image {
+    position: static;
+    max-width: 172px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+  .why-trust-us-testimonials .text-section {
+    padding-right: 0px;
+  }
+  .why-trust-us-testimonials .check-list {
+    margin-bottom: 25px;
+  }
+}
+/*# sourceMappingURL=why-trust-us-testimonials.css.map */

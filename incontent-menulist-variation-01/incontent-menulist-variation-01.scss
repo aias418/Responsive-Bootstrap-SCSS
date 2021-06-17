@@ -1,0 +1,148 @@
+@import "sass-styling-vars";
+
+.incontent-menulist-variation-01 {
+    float: none;
+    box-sizing: border-box;
+    background-color: $theme-light;
+    background-clip: padding-box;
+    padding: 30px 15px;
+    width: 100%;
+    margin: 30px auto;
+    max-width: 1180px;
+    @media only screen and (max-width : 768px) {
+        padding: 20px 10px;
+        max-width: 100%;
+    }
+    .heading {
+        margin-bottom: 20px;
+        font-size: $font-size-default + 15;
+        line-height: 1.14em;
+        color: $theme-primary;
+        font-weight: $font-weight-heavy;
+        @media only screen and (max-width : 480px) {
+            font-size: $font-size-default + 7;
+            line-height: 1.2em;
+        }
+    }
+    .list-guides {
+        display: flex;
+        flex-flow: row wrap;
+        margin: 0 -5px;
+        li {
+            display: flex;
+            flex: 0 0 25%;
+            padding: 0 5px;
+            margin-bottom: 10px;
+            @media only screen and (max-width : 480px) {
+                flex: 1 0 50%;
+            }
+            a {
+                position: relative;
+                display: flex;
+                flex: 0 0 100%;
+                height: 85px;
+                align-items: center;
+                padding: 15px 15px 15px 120px;
+                border: 1px solid $theme-white;
+                font-size: $font-size-default + 2;
+                line-height: 1.2em;
+                text-align: left;
+                background-color: $theme-white;
+                color: $theme-dark;
+                text-decoration: none;
+                transition: border-color .3s;
+                @media only screen and (max-width : 480px) {
+                    display: block;
+                    padding: 10px;
+                    height: auto;
+                    text-align: center;
+                }
+                &:hover {
+                    border-color: $theme-info;
+                }
+                &::before {
+                    content: '';
+                    display: block;
+                    margin: 0 auto 5px;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: contain;
+                    position: absolute;
+                    top: 50%;
+                    left: 60px;
+                    transform: translate(-50%,-50%);
+                    @media only screen and (max-width : 992px) {
+                        position: static;
+                        transform: none;
+                    }
+                }
+                &.poker-blue::before {
+                    width: 41px;
+                    height: 55px;
+                    background-image: url(./img/ico-poker-blue.png);
+                }
+                &.sport-blue::before {
+                    width: 48px;
+                    height: 55px;
+                    background-image: url(./img/ico-sport-blue.png);
+                }
+                &.lotto-blue::before {
+                    width: 41px;
+                    height: 55px;
+                    background-image: url(./img/ico-lotto-blue.png);
+                }
+                &.daily-fantasy::before {
+                    width: 37px;
+                    height: 55px;
+                    background-image: url(./img/ico-daily-fantasy.png);
+                }
+                &.bitcoin::before {
+                    width: 37px;
+                    height: 55px;
+                    background-image: url(./img/ico-bitcoin.png);
+                }
+                &.slots-blue::before {
+                    width: 46px;
+                    height: 55px;
+                    background-image: url(./img/ico-slots-blue.png);
+                }
+                &.roulette-blue::before {
+                    width: 44px;
+                    height: 55px;
+                    background-image: url(./img/ico-roulette-blue.png);
+                }
+                &.casinos::before {
+                    width: 34px;
+                    height: 55px;
+                    background-image: url(./img/casinos.png);
+                }
+            }
+        }
+    }
+    img {
+        max-width: 100%;
+        border: none;
+        text-decoration: none;
+        object-fit: contain;
+    }
+    p {
+        margin: 0 0 20px;
+        font-size: $font-size-default + 1;
+        line-height: 1.857em;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            margin: 0;
+        }
+    }
+    a {
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    
+}

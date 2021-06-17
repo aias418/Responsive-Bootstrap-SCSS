@@ -1,0 +1,116 @@
+@import "sass-styling-vars";
+
+.content-blocks-variation-03 {
+    float: none;
+    box-sizing: border-box;
+    padding: 0 12px;
+    width: 100%;
+    margin: 30px auto;
+    max-width: 842px;
+    color: $theme-secondary;
+    .review-container{
+        padding: 37px 37px 46px;
+        background-color: #fef8e2;
+        border: 2px solid #eae0bc;
+        border-radius: $theme-border-radius;
+        @media only screen and (max-width : 480px) {
+            padding: 15px;
+        }
+        .heading {
+            display: block;
+            margin-bottom: 12px;
+            font-size: $font-size-default + 15;
+            line-height: 1.5em;
+            color: $theme-dark;
+            @media only screen and (max-width : 480px) {
+                font-size: $font-size-default + 7;
+                line-height: 1.3em;
+            }
+        }
+        .image-right {
+            max-width: 40%;
+            height: auto;
+            float: right;
+            clear: right;   
+            margin-bottom: 15px;
+            margin-left: 15px;
+            @media only screen and (max-width : 480px) {
+                margin-bottom: 10px;
+                margin-left: 10px;
+            }
+        }
+        .text-section {
+            font-size: $font-size-default + 5;
+            line-height: 1.4em;
+            margin-bottom: 24px;
+            @media only screen and (max-width : 480px) {
+                font-size: $font-size-default;
+                line-height: 1.3em;
+                margin-bottom: 12px;
+            }
+        }
+        .list {
+            padding-left: 28px;
+            margin-bottom: 24px;
+            @media only screen and (max-width : 480px) {
+                margin-bottom: 12px;
+                padding-left: 20px;
+            }
+            .item {
+                display: block;
+                position: relative;
+                font-size: $font-size-default + 5;
+                line-height: 1.4em;
+                margin-bottom: 12px;
+                margin-top: 0;
+                @media only screen and (max-width : 480px) {
+                    font-size: $font-size-default;
+                    line-height: 1.3em;
+                    margin-bottom: 6px;
+                }
+                &:after {
+                    position: absolute;
+                    content: "";
+                    top: 4px;
+                    left: -28px;
+                    width: 18px;
+                    height: 18px;
+                    background-image: url(./img/icon-check-circle-solid.svg);
+                    @media only screen and (max-width : 480px) {
+                        top: 0;
+                        left: -20px;
+                        width: 13px;
+                        height: 13px;
+                    }
+                }
+            }
+        }
+        .btn-wrap {
+            display: inline-block;
+            padding: 6px 6px 7px;
+            background-color: $theme-light;
+            .btn {
+                &:hover {
+                    transform: translateY(2px);
+                    box-shadow: $wrapper-box-shadow;
+                }
+            }
+        }
+    }
+    img {
+        max-width: 100%;
+        border: none;
+        text-decoration: none;
+        object-fit: contain;
+    }
+    p {
+        margin: 0 0 13px;
+        font-size: $font-size-default;
+        line-height: 1.46em;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+}

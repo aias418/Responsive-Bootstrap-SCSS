@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+@import "sass-styling-vars";
+
+%d-flex{
+  display: -webkit-box;     
+  display: -moz-box;        
+  display: -ms-flexbox;     
+  display: -webkit-flex;    
+  display: flex; 
+}
+%flex-1{
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -webkit-flex: 1; 
+  -ms-flex: 1;
+  flex: 1;
+}
+%ver-center{
+    @extend %d-flex;
+    align-items: center;
+}
+.winners-scroller-variation {
+    font-family: $font-family-default;
+    
+    img{
+        max-width: 100%;
+    }
+    .app-container{
+        max-width: 925px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .main-title{
+        font-size: $font-size-h4 * 2 + 2;
+        color: $theme-white;
+        margin-bottom: 0px;
+        font-weight: $font-weight-heavy;
+
+    }
+    .app-tbl-flex{
+        margin-bottom: 40px;
+        .app-tbl{
+            @extend %d-flex;
+            flex-direction: column;
+        }
+        .tbl-row{
+            @extend %d-flex;
+            .tbl-cell{
+                @extend %flex-1;
+            }
+            &:last-child{
+                .tbl-cell:not(.head-cell){
+                    border-bottom: 1px solid lighten($theme-dark, 70%);
+                }
+            }
+            
+            
+        }
+        .tbl-cell{
+            font-size: 12px;
+            padding: 16px;
+            border-top: 1px solid lighten($theme-dark, 70%);
+            border-right: 1px solid lighten($theme-dark, 70%);
+            border-collapse: collapse;
+            @extend %ver-center;
+            &:first-child{
+                border-left: 1px solid lighten($theme-dark, 70%);
+            }
+            
+        }
+        .head-cell{
+            background-color: lighten($theme-primary , 42%);
+            color: $theme-primary;
+            font-weight: 700;
+            border-collapse: collapse;
+
+        }
+        .tbl-content{
+            @extend %d-flex;
+            flex-direction: column;
+            position: relative;
+        }
+        
+    }
+    .recent-winner-tbl{
+        .app-tbl{
+            min-width: 666px;
+            .tbl-content{
+                height: 300px;
+                overflow: hidden;
+                border-bottom: 1px solid lighten($theme-dark, 70%);
+                ul{
+                    margin-top: 0px;
+                    li{
+                        margin-top: -1px;
+                    }
+                }
+            }
+        }
+    }
+    .sec-header{
+        background-color: darken($theme-primary , 30%);
+        padding: 10px 20px;
+    }
+   
+    @media (max-width: 767px) {
+        .main-title{
+            font-size: $font-size-h1;
+        }
+    }
+}

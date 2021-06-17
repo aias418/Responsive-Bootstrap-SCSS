@@ -1,0 +1,117 @@
+.newsletter-subscribe-variation-01 {
+  float: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1.4em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.newsletter-subscribe-variation-01 .newsletter-container {
+  max-width: 890px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #e5e5e5;
+  color: #000;
+  padding: 2.5rem 2.5rem 1.6rem;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+  border: 0;
+}
+
+.newsletter-subscribe-variation-01 .newsletter-container .newsletter-header-title {
+  font-size: 23px;
+  margin-top: 0;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+  .newsletter-subscribe-variation-01 .newsletter-container .newsletter-header-title {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .newsletter-subscribe-variation-01 .newsletter-container .newsletter-header-content {
+    font-size: 11px;
+  }
+}
+
+.newsletter-subscribe-variation-01 .newsletter-container .form-content {
+  margin-top: 1.6rem;
+}
+
+.newsletter-subscribe-variation-01 .newsletter-container .form-content form {
+  background-color: transparent;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: .8rem;
+  -ms-grid-columns: 1fr 13.2rem;
+      grid-template-columns: 1fr 13.2rem;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .newsletter-subscribe-variation-01 .newsletter-container .form-content form {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+}
+
+.newsletter-subscribe-variation-01 .newsletter-container .form-content form .form-group {
+  margin-bottom: 0;
+}
+
+.newsletter-subscribe-variation-01 .newsletter-container .form-content form .form-group label {
+  display: inline-block;
+  margin-bottom: .4rem;
+  color: #000;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.newsletter-subscribe-variation-01 .newsletter-container .form-content form .form-group input {
+  display: block;
+  border-radius: 6px;
+  background-color: #ffffff;
+  padding: 1.2rem 1.6rem;
+  width: 100%;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.15em;
+  margin: 0;
+  border: 0;
+}
+
+.newsletter-subscribe-variation-01 .newsletter-container .form-content form .form-group input:focus {
+  outline: unset;
+}
+
+.newsletter-subscribe-variation-01 .newsletter-container p.content {
+  padding-top: 1.6rem;
+  color: #212529;
+  width: 100%;
+  font-size: 11px;
+  word-break: break-word;
+  margin: 0;
+}
+
+.newsletter-subscribe-variation-01 .newsletter-container p.content a {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Karla:400&display=swap');
+@import "sass-styling-vars";
+img{max-width: 100%;}
+.toplist-variation-21 {
+    font-family: $font-family-default;
+    border-radius: $theme-border-radius;
+    overflow: hidden;
+    background: $theme-toplist-bg;
+    .toplist-variation-21-heading{
+        background: $theme-light;
+        color: $theme-body-font-color;
+        font-weight: $font-weight-heavy;
+        font-size: $font-size-default;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: $theme-border;
+        box-shadow: $wrapper-box-shadow;
+        display: inline-block;
+        width: 100%;
+    }
+    .toplist-variation-21-body{
+        .toplist-variation-21-body-list{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border: 1px solid $theme-border-color;
+            margin-top: -1px;
+            &:nth-child(odd) {
+                background: $theme-body-bg;
+            }
+            .toplist-variation-21-list-rating{
+                .toplist-variation-21-list-star{
+                    color: $star-rating-color;
+                    font-size: $star-rating-font-size-lg;
+                }
+                .toplist-variation-21-list-user-reviews{
+                    margin-top: 0;
+                    text-align: center;
+                    font-weight: $font-weight-heavy;
+                    font-size: $font-size-default;
+                }
+            }
+            .toplist-variation-21-list-desc{
+                padding-bottom: 10px;
+                font-size: $font-size-default;
+                @media (max-width: 991px){
+                    padding-top: 10px;
+                }
+            }
+            .toplist-variation-21-list-key-features-list{
+                list-style: none;
+                font-size: $font-size-default;
+                margin: 0 auto;
+                padding: 0;
+                li {
+                    list-style: none;
+                    margin: 0 auto 0.3rem;
+                    padding-left: 23px;
+                    position: relative;
+                    &:before{
+                        font: normal normal normal 14px/1 FontAwesome;
+                        content:"\f00c";
+                        color: $theme-success;
+                        font-size: $font-size-md;
+                        position: absolute;
+                        left: 0;
+                        top: 2px;
+                    }
+                }
+            }
+        }
+    }
+}

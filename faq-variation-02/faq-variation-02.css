@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+.faq-variation-02 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.faq-variation-02 a {
+  text-decoration: underline;
+  color: #0d6efd;
+}
+
+.faq-variation-02 p {
+  font-size: 14px;
+  color: #212529;
+  margin-bottom: 15px;
+  line-height: 28px;
+}
+
+.faq-variation-02 .app-container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.faq-variation-02 .inner-container {
+  padding: 20px 15px;
+  background-color: #eeeff0;
+}
+
+.faq-variation-02 .main-title {
+  font-size: 28px;
+  color: #212529;
+  margin-bottom: 18px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.faq-variation-02 .question-box {
+  padding: 20px 60px;
+  background-color: #ffffff;
+}
+
+.faq-variation-02 .question-box p:last-child:not(.question-txt) {
+  margin-bottom: 0px;
+}
+
+.faq-variation-02 .question-box + .question-box {
+  margin-top: 20px;
+}
+
+.faq-variation-02 .question-txt {
+  font-size: 28px;
+  color: #212529;
+  margin-bottom: 18px;
+  font-weight: 300;
+}
+
+@media (max-width: 767px) {
+  .faq-variation-02 .main-title, .faq-variation-02 .question-txt {
+    font-size: 20px;
+  }
+  .faq-variation-02 .question-box {
+    padding: 20px 15px;
+  }
+}
+/*# sourceMappingURL=faq-variation-02.css.map */

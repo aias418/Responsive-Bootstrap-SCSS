@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+@import "sass-styling-vars";
+
+%d-flex{
+  display: -webkit-box;     
+  display: -moz-box;        
+  display: -ms-flexbox;     
+  display: -webkit-flex;    
+  display: flex; 
+}
+%flex-1{
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -webkit-flex: 1; 
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.faq-variation-02 {
+    font-family: $font-family-default;
+    a{
+        text-decoration: underline;
+        color: $theme-primary;
+    }
+    p{
+        font-size: $font-size-h6;
+        color: $theme-dark;
+        margin-bottom: 15px;
+        line-height: 28px;
+    }
+    .app-container{
+        max-width: 1230px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .inner-container{
+        padding: 20px 15px;
+        background-color: lighten($theme-secondary, 48%);
+    }
+    .main-title{
+        font-size: $font-size-h6 * 2;
+        color: $theme-dark;
+        margin-bottom: 18px;
+        font-weight: $font-weight-heavy;
+        line-height: normal;
+
+    }
+    .question-box{
+        padding: 20px 60px;
+        background-color: $theme-white;
+        p:last-child:not(.question-txt){
+            margin-bottom: 0px;
+        }
+        & + .question-box{
+            margin-top: 20px;
+        }
+    }
+    .question-txt{
+        font-size: $font-size-h6 * 2;
+        color: $theme-dark;
+        margin-bottom: 18px;
+        font-weight: $font-weight-regular;
+    }
+    @media(max-width: 767px){
+        .main-title, .question-txt{
+            font-size: $font-size-h2;
+        }
+        .question-box {
+            padding: 20px 15px;
+        }
+    }
+}

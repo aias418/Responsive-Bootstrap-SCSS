@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+@import "sass-styling-vars";
+
+%d-flex{
+  display: -webkit-box;     
+  display: -moz-box;        
+  display: -ms-flexbox;     
+  display: -webkit-flex;    
+  display: flex; 
+}
+
+%flex-1{
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -webkit-flex: 1; 
+  -ms-flex: 1;
+  flex: 1;
+}
+
+%full-center{
+    @extend %d-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+%fa-font{
+    font: normal normal normal $font-size-default+1/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.content-blocks-variation-09{
+    font-family: $font-family-default;
+    img{
+        max-width: 100%;
+    }
+    .app-container{
+        max-width: 798px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .main-title{
+        font-size: $font-size-h3;
+        color: $theme-dark;
+        font-weight: $font-weight-heavy;
+    }
+    p{
+        color: $theme-dark;
+    }
+    .inner-container{
+        border-radius: $theme-border-radius;
+        background-color: lighten($theme-secondary, 48%);
+        padding: 15px 194px 15px 15px;
+        position: relative;
+    }
+    .app-accordian{
+        box-shadow: none;
+        border: 1px solid darken($theme-border-color , 10%);
+        border-radius: $theme-border-radius;
+        overflow: hidden;
+        .panel-heading{
+            border: none;
+            background-color: transparent;
+            padding: 0px;
+            .panel-title{
+                a{
+                    font-size: $font-size-h4;
+                    padding: 20px 15px;
+                    color: $theme-dark;
+                    text-decoration: none;
+                    position: relative;
+                    padding-right: 48px;
+                    @extend %d-flex;
+                    align-items: center;
+                    svg{
+                        margin-right: 15px;
+                    }
+                    span{
+                        @extend %flex-1;
+                    }
+                    .accord-status-icon{
+                        position: absolute;
+                        right: 15px;
+                        top: 50%;
+                        font-size: $font-size-default - 1;
+                        color: $theme-warning;
+                        margin-top: -6px;
+                        transition: all 100ms ease-in-out;
+                    }
+                    &::before{
+                        content: "";
+                        position: absolute;
+                        height: 20px;
+                        right: 42px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        border-right: 1px solid darken($theme-border-color , 10%);
+                    }
+                    &.collapsed{
+                        .accord-status-icon{
+                            transform: rotate(180deg);
+                        }
+                    }
+                }
+            }
+        }
+        .panel-body{
+            border: none;
+            padding-top: 0px;
+        }
+        &.panel-default>.panel-heading+.panel-collapse>.panel-body{
+            border-top-color: transparent;
+        }
+    }
+    .display-image{
+        position: absolute;
+        right: 12px;
+        top: 60px;
+    }
+    @media (max-width: 767px) {
+        .inner-container{
+            padding-right: 15px;
+            padding-bottom: 148px;
+        }
+        .display-image{
+            right: 0px;
+            left: 0px;
+            margin: auto;
+            bottom: 15px;
+            top: auto;
+            max-width: 120px;
+        }
+        .app-accordian .panel-heading .panel-title a{
+            font-size: $font-size-default + 1;
+        }
+    }
+}

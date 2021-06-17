@@ -1,0 +1,596 @@
+@import "sass-styling-vars";
+
+.casino-bonus-finder-02 {
+    float: none;
+    margin: 0 auto;
+    min-height: 10px;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+    img {
+        height: auto;
+        max-width: 100%;
+    }
+    .internal-wrapper {
+        clear: both;
+        display: block;
+        margin: 0 auto;
+        max-width: 910px;
+        min-height: 10px;
+        overflow: visible;
+        position: relative;
+        vertical-align: middle;
+        width: 100%;
+        z-index: 1;
+        .finder-module-header {
+            align-items: flex-start;
+            background-color: $theme-primary;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+            display: flex;
+            flex-direction: column-reverse;
+            padding: 20px 25px;
+            @media only screen and (min-width: 768px) {
+                align-items: unset;
+                flex-direction: unset;
+                justify-content: space-between;
+            }
+            h2 {
+                color: $theme-white;
+                font-size: $font-size-default + 15;
+                line-height: 40px;
+                margin: 0;
+            }
+            img {
+                height: auto;
+                margin-bottom: 10px;
+                max-width: 100%;
+                @media only screen and (min-width: 768px) {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        .modal-wrapper {
+            @media only screen and (max-width: 992px) {
+                padding: 0 20px;
+            }
+            .modal-content {
+                background-color: $theme-light;
+                border: 0;
+                box-sizing: border-box;
+                box-shadow: none;
+                height: auto;
+                margin: auto;
+                padding: 20px 25px;
+                position: relative;
+                @media only screen and (max-width: 992px) {
+                    max-width: 768px;
+                }
+                @media only screen and (max-width: 768px) {
+                    width: 100%;
+                }
+                .question {
+                    display: none;
+                    &.visible {
+                        display: block;
+                    }
+                }
+                #survey {
+                    box-sizing: border-box;
+                    color: $theme-dark;
+                    display: block;
+                    margin: 0 auto;
+                    overflow: hidden;
+                    text-align: center;
+                    width:100%;
+                }
+                .question {
+                    h2.question-text {
+                        color: $theme-dark;
+                        font-size: $font-size-default;
+                        font-weight: $font-weight-bold;
+                        line-height: 21px;
+                        margin: 0 0 6px;
+                        text-align: left;
+                        @media only screen and (min-width: 768px) {
+                            font-size: 15px;
+                            line-height: 23px;
+                        }
+                    }
+                    p {
+                        color: $theme-dark;
+                        font-size: $font-size-default + 5;
+                        font-weight: $font-weight-bold;
+                        line-height: 23px;
+                        margin: 0 0 16px;
+                        text-align: left;
+                        @media only screen and (min-width: 768px) {
+                            font-size: $font-size-default + 7;
+                            line-height: 27px;
+                        }
+                    }
+                    a {
+                        text-decoration: none;
+                    }
+                    &.card-selector {
+                        input {
+                            -webkit-appearance: none;
+                            -moz-appearance: none;
+                            appearance: none;
+                            display: none;
+                            margin: 0;
+                            padding: 0;
+                        }
+                    }
+                    .cards-grid {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        @media only screen and (min-width: 480px) {
+                            justify-content: space-around;
+                        }
+                        .label-card {
+                            align-items: center;
+                            background-color: $theme-white;
+                            border: solid $theme-primary;
+                            border-width: 1px 1px 2px;
+                            border-radius: $theme-border-radius - 2;
+                            cursor: pointer;
+                            display: flex;
+                            flex-direction: column;
+                            margin-bottom: 10px;
+                            padding: 10px;
+                            width: 49%;
+                            @media only screen and (min-width: 480px) {
+                                width: 33%;
+                            }
+                            @media only screen and (min-width: 768px) {
+                                width: 152px;
+                            }
+                            &:hover {
+                                box-shadow: 0 6px 8px rgb(0 0 0 / 10%);
+                            }
+                            .game-name {
+                                color: $theme-primary;
+                                display: block;
+                                font-size: $font-size-default + 1;
+                                font-weight: $font-weight-medium;
+                                line-height: 24px;
+                                margin-bottom: 0;
+                                margin-top: 5px;
+                            }
+                        }
+                        &.dealer {
+                            .label-card {
+                                padding: 20px 10px 10px;
+                                @media only screen and (min-width: 480px) {
+                                    margin-right: 24px;
+                                    width: 100%;
+                                }
+                                @media only screen and (min-width: 768px) {
+                                    width: 230px;
+                                }
+                                @media only screen and (min-width: 992px) {
+                                    min-height: 112px;
+                                    width: 270px;
+                                }
+                                &:last-child {
+                                    margin-right: 0;
+                                }
+                                img {
+                                    height: auto;
+                                    width: 40px;
+                                }
+                                .game-name {
+                                    margin-top: 15px;
+                                }
+                            }
+                        }
+                        &.speed {
+                            .label-card {
+                                padding: 20px 10px 10px;
+                                @media only screen and (min-width: 480px) {
+                                    margin-right: 24px;
+                                    width: 100%;
+                                }
+                                @media only screen and (min-width: 768px) {
+                                    width: 230px;
+                                }
+                                @media only screen and (min-width: 992px) {
+                                    min-height: 112px;
+                                    width: 270px;
+                                }
+                                &:last-child {
+                                    margin-right: 0;
+                                }
+                                .game-name {
+                                    font-size: $font-size-default + 9;
+                                    font-weight: $font-weight-heavy;
+                                    margin: 0;
+                                    position: relative;
+                                    top: 25%;
+                                }
+                            }
+                        }
+                        &.device {
+                            .label-card {
+                                padding: 20px 10px 10px;
+                                @media only screen and (min-width: 480px) {
+                                    margin-right: 24px;
+                                    width: 100%;
+                                }
+                                @media only screen and (min-width: 768px) {
+                                    width: 230px;
+                                }
+                                @media only screen and (min-width: 992px) {
+                                    min-height: 112px;
+                                    width: 270px;
+                                }
+                                &:last-child {
+                                    margin-right: 0;
+                                }
+                                img {
+                                    height: auto;
+                                    width: 40px;
+                                }
+                                .game-name {
+                                    margin-top: 15px;
+                                }
+                            }
+                        }
+                    }
+                    .question-container-nav {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 10px;
+                        width: 100%;
+                        button {
+                            align-items: center;
+                            background: none;
+                            border: 0;
+                            color: $theme-primary;
+                            cursor: pointer;
+                            display: flex;
+                            font-size: $font-size-default + 3;
+                            font-weight: $font-weight-bold;
+                            justify-content: flex-end;
+                            line-height: 18px;
+                            svg {
+                                height: 15px;
+                                margin-right: 7px;
+                                width: 15px;
+                            }
+                        }
+                    }
+                    .btn-primary {
+                        background: $theme-primary;
+                        border: 0;
+                        border-radius: $theme-border-radius;
+                        box-shadow: none;
+                        clear: both;
+                        color: $theme-white;
+                        cursor: pointer;
+                        display: block;
+                        font-size: $font-size-default + 7;
+                        font-weight: $font-weight-bold;
+                        margin: 35px auto;
+                        padding: 20px 35px;
+                        text-align: center;
+                        width: 250px;
+                        &:hover {
+                            background: $theme-primary;
+                            opacity: 0.9;
+                        }
+                        @media only screen and (max-width: 768px) {
+                            font-size: 16px;
+                            padding: 15px 0;
+                            width: 210px;
+                        }
+                        &.unclickable {
+                            pointer-events: none;
+                        }
+                    }
+                    .result {
+                        .result-title-container {
+                            .result-title {
+                                color: $theme-dark;
+                                font-size: $font-size-default + 3;
+                                font-weight: $font-weight-bold;
+                                line-height: 24px;
+                                margin: 0;
+                                margin-bottom: 6px;
+                            }
+                            h2 {
+                                color: $theme-dark;
+                                font-size: $font-size-default + 11;
+                                line-height: 32px;
+                                margin: 0;
+                                margin-bottom: 16px;
+                                text-align: left;
+                                @media only screen and (min-width: 768px) {
+                                    line-height: 40px;
+                                }
+                            }
+                        }
+                        .result-casino-and-social-text-container {
+                            @media only screen and (min-width: 992px) {
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            .result-matched-casino {
+                                background-color: $theme-white;
+                                border: 2px solid $theme-primary;
+                                border-radius: $theme-border-radius - 2;
+                                padding: 25px 15px;
+                                @media only screen and (min-width: 992px) {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    padding-bottom: 10px;
+                                }
+                                .result-col-wrap-1 {
+                                    position: relative;
+                                    @media only screen and (min-width: 992px) {
+                                        display: flex;
+                                    }
+                                    .result-img-container {
+                                        margin: 0 auto;
+                                        max-width: 270px;
+                                        @media only screen and (min-width: 992px) {
+                                            max-width: 165px;
+                                        }
+                                        img {
+                                            display: block;
+                                            margin: 0 auto 10px;
+                                            max-width: 100%;
+                                            width: auto;
+                                            @media only screen and (min-width: 992px) {
+                                                width: 100%;
+                                            }
+                                        }
+                                    }
+                                    .result-flag-wrap {
+                                        margin-bottom: 10px;
+                                        position: absolute;
+                                        right: 8px;
+                                        top: -12px;
+                                        width: 35px;
+                                        @media only screen and (min-width: 992px) {
+                                            margin-left: 10px;
+                                            margin-bottom: 0;
+                                            position: unset;
+                                            right: unset;
+                                            top: unset;
+                                        }
+                                        .result-flag-inner {
+                                            align-items: center;
+                                            display: flex;
+                                            justify-content: center;
+                                            position: relative;
+                                            i {
+                                                &:before {
+                                                    content: "";
+                                                    display: inline-block;
+                                                    background-color: transparent;
+                                                    background-position: 50%;
+                                                    background-repeat: no-repeat;
+                                                    background-size: cover;
+                                                    border-radius: 50%;
+                                                    height: 25px;
+                                                    margin: 2px;
+                                                    width: 25px;
+                                                }
+                                                &.icon-flag-ca {
+                                                    &:before {
+                                                        background-image: url("./img/ca.svg");
+                                                    }
+                                                }
+                                            }
+                                            .checkmark {
+                                                height: 17px;
+                                                position: absolute;
+                                                right: -5px;
+                                                top: -5px;
+                                                width: 17px;
+                                            }
+                                        }
+                                    }
+                                }
+                                .result-col-wrap-2 {
+                                    @media only screen and (min-width: 992px) {
+                                        display: flex;
+                                        flex-direction: row-reverse;
+                                    }
+                                    .result-stars-and-score {
+                                        display: flex;
+                                        justify-content: center;
+                                        margin-bottom: 15px;
+                                        padding-right: 10px;
+                                        @media only screen and (min-width: 992px) {
+                                            margin-bottom: 0;
+                                            margin-left: 15px;
+                                        }
+                                        .result-stars-container {
+                                            position: relative;
+                                            img {
+                                                height: 16px;
+                                            }
+                                        }
+                                        .result-score {
+                                            font-size: $font-size-default + 3;
+                                            font-weight: $font-weight-bold;
+                                            margin-left: 10px;
+                                            span {
+                                                font-size: $font-size-default;
+                                            }
+                                        }
+                                    }
+                                    .result-bonus-payout-container {
+                                        align-items: center;
+                                        display: flex;
+                                        flex-direction: column;
+                                        @media only screen and (min-width: 992px) {
+                                            align-items: flex-start;
+                                            flex-direction: row;
+                                        }
+                                        .result-bonus {
+                                            align-items: center;
+                                            color: $theme-primary;
+                                            display: flex;
+                                            flex-direction: column;
+                                            font-size: $font-size-default + 19;
+                                            font-weight: $font-weight-bold;
+                                            line-height: 32px;
+                                            margin-bottom: 20px;
+                                            @media only screen and (min-width: 992px) {
+                                                align-items: flex-start;
+                                                margin-bottom: 0;
+                                            }
+                                            span {
+                                                color: $theme-dark;
+                                                display: block;
+                                                font-size: $font-size-default + 3;
+                                            }
+                                        }
+                                        .result-payout {
+                                            align-items: center;
+                                            display: flex;
+                                            flex-direction: column;
+                                            font-size: $font-size-default + 1;
+                                            font-weight: $font-weight-bold;
+                                            margin-bottom: 20px;
+                                            @media only screen and (min-width: 992px) {
+                                                align-items: flex-start;
+                                                margin-bottom: 0;
+                                                margin-left: 5px;
+                                            }
+                                            p {
+                                                color: $theme-dark;
+                                                font-size: $font-size-default + 3;
+                                                line-height: 24px;
+                                                margin-bottom: 0;
+                                            }
+                                            span {
+                                                font-weight: $font-weight-light;
+                                            }
+                                        }
+                                    }
+                                }
+                                .result-col-wrap-3 {
+                                    align-items: center;
+                                    display: flex;
+                                    flex-direction: column;
+                                    .btn-primary {
+                                        border: 0;
+                                        box-shadow: none;
+                                        color: $theme-white;
+                                        font-size: $font-size-default;
+                                        font-weight: $font-weight-heavy;
+                                        line-height: 13px;
+                                        margin: 10px 0 0;
+                                        min-width: 179px;
+                                        outline: 0;
+                                        padding: 12px 20px;
+                                        text-transform: uppercase;
+                                        width: 179px;
+                                    }
+                                    .result-review-link {
+                                        color: $theme-primary;
+                                        font-weight: $font-weight-heavy;
+                                        margin-top: 6px;
+                                        text-decoration: none;
+                                    }
+                                }
+                            }
+                            .result-social-text {
+                                color: $theme-dark;
+                                font-size: $font-size-default + 3;
+                                font-weight: $font-weight-bold;
+                                line-height: 24px;
+                                margin-bottom: 0;
+                                margin-top: 7px;
+                                @media only screen and (min-width: 992px) {
+                                    margin-bottom: 10px;
+                                }
+                                strong {
+                                    color: $theme-dark;
+                                    font-weight: $font-weight-heavy;
+                                }
+                            }
+                        }
+                        .result-footer {
+                            margin-top: 15px;
+                            position: relative;
+                            @media only screen and (min-width: 992px) {
+                                align-items: flex-end;
+                                display: flex;
+                                justify-content: space-between;
+                            }
+                            .result-best-for-container {
+                                display: flex;
+                                margin-bottom: 25px;
+                                @media only screen and (min-width: 992px) {
+                                    margin-bottom: 0;
+                                }
+                                img {
+                                    align-self: flex-start;
+                                    max-width: 70px;
+                                }
+                                .footer-icons {
+                                    @media only screen and (min-width: 480px) {
+                                        margin-left: 20px;
+                                    }
+                                    p {
+                                        color: $theme-dark;
+                                        font-size: $font-size-default + 3;
+                                        line-height: 24px;
+                                        margin-bottom: 7px;
+                                    }
+                                    &>div {
+                                        display: flex;
+                                        .result-best-icon-and-text {
+                                            align-items: center;
+                                            display: flex;
+                                            margin-left: 20px;
+                                            &:first-of-type {
+                                                margin-left: 0;
+                                            }
+                                            p {
+                                                font-size: $font-size-default + 3;
+                                                font-weight: $font-weight-bold;
+                                                line-height: 16px;
+                                                margin-bottom: 0;
+                                                margin-left: 7px;
+                                            }
+                                            img, svg {
+                                                height: 24px;
+                                                width: 24px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .question-container-nav {
+                                width: auto;
+                            }
+                        }
+                    }
+                }
+            }
+            .progress {
+                background: $toplist-logo-bg;
+                border-radius: 0;
+                border-bottom-right-radius: 4px;
+                border-bottom-left-radius: 4px;
+                clear: both;
+                display: block;
+                height: 8px;
+                margin: auto;
+                width: 100%;
+                .progress-bar {
+                    background: $theme-primary;
+                }
+            }
+        }
+    }
+}

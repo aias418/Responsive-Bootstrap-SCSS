@@ -1,0 +1,126 @@
+.toplist-variation-24 {
+  margin: 0 auto;
+  max-width: 763px;
+  /* for demo purposes. can be removed */
+  padding: 10px 15px;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 {
+    padding: 10px 0;
+  }
+}
+.toplist-variation-24 .header {
+  background-color: #0d6efd;
+  border-radius: 6px 6px 0 0;
+  padding: 20px 30px;
+  text-align: center;
+}
+.toplist-variation-24 .header .header-title {
+  color: #ffffff;
+  font-size: 18px;
+}
+.toplist-variation-24 .card {
+  background: #e5e5e5;
+  border: 1px solid #eee;
+  padding: 15px 10px 10px;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .card {
+    padding: 15px 30px 30px;
+  }
+}
+.toplist-variation-24 .card .card-tabs {
+  display: flex;
+}
+.toplist-variation-24 .card .card-tabs .btn-primary {
+  background-color: transparent;
+  border: 0;
+  border-radius: 6px;
+  color: #8292b6;
+  font-size: 11px;
+  margin-right: 5px;
+  padding: 8px 15px;
+}
+.toplist-variation-24 .card .card-tabs .btn-primary.active {
+  background: #0d6efd;
+  border: 0;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #ffffff;
+  margin-right: 5px;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  padding: 8px 15px;
+}
+.toplist-variation-24 .card .card-tabs .btn-primary:focus, .toplist-variation-24 .card .card-tabs .btn-primary:active {
+  outline: 2px dashed #0d6efd;
+}
+.toplist-variation-24 .card .card-content {
+  background-color: #ffffff;
+  border: 1px solid #eee;
+  margin-top: 15px;
+  padding: 30px;
+  width: 100%;
+}
+.toplist-variation-24 .card .card-content .card-content-tab {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s linear;
+}
+.toplist-variation-24 .card .card-content .card-content-tab.active {
+  display: block;
+  opacity: 1;
+}
+.toplist-variation-24 .card .card-content .card-content-tab .card-content-list {
+  border-bottom: 1px solid #eee;
+  column-count: 1;
+  list-style: none;
+  margin-left: 10px;
+  padding-bottom: 20px;
+}
+@media only screen and (min-width: 480px) {
+  .toplist-variation-24 .card .card-content .card-content-tab .card-content-list {
+    column-count: 2;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .card .card-content .card-content-tab .card-content-list {
+    column-count: 3;
+  }
+}
+.toplist-variation-24 .card .card-content .card-content-tab .card-content-list li {
+  margin-bottom: 5px;
+  margin-left: -25px;
+  max-width: 186px;
+}
+.toplist-variation-24 .card .card-content .card-content-tab .card-content-list li .card-content-link {
+  color: #212529;
+  font-size: 12px;
+  position: relative;
+}
+.toplist-variation-24 .card .card-content .card-content-tab .card-content-list li .card-content-link:before {
+  background-color: #212529;
+  border-radius: 50%;
+  content: "";
+  left: -14px;
+  height: 6px;
+  position: absolute;
+  top: 4px;
+  width: 6px;
+}
+.toplist-variation-24 .card .card-content .card-content-tab .card-content-list li .card-content-link:active {
+  outline: 2px dashed #0d6efd;
+  outline-offset: 2px;
+}
+.toplist-variation-24 .card .card-content .card-content-tab .card-content-list li .card-content-link:last-child {
+  border-bottom: none;
+}
+.toplist-variation-24 .card .card-content .card-content-tab .card-heading {
+  color: #0d6efd;
+  display: block;
+  font-size: 22px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=review-list-alphabetical-grouping.css.map */

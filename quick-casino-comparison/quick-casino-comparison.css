@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Karla:400&display=swap");
+.quick-casino-comparison {
+  font-family: "Montserrat", sans-serif;
+}
+
+.quick-casino-comparison .sec-title {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: #212529;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .quick-casino-comparison .sec-title {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .quick-casino-comparison .sec-title {
+    font-size: 22px;
+  }
+}
+
+.quick-casino-comparison .app-tabs .nav-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 0 -1.5px;
+  border: none;
+}
+
+.quick-casino-comparison .app-tabs .nav-tabs li a, .quick-casino-comparison .app-tabs .nav-tabs li a:hover, .quick-casino-comparison .app-tabs .nav-tabs li a:focus {
+  background: #0d6efd;
+  color: #ffffff;
+  border: none;
+}
+
+.quick-casino-comparison .app-tabs .nav-tabs li a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 1.5px;
+  border-radius: 0;
+  min-height: 55px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 30px;
+}
+
+.quick-casino-comparison .app-tabs .nav-tabs li a span {
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 1199px) {
+  .quick-casino-comparison .app-tabs .nav-tabs li a {
+    font-size: 14px;
+    margin: 0 1.5px;
+    padding: 0 25px;
+  }
+}
+
+@media (max-width: 991px) {
+  .quick-casino-comparison .app-tabs .nav-tabs li a {
+    min-height: 36px;
+  }
+}
+
+.quick-casino-comparison .app-tabs .nav-tabs li.active a {
+  min-height: 73px;
+  position: relative;
+}
+
+.quick-casino-comparison .app-tabs .nav-tabs li.active a span {
+  -webkit-transform: translateY(9px);
+          transform: translateY(9px);
+}
+
+.quick-casino-comparison .app-tabs .nav-tabs li.active a:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  z-index: 1;
+}
+
+@media (max-width: 991px) {
+  .quick-casino-comparison .app-tabs .nav-tabs li.active a {
+    min-height: 44px;
+  }
+}
+
+.quick-casino-comparison .app-tabs .nav-tabs li.active a, .quick-casino-comparison .app-tabs .nav-tabs li.active a:hover, .quick-casino-comparison .app-tabs .nav-tabs li.active a:focus {
+  color: #212529;
+  background: #ffffff;
+  border-color: transparent;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 767px) {
+  .quick-casino-comparison .app-tabs .nav-tabs {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .quick-casino-comparison .app-tabs .nav-tabs > li, .quick-casino-comparison .app-tabs .nav-tabs > li > a {
+    min-width: 100%;
+    margin: 0px;
+  }
+  .quick-casino-comparison .app-tabs .nav-tabs > li > a, .quick-casino-comparison .app-tabs .nav-tabs > li > a:hover, .quick-casino-comparison .app-tabs .nav-tabs > li.active > a:hover {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+  }
+  .quick-casino-comparison .app-tabs .nav-tabs > li > a, .quick-casino-comparison .app-tabs .nav-tabs > li > a:hover, .quick-casino-comparison .app-tabs .nav-tabs > li.active > a:hover {
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 36px;
+  }
+  .quick-casino-comparison .app-tabs .nav-tabs > li.active > a {
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 36px;
+  }
+  .quick-casino-comparison .app-tabs .nav-tabs > li.active > a span {
+    -webkit-transform: none;
+            transform: none;
+  }
+  .quick-casino-comparison .app-tabs .nav-tabs > li.active > a:hover {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .quick-casino-comparison .app-tabs .nav-tabs > li.active:last-child > a {
+    border-bottom: 1px solid #ffffff;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+.quick-casino-comparison .app-tabs .tab-pane {
+  position: relative;
+  z-index: 1;
+  padding: 40px 32px 33px 36px;
+  overflow: hidden;
+}
+
+.quick-casino-comparison .app-tabs .tab-content {
+  min-height: 300px;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+  position: relative;
+  border-radius: 0 6px 6px 6px;
+  overflow: hidden;
+}
+
+.quick-casino-comparison .app-tabs .tab-content:before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  background: #ffffff;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 991px) {
+  .quick-casino-comparison .app-tabs .tab-content .tab-pane {
+    padding: 27px 22px 20px 22px;
+  }
+}
+
+@media (max-width: 575px) {
+  .quick-casino-comparison .app-tabs .tab-content .tab-pane {
+    padding: 12px 12px 12px 12px;
+  }
+}
+
+@media (max-width: 575px) {
+  .quick-casino-comparison .app-tabs .tab-content .tab-pane {
+    overflow-x: auto;
+  }
+  .quick-casino-comparison .app-tabs .tab-content .tab-pane .bordered-table__item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .quick-casino-comparison .app-tabs .tab-content .tab-pane .bordered-table__item .item-key, .quick-casino-comparison .app-tabs .tab-content .tab-pane .bordered-table__item .item-value {
+    width: 100%;
+    min-width: 100%;
+    min-height: auto;
+    padding: 10px 10px 8px 40px;
+  }
+  .quick-casino-comparison .app-tabs .tab-content .tab-pane .bordered-table__item .item-key {
+    border-right: none;
+  }
+}
+
+.quick-casino-comparison .bordered-table {
+  border: 1px solid #eee;
+  border-radius: 6px;
+  margin: 0;
+  padding: 0px;
+}
+
+.quick-casino-comparison .bordered-table__item {
+  margin-top: 0px;
+  line-height: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.quick-casino-comparison .bordered-table__item:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+
+.quick-casino-comparison .bordered-table__item .item-key, .quick-casino-comparison .bordered-table__item .item-value {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  min-height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #212529;
+}
+
+.quick-casino-comparison .bordered-table__item .item-key {
+  font-weight: 500;
+  border-right: 1px solid #eee;
+  max-width: 27.2%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 27.2%;
+          flex: 0 0 27.2%;
+  padding-left: 44px;
+  padding-right: 20px;
+  position: relative;
+}
+
+.quick-casino-comparison .bordered-table__item .item-key:before {
+  font-family: FontAwesome;
+  content: "\f00c";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  font-size: 15px;
+  color: #198754;
+  position: absolute;
+  top: 50%;
+  left: 17px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.quick-casino-comparison .bordered-table__item .item-value {
+  padding-left: 23px;
+  padding-right: 10px;
+}
+
+@media (max-width: 991px) {
+  .quick-casino-comparison .bordered-table__item .item-key,
+  .quick-casino-comparison .bordered-table__item .item-value {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .quick-casino-comparison .bordered-table__item .item-key {
+    max-width: 165px;
+    min-width: 165px;
+  }
+}
+/*# sourceMappingURL=quick-casino-comparison.css.map */

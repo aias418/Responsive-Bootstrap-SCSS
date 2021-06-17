@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+@import "sass-styling-vars";
+
+%d-flex{
+  display: -webkit-box;     
+  display: -moz-box;        
+  display: -ms-flexbox;     
+  display: -webkit-flex;    
+  display: flex; 
+}
+
+%flex-1{
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -webkit-flex: 1; 
+  -ms-flex: 1;
+  flex: 1;
+}
+
+%full-center{
+    @extend %d-flex;
+    align-items: center;
+    justify-content: center;
+}
+%fa-font{
+    font: normal normal normal $font-size-default+1/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.featured-item-variation-02{
+    font-family: $font-family-default;
+    img{
+        max-width: 100%;
+    }
+    .app-container{
+        max-width: 796px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .featured-item-card{
+        border: 2px solid darken($theme-primary, 30%);
+        .header{
+            background-color: darken($theme-primary, 30%);
+            .main-title{
+                font-size: $font-size-h1 + 2;
+                color: $theme-white;
+                margin-bottom: 0px;
+                text-align: center;
+                padding: 8px 15px;
+                font-weight: $font-weight-bold;
+            }
+        }
+        .card-content{
+            border: 2px solid darken($theme-primary, 30%);
+            @extend %d-flex;
+            position: relative;
+            & > *{
+               @extend %flex-1;     
+            }
+            &:hover{
+                .action-col {
+                    .play-btn{
+                        box-shadow: 0px 2px 0px $theme-success;
+                        transform: translateY(1px);
+                    }
+                }
+            }
+            .logo-col{
+                @extend %full-center;
+                padding: 15px;
+            }
+            .bonus-info-col{
+                @extend %full-center;
+                flex-direction: column;
+                padding: 15px;
+                p{
+                    font-size: $font-size-h3;
+                    color: darken($theme-success, 15%);
+                    margin-bottom: 10px;
+                    font-weight: $font-weight-heavy;
+                }
+                .star-rating{
+                    i{
+                        font-size: $font-size-h4;
+                        color: $theme-warning;
+                    }
+                }
+            }
+            .brands-info-col{
+                @extend %full-center;
+                flex-direction: column;
+                padding: 15px;
+                .inner-row{
+                    @extend %d-flex;
+                    align-items: center;
+                    text-align: center;
+                    justify-content: center;
+                    &:first-child{
+                        margin-bottom: 5px;
+                    }
+                    i{
+                        font-size: $font-size-h5 * 2;
+                        margin: 0 5px;
+                        &.fa-android{
+                            color: $theme-success;
+                        }
+                        &.fa-apple{
+                            color: $theme-secondary;
+                        }
+                        &.fa-windows{
+                            color: $theme-primary;
+                        }
+                    }
+                }
+                .img-wraper{
+                    width: 50px;
+                    text-align: center;
+                    img{
+                        vertical-align: middle;
+                    }
+                }
+            }
+            .action-col{
+                @extend %full-center;
+                flex-direction: column;
+                .play-btn{
+                    background-color: lighten($theme-success, 15%);
+                    background-image: none;
+                    outline: none;
+                    border: none;
+                    font-size: $font-size-h4;
+                    color: $theme-white;
+                    padding: 0px 20px;
+                    height: 28px;
+                    line-height: 28px;
+                    border-radius: $theme-border-radius;
+                    box-shadow: 0px 3px 0px $theme-success;
+                    text-shadow: 1px 1px $theme-success;
+                    min-width: 140px;
+                    margin-bottom: 8px;
+                   
+                }
+                a{
+                    font-size: $font-size-h5;
+                    color: $theme-primary;
+                    text-decoration: none;
+                    position: relative;
+                    z-index: 2;
+                }
+            }
+            .box-links{
+                position: absolute;
+                z-index: 1;
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+    @media (max-width: 767px) {
+        .featured-item-card{
+            .header .main-title{
+                font-size: $font-size-h3;
+            }
+            .card-content{
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 15px;
+                & > *{
+                    width: 100%;
+                }
+                .logo-col{
+                    max-width: 160px;
+                    padding-bottom: 5px;
+                }
+                .bonus-info-col{
+                    padding-bottom: 5px;
+                }
+                .brands-info-col{
+                    margin-bottom: 10px;
+                }
+            }
+        } 
+    }
+}

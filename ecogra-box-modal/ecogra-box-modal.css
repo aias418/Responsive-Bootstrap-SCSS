@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Karla:400&display=swap");
+img {
+  max-width: 100%;
+}
+
+.ecogra-box-modal {
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  background: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  font-size: 13px;
+}
+.ecogra-box-modal .ecogra-box-modal-etitle2 {
+  padding: 10px;
+  background: #212529;
+  color: #ffffff;
+  font-size: 15px;
+}
+.ecogra-box-modal .ecogra-box-modal-ebody {
+  padding: 10px;
+  background: #ffffff;
+}
+.ecogra-box-modal .ecogra-box-modal-ebody a {
+  display: block;
+  text-decoration: none;
+}
+.ecogra-box-modal .ecogra-box-modal-ebody a span {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+.ecogra-box-modal .ecogra-box-modal-ebody a:hover span {
+  color: #0d6efd;
+}
+
+#ecogra-box-modal-myModal svg {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 26px;
+  z-index: 2222;
+}
+#ecogra-box-modal-myModal svg path {
+  fill: #ffffff;
+  opacity: 0.6;
+}
+#ecogra-box-modal-myModal img {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  #ecogra-box-modal-myModal .modal-dialog {
+    width: 80%;
+    margin: 20px 10%;
+  }
+}
+
+/*# sourceMappingURL=ecogra-box-modal.css.map */

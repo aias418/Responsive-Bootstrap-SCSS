@@ -1,0 +1,101 @@
+@import "sass-styling-vars";
+
+.pros-cons-variation-01 {
+    float: none;
+    box-sizing: border-box;
+    padding: 0 12px;
+    width: 100%;
+    margin: 30px auto;
+    max-width: 842px;
+    .pros-cons-container{
+        background-color: $theme-light;
+        border-radius: $theme-border-radius;
+        border: 0;
+        box-shadow: $wrapper-box-shadow;
+        padding: 28px;
+        @media only screen and (max-width : 480px) {
+            padding: 14px;
+        }
+        .heading {
+            display: block;
+            margin-bottom: 12px;
+            font-size: $font-size-default + 15;
+            line-height: 1.5em;
+            @media only screen and (max-width : 480px) {
+                font-size: $font-size-default + 7;
+                line-height: 1.3em;
+            }
+        }
+        .pros-cons-table {
+            display: flex;
+            justify-content: space-between;
+            .column {
+                flex-basis: 50%;
+                flex-wrap: nowrap;
+                display: flex;
+                flex-direction: column;
+                font-size: $font-size-default + 5;
+                line-height: 1.4em;
+                @media only screen and (max-width : 480px) {
+                    font-size: $font-size-default;
+                    line-height: 1.3em;
+                }
+                .header {
+                    padding-right: 7px;
+                    padding-left: 7px;
+                    color: $theme-success;
+                    padding-bottom: 2px;
+                    margin-bottom: 10px;
+                    width: 100%;
+                    .underline {
+                        font-weight: $font-weight-heavy;
+                        padding-bottom: 2px;
+                        border-bottom: 1px solid;
+                        display: block;
+                    }
+                }
+                .list {
+                    .item {
+                        display: block;
+                        padding: 2px 7px;
+                        font-size: $font-size-default + 5;
+                        line-height: 1.4em;
+                        @media only screen and (max-width : 480px) {
+                            font-size: $font-size-default;
+                            line-height: 1.3em;
+                        }
+                        i {
+                            color: $theme-success;
+                            padding-right: 8px;
+                        }
+                        &.miss {
+                            i {
+                                color: $theme-danger;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    img {
+        max-width: 100%;
+        border: none;
+        text-decoration: none;
+        object-fit: contain;
+    }
+    p {
+        margin: 0 0 13px;
+        font-size: $font-size-default;
+        line-height: 1.46em;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            margin: 0;
+        }
+    }
+}

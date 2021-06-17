@@ -1,0 +1,134 @@
+@import "sass-styling-vars";
+
+.toplist-variation-07 {
+    float: none;
+    box-sizing: border-box;
+    padding: 0 12px;
+    width: 100%;
+    margin: 30px auto;
+    max-width: 842px;
+    .toplist-container {
+        
+        .heading {
+            display: block;
+            margin-bottom: 12px;
+            font-size: $font-size-default + 15;
+            line-height: 1.5em;
+            @media only screen and (max-width : 480px) {
+                font-size: $font-size-default + 7;
+                line-height: 1.3em;
+            }
+        }
+        .toplist-wrapper {
+            .list {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .item {
+                    width: 31%;
+                    margin-bottom: 10px;
+                    @media only screen and (max-width : 992px) {
+                        width: 48%;
+                    }
+                    @media only screen and (max-width : 480px) {
+                        width: 100%;
+                    }
+                    .image_container {
+                        display: flex;
+                        flex-direction: column;
+                        padding: 12px;
+                        min-height: 135px;
+                        border: 3px solid $theme-border-color;
+                        align-items: center;
+                        justify-content: center;
+                        a {
+                            display: flex;
+                            flex: 0 0 auto;
+                            max-width: 100%;
+                            justify-content: center;
+                            img {
+                                display: flex;
+                                justify-content: center;
+                                max-height: 60px;
+                                flex: 0 0 auto;
+                                align-self: center;
+                            }
+                        }
+                        .rating {
+                            font-size: $font-size-default + 5;
+                            font-weight: $font-weight-heavy;
+                            line-height: 1.16em;
+                            color: $theme-secondary;
+                            margin-top: 12px;
+                            i {
+                                color: $theme-warning;
+                                font-size: $font-size-default + 7;
+                            }
+                        }
+                    }
+                    .text_container {
+                        background-color: $theme-light;
+                        min-height: 244px;
+                        @media only screen and (max-width : 768px) {
+                            min-height: auto;
+                        }
+                        .text-section {
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            .text {
+                                font-size: $font-size-default + 5;
+                                line-height: 1.4em;
+                                margin-bottom: 24px;
+                                color: $theme-secondary;
+                                @media only screen and (max-width : 480px) {
+                                    margin-bottom: 12px;
+                                    font-size: $font-size-default;
+                                    line-height: 1.3em;
+                                }
+                                &:first-child {
+                                    min-height: 125px;
+                                    padding: 10px 12px;
+                                    font-size: $font-size-default + 3;
+                                }
+                            }
+                            .rev-link {
+                                font-weight: $font-weight-heavy;
+                                font-size: $font-size-default + 4;
+                                text-align: center;
+                                margin-bottom: -15px;
+                                text-decoration: underline;
+                            }
+                        }
+                        .btn {
+                            margin: 5px auto;
+                            display: block;
+                            &:hover {
+                                transform: translateY(2px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    img {
+        max-width: 100%;
+        border: none;
+        text-decoration: none;
+        object-fit: contain;
+    }
+    p {
+        margin: 0 0 13px;
+        font-size: $font-size-default;
+        line-height: 1.46em;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            margin: 0;
+        }
+    }
+}

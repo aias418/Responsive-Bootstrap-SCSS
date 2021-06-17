@@ -1,0 +1,86 @@
+@import "sass-styling-vars";
+
+.content-blocks-variation-02 {
+    float: none;
+    box-sizing: border-box;
+    padding: 0 15px;
+    width: 100%;
+    margin: 30px auto;
+    max-width: 795px;
+    font-size: $font-size-default + 3;
+    line-height: 1em;
+    .content-blocks-container{
+        background-color: $theme-light;
+        border: $theme-border;
+        border-radius: $theme-border-radius;
+        .header {
+            background-color: $theme-primary;
+            padding: 30px 30px 20px;
+            position: relative;
+            color: $theme-white;
+            border-top-left-radius: $theme-border-radius;
+            border-top-right-radius: $theme-border-radius;
+            .heading {
+                margin-bottom: 15px;
+                font-size: $font-size-default + 11;
+                line-height: 1em;
+                font-weight: $font-weight-heavy;
+                @media only screen and (max-width : 480px) {
+                    font-size: $font-size-default + 7;
+                    line-height: 1.2em;
+                }
+                
+            }
+        }
+        .tips-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-direction: row;
+            padding: 20px;
+            @media only screen and (max-width : 480px) {
+                flex-direction: column;
+            }
+            .tip-item {
+                flex-basis: calc(50% - 10px);
+                display: flex;
+                padding: 15px 20px;
+                @media only screen and (max-width : 480px) {
+                    padding: 15px 10px;
+                }
+                .tip-icon {
+                    color: $theme-primary;
+                    font-size: $font-size-default + 25;
+                    flex-basis: 60px;
+                    padding-right: 15px;
+                    padding-top: 3px;
+                    svg {
+                        fill: $theme-primary;
+                    }
+                }
+                .tip-text {
+                    flex: 1;
+                    .tip-title {
+                        font-size: $font-size-md;
+                        font-weight: $font-weight-heavy;
+                        margin-bottom: 15px;
+                    }
+                    .tip-description {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+        }
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    p {
+        margin: 0 0 13px;
+        font-size: $font-size-default;
+        line-height: 1.46em;
+    }
+}

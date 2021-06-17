@@ -1,0 +1,324 @@
+body {
+  color: #212529;
+}
+
+.casino-user-reviews {
+  clear: both;
+  margin-top: 20px;
+}
+.casino-user-reviews .title {
+  display: block;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0;
+  text-transform: capitalize;
+}
+.casino-user-reviews .title.h3 {
+  font-size: 22px;
+}
+.casino-user-reviews .title.h4 {
+  font-size: 18px;
+}
+.casino-user-reviews .title.h5 {
+  font-size: 16px;
+}
+.casino-user-reviews .heading-review {
+  margin-top: 28px;
+}
+@media only screen and (min-width: 768px) {
+  .casino-user-reviews .heading-review {
+    display: flex;
+    height: 65px;
+    justify-content: space-between;
+  }
+}
+.casino-user-reviews .heading-review .casino-rate {
+  border-radius: 500px;
+  display: inline-flex;
+  height: 110px;
+}
+.casino-user-reviews .heading-review .casino-rate .comment-icon {
+  align-items: center;
+  background: #0d6efd;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  height: 74px;
+  min-width: 74px;
+  position: relative;
+}
+.casino-user-reviews .heading-review .casino-rate .comment-icon img {
+  height: 45px;
+  max-width: 100%;
+  width: 45px;
+}
+.casino-user-reviews .heading-review .casino-rate .rating {
+  margin-left: 30px;
+}
+.casino-user-reviews .heading-review .casino-rate .rating .review-rating {
+  display: inline-flex;
+}
+.casino-user-reviews .heading-review .casino-rate .rating .review-rating i {
+  color: #ffc107;
+  font-size: 30px;
+  font-style: normal;
+}
+.casino-user-reviews .heading-review .btn-primary {
+  align-items: center;
+  background: #0d6efd;
+  border-radius: 2px;
+  color: #ffffff;
+  display: flex;
+  font-size: 14px;
+  font-weight: 700;
+  height: 48px;
+  justify-content: center;
+  text-decoration: none;
+  text-transform: none;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .casino-user-reviews .heading-review .btn-primary {
+    width: 20%;
+  }
+}
+.casino-user-reviews .heading-review .btn-primary:hover {
+  background: #0d6efd;
+}
+.casino-user-reviews .filter-list {
+  border-bottom: 1px solid #e5e5e5;
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+.casino-user-reviews .filter-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.casino-user-reviews .filter-list ul li {
+  display: inline-block;
+  margin-right: 7.2%;
+}
+.casino-user-reviews .filter-list ul li span {
+  align-items: center;
+  color: #000;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+}
+.casino-user-reviews .filter-list ul li span.sort-arrow-down:after {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #0d6efd;
+  content: "";
+  display: inline-block;
+  height: 0;
+  margin: 0 7px;
+  transition: all 0.3s linear;
+  transform: rotate(0deg);
+  width: 0;
+}
+.casino-user-reviews .filter-list ul li span.sort-arrow-up:after {
+  content: "";
+  display: inline-block;
+  transform: rotate(180deg);
+}
+.casino-user-reviews #comment-section .reviews {
+  background: #e5e5e5;
+  font-weight: 400;
+  margin-top: 15px;
+  padding: 10px 20px;
+}
+.casino-user-reviews #comment-section .reviews .player-reviews {
+  color: #666;
+}
+.casino-user-reviews #comment-section .reviews .player-reviews ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.casino-user-reviews #comment-section .reviews .player-reviews ul li {
+  padding: 20px 0;
+}
+.casino-user-reviews #comment-section .reviews .player-reviews ul li .details {
+  display: flex;
+  justify-content: space-between;
+}
+.casino-user-reviews #comment-section .reviews .player-reviews ul li .details span {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.casino-user-reviews #comment-section .reviews .player-reviews ul li .details span.player {
+  color: #0d6efd;
+  display: flex;
+  margin-bottom: 10px;
+  margin-right: 6px;
+}
+.casino-user-reviews #comment-section .reviews .player-reviews ul li .details span.date {
+  color: #000;
+  display: block;
+  font-size: 12px;
+}
+.casino-user-reviews #comment-section .reviews .player-reviews ul li .details .operator-ratings .review-rating {
+  display: inline-flex;
+}
+.casino-user-reviews #comment-section .reviews .player-reviews ul li .details .operator-ratings .review-rating i {
+  color: #6c757d;
+  font-size: 20px;
+  font-style: normal;
+}
+.casino-user-reviews #comment-section .reviews .player-reviews ul li .details .operator-ratings .review-rating i.star-on-png {
+  color: #ffc107;
+}
+.casino-user-reviews #comment-section .reviews .player-reviews ul li .details .operator-ratings .review-rating i.star-off-png {
+  color: #6c757d;
+}
+.casino-user-reviews #comment-section .reviews .player-reviews ul li p {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.casino-user-reviews #write-review {
+  background: #e5e5e5;
+  display: none;
+  font-weight: 400;
+  margin-top: 15px;
+  padding: 10px 20px;
+}
+.casino-user-reviews #write-review.active {
+  display: block;
+}
+.casino-user-reviews #write-review .title {
+  margin: 10px 0;
+}
+.casino-user-reviews #write-review .error-text, .casino-user-reviews #write-review .success {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.casino-user-reviews #write-review .error-text {
+  color: #df0e14;
+}
+.casino-user-reviews #write-review .success {
+  color: #090;
+}
+@media only screen and (min-width: 768px) {
+  .casino-user-reviews #write-review form {
+    position: relative;
+  }
+}
+.casino-user-reviews #write-review form .select-rating {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  margin: 5px 0;
+}
+.casino-user-reviews #write-review form .select-rating i {
+  color: #6c757d;
+  font-size: 35px;
+  font-style: normal;
+}
+.casino-user-reviews #write-review form .select-rating i.star-on-png {
+  color: #ffc107;
+}
+.casino-user-reviews #write-review form .select-rating i.star-off-png {
+  color: #6c757d;
+}
+.casino-user-reviews #write-review form label {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 5px 0;
+}
+.casino-user-reviews #write-review form .title {
+  margin: 10px 0 0;
+}
+.casino-user-reviews #write-review form input:not(#comment_checkbox), .casino-user-reviews #write-review form textarea {
+  border: none;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 5px;
+  padding: 13px 20px;
+  width: 100%;
+}
+.casino-user-reviews #write-review form textarea {
+  font-size: 100%;
+  line-height: 1.15px;
+  height: 180px;
+}
+.casino-user-reviews #write-review form .checkbox {
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+}
+@media only screen and (min-width: 768px) {
+  .casino-user-reviews #write-review form .checkbox {
+    margin: 15px 5px 0;
+  }
+}
+.casino-user-reviews #write-review form .checkbox input {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.casino-user-reviews #write-review form .checkbox label {
+  margin: 20px 0 0 15px;
+}
+@media only screen and (min-width: 768px) {
+  .casino-user-reviews #write-review form .checkbox label {
+    margin: 0;
+  }
+}
+.casino-user-reviews #write-review form .content {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  margin-left: 30px;
+}
+.casino-user-reviews #write-review form .content a {
+  color: #0d6efd;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: none;
+}
+.casino-user-reviews #write-review form .btn-primary {
+  align-items: center;
+  background: #0d6efd;
+  border-radius: 2px;
+  color: #ffffff;
+  display: flex;
+  font-weight: 700;
+  font-size: 14px;
+  justify-content: center;
+  height: 48px;
+  margin-top: 15px;
+  text-decoration: none;
+  text-transform: none;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .casino-user-reviews #write-review form .btn-primary {
+    width: 20%;
+  }
+}
+.casino-user-reviews #write-review .guidelines {
+  font-size: 10px;
+  font-weight: 700;
+  margin: 10px 0;
+  overflow-wrap: break-word;
+}
+.casino-user-reviews #write-review .guidelines a {
+  color: #0d6efd;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  margin: 0;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=casino-user-reviews.css.map */

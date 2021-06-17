@@ -1,0 +1,174 @@
+@import "sass-styling-vars";
+
+.bonus-calculator-variation-03 {
+    float: none;
+    margin: 0 auto;
+    max-width: 1000px;
+    min-height: 10px;
+    padding: 0px;
+    position: relative;
+    .internal-wrapper {
+        clear: both;
+        display: inline-block;
+        min-height: 10px;
+        overflow: visible;
+        position: relative;
+        vertical-align: middle;
+        width: 100%;
+        z-index: 1;
+        @media only screen and (max-width: 992px) {
+            padding: 0 20px;
+        }
+        .text-element {
+            overflow-wrap: break-word;
+            padding: 1px;
+            @media only screen and (max-width: 992px) {
+                padding: 0 20px;
+            }
+            &.paragraph {
+                margin: 0 auto;
+                max-width: 730px;
+            }
+            p {
+                color: $theme-dark;
+                font-weight: $font-weight-medium;
+                margin-bottom: 30px;
+                &.title {
+                    color: $theme-dark;
+                    font-weight: $font-weight-heavy;
+                    margin-bottom: 20px;
+                    padding: 0;
+                    text-align: center;
+                }
+            }
+        }
+        .range-container {
+            background: $theme-white;
+            border: 0;
+            border-radius: $theme-border-radius;
+            box-shadow: $wrapper-box-shadow;
+            box-sizing: border-box;
+            max-width: 1000px;
+            padding: 30px 50px;
+            @media screen and (max-width: 992px) {
+                max-width: 768px;
+                padding: 10px 30px 30px;
+            }
+            @media screen and (max-width: 768px) {
+                padding: 10px 20px 30px;
+                width: 100%;
+            }
+            p {
+                color: $theme-dark;
+                font-size: $font-size-default + 19;
+                font-weight: $font-weight-heavy;
+                line-height: 1em;
+                margin: 20px 0 40px;
+                text-align: center;
+                @media screen and (max-width: 992px) {
+                    font-size: $font-size-default + 13;
+                }
+                @media screen and (max-width: 768px) {
+                    font-size: $font-size-default + 7;
+                    line-height: 1em;
+                }
+                &.main-title {
+                    color: $theme-primary;
+                }
+            }
+            .slidecontainer {
+                margin-bottom: 50px;
+                .slider {
+                    -webkit-appearance: none;
+                    background: $theme-border-color;
+                    border-radius: $theme-border-radius;
+                    display: block;
+                    height: 10px;
+                    margin: 0 auto;
+                    outline: none;
+                    -webkit-transition: .2s;
+                    transition: opacity .2s;
+                    width: 90%;
+                    &::-webkit-slider-thumb {
+                        -webkit-appearance: none;
+                        appearance: none;
+                        background: $theme-primary;
+                        border-radius: 50%;
+                        cursor: pointer;
+                        height: 20px;
+                        width: 20px;
+                    }
+                    &::-moz-range-thumb {
+                        background: $theme-primary;
+                        border-radius: 50%;
+                        cursor: pointer;
+                        height: 20px;
+                        width: 20px;
+                    }
+                }
+            }
+            .range-casino-container {
+                p {
+                    font-size: $font-size-default + 7;
+                    margin-bottom: 20px;
+                    @media screen and (max-width: 768px) {
+                        font-size: $font-size-default + 3;
+                    }
+                }
+                hr {
+                    margin: 18px 0 10px;
+                    @media screen and (max-width: 768px) {
+                        margin: 40px 0 30px;
+                    }
+                }
+                .range-casino {
+                    align-items: center;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 0 20px;
+                    @media screen and (max-width: 768px) {
+                        display: block;
+                    }
+                    p {
+                        font-size: $font-size-default + 7;
+                        font-weight: $font-weight-bold;
+                        margin: 0;
+                        text-transform: none;
+                    }
+                    a {
+                        background: $theme-primary;
+                        border: 0;
+                        border-radius: $theme-border-radius;
+                        box-shadow: none;
+                        clear: both;
+                        color: $theme-dark;
+                        cursor: pointer;
+                        display: block;
+                        font-size: $font-size-default + 3;
+                        font-weight: $font-weight-bold;
+                        padding: 20px 25px;
+                        text-align: center;
+                        text-decoration: none;
+                        width: 180px;
+                        @media screen and (max-width: 992px) {
+                            padding: 20px 15px;
+                        }
+                        @media screen and (max-width: 768px) {
+                            margin: 15px auto 10px;
+                            padding: 15px 10px;
+                        }
+                    }
+                    img {
+                        @media screen and (max-width: 992px) {
+                            width: 120px;
+                        }
+                        @media screen and (max-width: 768px) {
+                            display: block;
+                            margin: 0 auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

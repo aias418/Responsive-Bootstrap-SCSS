@@ -1,0 +1,469 @@
+@import "sass-styling-vars";
+
+.toplist-variation-19 {
+    float: none;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 30px 0;
+    background-color: $theme-light;
+    .details-header {
+        position: relative;
+        padding: 49px 0 50px;
+        overflow: hidden;
+        @media only screen and (max-width : 768px) {
+            padding: 29px 0 13px;
+        }
+        .container {
+            max-width: 1170px;
+            width: 100%;
+            position: relative;
+            .row {
+                position: relative;
+                .col {
+                    position: static;
+                    @media only screen and (max-width : 768px) {
+                        width: 100%;
+                    }
+                    .heading {
+                        font-size: $font-size-default + 19;
+                        font-weight: $font-weight-heavy + 100;
+                        line-height: 1.31em;
+                        min-height: 65px;
+                        display: flex;
+                        align-items: center;
+                        text-align: left;
+                        @media only screen and (max-width : 768px) {
+                            min-height: auto;
+                            margin-bottom: 11px;
+                        }
+                        @media only screen and (max-width : 480px) {
+                            font-size: $font-size-default + 13;
+                            line-height: 1.23em;
+                            justify-content: center;
+                            text-align: center;
+                        }
+                    }
+                    .guide-experts {
+                        background: linear-gradient(291.19deg,rgba(74,210,240,.2) -40.89%,rgba(104,73,141,.2) 58.79%);
+                        position: absolute;
+                        width: 50%;
+                        right: 15px;
+                        top: 0;
+                        max-height: 65px;
+                        text-align: right;
+                        @media only screen and (max-width : 768px) {
+                            position: relative;
+                            right: 0;
+                            width: 100%;
+                            max-height: 54px;
+                            text-align: center;
+                        }
+                        @media only screen and (max-width : 480px) {
+                            max-height: none;
+                        }
+                        p {
+                            font-size: $font-size-default + 7;
+                            color: $theme-primary;
+                            padding: 20px 0;
+                            font-weight: $font-weight-heavy - 100;
+                            @media only screen and (max-width : 768px) {
+                                text-indent: 0;
+                                padding: 15px 0;
+                            }
+                            @media only screen and (max-width : 480px) {
+                                font-size: $font-size-default + 1;
+                                line-height: 1.286em;
+                                padding: 15px 36px;
+                            }
+                        }
+                        &::before {
+                            position: absolute;
+                            content: "";
+                            width: 28px;
+                            height: 50px;
+                            background-image: url(./img/ribbon.png);
+                            background-repeat: no-repeat;
+                            background-position: top;
+                            background-size: contain;
+                            left: 5%;
+                            top: 0;
+                            @media only screen and (max-width : 992px) {
+                                left: 30px;
+                                width: 22px;
+                                height: 40px;
+                            }
+                            @media only screen and (max-width : 480px) {
+                                left: 15px;
+                                width: 18px;
+                                height: 32px;
+                            }
+                        }
+                        &::after {
+                            position: absolute;
+                            content: "";
+                            width: 365%;
+                            height: 100%;
+                            background: linear-gradient(-291.19deg,rgba(74,210,240,.2) -40.89%,rgba(104,73,141,.2) 58.79%);
+                            right: -365%;
+                            top: 0;
+                            @media only screen and (max-width : 768px) {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .casino-filter {
+        position: relative;
+        padding: 48px 0 50px;
+        @media only screen and (max-width : 480px) {
+            padding-top: 16px;
+        }
+        .container {
+            max-width: 1170px;
+            width: 100%;
+            position: relative;
+            .row {
+                position: relative;
+                .col {
+                    .right-panel {
+                        position: relative;
+                        .right-top {
+                            position: relative;
+                            width: 100%;
+                            @media only screen and (max-width : 768px) {
+                                display: none;
+                            }
+                            .sort-boxs {
+                                position: relative;
+                                width: 100%;
+                                color: $theme-dark;
+                                margin-bottom: 10px;
+                                .sort-area {
+                                    position: relative;
+                                    width: 100%;
+                                    padding: 4px;
+                                    border-bottom: $theme-border;
+                                    cursor: pointer;
+                                    padding: 7px 10px;
+                                    box-shadow: $wrapper-box-shadow;
+                                    background: $theme-white;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    border-radius: $theme-border-radius;
+                                    .sort-one {
+                                        display: flex;
+                                        font-size: $font-size-default + 1;
+                                        line-height: 1.4em;
+                                        font-weight: $font-weight-medium;
+                                        margin: 0;
+                                    }
+                                    img {
+                                        float: right;
+                                        margin-top: 0;
+                                        &.upnarow {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                                .sort-by {
+                                    display: none;
+                                    padding: 10px 0;
+                                    background-color: $theme-white;
+                                    width: 100%;
+                                    position: absolute;
+                                    z-index: 1;
+                                    box-shadow: $wrapper-box-shadow;
+                                    white-space: normal;
+                                    overflow: visible;
+                                    li {
+                                        position: relative;
+                                        width: 100%;
+                                        a {
+                                            font-size: $font-size-default + 1;
+                                            line-height: 1.4em;
+                                            color: $theme-dark;
+                                            display: block;
+                                            width: 100%;
+                                            padding: 5px 30px;
+                                            align-items: center;
+                                            justify-content: space-between;
+                                            &:hover {
+                                                background-color: $theme-light;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .right-content {
+                            position: relative;
+                            display: flex;
+                            flex-direction: column;
+                            .content-area {
+                                background-color: $theme-white;
+                                position: relative;
+                                border-radius: $theme-border-radius;
+                                box-shadow: $wrapper-box-shadow;
+                                width: 100%;
+                                display: none;
+                                padding: 15px 0 0;
+                                margin-bottom: 10px;
+                                @media only screen and (max-width : 480px) {
+                                    padding-top: 10px;
+                                    margin-bottom: 8px;
+                                }
+                                .top {
+                                    display: flex;
+                                    align-items: center;
+                                    padding: 0 15px 10px 20px;
+                                    @media only screen and (max-width : 480px) {
+                                        flex-direction: column;
+                                        padding: 0 10px 2px;
+                                    }
+                                    .top-left {
+                                        width: 136px;
+                                        @media only screen and (max-width : 480px) {
+                                            width: 100%;
+                                            display: flex;
+                                            align-items: center;
+                                        }
+                                        .review-img {
+                                            width: auto;
+                                            @media only screen and (max-width : 480px) {
+                                                width: 110px;
+                                            }
+                                            img {
+                                                @media only screen and (max-width : 480px) {
+                                                    height: 110px;
+                                                }
+                                            }
+                                        }
+                                        .review-rating {
+                                            @media only screen and (max-width : 480px) {
+                                                width: calc(100% - 110px);
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                justify-content: center;
+                                                padding-left: 7px;
+                                            }
+                                            .star-area {
+                                                position: relative;
+                                                margin-top: 8px;
+                                                max-width: 136px;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                @media only screen and (max-width : 480px) {
+                                                    margin: 0 0 7px;
+                                                }
+                                                i {
+                                                    color: $theme-warning;
+                                                    font-size: $font-size-default + 7;
+                                                    margin: 0 1.5px;
+                                                }
+                                            }
+                                            .rating-score {
+                                                font-size: $font-size-default + 5;
+                                                line-height: 1.4em;
+                                                display: block;
+                                                text-align: center;
+                                                margin: 10px 0 0;
+                                                @media only screen and (max-width : 480px) {
+                                                    font-size: $font-size-default + 7;
+                                                    line-height: 1.35em;
+                                                    margin-top: 0;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .top-mid {
+                                        width: 262px;
+                                        padding-left: 30px;
+                                        @media only screen and (max-width : 480px) {
+                                            width: 100%;
+                                            padding: 13px 6px 14px;
+                                        }
+                                        .title {
+                                            font-size: $font-size-default + 11;
+                                            font-weight: $font-weight-heavy + 200;
+                                            line-height: 1.4em;
+                                            margin-bottom: 15px;
+                                            @media only screen and (max-width : 480px) {
+                                                font-size: $font-size-default + 7;
+                                                line-height: 1.2em;
+                                                font-weight: $font-weight-heavy;
+                                                text-align: center;
+                                                margin-bottom: 9px;
+                                            }
+                                        }
+                                        ul {
+                                            li {
+                                                font-size: $font-size-default + 1;
+                                                line-height: 1.4em;
+                                                margin-bottom: 10px;
+                                                display: flex;
+                                                @media only screen and (max-width : 480px) {
+                                                    line-height: 1.43em;
+                                                    margin-bottom: 3px;
+                                                }
+                                                i {
+                                                    margin-right: 10px;
+                                                    width: 15px;
+                                                    display: inline-block;
+                                                    text-align: center;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .top-right {
+                                        width: calc(100% - 398px);
+                                        padding-left: 30px;
+                                        display: flex;
+                                        padding-right: 50px;
+                                        @media only screen and (max-width : 768px) {
+                                            display: block;
+                                            padding-right: 0;
+                                        }
+                                        @media only screen and (max-width : 480px) {
+                                            width: 100%;
+                                            padding-left: 0;
+                                        }
+                                        .bonus {
+                                            position: relative;
+                                            background-color: $theme-light;
+                                            text-align: center;
+                                            margin-top: 0;
+                                            margin-bottom: 0;
+                                            padding: 24px 30px;
+                                            width: calc(100% - 264px);
+                                            @media only screen and (max-width : 768px) {
+                                                width: auto;
+                                                margin-top: -15px;
+                                                margin-bottom: 20px;
+                                                padding: 30px 15px;
+                                            }
+                                            @media only screen and (max-width : 480px) {
+                                                margin: 0 -9px;
+                                            }
+                                            .text {
+                                                margin: 0;
+                                                font-weight: $font-weight-heavy - 100;
+                                                font-size: $font-size-default + 9;
+                                                line-height: 1.33em;
+                                                text-align: center;
+                                                color: $theme-primary;
+                                                @media only screen and (max-width : 480px) {
+                                                    font-size: $font-size-default + 7;
+                                                    line-height: 1.4em;
+                                                }
+                                                span {
+                                                    display: block;
+                                                    font-weight: $font-weight-medium;
+                                                    font-size: $font-size-default - 1;
+                                                    line-height: 1.2em;
+                                                    margin-bottom: 3px;
+                                                }
+                                            }
+                                            .choice {
+                                                font-size: $font-size-default - 3;
+                                                line-height: 1.4em;
+                                                margin-top: 10px;
+                                                @media only screen and (max-width : 992px) {
+                                                    float: none;
+                                                    margin: 0;
+                                                }
+                                                a {
+                                                    color: $theme-dark;
+                                                }
+                                            }
+
+                                        }
+                                        .button-block {
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            flex-direction: column;
+                                            width: 264px;
+                                            padding-left: 44px;
+                                            @media only screen and (max-width : 992px) {
+                                                width: 220px;
+                                                padding-left: 20px;
+                                            }
+                                            @media only screen and (max-width : 768px) {
+                                                width: auto;
+                                                padding-left: 0;
+                                            }
+                                            @media only screen and (max-width : 480px) {
+                                                padding: 10px 0;
+                                            }
+                                            .btn {
+                                                margin: 5px 0;
+                                                max-width: 220px;
+                                                width: 100%;
+                                            }
+                                        }
+                                    }
+                                }
+                                .bottom {
+                                    .text {
+                                        font-size: $font-size-default - 3;
+                                        line-height: 1.1;
+                                        text-align: justify;
+                                        color: $theme-secondary;
+                                        border-top: $theme-border;
+                                        margin: 0;
+                                        padding: 6px 15px 9px 6px;
+                                        @media only screen and (max-width : 480px) {
+                                            font-size: $font-size-default - 4;
+                                            line-height: 1.12;
+                                            padding: 6px 10px;
+                                        }
+                                        a {
+                                            color: $theme-warning;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .show-more-container {
+                            box-shadow: $wrapper-box-shadow;
+                            background: $theme-white;
+                            border-radius: $theme-border-radius;
+                            padding: 18px;
+                            text-align: center;
+                            @media only screen and (max-width : 480px) {
+                                box-shadow: none;
+                                padding: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    img {
+        max-width: 100%;
+        border: none;
+        text-decoration: none;
+        object-fit: contain;
+    }
+    p {
+        margin: 0;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            margin: 0;
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+}

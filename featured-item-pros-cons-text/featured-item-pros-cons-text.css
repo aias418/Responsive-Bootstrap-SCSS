@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Karla:400&display=swap");
+img {
+  max-width: 100%;
+}
+
+.featured-item-pros-cons-text {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  background: #212529;
+  /*   overflow: hidden;
+     background: $theme-toplist-bg;
+     box-shadow: $wrapper-box-shadow;
+     position: relative;
+     width: 100%;
+     display: inline-block;
+     font-size: $font-size-default;*/
+}
+.featured-item-pros-cons-text .budges {
+  position: relative;
+  padding: 14px 20px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+.featured-item-pros-cons-text .budges p {
+  font-weight: 400;
+}
+.featured-item-pros-cons-text .budges ul li {
+  font-size: 13px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.featured-item-pros-cons-text .budges ul li i.fa-check {
+  color: #0d6efd;
+  padding-right: 5px;
+}
+.featured-item-pros-cons-text .budges ul li i.fa-close {
+  color: #dc3545;
+  padding-right: 5px;
+}
+.featured-item-pros-cons-text .gambling-content {
+  position: relative;
+  background: #ffffff;
+  border-radius: 6px;
+  width: 100%;
+  display: inline-block;
+}
+@media (max-width: 991px) {
+  .featured-item-pros-cons-text .gambling-content {
+    margin-top: 20px;
+  }
+}
+.featured-item-pros-cons-text .gambling-content .content-area-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  padding: 13px 13px 13px 22px;
+  color: #000;
+}
+@media (max-width: 480px) {
+  .featured-item-pros-cons-text .gambling-content .content-area-top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+.featured-item-pros-cons-text .gambling-content .content-area-top .content-area-top-left {
+  width: 162px;
+  padding-right: 26px;
+  border-right: 1px solid #eee;
+}
+.featured-item-pros-cons-text .gambling-content .content-area-top .content-area-top-left .review-img {
+  width: 136px;
+  margin-bottom: 10px;
+}
+.featured-item-pros-cons-text .gambling-content .content-area-top .content-area-top-left .review-img .main-logo {
+  width: 100%;
+  max-width: 136px;
+}
+.featured-item-pros-cons-text .gambling-content .content-area-top .content-area-top-left p {
+  color: #000;
+  font-weight: 600;
+  margin: 0 0 5px;
+  text-align: center;
+}
+@media (max-width: 480px) {
+  .featured-item-pros-cons-text .gambling-content .content-area-top .content-area-top-left p {
+    display: none;
+  }
+}
+.featured-item-pros-cons-text .gambling-content .content-area-top .content-area-top-left .star-area {
+  position: relative;
+  margin-top: 8px;
+  max-width: 136px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.featured-item-pros-cons-text .gambling-content .content-area-top .content-area-top-left .star-area i {
+  width: 21px;
+  height: 18px;
+  object-fit: contain;
+  margin: 0 0.5px;
+  color: #0dcaf0;
+  font-size: 15px;
+}
+.featured-item-pros-cons-text .gambling-content .content-area-top .content-area-top-left .rating-score {
+  color: #000;
+  margin: 7px 0 0;
+  display: block;
+  font-size: 13px;
+}
+@media (max-width: 480px) {
+  .featured-item-pros-cons-text .gambling-content .content-area-top .content-area-top-left .review-rating {
+    padding-left: 7px;
+    width: calc(100% - 110px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 480px) {
+  .featured-item-pros-cons-text .gambling-content .content-area-top .content-area-top-left {
+    width: 100%;
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-right: 0;
+    border-right: 0;
+  }
+}
+.featured-item-pros-cons-text .gambling-content .content-area-top .content-area-top-mid {
+  width: 100%;
+  padding: 13px 6px 14px;
+  display: block;
+  text-align: center;
+}
+@media (min-width: 480px) {
+  .featured-item-pros-cons-text .gambling-content .content-area-top .content-area-top-mid {
+    display: none;
+  }
+}
+.featured-item-pros-cons-text .gambling-content .content-area-top .content-area-top-mid h3 {
+  margin: 0 0 10px;
+}
+.featured-item-pros-cons-text .gambling-content .content-area-top .content-area-top-right {
+  width: calc(100% - 162px);
+  padding-left: 30px;
+  padding-right: 15px;
+  display: block;
+}
+@media (max-width: 480px) {
+  .featured-item-pros-cons-text .gambling-content .content-area-top .content-area-top-right {
+    width: 100%;
+    display: block;
+    padding-left: 15px;
+    padding: 0;
+  }
+}
+.featured-item-pros-cons-text .gambling-content .content-area-top .content-area-top-right .bonus {
+  position: relative;
+  background: linear-gradient(180deg, #f4f3f6 -21.51%, rgba(244, 243, 246, 0) 52.76%, #f4f3f6 115.59%);
+  text-align: center;
+  padding: 17px 40px 12px;
+  margin-bottom: 15px;
+  width: auto;
+}
+@media (max-width: 480px) {
+  .featured-item-pros-cons-text .gambling-content .content-area-top .content-area-top-right .bonus {
+    margin: 0 -10px 20px;
+  }
+}
+.featured-item-pros-cons-text .gambling-content .content-area-top .content-area-top-right .bonus h3 {
+  font-size: 18px;
+  line-height: 24px;
+  color: #41285f;
+  font-weight: 600;
+  margin: 0;
+  font-family: Open Sans, sans-serif;
+}
+.featured-item-pros-cons-text .gambling-content .content-area-top .content-area-top-right .bonus h3 span {
+  display: block;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  margin-bottom: 3px;
+}
+.featured-item-pros-cons-text .gambling-content .content-area-top .content-area-top-right .bonus .choice {
+  font-size: 11px;
+  color: #000;
+  margin-top: 10px;
+}
+.featured-item-pros-cons-text .gambling-content .content-area-top .content-area-top-right .bonus .choice a {
+  color: #000;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 24px;
+}
+.featured-item-pros-cons-text .gambling-content .content-area-top .content-area-top-right .button-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+.featured-item-pros-cons-text .gambling-content .content-area-top .content-area-top-right .button-block .btn {
+  margin: 5px 0;
+  max-width: 220px;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 8px 15px;
+}
+.featured-item-pros-cons-text .gambling-content .content-area-bottom p {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 10px;
+  text-align: justify;
+  color: #212529;
+  border-top: 1px solid #eee;
+  margin: 0;
+  padding: 6px 8px 5px 10px;
+}
+.featured-item-pros-cons-text .gambling-content .content-area-bottom p a {
+  color: #0d6efd;
+}
+
+/*# sourceMappingURL=featured-item-pros-cons-text.css.map */

@@ -1,0 +1,208 @@
+.payment-methods-table-variation-02 {
+  float: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #e5e5e5;
+  background-clip: padding-box;
+  padding: 30px 15px;
+  width: 100%;
+  margin: 30px auto;
+  max-width: 1180px;
+}
+
+@media only screen and (max-width: 768px) {
+  .payment-methods-table-variation-02 {
+    padding: 20px 10px;
+    max-width: 100%;
+  }
+}
+
+.payment-methods-table-variation-02 .heading {
+  font-size: 28px;
+  line-height: 1.2em;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 480px) {
+  .payment-methods-table-variation-02 .heading {
+    font-size: 20px;
+    line-height: 1.2em;
+    text-align: center;
+  }
+}
+
+.payment-methods-table-variation-02 .table-wrapper {
+  margin-bottom: 20px;
+}
+
+.payment-methods-table-variation-02 .table-wrapper .payment-table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 869px;
+}
+
+.payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row .head-cell {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 10px;
+  color: #ffffff;
+  background-color: #6c757d;
+  font-weight: 700;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.143em;
+  border-bottom: 4px solid #198754;
+  width: 10%;
+}
+
+.payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row .head-cell:first-child {
+  width: 18%;
+}
+
+.payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row .head-cell:nth-child(6), .payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row .head-cell:nth-child(9) {
+  width: 9%;
+}
+
+.payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row .head-cell:nth-child(4), .payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row .head-cell:nth-child(5) {
+  width: 15%;
+}
+
+.payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row .head-cell:nth-child(8) {
+  width: 4%;
+}
+
+.payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row .tbl-cell {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.154em;
+  border: 1px solid #eee;
+  border-width: 0 1px 1px 0;
+  border-color: #6c757d;
+  width: 10%;
+}
+
+.payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row .tbl-cell:first-child {
+  width: 18%;
+  border-left-width: 1px;
+}
+
+.payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row .tbl-cell:nth-child(6), .payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row .tbl-cell:nth-child(9) {
+  width: 9%;
+}
+
+.payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row .tbl-cell:nth-child(4), .payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row .tbl-cell:nth-child(5) {
+  width: 15%;
+}
+
+.payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row .tbl-cell:nth-child(8) {
+  width: 4%;
+}
+
+.payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row .tbl-cell .logo {
+  display: block;
+  width: 150px;
+  height: 60px;
+  font-size: 0;
+  text-indent: -4000px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row .tbl-cell .logo.logo-interac {
+  background-image: url(./img/interac.png);
+}
+
+.payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row .tbl-cell .logo.logo-muchbetter {
+  background-image: url(./img/muchbetter.png);
+}
+
+.payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row .tbl-cell .logo.logo-idebit {
+  background-image: url(./img/idebit.png);
+}
+
+.payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row .tbl-cell .logo.logo-instadebit {
+  background-image: url(./img/instadebit.png);
+}
+
+.payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row .tbl-cell .logo.logo-ecopayz {
+  background-image: url(./img/ecopayz.png);
+}
+
+.payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row .tbl-cell .logo.logo-paysafecard {
+  background-image: url(./img/paysafecard.png);
+}
+
+.payment-methods-table-variation-02 .table-wrapper .payment-table .tbl-row .tbl-cell .logo.logo-neosurf {
+  background-image: url(./img/neosurf.png);
+}
+
+.payment-methods-table-variation-02 img {
+  max-width: 100%;
+  border: none;
+  text-decoration: none;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.payment-methods-table-variation-02 p {
+  margin: 0 0 20px;
+  font-size: 14px;
+  line-height: 1.857em;
+}
+
+.payment-methods-table-variation-02 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.payment-methods-table-variation-02 ul li {
+  margin: 0;
+}
+
+.payment-methods-table-variation-02 a {
+  text-decoration: underline;
+}
+
+.payment-methods-table-variation-02 a:hover {
+  text-decoration: none;
+  outline: 0;
+}

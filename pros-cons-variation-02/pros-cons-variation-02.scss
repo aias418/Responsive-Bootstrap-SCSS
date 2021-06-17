@@ -1,0 +1,207 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+@import "sass-styling-vars";
+
+%d-flex{
+  display: -webkit-box;     
+  display: -moz-box;        
+  display: -ms-flexbox;     
+  display: -webkit-flex;    
+  display: flex; 
+}
+%flex-1{
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -webkit-flex: 1; 
+  -ms-flex: 1;
+  flex: 1;
+}
+%flex-full-center{
+    align-items: center;
+    justify-content: center;
+}
+%fas-icons{
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.pros-cons-variation-02 {
+    font-family: $font-family-default;
+    
+    a{
+        text-decoration: none;
+    }
+    p{
+        font-size: $font-size-h6;
+        color: $theme-dark;
+        line-height: 26px;
+        margin-bottom: 15px;
+    }
+    img{
+        max-width: 100%;
+    }
+    .app-container{
+        max-width: 1230px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .inner-container{
+        background-color: lighten($theme-secondary , 50%);
+        padding: 15px 25px;
+    }
+    .main-title{
+        font-size: $font-size-h1 + 2;
+        color: $theme-dark;
+        margin-bottom: 15px;
+        font-weight: $font-weight-medium;
+    }
+    .pro-cons-box{
+        @extend %d-flex;
+        padding: 15px;
+        background-color: $theme-white;
+        border: $theme-border;
+        margin-bottom: 22px;
+        .img-box{
+            @extend %flex-1;
+            padding-right: 15px;
+        }
+        .list-box{
+            min-width: 236px;
+            @extend %d-flex;
+            flex-direction: column;
+        }
+        .pro-con-list{
+            margin-top: 0px;
+            @extend %d-flex;
+            flex-direction: column;
+            li{
+
+                &:first-child{
+                    margin-top: 0px;
+                }
+                & + li{
+                    margin-top: 5px;
+                }
+                &.list-header{
+                    position: relative;
+                    font-size: $font-size-h4;
+                    font-weight: $font-weight-bold;
+                    line-height: 22px;
+                    color: $theme-dark;
+                    padding: 3px 5px 3px 38px;
+                    margin-bottom: 10px;
+                    border-radius: $theme-border-radius * 6;
+                    &:before{
+                        position: absolute;
+                        @extend %fas-icons; 
+                        font-size: $font-size-h4;
+                        display: inline-block;
+                        height: 28px;
+                        width: 28px;
+                        line-height: 28px;
+                        border-radius: 50%;
+                        color: $theme-white;
+                        left: 0px;
+                        top: 0px;
+                        text-align: center;
+                        line-height: 32px;
+                    }
+                }
+                &:not(.list-header){
+                    font-size: $font-size-h4 - 1;
+                    font-weight: $font-weight-heavy;
+                    padding: 10px 5px 10px 30px;
+                    position: relative;
+                    background-color: darken($theme-white, 2%);
+                    &:before{
+                        @extend %fas-icons; 
+                        content: "\f105";
+                        position: absolute;
+                        left: 12px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        font-size: $font-size-h4;
+                    }
+                }
+            }
+            &.pros-list{
+                li{
+                    &.list-header{
+                        background-color: lighten($theme-success, 60%);
+                        &:before{
+                            content: "\f067";
+                            background-color: lighten($theme-success, 12%);
+                        }
+                    }
+                    &:not(.list-header){
+                        &:before{
+                            color: lighten($theme-success, 12%);
+                        }
+                    }
+                }
+            }
+            &.cons-list{
+                li{
+                    &.list-header{
+                        background-color: lighten($theme-danger, 42%);
+                        &:before{
+                            content: "\f068";
+                            background-color: lighten($theme-danger, 12%);
+                        }
+                    }
+                    &:not(.list-header){
+                        &:before{
+                            color: lighten($theme-danger, 12%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media(max-width: 1024px){
+        .pro-cons-box{
+            flex-wrap: wrap;
+            .img-box{
+                min-width: 100%;
+                margin-bottom: 20px;
+                padding-right: 0px;
+            }
+            .list-box{
+                min-width: 100%;
+                flex-direction: row;
+                .pros-list{
+                    width: 60%;
+                    padding-right: 10px;
+                }
+                .cons-list{
+                    width: 40%;
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+    @media (max-width: 767px) {
+        
+        .inner-container {
+            padding: 15px 10px;
+        }
+        .pro-cons-box{
+            .list-box{
+                flex-wrap: wrap;
+                .pros-list,
+                .cons-list{
+                    min-width: 100%;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                }
+                .cons-list{
+                    margin-bottom: 0px;
+                }
+            }
+        } 
+    }
+}

@@ -1,0 +1,681 @@
+@import "sass-styling-vars";
+
+.toplist-variation-22 {
+    float: none;
+    box-sizing: border-box;
+    background: url(./img/header_casino_desktop41.jpg) fixed no-repeat;
+    background-position: top center;
+    background-color: $theme-dark;
+    overflow: hidden;
+    @media only screen and (max-width : 480px) {
+        background-image: none;
+    }
+    .desktop-content {
+        padding: 0;
+        @media only screen and (max-width : 480px) {
+            display: none;
+        }
+        .container {
+            color: $theme-white;
+            max-width: 1000px;
+            .main-title {
+                padding-top: 75px;
+                color: $theme-white;
+                .heading {
+                    margin-top: 30px;
+                    margin-bottom: 16px;
+                    font-size: $font-size-default + 23;
+                    line-height: .69em;
+                }
+                .second-title {
+                    font-size: $font-size-default + 3;
+                    font-weight: $font-weight-regular;
+                    line-height: 1.6em;
+                }
+                .text-element {
+                    position: relative;
+                    font-size: $font-size-default - 1;
+                    font-weight: $font-weight-regular;
+                    line-height: 1.5em;
+                    text-align: left;
+                    width: 877px;
+                    margin-top: 10px;
+                    color: $theme-light;
+                    .advertiser-disclosure {
+                        display: inline-block;
+                        line-height: .71;
+                        cursor: pointer;
+                        text-decoration: underline;
+                        width: fit-content;
+                        margin: 5px 0 10px;
+                        .disclosure-text {
+                            visibility: hidden;
+                            top: 55px;
+                            left: 470px;
+                            right: 60px;
+                            width: 95%;
+                            border-radius: $theme-border-radius;
+                            box-shadow: $wrapper-box-shadow;
+                            border: $theme-border;
+                            background: $theme-white;
+                            z-index: 10;
+                            max-width: 430px;
+                            position: absolute;
+                            text-align: center;
+                            font-size: $font-size-default - 2;
+                            line-height: 1.5em;
+                            color: $theme-secondary;
+                            padding: 22px 19px;
+                            text-align: left;
+                            &::after {
+                                content: "";
+                                display: block;
+                                position: absolute;
+                                right: 81%;
+                                top: -6px;
+                                width: 10px;
+                                height: 10px;
+                                background: $theme-white;
+                                transform: rotate(45deg);
+                                border-left: $theme-border;
+                                border-top: $theme-border;
+                            }
+                        }
+                        &:hover {
+                            .disclosure-text {
+                                visibility: visible;
+                                transition: .75s ease .75s;
+                            }
+                        }
+                    }
+                }
+            }
+            .last-bonus-update {
+                padding-top: 10px;
+                padding-bottom: 14px;
+                position: relative;
+                display: flex;
+                justify-content: flex-start;
+                font-size: $font-size-default + 1;
+                font-weight: $font-weight-regular;
+                line-height: 2.57em;
+                .certificates {
+                    display: flex;
+                    @media only screen and (max-width : 1200px) {
+                        display: none;
+                    }
+                    .cert-wrapper {
+                        display: flex;
+                        align-items: center;
+                        margin: 0 10px;
+                        .sprite {
+                            background: url(./img/ppc-icons.png);
+                            width: 20px;
+                            height: 20px;
+                            display: inline-block;
+                            margin-right: 4px;
+                            &.uk-licensed {
+                                background-position: 18px -23px;
+                            }
+                            &.mobile-site {
+                                background-position: 20px -2px;
+                            }
+                            &.expertly-reviewed {
+                                background-position: -23px -2px;
+                            }
+                        }
+                    }
+                }
+                p {
+                    text-align: center;
+                    font-size: $font-size-default + 2;
+                    line-height: unset;
+                    margin: 0 0 0 30px;
+                    .time {
+                        color: $theme-danger;
+                        font-size: $font-size-default + 1;
+                        font-weight: $font-weight-bold;
+                    }
+                }
+            }
+        }
+    }
+    .mobile-content {
+        display: none;
+        @media only screen and (max-width : 480px) {
+            display: block;
+        }
+        .image-section {
+            background: url(./img/Slots-image.jpg) no-repeat;
+            padding-top: 63px;
+            background-size: contain;
+            background-position: center 52px;
+            background-color: $theme-dark;
+            .container {
+                width: 100%;
+                .header-text {
+                    display: flex;
+                    flex-flow: column;
+                    .mobile-title {
+                        color: $theme-white;
+                        text-align: left;
+                        font-size: $font-size-default + 7;
+                        margin: 0;
+                        line-height: 1em;
+                        .year-title {
+                            font-size: $font-size-default + 7;
+                            font-weight: $font-weight-heavy;
+                            color: $theme-warning;
+                        }
+                    }
+                    .mobile-list {
+                        display: block;
+                        padding: 10px 0 0;
+                        margin-bottom: 16px;
+                        li {
+                            font-size: $font-size-default - 1;
+                            line-height: 2em;
+                            color: $theme-white;
+                            &::before {
+                                content: " ";
+                                background: url(./img/Group-3.svg) 50% no-repeat;
+                                display: inline-block;
+                                width: 16px;
+                                height: 10px;
+                                margin: 0 11px 0 0;
+                            }
+                        }
+                    }
+                }
+            }
+            .disclosure-mobile {
+                font-size: $font-size-default - 1;
+                display: block;
+                position: relative;
+                text-align: left;
+                color: $theme-white;
+                .disclosure-new {
+                    border-top: 1px solid $theme-warning;
+                    width: 100%;
+                    padding: 6px 0 0;
+                    font-size: $font-size-default - 2;
+                    line-height: 1.36em;
+                    color: $theme-light;
+                    span {
+                        text-decoration: underline;
+                    }
+                    span:hover+div.disclosure-text-new {
+                        display: block;
+                    }
+                    .disclosure-text-new {
+                        display: none;
+                        position: absolute;
+                        z-index: 9999;
+                        border-radius: $theme-border-radius;
+                        background-color: $theme-white;
+                        padding: 10px;
+                        box-shadow: $wrapper-box-shadow;
+                        bottom: unset;
+                        right: unset;
+                        top: 22px;
+                        margin-top: 15px;
+                        width: 90%;
+                        left: 5%;
+                        max-width: 500px;
+                        color: $theme-secondary;
+                        a {
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .app {
+        .list-wrapper {
+            padding-bottom: 40px;
+            .tiny-container {
+                max-width: 1000px;
+                width: 100%;
+                #dynamiclist-area {
+                    .dl-headers {
+                        background-color: $theme-dark;
+                        color: $theme-white;
+                        font-size: $font-size-default;
+                        text-align: center;
+                        display: flex;
+                        flex-wrap: wrap;
+                        .cell {
+                            padding: 11px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            &.logo {
+                                width: 21%;
+                            }
+                            &.bonus {
+                                width: 30%;
+                                position: relative;
+                                i {
+                                    display: inline-block;
+                                    font-size: $font-size-default - 1;
+                                    padding: 0 4px;
+                                    cursor: pointer;
+                                }
+                                i:hover+span.info {
+                                    display: block;
+                                }
+                                .info {
+                                    display: none;
+                                    position: absolute;
+                                    background-color: $theme-white;
+                                    color: $theme-dark;
+                                    width: 246px;
+                                    line-height: 1.5em;
+                                    padding: 5px 8px;
+                                    z-index: 1;
+                                    bottom: 87%;
+                                    left: 45%;
+                                    margin-left: -57px;
+                                    text-transform: none;
+                                    font-size: $font-size-default - 2;
+                                    text-align: center;
+                                    box-shadow: $wrapper-box-shadow;
+                                    &::after {
+                                        content: "";
+                                        position: absolute;
+                                        top: 100%;
+                                        left: 50%;
+                                        margin-left: -5px;
+                                        border: 5px solid transparent;
+                                        border-top-color: $theme-white;
+                                    }
+                                }
+                            }
+                            &.rating {
+                                width: 15%;
+                            }
+                            &.features {
+                                width: 15%;
+                            }
+                            &.get-bonus {
+                                width: 19%;
+                            }
+                        }
+                    }
+                    .dl-list {
+                        display: flex;
+                        flex-wrap: wrap;
+                        .table-row {
+                            display: flex;
+                            flex-flow: column;
+                            height: auto;
+                            width: 100%;
+                            margin-top: 8px;
+                            border-radius: $theme-border-radius;
+                            background: none;
+                            .top-part {
+                                box-sizing: content-box;
+                                border: 2px solid transparent;
+                                border-radius: $theme-border-radius;
+                                display: flex;
+                                height: 113px;
+                                &:hover {
+                                    background-color: $theme-light;
+                                    border: 2px solid $theme-warning;
+                                }
+                                &:hover {
+                                    .cell {
+                                        background-color: inherit;
+                                    }
+                                }
+                                .cell {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    background-color: $theme-white;
+                                    &.logo {
+                                        border-top-left-radius: $theme-border-radius;
+                                        border-bottom-left-radius: $theme-border-radius;
+                                        padding: 0 0 10px;
+                                        position: relative;
+                                        width: 21%;
+                                        &.color-1 {
+                                            background-color: $theme-info;
+                                        }
+                                        &.color-2 {
+                                            background-color: $theme-success;
+                                        }
+                                        &.color-3 {
+                                            background-color: $theme-dark;
+                                        }
+                                        &.color-4 {
+                                            background-color: $theme-primary;
+                                        }
+                                        &.color-5 {
+                                            background-color: $theme-danger;
+                                        }
+                                        &.color-6 {
+                                            background-color: $theme-secondary;
+                                        }
+                                        &.color-7 {
+                                            background-color: $theme-warning;
+                                        }
+                                        .ribbon-container {
+                                            position: absolute;
+                                            top: -5px;
+                                            left: -10px;
+                                            overflow: visible;
+                                            font-size: $font-size-default + 3;
+                                            line-height: 0.875em;
+                                            z-index: 6;
+                                            text-align: left;
+                                            span {
+                                                display: block;
+                                                padding: 5px 8px 4px 10px;
+                                                position: relative;
+                                                background: $theme-danger;
+                                                overflow: visible;
+                                                margin-right: 29px;
+                                                text-decoration: none;
+                                                white-space: nowrap;
+                                                font-size: $font-size-default - 1;
+                                                font-weight: $font-weight-heavy;
+                                                color: $theme-white;
+                                                &.blue {
+                                                    background-color: $theme-primary;
+                                                    &::before {
+                                                        border-bottom: 23px solid $theme-primary;
+                                                    }
+                                                    &::after {
+                                                        border-top: 7px solid $theme-primary;
+                                                    }
+                                                }
+                                                &::before {
+                                                    content: "";
+                                                    height: 0;
+                                                    width: 0;
+                                                    display: block;
+                                                    position: absolute;
+                                                    top: 0;
+                                                    right: -8px;
+                                                    border-bottom: 23px solid $theme-danger;
+                                                    border-right: 8px solid transparent;
+                                                    border-left: 0 solid transparent;
+                                                }
+                                                &::after {
+                                                    content: "";
+                                                    height: 0;
+                                                    width: 0;
+                                                    display: block;
+                                                    position: absolute;
+                                                    bottom: -7px;
+                                                    left: 0;
+                                                    border-top: 7px solid $theme-danger;
+                                                    border-left: 10px solid transparent;
+                                                }
+                                            }
+                                        }
+                                        a {
+                                            display: block;
+                                            width: 100%;
+                                            img {
+                                                display: block;
+                                                max-width: 100%;
+                                                width: 80%;
+                                                max-height: 65px;
+                                                margin: 0 auto;
+                                                height: 60px;
+                                            }
+                                        }
+                                        .white-box {
+                                            position: absolute;
+                                            width: 3px;
+                                            height: 113px;
+                                            top: 0;
+                                            right: 6px;
+                                            background: $theme-white;
+                                        }
+                                        .t1, .t2, .t3 {
+                                            border-top: 57px solid transparent;
+                                            border-bottom: 56px solid transparent;
+                                        }
+                                        .t2 {
+                                            width: 0;
+                                            top: 0;
+                                            float: left;
+                                            position: absolute;
+                                            right: -15px;
+                                            z-index: 3;
+                                            &.triangle-1 {
+                                                border-left: 24px solid $theme-info;
+                                            }
+                                            &.triangle-2 {
+                                                border-left: 24px solid $theme-success;
+                                            }
+                                            &.triangle-3 {
+                                                border-left: 24px solid $theme-dark;
+                                            }
+                                            &.triangle-4 {
+                                                border-left: 24px solid $theme-primary;
+                                            }
+                                            &.triangle-5 {
+                                                border-left: 24px solid $theme-danger;
+                                            }
+                                            &.triangle-6 {
+                                                border-left: 24px solid $theme-secondary;
+                                            }
+                                            &.triangle-7 {
+                                                border-left: 24px solid $theme-warning;
+                                            }
+                                        }
+                                        .t1 {
+                                            width: 0;
+                                            top: 0;
+                                            float: left;
+                                            position: absolute;
+                                            right: -18px;
+                                            z-index: 2;
+                                            &.triangle-1 {
+                                                border-left: 24px solid $theme-white;
+                                            }
+                                        }
+                                        .t3 {
+                                            width: 0;
+                                            top: 0;
+                                            float: left;
+                                            position: absolute;
+                                            right: -24px;
+                                            z-index: 1;
+                                            &.triangle-1 {
+                                                border-left: 24px solid $theme-info;
+                                            }
+                                            &.triangle-2 {
+                                                border-left: 24px solid $theme-success;
+                                            }
+                                            &.triangle-3 {
+                                                border-left: 24px solid $theme-dark;
+                                            }
+                                            &.triangle-4 {
+                                                border-left: 24px solid $theme-primary;
+                                            }
+                                            &.triangle-5 {
+                                                border-left: 24px solid $theme-danger;
+                                            }
+                                            &.triangle-6 {
+                                                border-left: 24px solid $theme-secondary;
+                                            }
+                                            &.triangle-7 {
+                                                border-left: 24px solid $theme-warning;
+                                            }
+                                        }
+                                    }
+                                    &.bonus {
+                                        width: 30%;
+                                        flex-flow: column;
+                                        position: relative;
+                                        p {
+                                            font-size: $font-size-default + 1;
+                                            font-weight: $font-weight-regular;
+                                            line-height: 1.71em;
+                                            padding: 0;
+                                            text-align: center;
+                                            margin-bottom: 0;
+                                            transition: all .1s;
+                                            .big-bonus {
+                                                display: block;
+                                                font-size: $font-size-default + 21;
+                                                font-weight: $font-weight-bold;
+                                                line-height: .88em;
+                                                padding: 2px 0;
+                                            }
+                                        }
+                                        &::after {
+                                            content: "";
+                                            border-left: $theme-border;
+                                            position: absolute;
+                                            height: 65%;
+                                            right: 0;
+                                            top: 18%;
+                                        }
+                                    }
+                                    &.rating {
+                                        flex-flow: column;
+                                        width: 15%;
+                                        position: relative;
+                                        .score-stars {
+                                            .star-row {
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: baseline;
+                                                li {
+                                                    i {
+                                                        display: block;
+                                                        color: $theme-warning;
+                                                        font-size: $font-size-default + 12;
+                                                        line-height: 1em;
+                                                    }
+                                                    &:first-child i {
+                                                        font-size: $font-size-default + 6;
+                                                    }
+                                                    &:last-child i {
+                                                        font-size: $font-size-default + 6;
+                                                    }
+                                                    &:nth-child(2n) i {
+                                                        font-size: $font-size-default + 9;
+                                                    }
+                                                    &:nth-child(3) i {
+                                                        font-size: $font-size-default + 12;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .review-link {
+                                            text-decoration: none;
+                                            font-size: $font-size-default;
+                                            font-weight: $font-weight-regular;
+                                            line-height: 1.38em;
+                                            text-align: center;
+                                            color: $theme-dark;
+                                            margin-top: 5px;
+                                            cursor: pointer;
+                                            &:hover {
+                                                color: $theme-primary;
+                                            }
+                                        }
+                                        &::after {
+                                            content: "";
+                                            border-left: $theme-border;
+                                            position: absolute;
+                                            height: 65%;
+                                            right: 0;
+                                            top: 18%;
+                                        }
+                                    }
+                                    &.score {
+                                        width: 15%;
+                                        font-size: $font-size-default + 35;
+                                        line-height: .63em;
+                                        text-align: center;
+                                        color: $theme-dark;
+                                        margin-bottom: 0;
+                                        position: relative;
+                                        display: flex;
+                                        @media only screen and (max-width : 768px) {
+                                            display: none;
+                                        }
+                                        &::after {
+                                            content: "";
+                                            border-left: $theme-border;
+                                            position: absolute;
+                                            height: 65%;
+                                            right: 0;
+                                            top: 18%;
+                                        }
+                                    }
+                                    &.get-bonus {
+                                        width: 19%;
+                                        flex-flow: column;
+                                        border-top-right-radius: $theme-border-radius;
+                                        border-bottom-right-radius: $theme-border-radius;
+                                        .btn {
+                                            width: 80%;
+                                            text-decoration: none;
+                                            white-space: normal;
+                                        }
+                                        .visit-site {
+                                            font-size: $font-size-default;
+                                            font-weight: $font-weight-regular;
+                                            line-height: 1.46em;
+                                            text-align: center;
+                                            color: $theme-dark;
+                                            margin-top: 10px;
+                                            text-decoration: none;
+                                            &:hover {
+                                                color: $theme-primary;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .bottom-part {
+                                font-size: $font-size-default - 1;
+                                font-weight: $font-weight-regular;
+                                line-height: 1.33em;
+                                text-align: center;
+                                color: $theme-light;
+                                margin-top: 10px;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    img {
+        max-width: 100%;
+        border: none;
+        text-decoration: none;
+        object-fit: contain;
+    }
+    p {
+        margin: 0;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            margin: 0;
+        }
+    }
+    a {
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;
+            outline: 0;
+        }
+    }
+    
+}

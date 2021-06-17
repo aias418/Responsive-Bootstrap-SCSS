@@ -1,0 +1,151 @@
+@import "sass-styling-vars";
+
+.content-blocks-variation-04 {
+    float: none;
+    box-sizing: border-box;
+    padding: 0 12px;
+    width: 100%;
+    margin: 30px auto;
+    max-width: 842px;
+    .content-blocks-container{
+        
+        .heading {
+            display: block;
+            margin-bottom: 12px;
+            font-size: $font-size-default + 15;
+            line-height: 1.5em;
+            @media only screen and (max-width : 480px) {
+                font-size: $font-size-default + 7;
+                line-height: 1.3em;
+            }
+        }
+        .cards {
+            display: flex;
+            justify-content: space-between;
+            @media only screen and (max-width : 480px) {
+                display: block;
+            }
+            .card {
+                flex: 0 0 24%;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                background-color: $theme-light;
+                border: $theme-border;
+                border-radius: $theme-border-radius;
+                margin-top: 0;
+                @media only screen and (max-width : 480px) {
+                    border-radius: 0;
+                    margin-top: -1px;
+                }
+                &.card-2 {
+                    background-color: $theme-danger;
+                }
+                &.card-3 {
+                    background-color: $theme-info;
+                }
+                &.card-4 {
+                    background-color: $theme-success;
+                }
+                .card-heading {
+                    padding-top: 24px;
+                    padding-bottom: 24px;
+                    text-align: center;
+                    font-size: $font-size-default + 7;
+                    line-height: 1.1em;
+                    cursor: default;
+                    @media only screen and (max-width : 480px) {
+                        padding: 12px;
+                        font-size: $font-size-default + 3;
+                    }
+                    &.desktop {
+                        display: block;
+                        @media only screen and (max-width : 480px) {
+                            display: none;
+                        }
+                    }
+                    &.mobile {
+                        display: none;
+                        @media only screen and (max-width : 480px) {
+                            display: block;
+                        }
+                    }
+                }
+                .card-content {
+                    flex: 1 1 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    
+                    &.collapse {
+                        display: flex;
+                        height: auto !important;
+                        @media only screen and (max-width : 480px) {
+                            display: none;
+                        }
+                        &.in {
+                            display: flex;
+                        }
+                    }
+                    .img {
+                        display: inline-block;
+                        width: 52px;
+                        height: 52px;
+                        position: relative;
+                        overflow: hidden;
+                        .img-icon {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            max-width: none;
+                            &.icon-2 {
+                                margin-left: -52px;
+                            }
+                            &.icon-3 {
+                                margin-left: -109px;
+                            }
+                            &.icon-4 {
+                                margin-left: -163px;
+                            }
+                        }
+                    }
+                    .text {
+                        font-size: $font-size-default + 3;
+                        line-height: 1.5em;
+                        margin: 12px;
+                        @media only screen and (max-width : 480px) {
+                            font-size: $font-size-default + 1;
+                            line-height: 1.3em;
+                        }
+                    }
+                    .btn-wrap {
+                        display: inline-block;
+                        padding: 6px 6px 7px;
+                        background-color: $theme-secondary;
+                        margin: 12px;
+                        .btn {
+                            white-space: normal;
+                            &:hover {
+                                transform: translateY(2px);
+                                box-shadow: $wrapper-box-shadow;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    img {
+        max-width: 100%;
+        border: none;
+        text-decoration: none;
+        object-fit: contain;
+    }
+    p {
+        margin: 0 0 13px;
+        font-size: $font-size-default;
+        line-height: 1.46em;
+    }
+}

@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Karla:400&display=swap');
+@import "sass-styling-vars";
+
+img {
+    max-width: 100%;
+}
+
+.item-mast-variation-01 {
+    border: $theme-border;
+    padding: 10px 15px;
+    font-family: $font-family-default;
+    border-radius: $theme-border-radius;
+    overflow: hidden;
+    background: $theme-toplist-bg;
+    position: relative;
+    margin: 10px 0;
+    font-size: $font-size-default;
+
+    .item-mast-variation-01-left {
+        position: relative;
+        box-shadow: $wrapper-box-shadow;
+        padding: 5px 15px;
+        text-align: center;
+        border: $theme-border;
+
+        .item-mast-variation-01-cta-flag {
+            position: absolute;
+            left: -10px;
+            display: flex;
+            align-items: center;
+            color: #fff;
+            font-weight: 700;
+            background: #38ae56;
+            padding: 2px 2px 0;
+            text-shadow: 0 2px 0 #829798;
+
+            @media (min-width: 768px) {
+                left: -14px;
+            }
+
+            .icon-flag:before {
+                content: "";
+                display: inline-block;
+                background-repeat: no-repeat;
+                background-position: 50%;
+                background-size: cover;
+                background-color: transparent;
+                width: 40px;
+                height: 30px;
+                margin: 2px;
+                background-image: url(img/in.svg);
+            }
+
+        }
+
+        .item-mast-variation-01-logo {
+            border-bottom: 1px solid $theme-border-color;
+            padding-bottom: 4px;
+            margin-bottom: 8px;
+
+            img {
+                max-height: 80px;
+                max-width: 130px;
+            }
+        }
+
+        .item-mast-variation-01-bonus {
+            margin-bottom: 15px;
+            font-size: $font-size-lg;
+            font-weight: $font-weight-heavy;
+            color: $theme-success;
+        }
+
+        .item-mast-variation-01-btn {
+            margin-bottom: 10px;
+        }
+
+        .item-mast-variation-01-btn-link {}
+    }
+
+    .item-mast-variation-01-center {
+        .item-mast-variation-01-tick {
+            list-style: none;
+            padding: 0 0 15px;
+            margin: 0;
+            border-bottom: $theme-border;
+            @media (max-width: 767px){
+                padding-top: 20px;
+            }
+            li {
+                margin: 0 0 10px 20px;
+                padding: 0;
+                position: relative;
+
+                &:before {
+                    font: normal normal normal 14px/1 FontAwesome;
+                    content: "\f00c";
+                    top: 2px;
+                    left: -20px;
+                    font-size: 1.5rem;
+                    position: absolute;
+                    width: auto;
+                    color: $theme-success;
+                }
+            }
+        }
+
+        .item-mast-variation-01-deposit {
+            text-align: left;
+            margin-top: 15px;
+            @media (max-width: 767px){
+                text-align: center;
+            }
+            .icon-deposit {
+                background: $theme-toplist-bg;
+                border: $theme-border;
+                border-radius: $theme-border-radius;
+                display: inline-block;
+                padding: 4px;
+
+                &:before {
+                    content: "";
+                    display: block;
+                    background-repeat: no-repeat;
+                    background-position: 50%;
+                    background-size: contain;
+                    background-color: transparent;
+                    width: 45px;
+                    height: 28px;
+                    @media (max-width: 992px){
+                        width: 40px;
+                    }
+                }
+
+                &.icon-deposit--amex:before {
+                    background-image: url(img/deposit--amex.svg);
+                }
+
+                &.icon-deposit--visa:before {
+                    background-image: url(img/deposit--visa.svg);
+                }
+
+                &.icon-deposit--mastercard:before {
+                    background-image: url(img/deposit--mastercard.svg);
+                }
+
+                &.icon-deposit--bitcoin:before {
+                    background-image: url(img/deposit--bitcoin.svg);
+                }
+
+                &.icon-deposit--neosurf:before {
+                    background-image: url(img/deposit--neosurf.svg);
+                }
+            }
+        }
+    }
+
+    .item-mast-variation-01-right {
+        border-left: $theme-border;
+        padding-left: 20px;
+        @media (max-width: 992px){
+            &{padding-left: 10px;}
+        }
+        @media (max-width: 767px){
+            &{border:none;}
+        }
+
+        .item-mast-variation-01-top__ratings-cat {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+
+            .item-mast-variation-01-top__ratings-title {
+                padding-right: 15px;
+                font-size: $font-size-default;
+                @media (max-width: 992px){
+                    font-size: $font-size-sm;
+                }
+            }
+
+            .item-mast-variation-01-top__ratings-stars {
+                color: $star-rating-color;
+                font-size: $star-rating-font-size-md;
+            }
+        }
+
+        .item-mast-variation-01-top__ratings-cat-overall {
+            .item-mast-variation-01-top__ratings-title {
+                font-size: $font-size-lg;
+                font-weight: $font-weight-bold;
+                @media (max-width: 992px){
+                    font-size: $font-size-default;
+                }
+            }
+
+            .item-mast-variation-01-top__ratings-stars {
+                font-size: $star-rating-font-size-lg;
+            }
+        }
+    }
+
+    .item-mast-variation-01-top__guarantee {
+        text-align: center;
+        margin-top: 15px;
+        @media only screen and (max-width: 767px){&.item-mast-variation-01-top__guarantee-desktop{display: none;}}
+        @media only screen and (min-width: 768px){&.item-mast-variation-01-top__guarantee-mobile{display: none;}}
+        .item-mast-variation-01-top__guarantee-title {
+            color: $theme-body-font-color;
+            text-transform: uppercase;
+            padding-bottom: 15px;
+        }
+        @media only screen and (min-width: 768px) and (max-width: 992px){
+            img{
+                width: 45%;
+                display: inline-block;
+            }
+        }
+    }
+
+    .item-mast-variation-01-game-selection {
+        margin: 15px 0;
+
+        .item-mast-variation-01-game-selection__wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .item-mast-variation-01-game-selection__item {
+                position: relative;
+                margin: 10px 5px;
+                padding-top: 15px;
+                background: $theme-toplist-bg;
+                border: $theme-border;
+                border-radius: $theme-border-radius;
+                width: 100px;
+                height: 100px;
+                text-align: center;
+
+                .fa-check {
+                    position: absolute;
+                    top: -9px;
+                    left: -7px;
+                    background: $theme-success;
+                    border-radius: 50%;
+                    color: #fff;
+                    padding: 5px;
+                }
+
+                .item-mast-variation-01-game-selection__item-image {
+                    width: 57px;
+                    height: 52px;
+                    display: inline-block;
+
+                    img {
+                        max-width: 57px;
+                        max-height: 100%;
+                        pointer-events: none;
+                    }
+                }
+
+                .item-mast-variation-01-game-selection__item-title {
+                    color: $theme-body-font-color;
+                    font-weight: $font-weight-heavy;
+                    padding: 0 4px;
+                }
+            }
+        }
+    }
+    .item-mast-variation-01-top__btn{
+        display: block;
+        @media (min-width: 768px){
+            display: none;
+        }
+    }
+}

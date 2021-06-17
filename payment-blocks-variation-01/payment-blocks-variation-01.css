@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+.payment-blocks-variation-01 .payment-cards-row, .payment-blocks-variation-01 .payment-card .inner-blocks-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.payment-blocks-variation-01 .payment-card .info-list li:before {
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.payment-blocks-variation-01 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.payment-blocks-variation-01 a {
+  text-decoration: none;
+}
+
+.payment-blocks-variation-01 p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #212529;
+  margin-bottom: 15px;
+}
+
+.payment-blocks-variation-01 p a {
+  color: #ffc107;
+  text-decoration: underline;
+}
+
+.payment-blocks-variation-01 img {
+  max-width: 100%;
+}
+
+.payment-blocks-variation-01 .app-container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.payment-blocks-variation-01 .main-title {
+  font-size: 24px;
+  color: #212529;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.payment-blocks-variation-01 .sec-pad {
+  padding: 50px 0px;
+}
+
+.payment-blocks-variation-01 .payment-cards-row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.payment-blocks-variation-01 .payment-card {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 12px 9px #eff1f3;
+          box-shadow: 0px 0px 12px 9px #eff1f3;
+  width: 345px;
+  margin: 0px 28px 20px;
+}
+
+.payment-blocks-variation-01 .payment-card .card-pad {
+  padding: 15px 15px 0px;
+}
+
+.payment-blocks-variation-01 .payment-card .logo-box {
+  margin-bottom: 20px;
+}
+
+.payment-blocks-variation-01 .payment-card .sec-title {
+  font-size: 16px;
+  color: #212529;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.payment-blocks-variation-01 .payment-card .selction-label {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  background-color: #01193d;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.payment-blocks-variation-01 .payment-card .inner-blocks-row {
+  margin-left: -7px;
+  margin-right: -7px;
+}
+
+.payment-blocks-variation-01 .payment-card .inner-blocks-row .inner-block-col {
+  padding-left: 7px;
+  padding-right: 7px;
+  width: 50%;
+}
+
+.payment-blocks-variation-01 .payment-card .info-block {
+  background-color: #bed8fe;
+  border-radius: 6px;
+  padding: 20px 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.payment-blocks-variation-01 .payment-card .info-block .info-title, .payment-blocks-variation-01 .payment-card .info-block .value-text {
+  color: #212529;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.payment-blocks-variation-01 .payment-card .info-block .info-title {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.payment-blocks-variation-01 .payment-card .info-block .value-text {
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.payment-blocks-variation-01 .payment-card .info-list {
+  list-style-type: none;
+  background-color: #f3f4f5;
+  margin-top: 0px;
+  padding: 10px 10px 0;
+  margin-bottom: 0px;
+}
+
+.payment-blocks-variation-01 .payment-card .info-list li {
+  font-size: 16px;
+  font-weight: 400;
+  color: #212529;
+  line-height: 20px;
+  position: relative;
+  padding: 16px 10px 16px 30px;
+  margin: 0px;
+}
+
+.payment-blocks-variation-01 .payment-card .info-list li + li {
+  border-top: 1px solid #d8dbdd;
+}
+
+.payment-blocks-variation-01 .payment-card .info-list li:before {
+  content: "\f18e";
+  position: absolute;
+  left: 6px;
+  top: 18px;
+  font-size: 14px;
+  color: #212529;
+}
+
+.payment-blocks-variation-01 .payment-card .btn-box {
+  padding: 30px 10px;
+}
+
+@media (max-width: 991px) {
+  .payment-blocks-variation-01 .main-title {
+    font-size: 20px;
+  }
+  .payment-blocks-variation-01 .app-container {
+    padding: 0 10px;
+  }
+  .payment-blocks-variation-01 .sec-pad {
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .payment-blocks-variation-01 .payment-card {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .payment-blocks-variation-01 .payment-card .logo-box {
+    text-align: center;
+  }
+  .payment-blocks-variation-01 .payment-card .logo-box .brand-logo {
+    max-width: 80%;
+  }
+}
+/*# sourceMappingURL=payment-blocks-variation-01.css.map */

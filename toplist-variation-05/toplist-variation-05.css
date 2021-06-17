@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+.toplist-variation-05 .sports-card .img-col, .toplist-variation-05 .sports-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.toplist-variation-05 .sports-card .img-col {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.toplist-variation-05 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.toplist-variation-05 img {
+  max-width: 100%;
+}
+
+.toplist-variation-05 p {
+  color: #212529;
+}
+
+.toplist-variation-05 .app-container {
+  max-width: 795px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.toplist-variation-05 .main-title {
+  font-size: 24px;
+  color: #212529;
+  font-weight: 700;
+}
+
+.toplist-variation-05 .list-header-info {
+  background-color: #013889;
+  padding: 16px 28px;
+  border-radius: 6px 6px 0 0;
+}
+
+.toplist-variation-05 .list-header-info .main-title, .toplist-variation-05 .list-header-info p {
+  color: #ffffff;
+}
+
+.toplist-variation-05 .list-content {
+  padding: 30px;
+  background-color: #eeeff0;
+}
+
+.toplist-variation-05 .sports-card {
+  border: 1px solid #eee;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+  border-radius: 6px;
+  border-bottom: none;
+  overflow: hidden;
+  min-height: 125px;
+}
+
+.toplist-variation-05 .sports-card .img-col {
+  min-width: 140px;
+  border-right: 1px solid #eee;
+  text-align: center;
+  border-left: 15px solid;
+  padding: 15px 20px;
+}
+
+.toplist-variation-05 .sports-card .img-col.black-border {
+  border-color: #212529;
+  border-right-color: #eee;
+}
+
+.toplist-variation-05 .sports-card .img-col.darkBlue-border {
+  border-color: #013889;
+  border-right-color: #eee;
+}
+
+.toplist-variation-05 .sports-card .img-col.blue-border {
+  border-color: #0d6efd;
+  border-right-color: #eee;
+}
+
+.toplist-variation-05 .sports-card .img-col.red-border {
+  border-color: #dc3545;
+  border-right-color: #eee;
+}
+
+.toplist-variation-05 .sports-card .img-col.gray-border {
+  border-color: #6c757d;
+  border-right-color: #eee;
+}
+
+.toplist-variation-05 .sports-card + .sports-card {
+  margin-top: 12px;
+}
+
+.toplist-variation-05 .sports-card .info-col {
+  padding: 14px 20px;
+}
+
+.toplist-variation-05 .sports-card .info-col .info-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.toplist-variation-05 .sports-card .info-col p:not(.info-title) {
+  margin-bottom: 0px;
+}
+
+.toplist-variation-05 .sports-card .info-col p:not(.info-title) a {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+.toplist-variation-05 .sports-card .info-col p:not(.info-title) a:hover {
+  color: #212529;
+}
+
+@media (max-width: 575px) {
+  .toplist-variation-05 .list-header-info {
+    padding: 15px 16px;
+  }
+  .toplist-variation-05 .list-content {
+    padding: 15px;
+  }
+  .toplist-variation-05 .list-content .sports-card .img-col {
+    border-bottom: 1px solid #eee;
+  }
+  .toplist-variation-05 .sports-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .toplist-variation-05 .sports-card .img-col {
+    border-top: 15px solid;
+    border-left: none;
+    border-right: none;
+  }
+}
+/*# sourceMappingURL=toplist-variation-05.css.map */

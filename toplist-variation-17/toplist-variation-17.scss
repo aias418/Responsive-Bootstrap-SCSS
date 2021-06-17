@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Karla:400&display=swap');
+@import "sass-styling-vars";
+
+img {
+    max-width: 100%;
+}
+
+.toplist-variation-17 {
+    font-family: $font-family-default;
+    font-size: $font-size-default;
+    .toplist-variation-17-providersDataBanner{
+        text-decoration: none;
+        font-size: $font-size-default;
+        color: $theme-body-font-color;
+        line-height: 20px;
+        text-align: center;
+        border: $theme-border;
+        transition: all .2s ease 0s;
+        float: left;
+        width: 100%;
+        position: relative;
+        &:before{
+            font: normal normal normal 14px/1 FontAwesome;
+            content:"\f200";
+            position: absolute;
+            left: 5px;
+            top: 2px;
+        }
+    }
+    .toplist-variation-17-aFrmSubmit{
+        text-transform: uppercase;
+        border-radius: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        position: relative;
+        &:before{
+            font: normal normal normal 14px/1 FontAwesome;
+            content:"\f0b0";
+            position: absolute;
+            left: 5px;
+            top: 4px;
+        }
+    }
+    .toplist-variation-17-filter-heading{
+        font-size: $font-size-md;
+        font-weight: $font-weight-bold;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .caret {
+        float: right;
+        margin-top: 9px;
+        display: block;
+    }
+    .dropdown {
+        .dropdown-select,.chosen-choices {
+            width: 240px;
+            min-height: 40px;
+            border-radius: $theme-border-radius;
+            background-color: $theme-toplist-bg;
+            border: $theme-border;
+            text-align: left;
+            padding: 7.5px 15px;
+            color: $theme-body-font-color;
+            letter-spacing: 0.7px;
+            cursor: pointer;
+            background-image: none;
+            &:hover, &:focus {
+                outline: 0;
+            }
+        }
+    }
+    .toplist-variation-17-list{
+        background: $toplist-headings-bg;
+        position: relative;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        h3{
+            margin: 10px;
+            font-size: $font-size-md;
+            a{
+                color: $theme-white;
+                text-decoration: none;
+                &:hover{
+                    color:$theme-primary;
+                }
+            }
+        }
+        .flag-image{
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+        .providerCard-spoiler-title{
+            margin-right: 10px;
+            margin-bottom: 10px;
+            text-decoration: none;
+        }
+        .spoiler-body-providerCard{
+            border-top: $theme-border;
+            padding: 5px 10px;
+            top: 100%;
+            width: calc(100% - 30px);
+            float: left;
+            position: absolute;
+            background: $toplist-headings-bg;
+            z-index: 10;
+            -webkit-box-shadow: $wrapper-box-shadow;
+            -moz-box-shadow: $wrapper-box-shadow;
+            box-shadow: $wrapper-box-shadow;
+            h5{
+                font-size: $font-size-default;
+                margin: 10px 0;
+                color: $theme-white;
+            }
+            .toplist-game-list{
+                margin: 0;
+                padding: 0;
+                    display: flex;
+                li{
+                    margin: 0;
+                    padding: 0px 5px 0 0;
+                    width: 24%;
+                    display: inline-flex;
+                    a{
+                        background: $toplist-logo-bg;
+                        width: 100%;
+                        text-align: center;
+                        border-radius: 50%;
+                        overflow: hidden;
+                        height: 100%;
+                    }
+                    img{
+                        border-radius: 50%;
+                        border: 3px solid $theme-border-color;
+                    }
+                }
+            }
+            .btn-link{
+                margin: 10px 0;
+                display: block; 
+            }
+        }
+    }
+    .toplist-variation-17-filter-dropdown{
+            border-bottom: $theme-border;
+            padding-bottom: 20px; 
+        .dropdown-select,.chosen-choices{
+            width: 100%;
+        }
+    }
+}

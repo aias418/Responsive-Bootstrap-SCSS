@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Casino Bonus Calculator Simple</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./default-style.css">
+        <link rel="stylesheet" type="text/css" href="./bonus-calculator-variation-02.css">
+        <script src="https://code.jquery.com/jquery-3.1.0.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="./bonus-calculator-variation-02.js"></script>
+    </head>
+    <body>
+        <div class="bonus-calculator-variation-02">
+            <section class="calculator-section">
+                <h2 class="heading">Use this bonus finder to get the best deal</h2>
+                <p class="text-section">Make sure you're getting the best bonus possible with our handy bonus calculator. Just fill in how much you want to deposit, or how much you want to play with, and let us do the rest. Then discover the online casinos that have what you're looking for.</p>
+                <div class="calculator-box">
+                    <div class="calculator-box-heading">Bonus calculator</div>
+                    <div class="calculator-price-scale">
+                        <div class="calculator-scale-price calculator-scale-price-min">$10</div>
+                        <input type="range" min="10" max="1600" value="10" step="10" class="slider" id="myRange" />
+                        <div class="calculator-scale-price calculator-scale-price-max">$1600</div>
+                    </div>
+                    <div class="calculator-number">
+                        <label aria-label="Input amount">
+                        <input type="text" class="calculator-number-input" value="$10" />
+                        </label>
+                    </div>
+                    <div class="clearfix mobile-show"></div>
+                    <div class="calculator-radio">
+                        <input class="calculator-radio-input" type="radio" checked="" name="play-with" id="calculator-deposit" />
+                        <label for="calculator-deposit">
+                        <i class="icon-square-regular" aria-hidden="true"></i>
+                        <span class="calculator-radio-input-text">I want to deposit</span>
+                        </label>
+                        <input class="calculator-radio-input" type="radio" name="play-with" id="calculator-play-with" />
+                        <label for="calculator-play-with">
+                        <i class="icon-square-regular" aria-hidden="true"></i>
+                        <span class="calculator-radio-input-text">I want to play with</span> </label>
+                    </div>
+                    <div class="calculator-best-heading">Best available bonuses:</div>
+                    <ul class="calculator-best-list">
+                        <li class="calculator-best-item">
+                            <div class="calculator-logo">
+                                <img src="./img/jackpot-city.svg" alt="Jackpot City Logo" width="104" height="40" />
+                            </div>
+                            <a href="/reviews/jackpot-city" class="calculator-review">Read Review</a>
+                            <div class="calculator-deposit">Deposit <span class="calculator-deposit-number"> $10</span></div>
+                            <div class="calculator-btn-wrap">
+                                <a href="/play/jpc/casino" class="btn-primary" rel="nofollow" target="_blank">Play
+                                with <span class="calculator-btn-number"> $20</span></a>
+                            </div>
+                        </li>
+                        <li class="calculator-best-item">
+                            <div class="calculator-logo">
+                                <img src="./img/spin-palace.svg" alt="Spin Palace Logo" width="104" height="40" />
+                            </div>
+                            <a href="/reviews/spin-palace" class="calculator-review">Read Review</a>
+                            <div class="calculator-deposit">Deposit <span class="calculator-deposit-number"> $10</span></div>
+                            <div class="calculator-btn-wrap">
+                                <a href="/play/spinpalace/casino" class="btn-primary" rel="nofollow" target="_blank">Play
+                                with <span class="calculator-btn-number"> $20</span></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

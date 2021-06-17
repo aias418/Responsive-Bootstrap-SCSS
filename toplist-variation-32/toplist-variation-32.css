@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Karla:400&display=swap");
+img {
+  max-width: 100%;
+}
+
+.toplist-variation-32 .col {
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  float: left;
+  width: 100%;
+}
+.toplist-variation-32 .toplist-variation-32-list {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #ffffff;
+  font-size: 13px;
+  padding: 1.2rem;
+  height: 100%;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+  min-height: 220px;
+  margin-bottom: 10px;
+}
+.toplist-variation-32 .toplist-variation-32-list .toplist-variation-32-img {
+  border-radius: 0.8rem 0.8rem 0 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 100%;
+}
+.toplist-variation-32 .toplist-variation-32-list .toplist-variation-32-img .toplist-variation-32-img-overlay {
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  height: 90px;
+  width: 90px;
+  text-align: center;
+}
+.toplist-variation-32 .toplist-variation-32-list .toplist-variation-32-img .toplist-variation-32-img-overlay img {
+  height: 90px;
+  width: 90px;
+}
+.toplist-variation-32 .toplist-variation-32-list .toplist-variation-32-card-name {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0;
+}
+.toplist-variation-32 .toplist-variation-32-list .toplist-variation-32-card-name a {
+  font-size: 13px;
+  color: #000;
+  line-height: 125%;
+}
+.toplist-variation-32 .toplist-variation-32-list .toplist-variation-32-card-footer .btn-link {
+  margin: 5px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.owl-theme .owl-nav [class*=owl-], .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  outline: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 1px rgba(0, 0, 0, 0.16);
+  opacity: 1;
+  font-size: 25px;
+}
+
+.owl-carousel .owl-nav button.owl-next.disabled, .owl-carousel .owl-nav button.owl-prev.disabled {
+  display: none;
+}
+
+.owl-carousel .owl-nav .owl-next {
+  right: -1.1rem;
+}
+
+.owl-carousel .owl-nav .owl-prev {
+  left: -1.1rem;
+}
+
+/*# sourceMappingURL=toplist-variation-32.css.map */

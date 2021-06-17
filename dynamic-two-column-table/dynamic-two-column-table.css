@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+.dynamic-two-column-table .app-tbl-flex .app-tbl, .dynamic-two-column-table .app-tbl-flex .tbl-row, .dynamic-two-column-table .app-tbl-flex .tbl-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dynamic-two-column-table .app-tbl-flex .tbl-row .tbl-cell {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.dynamic-two-column-table {
+  font-family: "Montserrat", sans-serif;
+}
+
+.dynamic-two-column-table a {
+  text-decoration: none;
+  color: #0d6efd;
+  font-weight: 700;
+}
+
+.dynamic-two-column-table a:hover {
+  text-decoration: underline;
+}
+
+.dynamic-two-column-table p {
+  font-size: 16px;
+  color: #212529;
+  margin-bottom: 24px;
+}
+
+.dynamic-two-column-table .app-container {
+  max-width: 918px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.dynamic-two-column-table .main-title {
+  font-size: 20px;
+  color: #212529;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+
+.dynamic-two-column-table .sub-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #212529;
+}
+
+.dynamic-two-column-table .app-tbl-flex {
+  margin-bottom: 40px;
+}
+
+.dynamic-two-column-table .app-tbl-flex .app-tbl {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.dynamic-two-column-table .app-tbl-flex .tbl-row .tbl-cell {
+  text-align: center;
+}
+
+.dynamic-two-column-table .app-tbl-flex .tbl-row:last-child .tbl-cell {
+  border-bottom: 1px solid #212529;
+}
+
+.dynamic-two-column-table .app-tbl-flex .tbl-cell {
+  font-size: 16px;
+  padding: 13px 5px;
+  min-height: 48px;
+  border-top: 1px solid #212529;
+  border-right: 1px solid #212529;
+  border-collapse: collapse;
+}
+
+.dynamic-two-column-table .app-tbl-flex .tbl-cell:first-child {
+  border-left: 1px solid #212529;
+}
+
+.dynamic-two-column-table .app-tbl-flex .tbl-cell.pink-bg {
+  background-color: #a5c9fe;
+}
+
+.dynamic-two-column-table .app-tbl-flex .tbl-cell.green-bg {
+  background-color: #aff0d2;
+}
+
+.dynamic-two-column-table .app-tbl-flex .head-cell {
+  background-color: #0d6efd;
+  color: #ffffff;
+  font-weight: 700;
+  border-collapse: collapse;
+}
+
+.dynamic-two-column-table .app-tbl-flex .tbl-content {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.dynamic-two-column-table .text-section {
+  margin-bottom: 45px;
+}
+
+@media (max-width: 767px) {
+  .dynamic-two-column-table .app-tbl-flex .app-tbl {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .dynamic-two-column-table .app-tbl-flex .tbl-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .dynamic-two-column-table .app-tbl-flex .tbl-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .dynamic-two-column-table .app-tbl-flex .tbl-row .head-cell {
+    width: auto;
+  }
+  .dynamic-two-column-table .app-tbl-flex .tbl-row .tbl-cell {
+    padding: 13px 8px;
+    white-space: nowrap;
+    font-size: 11px;
+    text-align: center;
+    width: auto;
+  }
+  .dynamic-two-column-table .app-tbl-flex .tbl-row .tbl-cell:first-child {
+    border-left: none;
+  }
+  .dynamic-two-column-table .app-tbl-flex .tbl-row .tbl-cell:last-child {
+    border-bottom: 1px solid #212529;
+  }
+  .dynamic-two-column-table .app-tbl-flex .tbl-row:last-child .tbl-cell:not(:last-child) {
+    border-bottom: none;
+  }
+  .dynamic-two-column-table .app-tbl-flex .tbl-row:first-child {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0px;
+  }
+  .dynamic-two-column-table .app-tbl-flex .tbl-row:first-child .tbl-cell {
+    border-left: 1px solid #212529;
+  }
+  .dynamic-two-column-table .app-tbl-flex .header-row {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    z-index: 1;
+  }
+  .dynamic-two-column-table p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+/*# sourceMappingURL=dynamic-two-column-table.css.map */

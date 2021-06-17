@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+.toplist-variation-11 .app-tbl-flex .app-tbl, .toplist-variation-11 .app-tbl-flex .tbl-row, .toplist-variation-11 .app-tbl-flex .tbl-content, .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .index-col, .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .index-col a, .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .logo-col, .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .bonus-col, .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .info-count-col, .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .rating-col, .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .action-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.toplist-variation-11 .app-tbl-flex .tbl-row .tbl-cell, .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .info-count-col {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .index-col, .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .index-col a, .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .logo-col, .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .bonus-col, .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .info-count-col, .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .rating-col, .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .action-col {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.toplist-variation-11 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.toplist-variation-11 a {
+  text-decoration: none;
+  color: #0d6efd;
+}
+
+.toplist-variation-11 p {
+  font-size: 14px;
+  line-height: 26px;
+  color: #212529;
+  margin-bottom: 15px;
+}
+
+.toplist-variation-11 img {
+  max-width: 100%;
+}
+
+.toplist-variation-11 .app-container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.toplist-variation-11 .inner-container {
+  background-color: #f3f4f5;
+  padding: 15px 25px;
+}
+
+.toplist-variation-11 .main-title {
+  font-size: 28px;
+  color: #212529;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.toplist-variation-11 .app-tbl-flex .app-tbl {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: -webkit-min-content;
+  min-width: -moz-min-content;
+  min-width: min-content;
+  margin-bottom: 22px;
+}
+
+.toplist-variation-11 .app-tbl-flex .tbl-row {
+  position: relative;
+}
+
+.toplist-variation-11 .app-tbl-flex .tbl-cell {
+  font-size: 12px;
+  padding: 4px 6px;
+  color: #212529;
+  text-align: center;
+}
+
+.toplist-variation-11 .app-tbl-flex .head-cell {
+  background-color: #212529;
+  background-color: #e6e7e9;
+}
+
+.toplist-variation-11 .app-tbl-flex .tbl-content {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.toplist-variation-11 .app-tbl-flex .tbl-content .tbl-row:nth-child(even) {
+  background-color: #e6e7e9;
+}
+
+.toplist-variation-11 .app-tbl-flex .tbl-icon-dice {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20version%3D%221.1%22%20id%3D%22Capa_1%22%20x%3D%220px%22%20y%3D%220px%22%20width%3D%2266.459px%22%20height%3D%2266.46px%22%20viewBox%3D%220%200%2066.459%2066.46%22%20style%3D%22enable-background%3Anew%200%200%2066.459%2066.46%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cg%3E%0A%09%3Cpath%20d%3D%22M65.542%2C11.777L33.467%2C0.037c-0.133-0.049-0.283-0.049-0.42%2C0L0.916%2C11.748c-0.242%2C0.088-0.402%2C0.32-0.402%2C0.576%20%20%20l0.09%2C40.484c0%2C0.25%2C0.152%2C0.475%2C0.385%2C0.566l31.047%2C12.399v0.072c0%2C0.203%2C0.102%2C0.393%2C0.27%2C0.508%20%20%20c0.168%2C0.111%2C0.379%2C0.135%2C0.57%2C0.062l0.385-0.154l0.385%2C0.154c0.072%2C0.028%2C0.15%2C0.045%2C0.227%2C0.045c0.121%2C0%2C0.24-0.037%2C0.344-0.105%20%20%20c0.168-0.115%2C0.27-0.305%2C0.27-0.508v-0.072l31.047-12.399c0.232-0.093%2C0.385-0.316%2C0.385-0.568l0.027-40.453%20%20%20C65.943%2C12.095%2C65.784%2C11.867%2C65.542%2C11.777z%20M32.035%2C63.134L3.052%2C51.562V15.013l28.982%2C11.572L32.035%2C63.134L32.035%2C63.134z%20%20%20%20M33.259%2C24.439L4.783%2C13.066l28.48-10.498l28.735%2C10.394L33.259%2C24.439z%20M63.465%2C51.562L34.484%2C63.134V26.585l28.981-11.572%20%20%20V51.562z%20M14.478%2C38.021c0-1.692%2C1.35-2.528%2C3.016-1.867c1.665%2C0.663%2C3.016%2C2.573%2C3.016%2C4.269%20%20%20c-0.001%2C1.692-1.351%2C2.529-3.017%2C1.867C15.827%2C41.626%2C14.477%2C39.714%2C14.478%2C38.021z%20M5.998%2C25.375c0-1.693%2C1.351-2.529%2C3.017-1.866%20%20%20c1.666%2C0.662%2C3.016%2C2.572%2C3.016%2C4.267c0%2C1.695-1.351%2C2.529-3.017%2C1.867C7.347%2C28.979%2C5.998%2C27.069%2C5.998%2C25.375z%20M22.959%2C32.124%20%20%20c0-1.694%2C1.351-2.53%2C3.017-1.867c1.666%2C0.663%2C3.016%2C2.573%2C3.016%2C4.267c0%2C1.695-1.352%2C2.53-3.017%2C1.867%20%20%20C24.309%2C35.728%2C22.959%2C33.818%2C22.959%2C32.124z%20M5.995%2C43.103c0.001-1.692%2C1.351-2.529%2C3.017-1.867%20%20%20c1.666%2C0.664%2C3.016%2C2.573%2C3.016%2C4.269c0%2C1.694-1.351%2C2.53-3.017%2C1.867C7.344%2C46.709%2C5.995%2C44.797%2C5.995%2C43.103z%20M22.957%2C49.853%20%20%20c0.001-1.695%2C1.351-2.529%2C3.017-1.867s3.016%2C2.572%2C3.016%2C4.269c0%2C1.692-1.351%2C2.528-3.017%2C1.866%20%20%20C24.306%2C53.458%2C22.957%2C51.546%2C22.957%2C49.853z%20M27.81%2C12.711c-0.766%2C1.228-3.209%2C2.087-5.462%2C1.917%20%20%20c-2.253-0.169-3.46-1.301-2.695-2.528c0.765-1.227%2C3.207-2.085%2C5.461-1.916C27.365%2C10.352%2C28.573%2C11.484%2C27.81%2C12.711z%20%20%20%20M43.928%2C13.921c-0.764%2C1.229-3.208%2C2.086-5.46%2C1.917c-2.255-0.169-3.46-1.302-2.696-2.528c0.764-1.229%2C3.209-2.086%2C5.462-1.918%20%20%20C43.485%2C11.563%2C44.693%2C12.695%2C43.928%2C13.921z%20M47.04%2C42.328c-1.041-1.278-0.764-3.705%2C0.619-5.421%20%20%20c1.381-1.716%2C3.344-2.069%2C4.381-0.792c1.041%2C1.276%2C0.764%2C3.704-0.617%2C5.42S48.079%2C43.604%2C47.04%2C42.328z%22%2F%3E%0A%3C%2Fg%3E%0A%3Cg%3E%0A%3C%2Fg%3E%0A%3Cg%3E%0A%3C%2Fg%3E%0A%3Cg%3E%0A%3C%2Fg%3E%0A%3Cg%3E%0A%3C%2Fg%3E%0A%3Cg%3E%0A%3C%2Fg%3E%0A%3Cg%3E%0A%3C%2Fg%3E%0A%3Cg%3E%0A%3C%2Fg%3E%0A%3Cg%3E%0A%3C%2Fg%3E%0A%3Cg%3E%0A%3C%2Fg%3E%0A%3Cg%3E%0A%3C%2Fg%3E%0A%3Cg%3E%0A%3C%2Fg%3E%0A%3Cg%3E%0A%3C%2Fg%3E%0A%3Cg%3E%0A%3C%2Fg%3E%0A%3Cg%3E%0A%3C%2Fg%3E%0A%3Cg%3E%0A%3C%2Fg%3E%0A%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .index-col {
+  min-width: 24px;
+  max-width: 24px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .logo-col {
+  min-width: 170px;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .bonus-col {
+  min-width: 174px;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .rating-col {
+  min-width: 96px;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .action-col {
+  min-width: 174px;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .tbl-row {
+  border: 1px solid #eee;
+  background-color: #ffffff;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .tbl-row + .tbl-row {
+  margin-top: 12px;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .index-col {
+  background-color: #012e70;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .index-col a {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .logo-col a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .bonus-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .bonus-col .title-text {
+  font-size: 11px;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .bonus-col .amount {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 0;
+  line-height: 26px;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .bonus-col .info {
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 15px;
+  margin-bottom: 0px;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .info-count-col svg {
+  height: 30px;
+  margin-right: 5px;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .info-count-col span {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .rating-col {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .rating-col .star-rating {
+  border: 1px solid #eee;
+  padding: 0 5px 8px;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .rating-col .title-text {
+  font-size: 36px;
+  line-height: 50px;
+  margin-bottom: 0px;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .rating-col .stars-box i {
+  color: #ffc107;
+  font-size: 18px;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .action-col .btn {
+  margin-bottom: 5px;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .action-col .btn svg {
+  height: 18px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .action-col .btn span {
+  vertical-align: middle;
+}
+
+.toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .action-col .site-name {
+  font-size: 11px;
+  color: #212529;
+}
+
+@media (max-width: 991px) {
+  .toplist-variation-11 .main-title {
+    font-size: 20px;
+  }
+  .toplist-variation-11 .app-container {
+    padding: 0 10px;
+  }
+  .toplist-variation-11 .inner-container {
+    padding: 15px 10px;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .logo-col {
+    min-width: 125px;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .logo-col a {
+    background-size: 100%;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .bonus-col {
+    min-width: 125px;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .rating-col {
+    min-width: 72px;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .action-col {
+    min-width: 150px;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .bonus-col .amount {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .info-count-col svg {
+    height: 22px;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .info-count-col span {
+    font-size: 11px;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .rating-col .title-text {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .rating-col .stars-box i {
+    font-size: 12px;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .rating-col .stars-box i:not(:first-child) {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .toplist-variation-11 .table-responsive {
+    border: none;
+    margin-bottom: 0px;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-row {
+    padding: 32px 5px 5px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-header {
+    display: none;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .index-col {
+    position: absolute;
+    background: transparent;
+    color: #212529;
+    font-weight: 700;
+    left: 0;
+    top: 0;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .index-col a {
+    color: #212529;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .rating-col {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: transparent;
+    padding: 0px;
+    background-color: #012e70;
+    min-width: auto;
+    width: auto;
+    border-bottom-left-radius: 52px;
+    padding-top: 7px;
+    padding-left: 13px;
+    padding-right: 6px;
+    padding-bottom: 2px;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .rating-col .star-rating {
+    border: none;
+    padding: 0;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .rating-col .star-rating .title-text {
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 4px;
+    margin-bottom: 0;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .rating-col .star-rating .stars-box i {
+    font-size: 8px;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .info-count-col, .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .logo-col, .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .bonus-col, .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .action-col {
+    min-width: 33.3333%;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .info-count-col {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    background-color: #e6e7e9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .logo-col a {
+    background-size: contain;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .action-col .site-name {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .action-col {
+    min-width: 100%;
+  }
+  .toplist-variation-11 .app-tbl-flex.best-casinos-tbl .tbl-content .action-col a {
+    display: block;
+    min-width: 100%;
+  }
+}
+/*# sourceMappingURL=toplist-variation-11.css.map */

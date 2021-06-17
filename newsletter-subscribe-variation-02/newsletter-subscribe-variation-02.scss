@@ -1,0 +1,180 @@
+@import "sass-styling-vars";
+
+.newsletter-subscribe-variation-02 {
+    float: none;
+    box-sizing: border-box;
+    font-size: $font-size-default + 5;
+    line-height: 1.6em;
+    margin-bottom: 28px;
+    padding-top: 15px;
+    @media only screen and (max-width : 768px) {
+        padding: 0;
+    }
+    .subscribe-container {
+        background-color: $theme-white;
+        max-width: 1284px;
+        padding:30px 8px;
+        margin: 30px auto;
+        .subscribe-wrapper {
+            display: flex;
+            align-items: center;
+            text-align: left;
+            font-size: $font-size-default + 5;
+            padding: 20px 50px;
+            border: 2px solid $theme-primary;
+            @media only screen and (max-width : 768px) {
+                padding: 14px;
+                text-align: center;
+                font-size: $font-size-default + 1;
+            }
+            @media only screen and (max-width : 480px) {
+                display: block;
+            }
+            .title-holder {
+                width: 45%;
+                padding-right: 1%;
+                @media only screen and (max-width : 1200px) {
+                    width: 50%;
+                }
+                @media only screen and (max-width : 992px) {
+                    width: auto;
+                }
+                .title {
+                    font-size: $font-size-default + 17;
+                    font-weight: $font-weight-heavy;
+                    line-height: 1.2em;
+                    color: $theme-primary;
+                    margin-bottom: 5px;
+                    @media only screen and (max-width : 992px) {
+                        font-size: $font-size-default + 7;
+                    }
+                    p {
+                        margin-bottom: 0;
+                        @media only screen and (max-width : 992px) {
+                            margin-bottom: 35px;
+                        }
+                        @media only screen and (max-width : 480px) {
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+            }
+            .form-holder {
+                width: 55%;
+                @media only screen and (max-width : 1200px) {
+                    width: 60%;
+                }
+                @media only screen and (max-width : 992px) {
+                    width: auto;
+                }
+                .radio-row {
+                    justify-content: flex-start;
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-bottom: 20px;
+                    font-size: $font-size-default + 1;
+                    @media only screen and (max-width : 992px) {
+                        justify-content: center;
+                    }
+                    .form-title {
+                        width: auto;
+                        margin-bottom: 0;
+                        @media only screen and (max-width : 992px) {
+                            width: 100%;
+                            margin-bottom: 5px;
+                        }
+                    }
+                    .radio-col {
+                        display: flex;
+                        justify-content: center;
+                        padding-right: 15px;
+                        padding-left: 15px;
+                        .radio-input {
+                            visibility: hidden;
+                            position: absolute;
+                            &:checked+.radio-label::after {
+                                opacity: 1;
+                            }
+                        }
+                        .radio-label {
+                            display: flex;
+                            align-items: center;
+                            position: relative;
+                            padding-left: 30px;
+                            cursor: pointer;
+                            &::after, &:before {
+                                content: "";
+                                position: absolute;
+                                top: 50%;
+                                left: 0;
+                                transform: translateY(-50%);
+                            }
+                            &::before {
+                                width: 20px;
+                                height: 20px;
+                                border: 2px solid $theme-primary;
+                                border-radius: 50%;
+                            }
+                            &:after {
+                                width: 14px;
+                                height: 14px;
+                                background-color: $theme-primary;
+                                border-radius: 50%;
+                                left: 3px;
+                                opacity: 0;
+                            }
+                        }
+                    }
+                }
+                .email-row {
+                    display: flex;
+                    max-width: 700px;
+                    margin-right: auto;
+                    margin-left: auto;
+                    @media only screen and (max-width : 480px) {
+                        margin: 0;
+                        display: block;
+                    }
+                    .email {
+                        border: 2px solid $theme-primary;
+                        padding: 12px 15px;
+                        width: 70%;
+                        margin-bottom: 0;
+                        font-size: $font-size-default + 1;
+                        line-height: 1.14em;
+                        border-radius: 0;
+                        @media only screen and (max-width : 480px) {
+                            width: 100%;
+                            margin-bottom: 20px;
+                        }
+                    }
+                    .btn {
+                        width: 30%;
+                        @media only screen and (max-width : 480px) {
+                            width: 100%;
+                        }
+                    }
+                }
+                .response-wrapper {
+                    min-height: 24px;
+                    margin-bottom: 5px;
+                    .response {
+                        display: none;
+                    }
+                }
+                .privacy {
+                    font-size: $font-size-h6;
+                    color: $theme-secondary;
+                    margin-bottom: 0;
+                    @media only screen and (max-width : 992px) {
+                        font-size: $font-size-default - 1;
+                    }
+                    a {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    
+}

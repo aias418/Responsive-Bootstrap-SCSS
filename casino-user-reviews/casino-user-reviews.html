@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Casion User Reviews</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+        <link rel="stylesheet" type="text/css" href="./casino-user-reviews.css" />
+        <script src="https://code.jquery.com/jquery-3.1.0.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="./casino-user-reviews.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="casino-user-reviews">
+                <span class="title h3">Rizk Casino  player reviews</span>
+                <div class="heading-review">
+                    <div class="casino-rate">
+                        <div class="comment-icon">
+                            <img src="./img/comment.svg" alt="Comment icon" />
+                        </div>
+                        <div class="rating">
+                            <span class="h5 title">Rate casino and write a review</span>
+                            <div class="review-rating" data-rating-value="5" title="Love it!">
+                                <i data-alt="1" class="star-on-png" title="Love it!">★</i>&nbsp;
+                                <i data-alt="2" class="star-on-png" title="Love it!">★</i>&nbsp;
+                                <i data-alt="3" class="star-on-png" title="Love it!">★</i>&nbsp;
+                                <i data-alt="4" class="star-on-png" title="Love it!">★</i>&nbsp;
+                                <i data-alt="5" class="star-on-png" title="Love it!">★</i>  
+                                <input name="score" type="hidden" value="5" readonly="">
+                            </div>
+                        </div>
+                    </div>
+                    <a rel="nofollow" href="#write-review" id="write-review-toggle"class="btn-primary">Write Review</a>
+                </div>
+                <div class="filter-list">
+                    <ul>
+                        <li><span>Sort</span></li>
+                        <li id="date-filter"><span class="sort-item sort-arrow-down">Date</span></li>
+                        <li id="rating-filter"><span class="sort-item sort-arrow-down">Players Rating</span></li>
+                    </ul>
+                </div>
+                <div id="sorted-comments"></div>
+                <div id="comment-section" data-hints="Terrible.,Not for me.,Hmm ok.,Awesome!,Love it!" class="hidden">
+                    <div class="reviews" data-hints="Terrible.,Not for me.,Hmm ok.,Awesome!,Love it!" commentDate="2019-11-08" casinoRating="">
+                        <div class="player-reviews">
+                            <ul>
+                                <li>
+                                    <div class="details">
+                                        <div>
+                                            <span class="player">namberwan</span>
+                                            <span class="date">November 08, 2019</span>
+                                        </div>
+                                    </div>
+                                    <p>I love playing at Rizk. Their game selection is pretty vast and their live casino lobby is like no other. Never had any issues with Rizk. </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="reviews" data-hints="Terrible.,Not for me.,Hmm ok.,Awesome!,Love it!" commentDate="2019-10-31" casinoRating="">
+                        <div class="player-reviews">
+                            <ul>
+                                <li>
+                                    <div class="details">
+                                        <div>
+                                            <span class="player">StormyMcLongbois</span>
+                                            <span class="date">October 31, 2019</span>
+                                        </div>
+                                    </div>
+                                    <p>I've been playing at Rizk Casino since 2017 and I love how this casino comes up with new features and promotions! Love the sportsbook section in particular.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="reviews" data-hints="Terrible.,Not for me.,Hmm ok.,Awesome!,Love it!" commentDate="2019-09-19" casinoRating="2">
+                        <div class="player-reviews">
+                            <ul>
+                                <li>
+                                    <div class="details">
+                                        <div>
+                                            <span class="player">munchetia19</span>
+                                            <span class="date">September 19, 2019</span>
+                                        </div>
+                                        <div class="operator-ratings">
+                                            <div class="review-rating" data-rating-value="2" title="Not for me.">
+                                                <i data-alt="1" class="star-on-png" title="Not for me.">★</i>&nbsp;
+                                                <i data-alt="2" class="star-on-png" title="Not for me.">★</i>&nbsp;
+                                                <i data-alt="3" class="star-off-png" title="Not for me.">★</i>&nbsp;
+                                                <i data-alt="4" class="star-off-png" title="Not for me.">★</i>&nbsp;
+                                                <i data-alt="5" class="star-off-png" title="Not for me.">★</i>
+                                                <input name="score" type="hidden" value="2" readonly="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>Games are good. Does not hang. New unique games.
+                                        Withdrawal is pathetic. Only allow withdrawal to mode of deposit only. Bank wire transfer withdrawal not executed even after 10 days and customer care have no answer for that. So better go for casinos under Casinorewards.com or royalpanda.com, leovegas.com. just ignore this shit
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="reviews" data-hints="Terrible.,Not for me.,Hmm ok.,Awesome!,Love it!" commentDate="2019-02-19" casinoRating="1">
+                        <div class="player-reviews">
+                            <ul>
+                                <li>
+                                    <div class="details">
+                                        <div>
+                                            <span class="player">Hilmar</span>
+                                            <span class="date">February 19, 2019</span>
+                                        </div>
+                                        <div class="operator-ratings">
+                                            <div class="review-rating" data-rating-value="1" title="Terrible.">
+                                                <i data-alt="1" class="star-on-png" title="Terrible.">★</i>&nbsp;
+                                                <i data-alt="2" class="star-off-png" title="Terrible.">★</i>&nbsp;
+                                                <i data-alt="3" class="star-off-png" title="Terrible.">★</i>&nbsp;
+                                                <i data-alt="4" class="star-off-png" title="Terrible.">★</i>&nbsp;
+                                                <i data-alt="5" class="star-off-png" title="Terrible.">★</i>
+                                                <input name="score" type="hidden" value="1" readonly="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>The deposit bonus is the biggest scam I've ever seen, deposited 13 euros and had to wager up 520 euros.... that's basically impossible</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="reviews" data-hints="Terrible.,Not for me.,Hmm ok.,Awesome!,Love it!" commentDate="2018-10-15" casinoRating="5">
+                        <div class="player-reviews">
+                            <ul>
+                                <li>
+                                    <div class="details">
+                                        <div>
+                                            <span class="player">Roger247</span>
+                                            <span class="date">October 15, 2018</span>
+                                        </div>
+                                        <div class="operator-ratings">
+                                            <div class="review-rating" data-rating-value="5" title="Love it!">
+                                                <i data-alt="1" class="star-on-png" title="Love it!">★</i>&nbsp;
+                                                <i data-alt="2" class="star-on-png" title="Love it!">★</i>&nbsp;
+                                                <i data-alt="3" class="star-on-png" title="Love it!">★</i>&nbsp;
+                                                <i data-alt="4" class="star-on-png" title="Love it!">★</i>&nbsp;
+                                                <i data-alt="5" class="star-on-png" title="Love it!">★</i>
+                                                <input name="score" type="hidden" value="5" readonly="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>Very user friendly site and the best part is the welcome bonus :) everyone loves free spins. </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="reviews" data-hints="Terrible.,Not for me.,Hmm ok.,Awesome!,Love it!" commentDate="2018-10-04" casinoRating="1">
+                        <div class="player-reviews">
+                            <ul>
+                                <li>
+                                    <div class="details">
+                                        <div>
+                                            <span class="player">Madunba</span>
+                                            <span class="date">October 04, 2018</span>
+                                        </div>
+                                        <div class="operator-ratings">
+                                            <div class="review-rating" data-rating-value="1" title="Terrible.">
+                                                <i data-alt="1" class="star-on-png" title="Terrible.">★</i>&nbsp;
+                                                <i data-alt="2" class="star-off-png" title="Terrible.">★</i>&nbsp;
+                                                <i data-alt="3" class="star-off-png" title="Terrible.">★</i>&nbsp;
+                                                <i data-alt="4" class="star-off-png" title="Terrible.">★</i>&nbsp;
+                                                <i data-alt="5" class="star-off-png" title="Terrible.">★</i>
+                                                <input name="score" type="hidden" value="1" readonly="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>About 10 days ago I tryed to make a withdraw from casino Rizk, and I got an e-mail where they are asking for some documents that I am a legit user with a legit ID and bank account. The funny thing is that they first asked for my documents after I allready lost about 200€ or 300€ since August,  And e-mail where they ask for documents for the first time came on 27. September.  So first of all how it is possible that someone can start gambling without proven he is 18+.
+                                        Now we go on second chapter of this story. In middle of September I got a new card from bank but the bank account stayed the same.
+                                        And 10 days ago I wanted to make first withdrawel after I made a deposit with a new card. Then I got an e-mail where they need my personal data.
+                                        After I sent them photos of all documents they needed, they asked for a proof of an old card, I said that I don't own it anymore because it was cut with scissors in front of me in bank when I received a new one. And then they asked me to send them a bank statement that I don't own that card any more with bank account with which was connected. I got that paper and of course it's on croatian because it's an official croatian bank statement and if you translate it from croatian to english on google translate you can see that I was an owner of that card. Then they asked me to send them a transaction screenshoot because they are unable to translate it. After I've done that as well, then we got again where we started where they ask for a bank statement that I don't own it anymore.
+                                        So, my point is that they alone don't know what they need or simply they are doing it deliberately.
+                                        Thank you!
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews" id="write-review">
+                    <span class="h4 title">Write a review for Rizk Casino Review</span>
+                    <div class="error-text" id="error-msg"></div>
+                    <div class="success" id="success-msg"></div>
+                    <form>
+                        <div class="select-rating">
+                            <span class="hints" data-msg="Select your rating."></span>
+                            <i data-alt="1" class="star-off-png" title="Terrible.">★</i>&nbsp;
+                            <i data-alt="2" class="star-off-png" title="Not for me.">★</i>&nbsp;
+                            <i data-alt="3" class="star-off-png" title="Hmm ok.">★</i>&nbsp;
+                            <i data-alt="4" class="star-off-png" title="Awesome!">★</i>&nbsp;
+                            <i data-alt="5" class="star-off-png" title="Love it!">★</i>
+                            <input name="score" type="hidden" />
+                        </div>
+                        <label class="title" for="comment_name">Name*</label>
+                        <input type="text" id="comment_name" required="">
+                        <input type="hidden" id="comment_reference" name="comment_reference" value="3847">
+                        <input type="hidden" id="comment_type" name="comment_type" value="page">
+                        <input type="hidden" id="comment_market" name="comment_market" value="eu_en">
+                        <input type="hidden" id="comment_language" name="comment_language" value="en">
+                        <label for="comment_email">Email*</label>
+                        <input type="email" id="comment_email">
+                        <label for="comment_textarea">Review*</label>
+                        <textarea id="comment_textarea" required=""></textarea>
+                        <div class="checkbox">
+                            <input type="checkbox" id="comment_checkbox">
+                            <label for="comment_checkbox">I want to receive exclusive offers, bonuses, tips and news</label>
+                        </div>
+                        <p class="content">We respect your privacy. We are committed to responsible handling and protection of your personal information. By subscribing, you are agreeing to our
+                            <a href="/terms-conditions" target="_blank">Terms &amp; Conditions</a> and our
+                            <a href="/privacy-policy" target="_blank">Privacy Policy</a> and you confirm that you are 18+. If you no longer want to receive our occasional offers and news, you may opt-out at any time. All our emails include an unsubscribe link.
+                        </p>
+                        <a class="btn-primary" href="" id="submit-review">Submit review</a>
+                    </form>
+                    <p class="guidelines">Your reviews help other players find the best casino sites and games to play. Please be honest with your feedback and rating. All submitted reviews will be checked by CasinoTopsOnline quality control team. Submissions that do not follow our
+                        <a href="/terms-conditions" title="review guidelines">review guidelines</a> will not be posted.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

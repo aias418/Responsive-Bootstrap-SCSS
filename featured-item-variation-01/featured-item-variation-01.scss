@@ -1,0 +1,196 @@
+@import "sass-styling-vars";
+
+.featured-item-variation-01 {
+    float: none;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    margin: 30px auto;
+    max-width: 935px;
+    .featured-cta {
+        width: 100%;
+        position: relative;
+        .featured-cta-header {
+            border-top-left-radius: $theme-border-radius;
+            border-top-right-radius: $theme-border-radius;
+            border: $theme-border;
+            padding: 16px 24px;
+            .title {
+                color: $theme-primary;
+                font-size: $font-size-h2;
+                @media only screen and (max-width: 768px){
+                    font-size: $font-size-h4;
+                }
+            }
+        }
+        .featured-cta-body {
+            background-color: $theme-white;
+            border-bottom-left-radius: $theme-border-radius;
+            border-bottom-right-radius: $theme-border-radius;
+            border: $theme-border;
+            border-top-style: none;
+            box-shadow: $wrapper-box-shadow;
+            padding: 24px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            @media only screen and (max-width: 768px) {
+                flex-direction: column;
+            }
+            .featured-cta-body-logo {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 0;
+                min-width: 120px;
+                max-width: 160px;
+                @media only screen and (max-width: 768px){
+                    margin-bottom: 20px;
+                }
+            }
+            .featured-cta-body-flag {
+                position: relative;
+                bottom: 40px;
+                @media only screen and (max-width: 768px) {
+                    bottom: 0;
+                }
+                .featured-cta-body-flag-wrapper {
+                    width: 34px;
+                    height: 34px;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .icon-flag:before {
+                        content: "";
+                        display: inline-block;
+                        background-repeat: no-repeat;
+                        background-position: 50%;
+                        background-size: cover;
+                        background-color: transparent;
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        margin: 2px;
+                    }
+                    .icon-flag-ca:before {
+                        background-image: url(./img/ca.svg);
+                    }
+                    .fa-check {
+                        position: absolute;
+                        right: -5px;
+                        top: -5px;
+                        width: 17px;
+                        height: 17px;
+                        border-radius: 50%;
+                        color: $theme-white;
+                        background-color: $theme-success;
+                        font-size: $font-size-sm;
+                        padding: 3px;
+                    }
+                }
+            }
+            .featured-cta-details {
+                display: flex;
+                flex-direction: column;
+                padding: 24px;
+                max-width: 32%;
+                @media only screen and (max-width: 768px) {
+                    margin-bottom: 0;
+                    max-width: 100%;
+                }
+                .featured-cta-details-value {
+                    display: flex;
+                    font-weight: $font-weight-heavy;
+                    font-size: $font-size-default * 2.5;
+                    line-height: 1em;
+                    color: $theme-success;
+                    margin-bottom: 8px;
+                    text-align: center;
+                }
+                .featured-cta-details-name {
+                    font-size: $font-size-h4;
+                    font-weight: $font-weight-heavy;
+                    text-align: center;
+                    margin-bottom: 8px;
+                }
+            }
+            .logos {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                flex-basis: auto;
+                min-height: 120px;
+                margin: 0 52px 0 0;
+                @media only screen and (max-width: 768px) {
+                    flex-basis: 100%;
+                    margin: 8px 0 16px;
+                }
+                .logos-deposit {
+                    margin-bottom: 8px;
+                    display: flex;
+                }
+                .logos-devices {
+                    max-height: 25px;
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                }
+                .logos-item {
+                    width: 53px;
+                    height: 32px;
+                    border: $theme-border;
+                    background-color: $theme-white;
+                    padding: 8px;
+                    margin-right: 4px;
+                    border-radius: $theme-border-radius;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            .cta {
+                display: flex;
+                justify-content: center;
+                align-items: stretch;
+                flex-direction: column;
+                width: unset;
+                min-width: 179px;
+                @media only screen and (max-width: 768px) {
+                    width: 100%;
+                }
+                .cta-review {
+                    font-weight: $font-weight-heavy;
+                    font-size: $font-size-default;
+                    z-index: 2;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 10px;
+                    .fa {
+                        margin-left: 8px;
+                    }
+                    a:hover {
+                        text-decoration: none;
+                    }
+                }
+                .cta-review:hover {
+                    text-decoration: none;
+                }
+            }
+            .partnerLink {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+            }
+        }
+
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}

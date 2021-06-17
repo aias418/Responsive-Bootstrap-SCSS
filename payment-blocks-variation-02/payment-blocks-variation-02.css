@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+.payment-blocks-variation-02 .payment-cards-row, .payment-blocks-variation-02 .payment-card .star-ratings, .payment-blocks-variation-02 .payment-card .banner-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.payment-blocks-variation-02 .payment-card.first-index, .payment-blocks-variation-02 .payment-card .banner-section .right-box {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.payment-blocks-variation-02 {
+  font-family: "Montserrat", sans-serif;
+  background-image: url(./img/banner-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.payment-blocks-variation-02 a {
+  text-decoration: none;
+}
+
+.payment-blocks-variation-02 p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.payment-blocks-variation-02 img {
+  max-width: 100%;
+}
+
+.payment-blocks-variation-02 .app-container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.payment-blocks-variation-02 .main-title {
+  font-size: 40px;
+  color: #ffffff;
+  line-height: 50px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.payment-blocks-variation-02 .bread-crumbs {
+  padding: 11px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 20px;
+}
+
+.payment-blocks-variation-02 .bread-crumbs .nav-link {
+  font-size: 12px;
+  color: #ffc107;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+  padding-right: 15px;
+  padding-left: 10px;
+}
+
+.payment-blocks-variation-02 .bread-crumbs .nav-link:before {
+  content: "/";
+  position: absolute;
+  right: 0px;
+  top: 1px;
+  color: currentColor;
+}
+
+.payment-blocks-variation-02 .bread-crumbs .nav-link:first-child {
+  padding-left: 0px;
+}
+
+.payment-blocks-variation-02 .bread-crumbs .nav-link:last-child {
+  color: #ffffff;
+}
+
+.payment-blocks-variation-02 .bread-crumbs .nav-link:last-child:before {
+  content: none;
+}
+
+.payment-blocks-variation-02 .payment-cards-row {
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+  padding: 20px 0px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.payment-blocks-variation-02 .payment-card {
+  width: 295px;
+  min-width: 295px;
+  background-color: #eeeff0;
+  border-radius: 6px;
+  margin-left: 7.5px;
+  margin-right: 7.5px;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.payment-blocks-variation-02 .payment-card.second-index .top-section {
+  background-color: #198754;
+}
+
+.payment-blocks-variation-02 .payment-card.third-index .top-section {
+  background-color: #0d6efd;
+}
+
+.payment-blocks-variation-02 .payment-card.first-index {
+  min-width: 295px;
+  border: 3px solid #ffc107;
+}
+
+.payment-blocks-variation-02 .payment-card .star-ratings {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.payment-blocks-variation-02 .payment-card .star-ratings i {
+  height: 20px;
+  width: 20px;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.payment-blocks-variation-02 .payment-card .star-ratings i.rating-star {
+  background-image: url("data:image/svg+xml,%3Csvg%20fill%3D%22%23ffc107%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%22265.64%20388.945%2064%2064%22%3E%3Cpath%20d%3D%22M299.135%20391.729l8.063%2019.083%2020.643%201.774c1.431.124%202.014%201.91.928%202.85l-15.658%2013.566%204.692%2020.18c.325%201.401-1.194%202.505-2.425%201.76l-17.739-10.698-17.739%2010.698c-1.234.742-2.75-.361-2.424-1.76l4.692-20.18-15.661-13.569c-1.087-.94-.507-2.726.928-2.85l20.642-1.773%208.063-19.08c.558-1.329%202.435-1.329%202.995-.001z%22%2F%3E%3C%2Fsvg%3E");
+}
+
+.payment-blocks-variation-02 .payment-card .star-ratings i.rating-starHalf {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23ffc107%22%20viewBox%3D%22205.522%20205.522%2064%2064%22%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M269.522%20230.442v.45c-.07.51-.38%201.05-.97%201.61l-13.971%2013.62%203.311%2019.25c.12.851.05%201.511-.23%201.98-.29.479-.72.71-1.31.71-.44%200-.95-.15-1.54-.46l-17.29-9.08-17.28%209.08c-.59.31-1.11.46-1.54.46-.59%200-1.03-.23-1.31-.71-.28-.47-.36-1.13-.23-1.98l3.31-19.25-14.01-13.62c-.56-.56-.88-1.1-.94-1.6v-.46c.01-.08.02-.16.05-.23.23-.71.93-1.15%202.08-1.33l19.32-2.81%208.67-17.52c.51-1.05%201.14-1.57%201.88-1.57.72%200%201.35.52%201.89%201.57l8.66%2017.52%2019.32%202.81c1.16.18%201.85.62%202.08%201.33.031.07.04.15.05.23z%22%2F%3E%3Cpath%20d%3D%22M235.642%20208.552l-8.67%2017.52-19.32%202.81c-1.15.18-1.85.62-2.08%201.33-.03.07-.04.15-.05.23v.46c.06.5.38%201.04.94%201.6l14.01%2013.62-3.31%2019.25c-.13.851-.05%201.511.23%201.98.28.479.72.71%201.31.71.43%200%20.95-.15%201.54-.46l17.28-9.08v-51.54c-.74%200-1.37.52-1.88%201.57z%22%2F%3E%3C%2Fsvg%3E");
+}
+
+.payment-blocks-variation-02 .payment-card .card-index {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  height: 54px;
+  width: 54px;
+}
+
+.payment-blocks-variation-02 .payment-card .top-section {
+  text-align: center;
+  background-color: #6c757d;
+  padding: 10px 0px;
+}
+
+.payment-blocks-variation-02 .payment-card .logo-box {
+  max-width: 84px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+
+.payment-blocks-variation-02 .payment-card .logo-box a {
+  display: block;
+  width: 100%;
+}
+
+.payment-blocks-variation-02 .payment-card .logo-title {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 8px;
+  line-height: 20px;
+}
+
+.payment-blocks-variation-02 .payment-card .title-text {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+.payment-blocks-variation-02 .payment-card .info-section {
+  text-align: center;
+  padding: 10px 15px;
+}
+
+.payment-blocks-variation-02 .payment-card .info-section p {
+  font-size: 10px;
+  line-height: 15px;
+  color: #212529;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.payment-blocks-variation-02 .payment-card .info-section p span {
+  color: #e2aa00;
+}
+
+.payment-blocks-variation-02 .payment-card .review-link {
+  display: block;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 15px;
+  color: #212529;
+}
+
+.payment-blocks-variation-02 .payment-card .btn-box {
+  text-align: center;
+  padding: 15px 15px;
+  background-color: #ffffff;
+}
+
+.payment-blocks-variation-02 .payment-card .banner-section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./img/banner-bg-section.webp);
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+.payment-blocks-variation-02 .payment-card .banner-section .left-box {
+  width: 150px;
+}
+
+.payment-blocks-variation-02 .payment-card .banner-section .left-box .logo-box {
+  padding: 2px;
+  max-width: 100%;
+}
+
+.payment-blocks-variation-02 .payment-card .banner-section .left-box .logo-box img {
+  width: 100%;
+}
+
+.payment-blocks-variation-02 .payment-card .banner-section .right-box {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.payment-blocks-variation-02 .payment-card .banner-section .right-box .card-index {
+  width: 100%;
+  position: static;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.payment-blocks-variation-02 .payment-card .banner-section .right-box .title-text, .payment-blocks-variation-02 .payment-card .banner-section .right-box .review-link {
+  color: #ffffff;
+}
+
+.payment-blocks-variation-02 .payment-card .banner-section .right-box .star-ratings {
+  margin-bottom: 20px;
+}
+
+.payment-blocks-variation-02 .payment-card .banner-section .right-box .title-text {
+  display: block;
+  margin-bottom: 18px;
+}
+
+.payment-blocks-variation-02 .payment-card .banner-section .right-box .review-link {
+  margin-bottom: 26px;
+}
+
+.payment-blocks-variation-02 .payment-card .banner-section .btn-box {
+  min-width: 100%;
+  padding: 0px;
+  background-color: transparent;
+}
+
+@media (max-width: 1199px) {
+  .payment-blocks-variation-02 .payment-card .title-text {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .payment-blocks-variation-02 .payment-card .banner-section .left-box {
+    width: 100px;
+  }
+  .payment-blocks-variation-02 .payment-card .banner-section .right-box {
+    padding: 0 10px;
+  }
+  .payment-blocks-variation-02 .payment-card .banner-section .right-box .star-ratings {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .payment-blocks-variation-02 .main-title {
+    font-size: 22px;
+    line-height: 24px;
+  }
+  .payment-blocks-variation-02 .app-container {
+    padding: 0 10px;
+  }
+  .payment-blocks-variation-02 .payment-cards-row {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .payment-blocks-variation-02 .payment-card {
+    min-width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .payment-blocks-variation-02 .payment-card .banner-section {
+    padding: 10px 15px;
+  }
+  .payment-blocks-variation-02 .payment-card .banner-section .left-box {
+    min-width: 100%;
+  }
+  .payment-blocks-variation-02 .payment-card .banner-section .left-box .logo-box {
+    max-width: 84px;
+  }
+  .payment-blocks-variation-02 .payment-card .banner-section .right-box {
+    min-width: 100%;
+    padding: 0px;
+  }
+  .payment-blocks-variation-02 .payment-card .banner-section .right-box .card-index {
+    position: absolute;
+    width: auto;
+  }
+}
+/*# sourceMappingURL=payment-blocks-variation-02.css.map */

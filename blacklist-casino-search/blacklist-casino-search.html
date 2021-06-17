@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Blacklist Casino Search
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="./default-style.css">
+        <link rel="stylesheet" type="text/css" href="./blacklist-casino-search.css">
+        <script src="https://code.jquery.com/jquery-3.1.0.js" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="./blacklist-casino-search.js"></script>
+    </head>
+    <body>
+        <div class="blacklist-casino-search">
+            <div class="blacklist-wrapper">
+                <div class="blacklist-header">
+                    <div class="heading">
+                        <p class="title">Search blacklisted casinos</p>
+                        <div class="date">
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                            Updated: 28-Mar-2021
+                        </div>
+                    </div>
+                    <div class="filters-search-container">
+                        <div class="search-bar">
+                            <label class="filter-labels" for="search">Casinos</label>
+                            <input id="blacklist-search-text" type="text" placeholder="Search by casino name">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                        <div class="blacklist-filters">
+                            <label class="filter-labels" for="filterCasinoPractices">Questionable practices</label>
+                            <select class="blacklist-filters-select" id="filterCasinoPractices">
+                                <option value="" disabled="" selected="" hidden="">Select an option</option>
+                                <option value="Payment Problems">Payment problems</option>
+                                <option value="Rigged Games">Rigged games</option>
+                                <option value="False Advertising">False advertising</option>
+                                <option value="Spamming Players">Spamming players</option>
+                                <option value="Other Questionable Practices">Other questionable practices</option>
+                            </select>
+                            <i class="fa fa-angle-down"></i>
+                        </div>
+                        <p class="clear-filters">Reset filters</p>
+                    </div>
+                </div>
+                <div class="blacklist-table">
+
+                </div>
+            <div>         
+        </div>
+    </body>
+</html>

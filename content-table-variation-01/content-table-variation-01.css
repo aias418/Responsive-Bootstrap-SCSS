@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+.content-table-variation-01 .casinos-games-tbl .header-row .head-cell, .content-table-variation-01 .casinos-games-tbl .cont-cell:not(.img-col), .content-table-variation-01 .app-tbl-flex .app-tbl, .content-table-variation-01 .app-tbl-flex .tbl-row, .content-table-variation-01 .app-tbl-flex .tbl-content, .content-table-variation-01 .casinos-games-tbl .tbl-cell.img-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content-table-variation-01 .app-tbl-flex .tbl-row .tbl-cell {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.content-table-variation-01 .casinos-games-tbl .header-row .head-cell, .content-table-variation-01 .casinos-games-tbl .cont-cell:not(.img-col) {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content-table-variation-01 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.content-table-variation-01 .app-container {
+  max-width: 795px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.content-table-variation-01 .app-tbl-flex {
+  margin-bottom: 40px;
+}
+
+.content-table-variation-01 .app-tbl-flex .app-tbl {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content-table-variation-01 .app-tbl-flex .tbl-row .tbl-cell {
+  text-align: center;
+}
+
+.content-table-variation-01 .app-tbl-flex .tbl-row:last-child .tbl-cell {
+  border-bottom: 1px solid #d3d8dc;
+}
+
+.content-table-variation-01 .app-tbl-flex .tbl-cell {
+  padding: 13px 5px;
+  min-height: 42px;
+  border-top: 1px solid #d3d8dc;
+  border-right: 1px solid #d3d8dc;
+  border-collapse: collapse;
+}
+
+.content-table-variation-01 .app-tbl-flex .tbl-cell:first-child {
+  border-left: 1px solid #d3d8dc;
+}
+
+.content-table-variation-01 .app-tbl-flex .hidden-cell {
+  visibility: hidden;
+}
+
+.content-table-variation-01 .app-tbl-flex .head-cell {
+  color: #ffffff;
+  font-weight: 700;
+  border-collapse: collapse;
+}
+
+.content-table-variation-01 .app-tbl-flex .tbl-content {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.content-table-variation-01 .casinos-games-tbl .tbl-header-title-content {
+  background-color: #024dbc;
+  text-align: center;
+  padding: 30px 30px 18px;
+}
+
+.content-table-variation-01 .casinos-games-tbl .tbl-header-title-content p {
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.content-table-variation-01 .casinos-games-tbl .tbl-header-title-content p a {
+  color: currentColor;
+  text-decoration: underline;
+}
+
+.content-table-variation-01 .casinos-games-tbl .tbl-header-title-content .main-title {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 4px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  line-height: normal;
+}
+
+.content-table-variation-01 .casinos-games-tbl .header-row {
+  background-color: #024dbc;
+}
+
+.content-table-variation-01 .casinos-games-tbl .header-row .head-cell {
+  font-size: 13px;
+  background-color: #012a66;
+  border-color: #012a66;
+}
+
+.content-table-variation-01 .casinos-games-tbl .header-row .head-cell:nth-child(1) {
+  border-right: none;
+  margin-left: -1px;
+}
+
+.content-table-variation-01 .casinos-games-tbl .tbl-cell:first-child {
+  min-width: 152px;
+  max-width: 152px;
+}
+
+.content-table-variation-01 .casinos-games-tbl .tbl-cell:first-child:not(.head-cell) {
+  min-height: 152px;
+  max-height: 152px;
+}
+
+.content-table-variation-01 .casinos-games-tbl .tbl-cell.cont-cell {
+  font-size: 13px;
+  color: #212529;
+  font-weight: 500;
+}
+
+.content-table-variation-01 .casinos-games-tbl .tbl-cell.img-col {
+  position: relative;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-left: 12px;
+  padding-bottom: 7px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.content-table-variation-01 .casinos-games-tbl .tbl-cell.img-col:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #02044e;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(65%, rgba(2, 4, 78, 0)), color-stop(84%, rgba(9, 9, 121, 0.403799)), to(#02044e));
+  background: linear-gradient(180deg, rgba(2, 4, 78, 0) 65%, rgba(9, 9, 121, 0.403799) 84%, #02044e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#02044e",endColorstr="#02044e",GradientType=1);
+}
+
+.content-table-variation-01 .casinos-games-tbl .tbl-cell.img-col strong {
+  font-size: 11px;
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.content-table-variation-01 .casinos-games-tbl .tbl-cell.realM-col {
+  color: #198754;
+  font-size: 17px;
+}
+
+.content-table-variation-01 .casinos-games-tbl .tbl-cell.learnM-col a {
+  color: #0d6efd;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .content-table-variation-01 .app-tbl-flex .app-tbl {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .content-table-variation-01 .app-tbl-flex .tbl-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .content-table-variation-01 .app-tbl-flex .tbl-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .content-table-variation-01 .app-tbl-flex .tbl-row .head-cell {
+    width: auto;
+  }
+  .content-table-variation-01 .app-tbl-flex .tbl-row .tbl-cell {
+    padding: 13px 8px;
+    white-space: nowrap;
+    font-size: 11px;
+    text-align: center;
+    width: auto;
+  }
+  .content-table-variation-01 .app-tbl-flex .tbl-row .tbl-cell:first-child {
+    border-left: none;
+  }
+  .content-table-variation-01 .app-tbl-flex .tbl-row .tbl-cell:last-child {
+    border-bottom: 1px solid #d3d8dc;
+  }
+  .content-table-variation-01 .app-tbl-flex .tbl-row:last-child .tbl-cell:not(:last-child) {
+    border-bottom: none;
+  }
+  .content-table-variation-01 .app-tbl-flex .tbl-row:first-child {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0px;
+  }
+  .content-table-variation-01 .app-tbl-flex .tbl-row:first-child .tbl-cell {
+    border-left: 1px solid #d3d8dc;
+  }
+  .content-table-variation-01 .app-tbl-flex .header-row {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    z-index: 1;
+  }
+  .content-table-variation-01 .casinos-games-tbl .tbl-header-title-content {
+    padding: 20px 10px 8px;
+  }
+  .content-table-variation-01 .casinos-games-tbl .tbl-header-title-content .main-title {
+    font-size: 18px;
+  }
+  .content-table-variation-01 .casinos-games-tbl .table-responsive {
+    border: none;
+  }
+  .content-table-variation-01 .casinos-games-tbl .app-tbl {
+    min-width: -webkit-max-content;
+    min-width: -moz-max-content;
+    min-width: max-content;
+    width: auto;
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+  .content-table-variation-01 .casinos-games-tbl .header-row {
+    position: relative;
+    z-index: 2;
+  }
+  .content-table-variation-01 .casinos-games-tbl .header-row .head-cell {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .content-table-variation-01 .casinos-games-tbl .header-row .head-cell:nth-child(1) {
+    min-height: 152px;
+    max-height: 152px;
+    visibility: visible;
+    margin-left: 0px;
+    border-top: none;
+  }
+  .content-table-variation-01 .casinos-games-tbl .cont-cell:first-child {
+    border-top: none;
+  }
+}
+/*# sourceMappingURL=content-table-variation-01.css.map */

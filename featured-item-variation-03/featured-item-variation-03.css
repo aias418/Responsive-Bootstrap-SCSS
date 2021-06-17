@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+.featured-item-variation-03 .mobile-casino-section, .featured-item-variation-03 .mobile-casino-section .right-box .sec-header, .featured-item-variation-03 .mobile-casino-section .right-box .sec-header .right-side, .featured-item-variation-03 .mobile-casino-section .right-box .mobile-casino-summary li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.featured-item-variation-03 .mobile-casino-section .center-box {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.featured-item-variation-03 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.featured-item-variation-03 img {
+  max-width: 100%;
+}
+
+.featured-item-variation-03 p {
+  color: #212529;
+}
+
+.featured-item-variation-03 .app-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.featured-item-variation-03 .mobile-casino-section {
+  padding: 15px;
+  background-color: #001129;
+  color: #ffffff;
+  position: relative;
+}
+
+.featured-item-variation-03 .mobile-casino-section .sec-header {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 15px;
+  background-color: #012457;
+}
+
+.featured-item-variation-03 .mobile-casino-section .left-box {
+  min-width: 275px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.featured-item-variation-03 .mobile-casino-section .left-box .inner-wrapper {
+  width: 100%;
+}
+
+.featured-item-variation-03 .mobile-casino-section .left-box .sec-header {
+  position: relative;
+}
+
+.featured-item-variation-03 .mobile-casino-section .left-box .img-wrapper {
+  background-color: #01193d;
+  padding: 10px;
+  margin-bottom: 20px;
+  padding-top: 34px;
+  padding-bottom: 16px;
+  position: relative;
+}
+
+.featured-item-variation-03 .mobile-casino-section .left-box .img-wrapper img {
+  position: relative;
+  z-index: 1;
+}
+
+.featured-item-variation-03 .mobile-casino-section .left-box .img-wrapper:before, .featured-item-variation-03 .mobile-casino-section .left-box .img-wrapper:after {
+  content: "";
+  display: block;
+  height: 30px;
+  background-color: #001129;
+  position: absolute;
+  width: 70%;
+  bottom: -25px;
+}
+
+.featured-item-variation-03 .mobile-casino-section .left-box .img-wrapper:before {
+  left: 50%;
+  -webkit-transform-origin: left bottom;
+          transform-origin: left bottom;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+}
+
+.featured-item-variation-03 .mobile-casino-section .left-box .img-wrapper:after {
+  right: 50%;
+  -webkit-transform-origin: right bottom;
+          transform-origin: right bottom;
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+}
+
+.featured-item-variation-03 .mobile-casino-section .left-box .sec-header {
+  position: relative;
+  z-index: 2;
+  padding-bottom: 0px;
+}
+
+.featured-item-variation-03 .mobile-casino-section .left-box .sec-header span {
+  position: relative;
+  z-index: 1;
+}
+
+.featured-item-variation-03 .mobile-casino-section .left-box .sec-header:before, .featured-item-variation-03 .mobile-casino-section .left-box .sec-header:after {
+  content: "";
+  display: block;
+  height: 50px;
+  background-color: #012457;
+  position: absolute;
+  width: 50%;
+  bottom: -25px;
+}
+
+.featured-item-variation-03 .mobile-casino-section .left-box .sec-header:before {
+  left: 50%;
+  -webkit-transform-origin: left bottom;
+          transform-origin: left bottom;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+}
+
+.featured-item-variation-03 .mobile-casino-section .left-box .sec-header:after {
+  right: 50%;
+  -webkit-transform-origin: right bottom;
+          transform-origin: right bottom;
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+}
+
+.featured-item-variation-03 .mobile-casino-section .left-box .big-title {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 0;
+  line-height: normal;
+}
+
+.featured-item-variation-03 .mobile-casino-section .left-box .btn {
+  display: block;
+  margin-top: 20px;
+  background-image: none;
+  font-size: 18px;
+  color: #ffffff;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 52px;
+  line-height: 52px;
+  border-radius: 0px;
+  text-transform: uppercase;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  background-color: #72abfe;
+  margin-bottom: 5px;
+}
+
+.featured-item-variation-03 .mobile-casino-section .left-box .btn:hover, .featured-item-variation-03 .mobile-casino-section .left-box .btn:focus {
+  background-color: #408cfd;
+}
+
+.featured-item-variation-03 .mobile-casino-section .left-box .note-text {
+  font-size: 10px;
+  color: #6c757d;
+}
+
+.featured-item-variation-03 .mobile-casino-section .center-box {
+  padding: 0 15px;
+}
+
+.featured-item-variation-03 .mobile-casino-section .center-box .inner-wrapper {
+  height: 100%;
+  background-image: url(./img/banner-image.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.featured-item-variation-03 .mobile-casino-section .center-box .inner-wrapper:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  background: #001129;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(59%, rgba(0, 17, 41, 0)), color-stop(88%, rgba(0, 0, 77, 0.871586)), to(#001129));
+  background: linear-gradient(180deg, rgba(0, 17, 41, 0) 59%, rgba(0, 0, 77, 0.871586) 88%, #001129 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001129",endColorstr="#001129",GradientType=1);
+}
+
+.featured-item-variation-03 .mobile-casino-section .right-box {
+  min-width: 305px;
+}
+
+.featured-item-variation-03 .mobile-casino-section .right-box .sec-header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+}
+
+.featured-item-variation-03 .mobile-casino-section .right-box .sec-header .right-side {
+  margin-left: auto;
+  font-weight: 500;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.featured-item-variation-03 .mobile-casino-section .right-box .sec-header .right-side .span-star-rating {
+  margin-left: 5px;
+  width: 78px;
+  height: 20px;
+  border-radius: 6px;
+  background-image: url("./img/star.svg");
+  background-repeat: space;
+  background-color: #000f24;
+  background-size: 14px;
+  background-position: center center;
+}
+
+.featured-item-variation-03 .mobile-casino-section .right-box .mobile-casino-summary li .text-lbl {
+  min-width: 112px;
+}
+
+.featured-item-variation-03 .mobile-casino-section .right-box .mobile-casino-summary li .lbl-value a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.featured-item-variation-03 .mobile-casino-section .right-box .mobile-casino-summary li .lbl-value a.green-txt {
+  color: #25c87c;
+}
+
+.featured-item-variation-03 .mobile-casino-section .right-box .mobile-casino-summary li .lbl-value.payment-info i {
+  font-size: 20px;
+  margin-right: 3px;
+}
+
+.featured-item-variation-03 .mobile-casino-section .right-box .btn-box {
+  max-width: 320px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  bottom: 18px;
+}
+
+.featured-item-variation-03 .mobile-casino-section .right-box .btn-box .btn {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 0px;
+  color: #ffffff;
+  background: #1ade83;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1ade83), to(#007941));
+  background: linear-gradient(180deg, #1ade83 0%, #007941 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1ade83",endColorstr="#007941",GradientType=1);
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.featured-item-variation-03 .mobile-casino-section .right-box .btn-box .btn:hover {
+  background: #1ade83;
+  background: -webkit-gradient(linear, left bottom, left top, from(#1ade83), to(#007941));
+  background: linear-gradient(360deg, #1ade83 0%, #007941 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1ade83",endColorstr="#007941",GradientType=1);
+}
+
+.featured-item-variation-03 .mobile-casino-section .right-box .btn-box .auth-text {
+  color: #bfbfbf;
+}
+
+.featured-item-variation-03 .mobile-casino-section .right-box .btn-box .auth-text img {
+  margin-right: 10px;
+}
+
+.featured-item-variation-03 .mobile-casino-section .right-box .btn-box .auth-text span {
+  line-height: 20px;
+  line-height: normal;
+  font-style: italic;
+}
+
+@media (max-width: 1199px) {
+  .featured-item-variation-03 .mobile-casino-section .center-box {
+    display: none;
+  }
+  .featured-item-variation-03 .mobile-casino-section .right-box {
+    padding-left: 15px;
+  }
+  .featured-item-variation-03 .mobile-casino-section .right-box .btn-box {
+    position: static;
+    width: 100%;
+    max-width: none;
+  }
+  .featured-item-variation-03 .mobile-casino-section .right-box .mobile-casino-summary {
+    margin-top: 12px;
+    padding: 10px 15px;
+    margin-bottom: 12px;
+    background-color: #0143a3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .featured-item-variation-03 .mobile-casino-section .right-box .mobile-casino-summary li {
+    width: 50%;
+    padding-right: 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .featured-item-variation-03 .mobile-casino-section .right-box .mobile-casino-summary li .text-lbl,
+  .featured-item-variation-03 .mobile-casino-section .right-box .mobile-casino-summary li .lbl-value {
+    width: 100%;
+  }
+  .featured-item-variation-03 .mobile-casino-section .right-box .mobile-casino-summary li .text-lbl {
+    margin-bottom: 3px;
+  }
+}
+
+@media (max-width: 767px) {
+  .featured-item-variation-03 .mobile-casino-section {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .featured-item-variation-03 .mobile-casino-section .left-box,
+  .featured-item-variation-03 .mobile-casino-section .right-box {
+    min-width: 100%;
+  }
+  .featured-item-variation-03 .mobile-casino-section .left-box {
+    margin-bottom: 20px;
+  }
+  .featured-item-variation-03 .mobile-casino-section .right-box {
+    padding-left: 0px;
+  }
+  .featured-item-variation-03 .mobile-casino-section .right-box .btn-box .auth-text img {
+    display: none;
+  }
+  .featured-item-variation-03 .mobile-casino-section .right-box .sec-header {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 420px) {
+  .featured-item-variation-03 .mobile-casino-section .right-box .mobile-casino-summary li {
+    width: 100%;
+  }
+  .featured-item-variation-03 .app-container {
+    padding: 0 5px;
+  }
+}
+/*# sourceMappingURL=featured-item-variation-03.css.map */

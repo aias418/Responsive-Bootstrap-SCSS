@@ -1,0 +1,48 @@
+.country-select-variation-01 {
+  float: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  margin: 30px auto;
+  max-width: 895px;
+}
+
+.country-select-variation-01 .interlinker {
+  background-color: #ffffff;
+  padding: 24px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 6px;
+}
+
+@media only screen and (max-width: 480px) {
+  .country-select-variation-01 .interlinker {
+    padding: 14px;
+  }
+}
+
+.country-select-variation-01 .interlinker .interlinker-title {
+  margin-bottom: 16px;
+}
+
+.country-select-variation-01 .interlinker .interlinker-list {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.country-select-variation-01 .interlinker .interlinker-list .interlinker-link {
+  display: inline-block;
+  text-decoration: underline;
+  margin: 0 25px 0 0;
+}

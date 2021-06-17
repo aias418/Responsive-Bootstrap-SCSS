@@ -1,0 +1,543 @@
+.casino-bonus-finder-01 {
+  float: none;
+  margin: 0 auto;
+  min-height: 10px;
+  padding: 0px;
+  position: relative;
+  width: 100%;
+}
+.casino-bonus-finder-01 .internal-wrapper {
+  clear: both;
+  display: inline-block;
+  min-height: 10px;
+  overflow: visible;
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+  z-index: 1;
+}
+.casino-bonus-finder-01 .internal-wrapper .text-element {
+  overflow-wrap: break-word;
+  padding: 1px;
+}
+@media only screen and (max-width: 992px) {
+  .casino-bonus-finder-01 .internal-wrapper .text-element {
+    padding: 0 20px;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .text-element.paragraph {
+  margin: 0 auto;
+  max-width: 730px;
+}
+.casino-bonus-finder-01 .internal-wrapper .text-element p {
+  color: #212529;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.casino-bonus-finder-01 .internal-wrapper .text-element p.title {
+  color: #0d6efd;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding: 0;
+  text-align: center;
+}
+@media only screen and (max-width: 992px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper {
+    padding: 0 20px;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content {
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 6px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+  height: auto;
+  margin: auto;
+  max-width: 1000px;
+  padding: 30px 30px 40px;
+  position: relative;
+}
+@media only screen and (max-width: 992px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content {
+    max-width: 768px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content {
+    padding: 30px 20px 40px;
+    width: 100%;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question {
+  display: none;
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content #survey {
+  box-sizing: border-box;
+  color: #212529;
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question p {
+  color: #0d6efd;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1em;
+  margin: 20px 0 40px;
+}
+@media only screen and (max-width: 992px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question p {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question p {
+    font-size: 16px;
+    line-height: 1em;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question a {
+  text-decoration: none;
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container {
+  height: auto;
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-left, .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-right {
+  border: none;
+  height: auto;
+  margin: 0 0 20px;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-left, .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-right {
+    border: 0;
+    height: auto;
+    margin: 0 0 auto;
+    width: 100%;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-left {
+  align-items: center;
+  border-right: 2px solid #eee;
+  box-sizing: border-box;
+  display: flex;
+  float: left;
+  justify-content: center;
+  height: 250px;
+  margin: 0 0 50px;
+  padding: 15px 0;
+  width: 50%;
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-left {
+    border-bottom: 1px solid #eee;
+    border-right: 0;
+    float: none;
+    height: auto;
+    margin: 0 0 20px;
+    width: 100%;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-left p {
+  font-size: 23px;
+  margin-bottom: 22px;
+  margin-top: 0;
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-left img {
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-left .tool-stars {
+    width: 120px !important;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-right {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  float: left;
+  justify-content: center;
+  height: 250px;
+  margin: 0 0 50px;
+  padding: 15px 0;
+  width: 50%;
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-right {
+    float: none;
+    height: auto;
+    margin: 0 0 20px;
+    padding-bottom: 0;
+    width: 100%;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-right img {
+  margin: 0 10px 0;
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-right img {
+    display: none;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-right .casino-right-images .selected-game, .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-right .casino-right-images .selected-device {
+  background-position-y: -130px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #0d6efd;
+  border-radius: 12px;
+  box-sizing: content-box;
+  display: inline-block;
+  height: 130px;
+  position: relative;
+  vertical-align: middle;
+  width: 130px;
+}
+@media only screen and (max-width: 992px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-right .casino-right-images .selected-game, .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-right .casino-right-images .selected-device {
+    background-position-y: -100px;
+    height: 100px;
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-right .casino-right-images .selected-game, .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-right .casino-right-images .selected-device {
+    display: none;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-right .casino-right-images .selected-game:before, .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-right .casino-right-images .selected-device:before {
+  border: 4px solid #ffffff;
+  border-radius: 9px;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-right .casino-right-images .selected-game {
+  margin-right: 10px;
+}
+@media only screen and (max-width: 992px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-right .casino-right-images .selected-game {
+    margin-right: 5px;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-right .casino-right-images img {
+  border: 2px solid #0d6efd;
+  border-radius: 12px;
+  margin: 0 10px 0 0;
+}
+@media only screen and (max-width: 992px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-right .casino-right-images img {
+    margin: 0 5px 0 0;
+    width: 104px;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-right .casino-right-images img:before {
+  border: 4px solid #ffffff;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-right ul {
+  color: #0d6efd;
+  font-size: 16px;
+  line-height: 1em;
+  margin-bottom: 0;
+  text-align: left;
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-right ul {
+    margin: 0;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .casino-container .casino-right ul li {
+  margin-top: 0;
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question#question4 {
+  padding: 25px 0 0;
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question.card-selector input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question.card-selector input:active + .label-card, .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question.card-selector input:checked + .label-card {
+  background-position: -4px -194px;
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question.card-selector input:active + .label-card, .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question.card-selector input:checked + .label-card {
+    background-position: -2px -102px;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question.card-selector input:active + .label-card:after, .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question.card-selector input:checked + .label-card:after {
+  background: url("img/checkmark.svg") no-repeat;
+  background-size: cover;
+  content: "";
+  display: inline-block;
+  height: 20px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question.card-selector input:active + .label-card:after, .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question.card-selector input:checked + .label-card:after {
+    height: 15px;
+    width: 15px;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question.card-selector input:checked + .label-card {
+  border-color: #0d6efd;
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question.card-selector input:checked + .label-card {
+    background-position: -2px -102px;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card {
+  background-position: -4px -4px;
+  background-repeat: no-repeat;
+  border: 2px solid #eee;
+  border-radius: 12px;
+  cursor: pointer;
+  display: inline-block;
+  height: 180px;
+  margin: 0 15px;
+  position: relative;
+  width: 180px;
+}
+@media only screen and (max-width: 992px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card {
+    float: left;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card {
+    background-position: -2px -2px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card {
+    float: none;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card:hover {
+  background-position: -4px -194px;
+  border-color: #0d6efd;
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card:hover {
+    background-position: -2px -102px;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card:hover:after {
+  background: url("img/checkmark.svg") no-repeat;
+  background-size: cover;
+  content: "";
+  display: inline-block;
+  height: 20px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card:hover:after {
+    height: 15px;
+    width: 15px;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.casino1 {
+  background-image: url("./img/casino1.png");
+}
+@media only screen and (max-width: 992px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.casino1 {
+    margin: 0 0 20px 155px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.casino1 {
+    margin: 0 0 20px calc(50% - 107.5px);
+  }
+}
+@media only screen and (max-width: 320px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.casino1 {
+    margin: 0 0 15px;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.casino2 {
+  background-image: url("./img/casino2.png");
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.casino3 {
+  background-image: url("./img/casino3.png");
+}
+@media only screen and (max-width: 992px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.casino3 {
+    clear: both;
+    margin: 0 0 20px 155px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.casino3 {
+    margin: 0 0 20px calc(50% - 107.5px);
+  }
+}
+@media only screen and (max-width: 320px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.casino3 {
+    margin: 0 0 15px;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.casino4 {
+  background-image: url("./img/casino4.png");
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.game1 {
+  background-image: url("./img/game-1.png");
+}
+@media only screen and (max-width: 992px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.game1 {
+    margin: 0 0 20px 155px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.game1 {
+    margin: 0 0 20px calc(50% - 107.5px);
+  }
+}
+@media only screen and (max-width: 320px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.game1 {
+    margin: 0 0 15px;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.game2 {
+  background-image: url("./img/game-2.png");
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.game3 {
+  background-image: url("./img/game-3.png");
+}
+@media only screen and (max-width: 992px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.game3 {
+    clear: both;
+    margin: 0 0 20px 155px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.game3 {
+    margin: 0 0 20px calc(50% - 107.5px);
+  }
+}
+@media only screen and (max-width: 320px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.game3 {
+    margin: 0 0 15px;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.game4 {
+  background-image: url("./img/game-4.png");
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.device1 {
+  background-image: url("./img/device-1.png");
+}
+@media only screen and (max-width: 992px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.device1 {
+    margin: 0 0 20px 155px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.device1 {
+    margin: 0 0 20px calc(50% - 107.5px);
+  }
+}
+@media only screen and (max-width: 320px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.device1 {
+    margin: 0 0 15px;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.device2 {
+  background-image: url("./img/device-2.png");
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.device3 {
+  background-image: url("./img/device-3.png");
+}
+@media only screen and (max-width: 992px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.device3 {
+    clear: both;
+    margin: 0 0 20px 258px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.device3 {
+    margin: 0 0 20px calc(50% - 50px);
+  }
+}
+@media only screen and (max-width: 320px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card.device3 {
+    margin: 0 0 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card {
+    background-size: 100px;
+    height: 100px;
+    margin: 0 0 0 15px;
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .label-card {
+    margin: 0 0 15px;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .btn-primary {
+  background: #0d6efd;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: none;
+  clear: both;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 35px auto;
+  padding: 20px 35px;
+  text-align: center;
+  width: 250px;
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .btn-primary:hover {
+  background: #0d6efd;
+  opacity: 0.9;
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .btn-primary {
+    font-size: 16px;
+    padding: 15px 0;
+    width: 210px;
+  }
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .btn-primary.unclickable {
+  pointer-events: none;
+}
+.casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .progress {
+  border-radius: 8px;
+  clear: both;
+  display: block;
+  height: 12px;
+  margin: 40px auto 0;
+  width: 600px;
+}
+@media only screen and (max-width: 768px) {
+  .casino-bonus-finder-01 .internal-wrapper .modal-wrapper .modal-content .question .progress {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=casino-bonus-finder-01.css.map */

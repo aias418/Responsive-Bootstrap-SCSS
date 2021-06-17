@@ -1,0 +1,272 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+@import "sass-styling-vars";
+
+%d-flex{
+  display: -webkit-box;     
+  display: -moz-box;        
+  display: -ms-flexbox;     
+  display: -webkit-flex;    
+  display: flex; 
+}
+
+%flex-1{
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -webkit-flex: 1; 
+  -ms-flex: 1;
+  flex: 1;
+}
+
+%full-center{
+    @extend %d-flex;
+    align-items: center;
+    justify-content: center;
+}
+%fa-font{
+    font: normal normal normal $font-size-default+1/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.content-table-variation-01 {
+    font-family: $font-family-default;
+    
+   
+    .app-container{
+        max-width: 795px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    
+    
+    .app-tbl-flex{
+        margin-bottom: 40px;
+        .app-tbl{
+            @extend %d-flex;
+            flex-direction: column;
+        }
+        .tbl-row{
+            @extend %d-flex;
+            .tbl-cell{
+                @extend %flex-1;
+                text-align: center;
+            }
+            &:last-child{
+                .tbl-cell{
+                    border-bottom: 1px solid lighten($theme-dark, 70%);
+                }
+            }
+        }
+        .tbl-cell{
+            padding: 13px 5px;
+            min-height: 42px;
+            border-top: 1px solid lighten($theme-dark, 70%);
+            border-right: 1px solid lighten($theme-dark, 70%);
+            border-collapse: collapse;
+            &:first-child{
+                border-left: 1px solid lighten($theme-dark, 70%);
+            }
+            
+        }
+        .hidden-cell{
+            visibility: hidden;
+        }
+        .head-cell{
+            color: $theme-white;
+            font-weight: 700;
+            border-collapse: collapse;
+
+        }
+        .tbl-content{
+            @extend %d-flex;
+            flex-direction: column;
+            position: relative;
+        }
+        
+    }
+    .casinos-games-tbl{
+        .tbl-header-title-content{
+            background-color: darken($theme-primary , 15%);
+            text-align: center;
+            padding: 30px 30px 18px;
+            p{
+                color: $theme-white;
+                font-size: $font-size-default;
+                a{
+                    color: currentColor;
+                    text-decoration: underline;
+                }
+            }
+            .main-title{
+                font-size: ($font-size-default - 1) * 2;
+                color: $theme-white;
+                margin-bottom: 4px;
+                font-weight: $font-weight-heavy;
+                margin-bottom: 12px;
+                line-height: normal;
+            }
+        }
+        .header-row{
+            background-color: darken($theme-primary , 15%);
+            .head-cell{
+                @extend %full-center;
+                font-size: $font-size-default;
+                background-color: darken($theme-primary , 32%);
+                border-color: darken($theme-primary , 32%);
+                &:nth-child(1){
+                    border-right: none;
+                    margin-left: -1px;
+                }
+            }
+        }
+        .cont-cell:not(.img-col){
+            @extend %full-center;
+        }
+        .tbl-cell{
+            &:first-child{
+                min-width: 152px;
+                max-width: 152px;
+                &:not(.head-cell){
+                    min-height: 152px;
+                    max-height: 152px;
+                }
+            }
+            &.cont-cell{
+                font-size: $font-size-default;
+                color: $theme-dark;
+                font-weight: $font-weight-bold;
+            }
+            &.img-col{
+                position: relative;
+                @extend %d-flex;
+                align-items: flex-end;
+                padding-left: 12px;
+                padding-bottom: 7px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+                &:before{
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    height: 100%;
+                    width: 100%;
+                    background: rgb(2,4,78);
+                    background: -moz-linear-gradient(180deg, rgba(2,4,78,0) 65%, rgba(9,9,121,0.40379901960784315) 84%, rgba(2,4,78,1) 100%);
+                    background: -webkit-linear-gradient(180deg, rgba(2,4,78,0) 65%, rgba(9,9,121,0.40379901960784315) 84%, rgba(2,4,78,1) 100%);
+                    background: linear-gradient(180deg, rgba(2,4,78,0) 65%, rgba(9,9,121,0.40379901960784315) 84%, rgba(2,4,78,1) 100%);
+                    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#02044e",endColorstr="#02044e",GradientType=1);
+                }
+                strong{
+                    font-size: $font-size-sm;
+                    color: $theme-white;
+                    position: relative;
+                    z-index: 1;
+                }
+            }
+            &.realM-col{
+                color: $theme-success;
+                font-size: $font-size-lg;
+            }
+            &.learnM-col{
+                a{
+                    color: $theme-primary;
+                    font-weight: $font-weight-bold;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+    }
+    
+    @media (max-width: 767px) {
+       
+        .app-tbl-flex{
+            .app-tbl{
+                flex-direction: column;
+            }
+            .tbl-content{
+                flex-direction: row;
+            }
+            .tbl-row{
+                flex-direction: column;
+                .head-cell{
+                    width: auto;
+                }
+                .tbl-cell{
+                    padding: 13px 8px;
+                    white-space: nowrap;
+                    font-size: 11px;
+                    text-align: center;
+                    width: auto ;
+                    &:first-child{
+                        border-left: none;
+                    }
+                    &:last-child{
+                        border-bottom: 1px solid lighten($theme-dark, 70%);
+                    }
+                }
+                &:last-child{
+                    .tbl-cell:not(:last-child){
+                        border-bottom: none;
+                    }
+                }
+                &:first-child{
+                    position: sticky;
+                    left: 0px;
+                    .tbl-cell{
+                        border-left: 1px solid lighten($theme-dark, 70%);
+                    }
+                }
+            }
+            .header-row{
+                position: sticky;
+                left: 0;
+                z-index: 1;
+            }
+        }
+        .casinos-games-tbl{
+            .tbl-header-title-content{
+                padding: 20px 10px 8px;
+                .main-title{
+                    font-size : $font-size-h3; 
+                }
+            }
+            .table-responsive{
+                border: none;
+            }
+            .app-tbl{
+                min-width: max-content;
+                width: auto;
+                max-width: max-content;
+            }
+            .header-row{
+                position: relative;
+                z-index: 2;
+                .head-cell{
+                    
+                    align-items: center;
+                    &:nth-child(1){
+                        min-height: 152px;
+                        max-height: 152px;
+                        visibility: visible;
+                        margin-left: 0px;
+                        border-top: none;
+                    }
+                }
+            } 
+            .cont-cell{
+                &:first-child{
+                    border-top: none;
+                }
+            }
+        }
+    }
+   
+}

@@ -1,0 +1,264 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Karla:400&display=swap");
+img {
+  max-width: 100%;
+}
+
+.item-mast-variation-01 {
+  border: 1px solid #eee;
+  padding: 10px 15px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #ffffff;
+  position: relative;
+  margin: 10px 0;
+  font-size: 13px;
+}
+.item-mast-variation-01 .item-mast-variation-01-left {
+  position: relative;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+  padding: 5px 15px;
+  text-align: center;
+  border: 1px solid #eee;
+}
+.item-mast-variation-01 .item-mast-variation-01-left .item-mast-variation-01-cta-flag {
+  position: absolute;
+  left: -10px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  background: #38ae56;
+  padding: 2px 2px 0;
+  text-shadow: 0 2px 0 #829798;
+}
+@media (min-width: 768px) {
+  .item-mast-variation-01 .item-mast-variation-01-left .item-mast-variation-01-cta-flag {
+    left: -14px;
+  }
+}
+.item-mast-variation-01 .item-mast-variation-01-left .item-mast-variation-01-cta-flag .icon-flag:before {
+  content: "";
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  background-color: transparent;
+  width: 40px;
+  height: 30px;
+  margin: 2px;
+  background-image: url(img/in.svg);
+}
+.item-mast-variation-01 .item-mast-variation-01-left .item-mast-variation-01-logo {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+}
+.item-mast-variation-01 .item-mast-variation-01-left .item-mast-variation-01-logo img {
+  max-height: 80px;
+  max-width: 130px;
+}
+.item-mast-variation-01 .item-mast-variation-01-left .item-mast-variation-01-bonus {
+  margin-bottom: 15px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #198754;
+}
+.item-mast-variation-01 .item-mast-variation-01-left .item-mast-variation-01-btn {
+  margin-bottom: 10px;
+}
+.item-mast-variation-01 .item-mast-variation-01-center .item-mast-variation-01-tick {
+  list-style: none;
+  padding: 0 0 15px;
+  margin: 0;
+  border-bottom: 1px solid #eee;
+}
+@media (max-width: 767px) {
+  .item-mast-variation-01 .item-mast-variation-01-center .item-mast-variation-01-tick {
+    padding-top: 20px;
+  }
+}
+.item-mast-variation-01 .item-mast-variation-01-center .item-mast-variation-01-tick li {
+  margin: 0 0 10px 20px;
+  padding: 0;
+  position: relative;
+}
+.item-mast-variation-01 .item-mast-variation-01-center .item-mast-variation-01-tick li:before {
+  font: normal normal normal 14px/1 FontAwesome;
+  content: "";
+  top: 2px;
+  left: -20px;
+  font-size: 1.5rem;
+  position: absolute;
+  width: auto;
+  color: #198754;
+}
+.item-mast-variation-01 .item-mast-variation-01-center .item-mast-variation-01-deposit {
+  text-align: left;
+  margin-top: 15px;
+}
+@media (max-width: 767px) {
+  .item-mast-variation-01 .item-mast-variation-01-center .item-mast-variation-01-deposit {
+    text-align: center;
+  }
+}
+.item-mast-variation-01 .item-mast-variation-01-center .item-mast-variation-01-deposit .icon-deposit {
+  background: #ffffff;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  display: inline-block;
+  padding: 4px;
+}
+.item-mast-variation-01 .item-mast-variation-01-center .item-mast-variation-01-deposit .icon-deposit:before {
+  content: "";
+  display: block;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+  background-color: transparent;
+  width: 45px;
+  height: 28px;
+}
+@media (max-width: 992px) {
+  .item-mast-variation-01 .item-mast-variation-01-center .item-mast-variation-01-deposit .icon-deposit:before {
+    width: 40px;
+  }
+}
+.item-mast-variation-01 .item-mast-variation-01-center .item-mast-variation-01-deposit .icon-deposit.icon-deposit--amex:before {
+  background-image: url(img/deposit--amex.svg);
+}
+.item-mast-variation-01 .item-mast-variation-01-center .item-mast-variation-01-deposit .icon-deposit.icon-deposit--visa:before {
+  background-image: url(img/deposit--visa.svg);
+}
+.item-mast-variation-01 .item-mast-variation-01-center .item-mast-variation-01-deposit .icon-deposit.icon-deposit--mastercard:before {
+  background-image: url(img/deposit--mastercard.svg);
+}
+.item-mast-variation-01 .item-mast-variation-01-center .item-mast-variation-01-deposit .icon-deposit.icon-deposit--bitcoin:before {
+  background-image: url(img/deposit--bitcoin.svg);
+}
+.item-mast-variation-01 .item-mast-variation-01-center .item-mast-variation-01-deposit .icon-deposit.icon-deposit--neosurf:before {
+  background-image: url(img/deposit--neosurf.svg);
+}
+.item-mast-variation-01 .item-mast-variation-01-right {
+  border-left: 1px solid #eee;
+  padding-left: 20px;
+}
+@media (max-width: 992px) {
+  .item-mast-variation-01 .item-mast-variation-01-right {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .item-mast-variation-01 .item-mast-variation-01-right {
+    border: none;
+  }
+}
+.item-mast-variation-01 .item-mast-variation-01-right .item-mast-variation-01-top__ratings-cat {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.item-mast-variation-01 .item-mast-variation-01-right .item-mast-variation-01-top__ratings-cat .item-mast-variation-01-top__ratings-title {
+  padding-right: 15px;
+  font-size: 13px;
+}
+@media (max-width: 992px) {
+  .item-mast-variation-01 .item-mast-variation-01-right .item-mast-variation-01-top__ratings-cat .item-mast-variation-01-top__ratings-title {
+    font-size: 11px;
+  }
+}
+.item-mast-variation-01 .item-mast-variation-01-right .item-mast-variation-01-top__ratings-cat .item-mast-variation-01-top__ratings-stars {
+  color: #0dcaf0;
+  font-size: 13px;
+}
+.item-mast-variation-01 .item-mast-variation-01-right .item-mast-variation-01-top__ratings-cat-overall .item-mast-variation-01-top__ratings-title {
+  font-size: 17px;
+  font-weight: 500;
+}
+@media (max-width: 992px) {
+  .item-mast-variation-01 .item-mast-variation-01-right .item-mast-variation-01-top__ratings-cat-overall .item-mast-variation-01-top__ratings-title {
+    font-size: 13px;
+  }
+}
+.item-mast-variation-01 .item-mast-variation-01-right .item-mast-variation-01-top__ratings-cat-overall .item-mast-variation-01-top__ratings-stars {
+  font-size: 15px;
+}
+.item-mast-variation-01 .item-mast-variation-01-top__guarantee {
+  text-align: center;
+  margin-top: 15px;
+}
+@media only screen and (max-width: 767px) {
+  .item-mast-variation-01 .item-mast-variation-01-top__guarantee.item-mast-variation-01-top__guarantee-desktop {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .item-mast-variation-01 .item-mast-variation-01-top__guarantee.item-mast-variation-01-top__guarantee-mobile {
+    display: none;
+  }
+}
+.item-mast-variation-01 .item-mast-variation-01-top__guarantee .item-mast-variation-01-top__guarantee-title {
+  color: #000;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .item-mast-variation-01 .item-mast-variation-01-top__guarantee img {
+    width: 45%;
+    display: inline-block;
+  }
+}
+.item-mast-variation-01 .item-mast-variation-01-game-selection {
+  margin: 15px 0;
+}
+.item-mast-variation-01 .item-mast-variation-01-game-selection .item-mast-variation-01-game-selection__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item-mast-variation-01 .item-mast-variation-01-game-selection .item-mast-variation-01-game-selection__wrapper .item-mast-variation-01-game-selection__item {
+  position: relative;
+  margin: 10px 5px;
+  padding-top: 15px;
+  background: #ffffff;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+.item-mast-variation-01 .item-mast-variation-01-game-selection .item-mast-variation-01-game-selection__wrapper .item-mast-variation-01-game-selection__item .fa-check {
+  position: absolute;
+  top: -9px;
+  left: -7px;
+  background: #198754;
+  border-radius: 50%;
+  color: #fff;
+  padding: 5px;
+}
+.item-mast-variation-01 .item-mast-variation-01-game-selection .item-mast-variation-01-game-selection__wrapper .item-mast-variation-01-game-selection__item .item-mast-variation-01-game-selection__item-image {
+  width: 57px;
+  height: 52px;
+  display: inline-block;
+}
+.item-mast-variation-01 .item-mast-variation-01-game-selection .item-mast-variation-01-game-selection__wrapper .item-mast-variation-01-game-selection__item .item-mast-variation-01-game-selection__item-image img {
+  max-width: 57px;
+  max-height: 100%;
+  pointer-events: none;
+}
+.item-mast-variation-01 .item-mast-variation-01-game-selection .item-mast-variation-01-game-selection__wrapper .item-mast-variation-01-game-selection__item .item-mast-variation-01-game-selection__item-title {
+  color: #000;
+  font-weight: 700;
+  padding: 0 4px;
+}
+.item-mast-variation-01 .item-mast-variation-01-top__btn {
+  display: block;
+}
+@media (min-width: 768px) {
+  .item-mast-variation-01 .item-mast-variation-01-top__btn {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=item-mast-variation-01.css.map */

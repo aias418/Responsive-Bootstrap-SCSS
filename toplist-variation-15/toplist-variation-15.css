@@ -1,0 +1,467 @@
+.toplist-variation-15 {
+  float: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.toplist-variation-15 .heading {
+  padding-top: 24px;
+  max-width: 1140px;
+}
+
+.toplist-variation-15 .heading .title {
+  color: #ffc107;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1.46em;
+  text-align: center;
+  letter-spacing: .11px;
+  padding-bottom: 9px;
+  height: auto;
+  width: auto;
+}
+
+.toplist-variation-15 .casino-list .sorting-buttons {
+  max-width: 1140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 8px auto 40px;
+}
+
+@media only screen and (max-width: 480px) {
+  .toplist-variation-15 .casino-list .sorting-buttons {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
+.toplist-variation-15 .casino-list .sorting-buttons .btn {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 480px) {
+  .toplist-variation-15 .casino-list .sorting-buttons .btn {
+    margin-bottom: 16px;
+  }
+}
+
+.toplist-variation-15 .casino-list .sorting-buttons .btn:not(:last-child) {
+  margin-right: 20px;
+}
+
+.toplist-variation-15 .casino-list .sorting-buttons .btn i {
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.toplist-variation-15 .casino-list .list {
+  max-width: 1140px;
+  margin-top: 20px;
+}
+
+.toplist-variation-15 .casino-list .list .casino {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+  padding: 8px 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .toplist-variation-15 .casino-list .list .casino {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 8px 0;
+  }
+}
+
+.toplist-variation-15 .casino-list .list .casino .single-casino {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 16px 20px;
+  border-radius: 6px;
+}
+
+.toplist-variation-15 .casino-list .list .casino .single-casino .casino-img {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.toplist-variation-15 .casino-list .list .casino .single-casino .casino-img img {
+  border-radius: 6px;
+}
+
+.toplist-variation-15 .casino-list .list .casino .page-score {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffc107;
+}
+
+.toplist-variation-15 .casino-list .list .casino .page-score.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .toplist-variation-15 .casino-list .list .casino .page-score.mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.toplist-variation-15 .casino-list .list .casino .page-score.desktop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media only screen and (max-width: 480px) {
+  .toplist-variation-15 .casino-list .list .casino .page-score.desktop {
+    display: none;
+  }
+}
+
+.toplist-variation-15 .casino-list .list .casino .page-score .score-text {
+  margin-bottom: 0;
+  font-size: 12px;
+  line-height: 1.67em;
+}
+
+.toplist-variation-15 .casino-list .list .casino .page-score .score-number {
+  font-size: 40px;
+  line-height: .5em;
+  font-weight: 900;
+}
+
+.toplist-variation-15 .casino-list .list .casino .page-score .average-text {
+  font-size: 17px;
+  line-height: 1.18em;
+  font-weight: 900;
+  color: #212529;
+  letter-spacing: .1px;
+}
+
+.toplist-variation-15 .casino-list .list .casino .page-score .score-link {
+  font-size: 12px;
+  line-height: 1.5em;
+  white-space: nowrap;
+}
+
+.toplist-variation-15 .casino-list .list .casino .page-score .score-wrapper {
+  position: relative;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.toplist-variation-15 .casino-list .list .casino .page-score .score-wrapper .score-number {
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+
+.toplist-variation-15 .casino-list .list .casino .page-score .score-wrapper #hover-score {
+  display: none;
+  position: absolute;
+  bottom: -300px;
+  text-align: left;
+  left: -200px;
+  width: 300px;
+  background: #ffffff;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+  z-index: 99999999;
+  padding: 20px 24px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.toplist-variation-15 .casino-list .list .casino .page-score .score-wrapper #hover-score .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.67em;
+  font-weight: 700;
+  color: #212529;
+}
+
+.toplist-variation-15 .casino-list .list .casino .page-score .score-wrapper #hover-score .progress {
+  margin-bottom: 10px;
+  overflow: unset;
+  border-radius: 20px 20px;
+}
+
+.toplist-variation-15 .casino-list .list .casino .page-score .score-wrapper #hover-score .progress .progress-bar {
+  background: linear-gradient(45deg, #dc3545, #ffc107);
+}
+
+.toplist-variation-15 .casino-list .list .casino .page-score .score-wrapper:hover #hover-score {
+  display: block;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.toplist-variation-15 .casino-list .list .casino .bonuses {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  .toplist-variation-15 .casino-list .list .casino .bonuses {
+    display: none;
+  }
+}
+
+.toplist-variation-15 .casino-list .list .casino .bonuses .free-spins .spin {
+  margin-bottom: 0;
+  font-size: 13px;
+  line-height: 1.54em;
+  color: #6c757d;
+}
+
+.toplist-variation-15 .casino-list .list .casino .bonuses .free-spins .spin i {
+  color: #ffc107;
+  margin-right: 5px;
+}
+
+.toplist-variation-15 .casino-list .list .casino .bonuses .bonus {
+  font-size: 17px;
+  line-height: 1.176em;
+  font-weight: 800;
+}
+
+.toplist-variation-15 .casino-list .list .casino .bonuses .more-info {
+  margin-top: 16px;
+}
+
+.toplist-variation-15 .casino-list .list .casino .bonuses .more-info a {
+  font-size: 16px;
+  line-height: 1.125em;
+  font-weight: 900;
+}
+
+.toplist-variation-15 .casino-list .list .casino .bonuses.mobile-block {
+  display: none;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 480px) {
+  .toplist-variation-15 .casino-list .list .casino .bonuses.mobile-block {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .toplist-variation-15 .casino-list .list .casino .bonuses.desktop-block {
+    display: none;
+  }
+}
+
+.toplist-variation-15 .casino-list .list .casino .pros-list {
+  display: block;
+}
+
+@media only screen and (max-width: 480px) {
+  .toplist-variation-15 .casino-list .list .casino .pros-list {
+    display: none;
+  }
+}
+
+.toplist-variation-15 .casino-list .list .casino .pros-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  font-size: 12px;
+  text-align: left;
+}
+
+.toplist-variation-15 .casino-list .list .casino .pros-list ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.67em;
+  color: #6c757d;
+  z-index: 0;
+}
+
+.toplist-variation-15 .casino-list .list .casino .pros-list ul li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.toplist-variation-15 .casino-list .list .casino .pros-list ul li i {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #198754;
+  vertical-align: middle;
+}
+
+.toplist-variation-15 .casino-list .list .casino .claim-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.toplist-variation-15 .casino-list .list .casino .claim-wrapper .btn {
+  color: #ffffff;
+}
+
+.toplist-variation-15 .casino-list .list .casino .claim-wrapper .terms {
+  display: block;
+  width: 100%;
+  color: #6c757d;
+  margin-top: 10px;
+  font-size: 9px;
+  line-height: 2em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .toplist-variation-15 .casino-list .list .casino .claim-wrapper .terms {
+    display: inline-block;
+  }
+}
+
+.toplist-variation-15 .casino-list .list .casino .claim-wrapper .lg-none-text {
+  display: none;
+  color: #6c757d;
+  font-size: 7px;
+  line-height: 1.5em;
+  margin-top: 10px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .toplist-variation-15 .casino-list .list .casino .claim-wrapper .lg-none-text {
+    display: block;
+  }
+}
+
+.toplist-variation-15 .casino-list .list .casino .text-muted {
+  display: block;
+  width: 100%;
+  color: #6c757d;
+  font-size: 9px;
+  line-height: 1.5em;
+  margin-top: 10px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .toplist-variation-15 .casino-list .list .casino .text-muted {
+    display: none;
+  }
+}
+
+.toplist-variation-15 .casino-list .list .casino .text-muted.d-none {
+  display: none;
+}
+
+.toplist-variation-15 img {
+  max-width: 100%;
+  border: none;
+  text-decoration: none;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.toplist-variation-15 p {
+  margin: 0 0 15px;
+}
+
+.toplist-variation-15 ul {
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.toplist-variation-15 ul li {
+  margin: 0;
+}
+
+.toplist-variation-15 a {
+  text-decoration: none;
+  color: #ffc107;
+}

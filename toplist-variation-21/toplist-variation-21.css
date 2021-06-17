@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Karla:400&display=swap");
+img {
+  max-width: 100%;
+}
+
+.toplist-variation-21 {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #ffffff;
+}
+.toplist-variation-21 .toplist-variation-21-heading {
+  background: #e5e5e5;
+  color: #000;
+  font-weight: 700;
+  font-size: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #eee;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  width: 100%;
+}
+.toplist-variation-21 .toplist-variation-21-body .toplist-variation-21-body-list {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #eee;
+  margin-top: -1px;
+}
+.toplist-variation-21 .toplist-variation-21-body .toplist-variation-21-body-list:nth-child(odd) {
+  background: #fafafa;
+}
+.toplist-variation-21 .toplist-variation-21-body .toplist-variation-21-body-list .toplist-variation-21-list-rating .toplist-variation-21-list-star {
+  color: #0dcaf0;
+  font-size: 15px;
+}
+.toplist-variation-21 .toplist-variation-21-body .toplist-variation-21-body-list .toplist-variation-21-list-rating .toplist-variation-21-list-user-reviews {
+  margin-top: 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 13px;
+}
+.toplist-variation-21 .toplist-variation-21-body .toplist-variation-21-body-list .toplist-variation-21-list-desc {
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+@media (max-width: 991px) {
+  .toplist-variation-21 .toplist-variation-21-body .toplist-variation-21-body-list .toplist-variation-21-list-desc {
+    padding-top: 10px;
+  }
+}
+.toplist-variation-21 .toplist-variation-21-body .toplist-variation-21-body-list .toplist-variation-21-list-key-features-list {
+  list-style: none;
+  font-size: 13px;
+  margin: 0 auto;
+  padding: 0;
+}
+.toplist-variation-21 .toplist-variation-21-body .toplist-variation-21-body-list .toplist-variation-21-list-key-features-list li {
+  list-style: none;
+  margin: 0 auto 0.3rem;
+  padding-left: 23px;
+  position: relative;
+}
+.toplist-variation-21 .toplist-variation-21-body .toplist-variation-21-body-list .toplist-variation-21-list-key-features-list li:before {
+  font: normal normal normal 14px/1 FontAwesome;
+  content: "";
+  color: #198754;
+  font-size: 15px;
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+
+/*# sourceMappingURL=toplist-variation-21.css.map */

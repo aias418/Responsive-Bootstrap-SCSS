@@ -1,0 +1,39 @@
+@import "sass-styling-vars";
+
+.country-select-variation-01 {
+    float: none;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    margin: 30px auto;
+    max-width: 895px;
+    
+    .interlinker {
+        background-color: $theme-white;
+        padding: 24px;
+        font-weight: $font-weight-heavy;
+        font-size: $font-size-h6;
+        line-height: 1.5em;
+        display: flex;
+        flex-direction: column;
+        border-radius: $theme-border-radius;
+        @media only screen and (max-width: 480px) {
+            padding: 14px;
+        }
+        .interlinker-title {
+            margin-bottom: 16px;
+        }
+        .interlinker-list {
+            display: inline-block;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            .interlinker-link {
+                display: inline-block;
+                text-decoration: underline;
+                margin: 0 25px 0 0;
+            }
+        }
+
+    }
+}

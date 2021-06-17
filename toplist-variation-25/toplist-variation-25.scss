@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+@import "sass-styling-vars";
+
+%d-flex{
+  display: -webkit-box;     
+  display: -moz-box;        
+  display: -ms-flexbox;     
+  display: -webkit-flex;    
+  display: flex; 
+}
+%flex-1{
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -webkit-flex: 1; 
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.toplist-variation-25 {
+    font-family: $font-family-default;
+    a{
+        text-decoration: none;
+        color: $theme-primary;
+        font-weight: $font-weight-heavy;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    p{
+        font-size: $font-size-h4;
+        color: $theme-dark;
+        margin-bottom: 24px;
+    }
+   
+    .app-container{
+        max-width: 918px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .main-title{
+        font-size: $font-size-h2;
+        color: $theme-dark;
+        margin-bottom: 24px;
+        font-weight: $font-weight-heavy;
+    }
+   
+
+    .app-tbl-flex{
+        .app-tbl{
+            @extend %d-flex;
+            flex-direction: column;
+        }
+        .tbl-row{
+            @extend %d-flex;
+            .tbl-cell{
+                @extend %flex-1;
+            }
+        }
+        .tbl-cell{
+            font-size: $font-size-h4;
+            padding: 13px 5px;
+            min-height: 48px;
+        }
+        .head-cell{
+            background-color: $theme-dark;
+            color: $theme-white;
+            font-weight: $font-weight-heavy;
+        }
+        .tbl-content{
+            @extend %d-flex;
+            flex-direction: column;
+            .tbl-row{
+                &:nth-child(even){
+                    background-color: lighten($theme-secondary, 50%);
+                }
+            }
+        }
+        @media(max-width: 767px){
+            .app-tbl{
+                flex-direction: row;
+            }
+            .tbl-content{
+                flex-direction: row;
+
+            }
+            .tbl-row{
+                flex-direction: column;
+                .head-cell{
+                    width: auto;
+                }
+            }
+            .tbl-cell{
+                padding: 13px 8px;
+                white-space: nowrap;
+                font-size: $font-size-h6;
+            }
+            .header-row{
+                position: sticky;
+                left: 0;
+                z-index: 1;
+            }
+            
+        }
+    }
+   
+    .best-casinos-tbl{
+        margin-bottom: 40px;
+        box-shadow: $wrapper-box-shadow;
+        .tbl-cell{
+            text-align: center;
+        }
+    }
+    
+}

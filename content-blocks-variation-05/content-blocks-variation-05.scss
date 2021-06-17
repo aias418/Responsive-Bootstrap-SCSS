@@ -1,0 +1,100 @@
+@import "sass-styling-vars";
+
+.content-blocks-variation-05 {
+    float: none;
+    box-sizing: border-box;
+    padding: 0 12px;
+    width: 100%;
+    margin: 30px auto;
+    max-width: 842px;
+    .content-blocks-container {
+        
+        .heading {
+            display: block;
+            margin-bottom: 12px;
+            font-size: $font-size-default + 15;
+            line-height: 1.5em;
+            @media only screen and (max-width : 480px) {
+                font-size: $font-size-default + 7;
+                line-height: 1.3em;
+            }
+        }
+        .hub-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            margin: -6px;
+            .option {
+                display: flex;
+                flex-wrap: wrap;
+                flex: 1 1 254px;
+                min-height: 120px;
+                align-items: center;
+                justify-content: center;
+                background-color: $theme-light;
+                border: $theme-border;
+                border-radius: $theme-border-radius;
+                margin: 6px;
+                padding: 12px;
+                color: $theme-secondary;
+                text-align: center;
+                transition: background-color .2s;
+                &:hover {
+                    background-color: $theme-white;
+                }
+                .option-title, .option-img, .option-description {
+                    margin: 5px;
+                }
+                .option-img {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: $theme-secondary;
+                    img {
+                        max-width: 120px;
+                        max-height: 70px;
+                    }
+                }
+                .option-title {
+                    flex: 0 0 100%;
+                    font-size: $font-size-default + 5;
+                    line-height: 1.4em;
+                    font-weight: $font-weight-heavy;
+                    @media only screen and (max-width : 480px) {
+                        font-size: $font-size-default;
+                        line-height: 1.3em;
+                    }
+                }
+                .option-description {
+                    font-size: $font-size-default + 3;
+                    line-height: 1.35;
+                    @media only screen and (max-width : 480px) {
+                        font-size: $font-size-default;
+                        line-height: 1.54em;
+                    }
+                }
+            }
+        }
+    }
+    img {
+        max-width: 100%;
+        border: none;
+        text-decoration: none;
+        object-fit: contain;
+    }
+    p {
+        margin: 0 0 13px;
+        font-size: $font-size-default;
+        line-height: 1.46em;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            margin: 0;
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+}

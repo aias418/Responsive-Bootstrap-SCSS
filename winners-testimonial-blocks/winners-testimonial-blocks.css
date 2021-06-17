@@ -1,0 +1,203 @@
+.winners-testimonial-blocks {
+  float: none;
+}
+
+.winners-testimonial-blocks .text-element {
+  overflow-wrap: break-word;
+  padding: 1px;
+}
+
+@media only screen and (max-width: 992px) {
+  .winners-testimonial-blocks .text-element {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .winners-testimonial-blocks .text-element {
+    padding: 0;
+  }
+}
+
+.winners-testimonial-blocks .text-element p.title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2em;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 0;
+  text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+  .winners-testimonial-blocks .text-element p.title {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .winners-testimonial-blocks .text-element p.title {
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+  }
+}
+
+.winners-testimonial-blocks .block-element {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+  float: none;
+}
+
+.winners-testimonial-blocks .block-element .winner-block {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+  border: 0;
+  margin-top: 10px;
+  padding: 0;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.winners-testimonial-blocks .block-element .winner-block .block-flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 30px;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: -15px;
+}
+
+@media only screen and (max-width: 480px) {
+  .winners-testimonial-blocks .block-element .winner-block .block-flex-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 20px;
+  }
+}
+
+.winners-testimonial-blocks .block-element .winner-block .block-flex-row .block-content-col {
+  max-width: 69%;
+}
+
+@media only screen and (max-width: 480px) {
+  .winners-testimonial-blocks .block-element .winner-block .block-flex-row .block-content-col {
+    max-width: 100%;
+  }
+}
+
+.winners-testimonial-blocks .block-element .winner-block .block-flex-row .block-flex-col {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding-top: 0px;
+  padding-left: 15px;
+}
+
+.winners-testimonial-blocks .block-element .winner-block .block-flex-row .block-flex-col .block-col {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.winners-testimonial-blocks .block-element .winner-block .block-flex-row .block-flex-col .block-col .block-col-img {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+  .winners-testimonial-blocks .block-element .winner-block .block-flex-row .block-flex-col .block-col .block-col-img {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+
+.winners-testimonial-blocks .block-element .winner-block .block-flex-row .block-flex-col .block-col .text-element {
+  margin-bottom: 10px;
+}
+
+.winners-testimonial-blocks .block-element .winner-block .block-flex-row .block-flex-col .block-col .text-element .block-col-title {
+  color: #0d6efd;
+  font-weight: 700;
+  font-size: 18px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  .winners-testimonial-blocks .block-element .winner-block .block-flex-row .block-flex-col .block-col .text-element .block-col-title {
+    font-size: 14px;
+  }
+}
+
+.winners-testimonial-blocks .block-element .winner-block .block-flex-row .block-flex-col .block-col .text-element .content {
+  font-size: 16px;
+  line-height: 1.5em;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .winners-testimonial-blocks .block-element .winner-block .block-flex-row .block-flex-col .block-col .text-element .content {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .winners-testimonial-blocks .block-element .winner-block .block-flex-row .block-flex-col .block-col .text-element .content {
+    font-size: 11px;
+  }
+}
+
+.winners-testimonial-blocks .block-element .winner-block .block-flex-row .block-flex-col .block-col .block-col-btn {
+  float: left;
+  z-index: 3;
+  position: relative;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  padding: 0 1px;
+}
+
+@media only screen and (max-width: 480px) {
+  .winners-testimonial-blocks .block-element .winner-block .block-flex-row .block-flex-col .block-col .block-col-btn {
+    width: 100%;
+    padding: 0;
+  }
+  .winners-testimonial-blocks .block-element .winner-block .block-flex-row .block-flex-col .block-col .block-col-btn .btn {
+    width: 100%;
+    white-space: normal;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .winners-testimonial-blocks .block-element .winner-block .block-flex-row .block-flex-col .block-col .block-col-btn {
+    padding: 0 20px;
+  }
+}

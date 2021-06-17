@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Karla:400&display=swap");
+img {
+  max-width: 100%;
+}
+
+.casino-info-tabs {
+  border: 1px solid #eee;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #ffffff;
+  font-size: 13px;
+}
+.casino-info-tabs .casino-info-tabs-navs {
+  margin: 0;
+}
+.casino-info-tabs .casino-info-tabs-navs li {
+  margin: 0;
+  margin-bottom: -1px;
+  width: 50%;
+  background: #ffffff;
+}
+@media (max-width: 667px) {
+  .casino-info-tabs .casino-info-tabs-navs li {
+    text-align: center;
+  }
+}
+.casino-info-tabs .casino-info-tabs-navs li a {
+  background: #212529;
+  color: #ffffff;
+  vertical-align: middle;
+}
+.casino-info-tabs .casino-info-tabs-navs li a img {
+  margin-right: 10px;
+}
+.casino-info-tabs .casino-info-tabs-navs li.active a {
+  color: #000;
+  background: #ffffff;
+}
+.casino-info-tabs .casino-info-tabs-navs li:last-child a {
+  margin-right: 0;
+}
+.casino-info-tabs .casino-info-tabs-navs .casino-info-tabs-navs-desktop {
+  display: inline-block;
+}
+@media (max-width: 667px) {
+  .casino-info-tabs .casino-info-tabs-navs .casino-info-tabs-navs-desktop {
+    display: none;
+  }
+}
+.casino-info-tabs .casino-info-tabs-navs .casino-info-tabs-navs-mobile {
+  display: none;
+}
+@media (max-width: 667px) {
+  .casino-info-tabs .casino-info-tabs-navs .casino-info-tabs-navs-mobile {
+    display: inline-block;
+  }
+}
+.casino-info-tabs .casino-info-tabs-listing-prt {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.casino-info-tabs .casino-info-tabs-listing-prt .casino-info-tabs-listing {
+  font-size: 13px;
+  color: #000;
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.casino-info-tabs .casino-info-tabs-listing-prt .casino-info-tabs-listing .casino-info-tabs-listing-heading {
+  display: inline-block;
+  vertical-align: top;
+  font-weight: 500;
+  padding-right: 10px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+@media (min-width: 768px) {
+  .casino-info-tabs .casino-info-tabs-listing-prt .casino-info-tabs-listing .casino-info-tabs-listing-heading {
+    width: 22%;
+  }
+}
+.casino-info-tabs .casino-info-tabs-listing-prt .casino-info-tabs-listing .casino-info-tabs-listing-heading img {
+  width: 20px;
+  margin-right: 10px;
+}
+.casino-info-tabs .casino-info-tabs-listing-prt .casino-info-tabs-listing .casino-info-tabs-listing-desc {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  padding-left: 32px;
+}
+@media (min-width: 768px) {
+  .casino-info-tabs .casino-info-tabs-listing-prt .casino-info-tabs-listing .casino-info-tabs-listing-desc {
+    width: 77%;
+    padding-left: 0;
+  }
+}
+.casino-info-tabs .casino-info-tabs-listing-prt .casino-info-tabs-listing .casino-info-tabs-listing-desc .casino-info-tabs-listing-desc-desc {
+  color: #000;
+  margin-bottom: 5px;
+}
+.casino-info-tabs .casino-info-tabs-listing-prt .casino-info-tabs-listing .casino-info-tabs-listing-desc-column-list {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  column-fill: balance;
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+  column-count: 1;
+  vertical-align: top;
+  list-style: none;
+}
+@media (min-width: 667px) {
+  .casino-info-tabs .casino-info-tabs-listing-prt .casino-info-tabs-listing .casino-info-tabs-listing-desc-column-list {
+    column-count: 2;
+  }
+}
+@media (min-width: 768px) {
+  .casino-info-tabs .casino-info-tabs-listing-prt .casino-info-tabs-listing .casino-info-tabs-listing-desc-column-list {
+    column-count: 3;
+  }
+}
+@media (min-width: 992px) {
+  .casino-info-tabs .casino-info-tabs-listing-prt .casino-info-tabs-listing .casino-info-tabs-listing-desc-column-list {
+    column-count: 4;
+  }
+}
+.casino-info-tabs .casino-info-tabs-listing-prt .casino-info-tabs-listing .casino-info-tabs-listing-desc-column-list.collapsed {
+  column-count: 1;
+}
+.casino-info-tabs .casino-info-tabs-listing-prt .casino-info-tabs-listing .casino-info-tabs-listing-desc-column-list li {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.casino-info-tabs .casino-info-tabs-listing-prt .casino-info-tabs-listing .casino-info-tabs-listing-desc-column-list li .toggle-states {
+  position: relative;
+  letter-spacing: 0;
+  padding: 0;
+  background: 0 0;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #eee;
+  box-shadow: none;
+  outline: none;
+}
+.casino-info-tabs .casino-info-tabs-listing-prt .casino-info-tabs-listing .casino-info-tabs-listing-desc-column-list li .toggle-states:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "+";
+}
+.casino-info-tabs .casino-info-tabs-listing-prt .casino-info-tabs-listing .casino-info-tabs-listing-desc-column-list li.open .toggle-states:after {
+  content: "-";
+}
+.casino-info-tabs .casino-info-tabs-listing-prt .casino-info-tabs-listing .casino-info-tabs-listing-desc-column-list li .state-list {
+  display: none;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  column-fill: balance;
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+  column-count: 1;
+  vertical-align: top;
+  list-style: none;
+}
+@media (min-width: 667px) {
+  .casino-info-tabs .casino-info-tabs-listing-prt .casino-info-tabs-listing .casino-info-tabs-listing-desc-column-list li .state-list {
+    column-count: 2;
+  }
+}
+@media (min-width: 768px) {
+  .casino-info-tabs .casino-info-tabs-listing-prt .casino-info-tabs-listing .casino-info-tabs-listing-desc-column-list li .state-list {
+    column-count: 3;
+  }
+}
+@media (min-width: 992px) {
+  .casino-info-tabs .casino-info-tabs-listing-prt .casino-info-tabs-listing .casino-info-tabs-listing-desc-column-list li .state-list {
+    column-count: 4;
+  }
+}
+.casino-info-tabs .casino-info-tabs-listing-prt .casino-info-tabs-listing .casino-info-tabs-listing-desc-column-list li.open .state-list {
+  display: block;
+}
+.casino-info-tabs .review-suggest-edit {
+  float: right;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=casino-info-tabs.css.map */

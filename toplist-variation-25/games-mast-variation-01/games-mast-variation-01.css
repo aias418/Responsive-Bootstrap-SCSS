@@ -1,0 +1,258 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Karla:400&display=swap");
+img {
+  max-width: 100%;
+}
+
+.games-mast-variation-01 {
+  border: 1px solid #eee;
+  padding: 10px 15px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #ffffff;
+  position: relative;
+  margin: 10px 0;
+  font-size: 13px;
+}
+.games-mast-variation-01 h4 {
+  margin-top: 0;
+  font-weight: 700;
+  text-align: center;
+}
+.games-mast-variation-01 .games-mast-variation-01-left {
+  position: relative;
+}
+.games-mast-variation-01 .games-mast-variation-01-left:before {
+  content: "";
+  position: absolute;
+  width: 280px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -180px 0 0 -140px;
+  pointer-events: none;
+  background: transparent;
+  background: -moz-radial-gradient(center, ellipse cover, rgba(47, 120, 175, 0.7) 0%, rgba(28, 59, 85, 0) 68%, rgba(27, 53, 76, 0) 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(47, 120, 175, 0.7) 0%, rgba(28, 59, 85, 0) 68%, rgba(27, 53, 76, 0) 100%);
+  background: radial-gradient(ellipse at center, rgba(47, 120, 175, 0.7) 0%, rgba(28, 59, 85, 0) 68%, rgba(27, 53, 76, 0) 100%);
+}
+.games-mast-variation-01 .games-mast-variation-01-left .games-mast-variation-01-dark {
+  position: relative;
+  font-size: 17px;
+}
+.games-mast-variation-01 .games-mast-variation-01-left .games-mast-variation-01-dark strong {
+  width: 100%;
+  display: block;
+}
+.games-mast-variation-01 .games-mast-variation-01-logo {
+  position: relative;
+  text-align: center;
+}
+.games-mast-variation-01 .games-mast-variation-01-dark {
+  background: #212529;
+  color: #ffffff;
+  margin: 10px 0;
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
+.games-mast-variation-01 .games-mast-variation-01-text {
+  position: relative;
+  font-size: 11px;
+}
+.games-mast-variation-01 .games-mast-variation-01-dark-btn {
+  margin-bottom: 10px;
+}
+.games-mast-variation-01 .games-mast-variation-01-center {
+  position: relative;
+}
+.games-mast-variation-01 .games-mast-variation-01-center .games-mast-variation-01-button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+  padding: 20px 10px;
+  background: rgba(0, 0, 0, 0.8);
+}
+.games-mast-variation-01 .games-mast-variation-01-right .games-mast-variation-01-dark ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.games-mast-variation-01 .games-mast-variation-01-right .games-mast-variation-01-dark ul li {
+  margin: 0;
+}
+.games-mast-variation-01 .games-mast-variation-01-right .games-mast-variation-01-dark-1 {
+  text-align: center;
+  display: table;
+  padding: 20px 10px;
+}
+.games-mast-variation-01 .games-mast-variation-01-right .games-mast-variation-01-dark-1 ul {
+  display: table-cell;
+  margin: auto;
+  vertical-align: middle;
+  font-size: 11px;
+}
+.games-mast-variation-01 .games-mast-variation-01-right .games-mast-variation-01-dark-1 ul li {
+  margin: 5px 0;
+}
+.games-mast-variation-01 .games-mast-variation-01-right .games-mast-variation-01-dark-1 ul li span {
+  width: 72px;
+  text-align: right;
+  display: inline-block;
+  margin-right: 10px;
+}
+.games-mast-variation-01 .games-mast-variation-01-right .games-mast-variation-01-dark-1 ul li i {
+  font-size: 11px;
+  color: #0dcaf0;
+}
+.games-mast-variation-01 .games-mast-variation-01-right .games-mast-variation-01-dark-1 .games-mast-variation-01-dark-overall {
+  display: table-cell;
+  width: 60px;
+  text-align: center;
+  background: #ffffff;
+  color: #212529;
+  font-weight: 500;
+  vertical-align: middle;
+  height: 100%;
+  border-radius: 6px;
+}
+.games-mast-variation-01 .games-mast-variation-01-right .games-mast-variation-01-dark-1 .games-mast-variation-01-dark-overall .games-mast-variation-01-dark-overall-title {
+  border-bottom: 1px solid #eee;
+  display: block;
+}
+.games-mast-variation-01 .games-mast-variation-01-right .games-mast-variation-01-dark-2 {
+  text-align: center;
+  padding: 20px 10px;
+}
+.games-mast-variation-01 .games-mast-variation-01-right .games-mast-variation-01-dark-2 ul {
+  display: inline-block;
+  margin: 10px auto;
+  width: auto;
+  text-align: center;
+}
+.games-mast-variation-01 .games-mast-variation-01-right .games-mast-variation-01-dark-2 ul li {
+  width: auto;
+  text-align: left;
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+.games-mast-variation-01 .games-mast-variation-01-right .games-mast-variation-01-dark-2 ul li:before {
+  font: normal normal normal 14px/1 FontAwesome;
+  content: "";
+  color: #198754;
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+.games-mast-variation-01 .games-mast-variation-01-right .games-mast-variation-01-dark-2 .games-mast-variation-01-dark-2-title {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.games-mast-variation-01 .games-mast-variation-01-right .games-mast-variation-01-text-2 {
+  font-size: 13px;
+}
+.games-mast-variation-01 .games-mast-variation-01-right .games-mast-variation-01-text-2 strong {
+  width: 100%;
+  display: inline-block;
+}
+.games-mast-variation-01 .games-mast-variation-01-flex {
+  flex-flow: row nowrap;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  position: relative;
+  display: flex;
+  clear: both;
+}
+@media (max-width: 767px) {
+  .games-mast-variation-01 .games-mast-variation-01-flex {
+    flex-flow: row wrap-reverse;
+  }
+}
+.games-mast-variation-01 .games-mast-variation-01-flex .games-mast-variation-01-flex-left {
+  align-self: center;
+  line-height: 28px;
+  max-width: none;
+  margin: 0;
+  font-size: 13px;
+  margin-right: auto;
+}
+@media (max-width: 767px) {
+  .games-mast-variation-01 .games-mast-variation-01-flex .games-mast-variation-01-flex-left {
+    flex: 0 0 100%;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    font-size: 11px;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+}
+.games-mast-variation-01 .games-mast-variation-01-flex .games-mast-variation-01-flex-left img {
+  width: 25px;
+  margin-right: 10px;
+}
+.games-mast-variation-01 .games-mast-variation-01-flex .games-mast-variation-01-flex-center {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+@media (max-width: 767px) {
+  .games-mast-variation-01 .games-mast-variation-01-flex .games-mast-variation-01-flex-center {
+    flex: 0 0 100%;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    font-size: 11px;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+}
+.games-mast-variation-01 .games-mast-variation-01-flex .games-mast-variation-01-flex-center li {
+  margin: 0;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 500;
+  vertical-align: middle;
+}
+.games-mast-variation-01 .games-mast-variation-01-flex .games-mast-variation-01-flex-center li.entry {
+  font-size: 17px;
+  padding-left: 5px;
+}
+.games-mast-variation-01 .games-mast-variation-01-flex .games-mast-variation-01-flex-end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin-left: auto;
+}
+@media (max-width: 767px) {
+  .games-mast-variation-01 .games-mast-variation-01-flex .games-mast-variation-01-flex-end {
+    flex: 0 0 100%;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    font-size: 11px;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+}
+.games-mast-variation-01 .games-mast-variation-01-flex .games-mast-variation-01-flex-end a {
+  padding-left: 5px;
+}
+
+/*# sourceMappingURL=games-mast-variation-01.css.map */

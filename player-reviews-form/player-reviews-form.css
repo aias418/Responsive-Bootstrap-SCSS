@@ -1,0 +1,357 @@
+.player-reviews-form {
+  float: none;
+  width: 100%;
+  max-width: 1137px;
+  min-height: 500px;
+  margin: 30px auto;
+  padding: 25px 0;
+  background-color: #e5e5e5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.player-reviews-form .playerReviews .title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15em;
+  margin-bottom: 26px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .player-reviews-form .playerReviews .title {
+    font-size: 14px;
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+
+.player-reviews-form .playerReviews .reviews {
+  border-radius: 6px;
+  margin-bottom: 40px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin: 0 auto;
+  clear: both;
+}
+
+@media only screen and (max-width: 480px) {
+  .player-reviews-form .playerReviews .reviews {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .player-reviews-form .playerReviews .reviews {
+    border-radius: 0;
+  }
+}
+
+.player-reviews-form .playerReviews .reviews .reviews-header {
+  margin-bottom: 30px;
+  background: #ffffff;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  height: auto;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+  .player-reviews-form .playerReviews .reviews .reviews-header {
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 20px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border-bottom: 1px solid #eee;
+  }
+}
+
+.player-reviews-form .playerReviews .reviews .reviews-header .btn {
+  float: right;
+}
+
+@media only screen and (max-width: 992px) {
+  .player-reviews-form .playerReviews .reviews .reviews-header .btn {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+.player-reviews-form .playerReviews .reviews .reviews-header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.player-reviews-form .playerReviews .rev-rate {
+  float: left;
+}
+
+.player-reviews-form .playerReviews .rev-rate .rev-rate-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 14px;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.player-reviews-form .playerReviews .rev-rate .rev-rate-content {
+  float: left;
+}
+
+.player-reviews-form .playerReviews .rev-rate .rev-rate-content .rev-rate-title {
+  font-size: 12px;
+  line-height: 1.17em;
+  padding-top: 2px;
+}
+
+.player-reviews-form .playerReviews .rev-rate .rev-rate-content .rev-rate-rating {
+  margin-top: 10px;
+  color: #dc3545;
+  position: relative;
+  left: -4px;
+}
+
+.player-reviews-form .playerReviews .write {
+  background: #ffffff;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  margin-bottom: 42px;
+}
+
+@media only screen and (max-width: 768px) {
+  .player-reviews-form .playerReviews .write {
+    border-radius: 0;
+  }
+}
+
+.player-reviews-form .playerReviews .write .reviews-header {
+  height: 90px;
+  padding: 30px;
+  padding-bottom: 0;
+  position: relative;
+}
+
+@media only screen and (max-width: 480px) {
+  .player-reviews-form .playerReviews .write .reviews-header {
+    padding: 15px 20px;
+  }
+}
+
+.player-reviews-form .playerReviews .write .reviews-header .rev-rate {
+  float: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .player-reviews-form .playerReviews .write .reviews-header .rev-rate .rev-rate-content {
+    float: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.player-reviews-form .playerReviews .write .reviews-header .rev-rate .is-hidden {
+  display: none;
+}
+
+.player-reviews-form .playerReviews .write .reviews-header .review-character {
+  position: relative;
+  bottom: -68px;
+}
+
+@media only screen and (max-width: 580px) {
+  .player-reviews-form .playerReviews .write .reviews-header .review-character {
+    bottom: -45px;
+    margin-left: 10px;
+  }
+}
+
+.player-reviews-form .playerReviews .write .reviews-header .review-character .review-character-counter, .player-reviews-form .playerReviews .write .reviews-header .review-character .review-character-counter-negativ {
+  position: absolute;
+  right: 0;
+  bottom: 15px;
+  color: #6c757d;
+  font-size: 10px;
+  line-height: 1em;
+  letter-spacing: 2px;
+  display: block;
+  margin: 5px;
+  text-align: right;
+}
+
+.player-reviews-form .playerReviews .write .reviews-header .review-character .review-character-counter-negativ {
+  bottom: 0;
+}
+
+.player-reviews-form .playerReviews .write .reviews-header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.player-reviews-form .playerReviews .write .write-review {
+  padding: 10px 30px 30px 96px;
+}
+
+@media only screen and (max-width: 480px) {
+  .player-reviews-form .playerReviews .write .write-review {
+    padding: 20px;
+  }
+}
+
+.player-reviews-form .playerReviews .write .write-review .write-txtcontainer {
+  margin-bottom: 20px;
+  border: 6px;
+  border-color: transparent;
+}
+
+.player-reviews-form .playerReviews .write .write-review .write-txtcontainer.write-txtcontainer-error {
+  border: 1px solid #eee;
+  border-color: #dc3545;
+  border-radius: 6px;
+}
+
+.player-reviews-form .playerReviews .write .write-review .write-txtcontainer .write-txt {
+  width: 100%;
+  height: 150px;
+  position: relative;
+  background: #e5e5e5;
+}
+
+.player-reviews-form .playerReviews .write .write-review .write-txtcontainer .write-txt.write-txt-positive {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.player-reviews-form .playerReviews .write .write-review .write-txtcontainer .write-txt.write-txt-positive::before {
+  background: url(./img/pros.svg) 0 0 no-repeat;
+}
+
+.player-reviews-form .playerReviews .write .write-review .write-txtcontainer .write-txt.write-txt-positive .write-textarea {
+  border-radius: 6px 6px 0 0;
+}
+
+.player-reviews-form .playerReviews .write .write-review .write-txtcontainer .write-txt.write-txt-negative {
+  margin-bottom: 0;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.player-reviews-form .playerReviews .write .write-review .write-txtcontainer .write-txt.write-txt-negative::before {
+  background: url(./img/cons.svg) 0 0 no-repeat;
+}
+
+.player-reviews-form .playerReviews .write .write-review .write-txtcontainer .write-txt.write-txt-negative .write-textarea {
+  border-radius: 0 0 6px 6px;
+}
+
+.player-reviews-form .playerReviews .write .write-review .write-txtcontainer .write-txt::before {
+  position: absolute;
+  top: 19px;
+  left: 19px;
+  width: 24px;
+  height: 24px;
+  content: "";
+  font-size: 14px;
+  display: block;
+  z-index: 2;
+}
+
+.player-reviews-form .playerReviews .write .write-review .write-txtcontainer .write-txt .write-textarea {
+  min-height: 100%;
+  width: 100%;
+  max-width: 100%;
+  background: #e5e5e5;
+  border: none;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  resize: none;
+  padding: 68px 20px 0;
+}
+
+.player-reviews-form .playerReviews .write .write-review .write-txtcontainer .write-txt .write-dislike, .player-reviews-form .playerReviews .write .write-review .write-txtcontainer .write-txt .write-like {
+  background: 0 0;
+  position: relative;
+  z-index: 1;
+  padding: 20px 20px 20px 50px;
+}
+
+.player-reviews-form .playerReviews .write .write-review .write-agree {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 400;
+  line-height: 1.53em;
+  white-space: nowrap;
+}
+
+.player-reviews-form .playerReviews .write .write-review .write-agree .agree-check {
+  display: inline-block;
+  vertical-align: top;
+  width: 15px;
+}
+
+.player-reviews-form .playerReviews .write .write-review .write-agree .agree-check input {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+}
+
+.player-reviews-form .playerReviews .write .write-review .write-agree .agree-text {
+  margin-left: 5px;
+  display: inline-block;
+  padding-right: 100px;
+  white-space: normal;
+}
+
+@media only screen and (max-width: 768px) {
+  .player-reviews-form .playerReviews .write .write-review .write-agree .agree-text {
+    padding-right: 20px;
+  }
+}
+
+.player-reviews-form .playerReviews .write .write-review .write-agree .agree-text a:hover {
+  text-decoration: none;
+}
+
+.player-reviews-form .playerReviews .write .write-review .write-captcha {
+  margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 480px) {
+  .player-reviews-form .playerReviews .write .write-review .btn {
+    width: 100%;
+  }
+}
+
+.player-reviews-form .playerReviews .write .write-review .write-errors-container {
+  margin-top: 10px;
+}
+
+.player-reviews-form .playerReviews .write .write-review .write-errors-container .write-error {
+  font-size: 12px;
+  color: #dc3545;
+  margin-bottom: 5px;
+}
+
+.player-reviews-form .playerReviews .write .write-review .write-errors-container .write-txterrors {
+  margin-bottom: 5px;
+}
+
+.player-reviews-form p, .player-reviews-form label {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1em;
+}

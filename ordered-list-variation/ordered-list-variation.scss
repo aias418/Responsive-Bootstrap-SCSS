@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+@import "sass-styling-vars";
+
+%d-flex{
+  display: -webkit-box;     
+  display: -moz-box;        
+  display: -ms-flexbox;     
+  display: -webkit-flex;    
+  display: flex; 
+}
+
+%flex-1{
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -webkit-flex: 1; 
+  -ms-flex: 1;
+  flex: 1;
+}
+
+%full-center{
+    @extend %d-flex;
+    align-items: center;
+    justify-content: center;
+}
+%fa-font{
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.ordered-list-variation {
+    font-family: $font-family-default;
+    a{
+        text-decoration: none;
+        color: $theme-primary;
+        font-weight: $font-weight-bold;
+        &:hover{
+            color: darken($theme-primary , 15%);
+        }
+    }
+   
+    .app-container{
+        max-width: 930px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .main-title{
+        font-size: $font-size-h4 * 2;
+        color: $theme-dark;
+        margin-bottom: 4px;
+        font-weight: $font-weight-heavy;
+        margin-bottom: 35px;
+        line-height: normal;
+    }
+    p{
+        font-size: $font-size-h4;
+        color: $theme-dark;
+        margin-bottom: 0px;
+    }
+    .tips-list{
+        margin-bottom: 22px;
+        padding-left: 60px;
+        .list-row-header,
+        .list-row-content{
+            padding-left: 50px;
+        }
+        .list-row-header{
+            position: relative;
+            margin-bottom: 9px;
+            .title{
+                font-size: $font-size-h2;
+                color: $theme-success;
+                font-weight: $font-weight-bold;
+            }
+            span{
+                display: inline-block;
+                position: absolute;
+                left: 0px;
+                height: 37px;
+                width: 37px;
+                border-radius: 50%;
+                background-color: $theme-success;
+                color: $theme-white;
+                font-size: $font-size-h2;
+                text-align: center;
+                line-height: 37px;
+                top: -6px;
+                font-weight: $font-weight-heavy;
+            }
+        }
+        .list-row:not(:last-child){
+            .list-row-content{
+                p{
+                    border-bottom: $theme-border;
+                    padding-bottom: 17px;
+                }
+            }
+            margin-bottom: 17px;
+        }
+    }   
+    .info-text{
+        margin-bottom: 40px;
+    }
+    .quote-box{
+        border-radius: $theme-border-radius;
+        background-color: lighten($theme-primary, 42%);
+        padding: 32px 32px 32px 118px;
+        position: relative;
+        &:before{
+            @extend %fa-font;
+            content: "\f10d";
+            position: absolute;
+            left: 31px;
+            top: 27px;
+            height: 63px;
+            width: 63px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 63px;
+            font-size: $font-size-h4 * 2;
+            background-color: lighten($theme-primary, 38%);
+            color: lighten($theme-primary, 26%);
+
+        }
+        p{
+            font-style: italic;
+            margin-bottom: 40px;
+            line-height: $font-size-h1 + 2;
+        }
+        span{
+            font-size: $font-size-h4;
+            font-weight: $font-weight-heavy;
+            color: $theme-primary
+        }
+    }
+    @media (max-width: 767px) {
+        .main-title{
+            font-size : $font-size-h1; 
+        }
+        .tips-list{
+            padding-left: 0px;   
+        }
+        .quote-box{
+            padding: 68px 18px 18px 18px;
+            &:before{
+                top: 18px;
+                height: 42px;
+                width: 42px;
+                line-height: 42px;
+                font-size: 22px;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+            p{
+                margin-bottom: 20px;
+            }
+        }
+    }
+   
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "sass-styling-vars.scss"
+    ],
+    "names": [],
+    "file": "sass-styling-vars.css"
+}

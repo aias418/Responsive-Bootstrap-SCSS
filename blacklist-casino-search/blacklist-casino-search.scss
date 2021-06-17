@@ -1,0 +1,170 @@
+@import "sass-styling-vars";
+
+.blacklist-casino-search {
+    float: none;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 100%;
+    margin: 30px auto;
+    max-width: 795px;
+    font-size: $font-size-default + 3;
+    line-height: 1em;
+
+    .blacklist-wrapper {
+        border: $theme-border;
+        border-top: 4px solid $theme-danger;
+        border-radius: $theme-border-radius;
+        .blacklist-header {
+            padding: 20px;
+            background-color: $theme-light;
+            border-bottom: $theme-border;
+            .heading {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 40px;
+                @media only screen and (max-width : 480px) {
+                    display: block;
+                }
+                .title {
+                    margin: 0;
+                    font-size: $font-size-h2;
+                    line-height: 1.2em;
+                    font-weight: $font-weight-heavy;
+                }
+                .date {
+                    font-size: $font-size-sm;
+                    line-height: 1em;
+                    @media only screen and (max-width : 480px) {
+                        margin-top: 10px;
+                    }
+                }
+            }
+            .filters-search-container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: initial;
+                @media only screen and (max-width : 480px) {
+                    flex-direction: column;
+                    align-items: flex-end;
+                }
+                label.filter-labels {
+                    position: absolute;
+                    top: -20px;
+                    left: 5px;
+                    font-weight: $font-weight-heavy;
+                }
+                .search-bar {
+                    position: relative;
+                    width: 100%;
+                    input {
+                        width: 100%;
+                        height: 44px;
+                        border: $theme-border;
+                        border-radius: $theme-border-radius;
+                        color: $theme-secondary;
+                        padding: 10px 35px 10px 10px;
+                    }
+                    i {
+                        position: absolute;
+                        right: 5px;
+                        top: 2px;
+                        height: 42px;
+                        background: none;
+                        color: $theme-warning;
+                        padding: 10px;
+                    }
+                }
+                .blacklist-filters {
+                    position: relative;
+                    width: 100%;
+                    margin-left: 10px;
+                    @media only screen and (max-width : 480px) {
+                        margin-left: 0;
+                        margin-top: 35px;
+                    }
+                    .blacklist-filters-select {
+                        padding: 7.5px;
+                        background: $theme-white;
+                        border: $theme-border;
+                        border-radius: $theme-border-radius;
+                        width: 100%;
+                        height: 44px;
+                        cursor: pointer;
+                        -webkit-appearance: none;
+                    }
+                    i {
+                        position: absolute;
+                        right: 15px;
+                        top: 11px;
+                        padding-left: 10px;
+                        border-left: $theme-border;
+                        color: $theme-warning;
+                        font-weight: $font-weight-heavy;
+                        font-size: $font-size-h2;
+                        line-height: 1em;
+                        pointer-events: none;
+                    }
+                }
+                .clear-filters {
+                    display: block;
+                    font-size: $font-size-sm;
+                    line-height: 1.73em;
+                    text-decoration: underline;
+                    cursor: pointer;
+                    padding: 10px 0;
+                    margin-left: 10px;
+                    width: 132px;
+                    @media only screen and (max-width : 480px) {
+                        width: auto;
+                    }
+                }
+            }
+        }
+        .blacklist-table {
+            display: block;
+            width: 100%;
+            height: 350px;
+            overflow: auto;
+            .tbl-row {
+                height: 58px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                &:nth-child(2n) {
+                    background-color: $theme-light;
+                }
+                .tbl-cell {
+                    padding: 5px;
+                    vertical-align: middle;
+                    font-size: $font-size-h6;
+                    line-height: 1em;
+                    width: 45%;
+                    &:first-child {
+                        padding-left: 15px;
+                        font-weight: $font-weight-heavy;
+                    }
+                    &:nth-child(2) {
+                        width: 10%;
+                        text-align: center;
+                    }
+                    i {
+                        color: $theme-danger;
+                    }
+                }
+            }
+        }
+    }
+
+    p {
+        margin: 0;
+        font-size: $font-size-default;
+        line-height: 1.46em;
+    }
+
+    label, input, select {
+        font-size: $font-size-default;
+        line-height: 1em;
+    }
+}

@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Karla:400&display=swap');
+@import "sass-styling-vars";
+img{max-width: 100%;}
+.btn-toplist-33-expend{
+    color: $theme-body-font-color;
+    border: none;
+    text-decoration: none;
+    box-shadow: none;
+}
+.toplist-variation-33{
+    .toplist-variation-33-tabs{
+        border: none;
+        margin-bottom: 15px;
+        li{ 
+            vertical-align: middle;
+            display: inline-block;
+            float: none;
+            a{
+                font-size: $font-size-default;
+                border-radius: 30px;
+                color: $theme-body-font-color;
+                background: $theme-toplist-bg;
+                border: $theme-border;
+                margin-left: 10px;
+                line-height: 1.2;
+                &:hover{
+                    border: $theme-border;
+                    background: $toplist-headings-bg;
+                    color: $theme-toplist-bg;
+                    
+                }
+            }
+            &.active a{
+                background: $toplist-headings-bg;
+                color: $theme-toplist-bg;
+                    border: $theme-border;
+                &:hover{
+                    border: $theme-border;
+                }
+            }
+        }
+    }
+    .toplist-variation-33-list{
+        font-family: $font-family-default;
+        border-radius: $theme-border-radius;
+        overflow: hidden;
+        background: $theme-toplist-bg;
+        position: relative;
+        margin: 10px 0;
+        .toplist-33-column-counter{
+            display: block;
+            color: $theme-toplist-bg;
+            font-size: $font-size-lg;
+            padding: 10px;
+            background: $toplist-headings-bg;
+            line-height: 1;
+            text-align: left;
+            @media (min-width: 992px){
+                &{
+                    min-width: 48px;
+                    display: table-cell;
+                    vertical-align: middle;
+                    text-align: center;
+                }
+            }
+        }
+        .toplist-33-column-logo{
+            width: 23%;
+            float: left;
+            vertical-align: middle;
+            text-align: center;
+            display: table;
+            min-height: 108px;
+            @media (min-width: 992px){
+                &{
+                    width: 20%;
+                    display: table-cell;
+                    float: none;
+                }
+            }
+            @media (max-width: 480px){
+                &{
+                    width: 40%;
+                }
+            }
+            .toplist-33-column-logo-sub{
+                display: table-cell;
+                vertical-align: middle;
+            }
+            a{
+                width: 100%;
+                display: table-cell;
+                vertical-align: middle;
+                padding: 0 10px;
+            }
+        }
+        .toplist-33-column-bonus{
+            width: 42%;
+            float: left;
+            vertical-align: middle;
+            display: table;
+            min-height: 108px;
+            @media (min-width: 992px){
+                &{
+                    width: 38%;
+                    height: 108px; 
+                    font-size: $font-size-default;
+                    display: table-cell;
+                    float: none;
+                }
+            }
+            @media (max-width: 480px){
+                &{
+                    width: 55%;
+                }
+            }
+            .toplist-33-column-bonus-sub{
+                display: table-cell;
+                vertical-align: middle;
+            }
+            .toplist-33-bonus-p{
+                font-size: $font-size-lg;
+                font-weight: $font-weight-heavy;
+                line-height: 1.2;
+                text-align: left;
+                color: $toplist-features-color;
+                em{
+                    color: $theme-danger;
+                }
+            }
+        }
+        .toplist-33-read-review-column{
+            z-index: 0;
+            position: absolute;
+            left: 40px;
+            top: 0;
+            right: 0;
+            width: auto;
+            padding: 9px 10px 0;
+            text-align: right;
+            vertical-align: middle;
+            @media (min-width: 992px){
+                &{
+                    width: 18%;
+                    position: relative;
+                    left: auto;
+                    text-align: center;
+                    display: table-cell;
+                    padding: 0;
+                }
+            }
+            @media (max-width: 992px){
+                .btn-review{
+                    width: auto;
+                    height: auto;
+                    position: absolute;
+                    right: 1em;
+                    top: 5px;
+                }
+            }
+        }
+        .toplist-33-playnow-column{
+            width: 35%;
+            float: left;
+            vertical-align: middle;
+            text-align: center;
+            display: table;
+            min-height: 108px;
+            @media (min-width: 992px){
+                &{
+                    width: 29%;
+                    display: table-cell;
+                    float: none;
+                    padding-right: 10px;
+                }
+            }
+            @media (max-width: 480px){
+                &{
+                    width: 100%;
+                    min-height: auto;
+                    display: block;
+                    padding: 0 8px 10px;
+                }
+            }
+            @media only screen and (min-width: 481px) and (max-width:991px){
+                .toplist-33-playnow-column-sub{
+                    display: table-cell;
+                    vertical-align: middle;
+                }
+            }
+        }
+        .toplist-33-item-read-terms-link{
+            clear: left;
+            width: 100%;
+            display: block;
+            @media (min-width: 992px){
+                &{
+                    border-left: 48px solid $toplist-headings-bg;
+                }
+            }
+            span{
+                display: block;
+                padding: 4px 8px 8px;
+                text-align: left;
+                font-size: $font-size-sm;
+            }
+        }
+    }
+    .toplist-variation-33-players-list{
+        li a{
+            font-size: $font-size-default;
+            border-radius: $theme-border-radius;
+            color: $theme-body-font-color;
+            background: $theme-toplist-bg;
+            border: $theme-border;
+            padding: 0 16px;
+            display: inline-block;
+            margin-right: 2px;
+            line-height: 36px;
+            text-decoration: none;
+            &:hover{
+                border: $theme-border;
+                background: $toplist-headings-bg;
+                color: $theme-toplist-bg;
+                
+            }
+        }
+    }
+}

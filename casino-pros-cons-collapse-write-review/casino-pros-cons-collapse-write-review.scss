@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Karla:400&display=swap');
+@import "sass-styling-vars";
+
+img {
+    max-width: 100%;
+}
+
+.casino-pros-cons-collapse-write-review {
+    font-family: $font-family-default;
+    overflow: hidden;
+    background: $theme-toplist-bg;
+    box-shadow: $wrapper-box-shadow;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    font-size: $font-size-default;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    .mx-0{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .collapse-flex{
+        margin-left: 0;
+        margin-right: 0;
+        @media (min-width: 768px){
+            display: flex;
+            width: 100%;
+        }
+        .collapse-flex-left{
+            @media (min-width: 768px){
+                flex: 1;
+                max-width: 66.66667%;
+            }
+            .btn-link{
+                margin-bottom: 15px;
+            }
+        }
+        .collapse-flex-right{
+            @media (min-width: 768px){
+                flex: 1;
+                max-width: 33.33333%;
+                padding: 0;
+            }
+            .review-slider--wrapper{
+                height: 100%;
+                display: flex;
+                background: $theme-light;
+                justify-content: center; 
+                align-items: center;
+                padding: 40px 0;
+                @media (min-width: 768px){
+                    padding: 0;
+                }
+                blockquote{
+                    margin: 0;
+                    padding: 0 40px;
+                    position: relative;
+                    text-align: center;
+                    border: 0;
+                    &:before{
+                        font: normal normal normal 14px/1 FontAwesome;
+                        content: "\f10d";
+                        top: -20px;
+                        left: 12px;
+                        position: absolute;
+                        font-size: $font-size-lg;
+                    }
+                    &:after{
+                        font: normal normal normal 14px/1 FontAwesome;
+                        font-size: $font-size-lg;
+                        content: "\f10e";
+                        bottom: -20px;
+                        right: 12px;
+                        position: absolute;
+                    }
+                    p{
+                        margin-bottom: 35px;
+                        color: #323232;
+                        font-size: $font-size-md;
+                        line-height: 21px;
+                        text-align: center;
+                    }
+                    .btn{
+                        width: 100%;
+                        max-width: 200px;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+    .collapse-write-h2 h2{
+        border-bottom: $theme-border;
+        min-height: 50px;
+        margin: 0 0 10px;
+        line-height: 50px;
+    }
+    .review-pros,.review-cons{
+        display: inline-block;
+        margin: 0 0 15px;
+        li{
+            background-size: 10px;
+            background-position: 10px calc(50% - 1px);
+            margin: 0;
+            margin-bottom: 10px;
+            background-repeat: no-repeat;
+            padding-left: 30px;
+            height: auto!important;
+            padding-bottom: 3px;
+        }
+    }
+    .review-cons li {
+        background-image: url(img/cons.svg);
+    }
+    .review-pros li {
+        background-image: url(img/pros.svg);
+    }
+    .review-main__show{
+        width: 100%;
+        display: block;
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+        text-transform: uppercase;
+        font-size: $font-size-sm;
+        color: $theme-body-font-color;
+        border-top: $theme-border;
+    }
+    .casino-pros-review-table{
+        .casino-pros-review-table-left{
+            font-weight: bold;
+            font-size: $font-size-default;
+            margin-bottom:10px;
+            padding: 0;
+            @media (min-width: 768px){
+            font-size: $font-size-md;
+                border-bottom: $theme-border;
+                height: 30px;
+                line-height: 30px;
+            }
+        }
+        .casino-pros-review-table-right{
+            border-bottom: $theme-border;
+                font-size: $font-size-sm;
+            overflow: hidden;
+            white-space: nowrap;
+            margin-bottom: 10px;
+            text-align: left;
+            text-overflow: ellipsis;
+            padding: 0;
+            @media (min-width: 768px){
+                font-size: $font-size-default;
+                height: 30px;
+                line-height: 30px;
+            }
+        }
+    }
+    .screenshot{
+        float: left;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+.casino-pros-cons-collapse-write-review-form{
+    font-family: $font-family-default;
+    overflow: hidden;
+    background: $theme-toplist-bg;
+    box-shadow: $wrapper-box-shadow;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    font-size: $font-size-default;
+    padding: 30px;
+    margin-bottom: 20px;
+    .casino-pros-cons-collapse-write-reviews__header{
+        width: 100%;
+        float: left;
+        margin-bottom: 15px;
+        .casino-pros-cons-collapse-write-image{
+            float: left;
+            width: 80px;
+            img{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                float: left;
+                box-shadow: $wrapper-box-shadow;
+            }
+        }
+        .casino-pros-cons-collapse-write-content{
+            float: left;
+            width: calc(100% - 80px);
+            @media (max-width: 480px){
+                &{
+                    width: 100%;
+                }
+            }
+            .text-md-right{
+                text-align: right;
+                @media (max-width: 767px){
+                    text-align: left;
+                }
+            }
+            .casino-pros-cons-collapse-write-rate__title{}
+            .casino-pros-cons-collapse-write-star{
+                margin: 0;
+                li{
+                    margin: 0;
+                    color: $star-rating-color;
+                    padding: 2px;
+                    i{
+                        margin: 0;
+                    }
+                }
+            }
+            .casino-pros-cons-collapse-write-textarea{
+                .casino-pros-cons-collapse-write-textarea-pos,.casino-pros-cons-collapse-write-textarea-nag{
+                    position: relative;
+                    &:before{
+                        position: absolute;
+                        top: 19px;
+                        left: 19px;
+                        width: 24px;
+                        height: 24px;
+                        content: "";
+                        font-size: 14px;
+                        display: block;
+                        z-index: 2;
+                    }
+                }
+                .casino-pros-cons-collapse-write-textarea-pos:before{
+                    background: url(./img/pros.cd3dc76f55841ef15acf8891e23c3256.svg) 0 0 no-repeat;
+                    .form-control {border-radius: $theme-border-radius $theme-border-radius 0 0; }
+                }
+                .casino-pros-cons-collapse-write-textarea-nag:before{
+                    background: url(./img/cons.44c604896b253bf77f3f2167764e4184.svg) 0 0 no-repeat;
+                    .form-control{border-radius: 0 0 $theme-border-radius $theme-border-radius;}
+                }
+                .casino-pros-cons-collapse-write-textarea-nag{
+                    margin-bottom: 20px;
+                }
+
+                .form-control{
+                    resize: none;
+                    position: relative;
+                    z-index: 1;
+                    padding: 20px 20px 20px 50px;
+                    min-height: 150px;
+                    color: $theme-body-font-color;
+                    
+                }
+            }
+        }
+    }
+    .write__agree{
+        width: 100%;
+        float: left;
+        margin-bottom: 15px;
+        cursor: pointer;
+        .agree__check{
+            float: left;
+            margin: 0;
+            width: 20px;
+        }
+        .agree__text{
+            font-weight: normal;
+        }
+    }
+
+}

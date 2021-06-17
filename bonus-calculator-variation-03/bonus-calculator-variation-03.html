@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Casino Bonus Calculator Simple</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./default-style.css">
+        <link rel="stylesheet" type="text/css" href="./bonus-calculator-variation-03.css">
+        <script src="https://code.jquery.com/jquery-3.1.0.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="./bonus-calculator-variation-03.js"></script>
+    </head>
+    <body>
+        <div class="bonus-calculator-variation-03">
+            <div class="internal-wrapper">
+                <div class="text-element">
+                    <p class="title">Bonus calculator</p>
+                </div>
+                <div class="text-element paragraph">
+                    <p>Just enter the amount you wish to deposit, the calculator will then match you with the best casino bonuses for that deposit and show you how much you can play with.</p>
+                </div>
+                <div class="range-container">
+                    <p class="main-title">I want to deposit <span id="demo">10</span>$</p>
+                    <div class="slidecontainer">
+                        <input type="range" min="10" max="1000" value="10" step="10" class="slider" id="myRange">
+                    </div>
+                    <div class="range-casino-container">
+                        <p>Top Recommended Bonuses:</p>
+                        <div class="range-casino">
+                            <img src="./img/grand-mondial-casino-tool2.png" />
+                            <p>Deposit $<span id="rangeOne">10</span></p>
+                            <a target="_blank" href="https://click.cr-brands.net/affiliate/referral.asp?site=rea&amp;url=brw/gmd/1/&amp;seg=106671&amp;lid=205318&amp;aff_id=aff106671:onlinecasinoland_best_casino_bonus-toolgmd002" class="btn-primary">Play with $<span id="casino-one">10</span></a>
+                            <div id="casion-1-percent" value="10%" class="hidden"></div>
+                        </div>
+                        <hr>
+                        <div class="range-casino">
+                            <img src="./img/luxury-casino-logo-tool2.png" />
+                            <p>Deposit $<span id="rangeTwo">10</span></p>
+                            <a target="_blank" href="https://click.cr-brands.net/affiliate/referral.asp?site=rea&amp;url=brw/lxc/13/&amp;seg=106671&amp;lid=205318&amp;aff_id=aff106671:onlinecasinoland_best_casino_bonus-toollxc002" class="btn-primary">Play with $<span id="casino-two">20</span></a>
+                            <div id="casion-2-percent" value="15%" class="hidden"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,93 @@
+@import "sass-styling-vars";
+
+.newsletter-subscribe-variation-01 {
+    float: none;
+    box-sizing: border-box;
+    line-height: 1.4em;
+    margin-top: 30px;   
+    margin-bottom: 30px;   
+    
+    .newsletter-container {
+        
+        max-width: 890px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        background-color: $theme-light;
+        color: $theme-body-font-color;
+        padding: 2.5rem 2.5rem 1.6rem;
+        border-radius: $theme-border-radius;
+        box-shadow: $wrapper-box-shadow;
+        border: 0;
+        .newsletter-header-title {
+            font-size: $font-size-xl;
+            margin-top: 0;
+            font-weight: $font-weight-heavy;
+            @media only screen and (max-width: 768px){
+                font-size: $font-size-h3;
+                font-weight: $font-weight-bold;
+            }
+        }
+        .newsletter-header-content {
+            @media only screen and (max-width: 768px){
+                font-size: $font-size-sm;
+            }
+        }
+        .form-content{
+            margin-top: 1.6rem;
+            form {
+                @media only screen and (max-width: 768px){
+                    grid-template-columns: auto;
+                }
+                background-color: transparent;
+                display: grid;
+                grid-gap: .8rem;
+                grid-template-columns: 1fr 13.2rem;
+                align-items: flex-end;
+                padding: 0;
+                .form-group{
+                    margin-bottom: 0;
+                    label{
+                        display: inline-block;
+                        margin-bottom: .4rem;
+                        color: $theme-body-font-color;
+                        font-weight: $font-weight-heavy - 100;
+                        font-size: $font-size-default - 1;
+                    }
+                    input {
+                        display: block;
+                        border-radius: $theme-border-radius;
+                        background-color: $theme-white;
+                        padding: 1.2rem 1.6rem;
+                        width: 100%;
+                        color: $theme-body-font-color;
+                        font-size: $font-size-default + 1;
+                        font-weight: $font-weight-heavy - 100;
+                        line-height: 1.15em;
+                        margin:0;
+                        border: 0;
+                    }
+                    input:focus {
+                        outline: unset;
+                    }
+
+                }
+            }
+        }
+        p.content {
+            padding-top: 1.6rem;
+            color: $theme-dark;
+            width: 100%;
+            font-size: $font-size-sm;
+            word-break: break-word;
+            margin: 0;
+            a {
+                text-decoration: none;
+                cursor: pointer;
+                display: inline-block;
+                font-weight: $font-weight-bold;
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Karla:400&display=swap');
+@import "sass-styling-vars";
+
+img {
+    max-width: 100%;
+}
+
+.ecogra-box-modal {
+    font-family: $font-family-default;
+    overflow: hidden;
+    background: $theme-toplist-bg;
+    border-radius: $theme-border-radius;
+    box-shadow: $wrapper-box-shadow;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    font-size: $font-size-default;
+    .ecogra-box-modal-etitle2{
+        padding: 10px;
+        background: $toplist-headings-bg;
+        color: $theme-white;
+        font-size: $font-size-md;
+    }
+    .ecogra-box-modal-ebody{
+        padding: 10px;
+        background: $theme-toplist-bg;
+        a{
+            display: block;
+            text-decoration: none;
+            span{
+                display: block;
+                color: $theme-body-font-color;
+                text-decoration: none;
+            }
+            &:hover span{
+                color: $theme-primary;
+            }
+        }
+    }
+}
+#ecogra-box-modal-myModal{
+    svg{
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        width: 26px;
+        z-index: 2222;
+        path{
+            fill: $theme-white;
+            opacity: .6;
+        }
+    }
+    img{
+        width: 100%;
+    }
+    .modal-dialog{
+        @media (max-width: 767px){
+            width: 80%;
+            margin: 20px 10%;
+        }
+    }
+}

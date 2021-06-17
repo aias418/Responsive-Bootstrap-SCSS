@@ -1,0 +1,283 @@
+@import "sass-styling-vars";
+
+.content-blocks-top-games {
+    float: none;
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    margin: 30px auto;
+    max-width: 795px;
+    .content-blocks-container{
+        background-color: $theme-light;
+        background-clip: content-box;
+        padding: 0 15px;
+        .header {
+            background-color: $theme-info;
+            padding: 30px 20px 44px;
+            position: relative;
+            color: $theme-white;
+            .heading {
+                margin-bottom: 15px;
+                font-size: $font-size-default + 11;
+                line-height: 1em;
+                font-weight: $font-weight-heavy;
+                @media only screen and (max-width : 480px) {
+                    font-size: $font-size-default + 7;
+                    line-height: 1.2em;
+                }
+                
+            }
+        }
+        .games-container {
+            position: relative;
+            background-color: $theme-light;
+            padding: 15px;
+            .number-one {
+                margin-top: -54px;
+                .top-game {
+                    background-color: $theme-primary;
+                    padding: 20px 20px 15px 190px;
+                    display: flex;
+                    flex-direction: column;
+                    border-radius: $theme-border-radius $theme-border-radius 0 0;
+                    position: relative;
+                    @media only screen and (max-width : 480px) {
+                        padding: 35px 15px 20px 130px;
+                    }
+                    .title {
+                        color: $theme-white;
+                        font-size: $font-size-h1;
+                        line-height: 1.18em;
+                        font-weight: $font-weight-heavy;
+                        margin-bottom: 5px;
+                    }
+                    .logo {
+                        background-image: url(./img/golden.jpg);
+                        position: absolute;
+                        z-index: 2;
+                        left: 20px;
+                        top: auto;
+                        height: 150px;
+                        width: 150px;
+                        bottom: -106px;
+                        border: 10px solid $theme-white;
+                        background-size: auto 142%;
+                        background-position: 17% 40%;
+                        background-repeat: no-repeat;
+                        box-shadow: 0 0 $theme-dark;
+                        border-radius: 100%;
+                        @media only screen and (max-width : 480px) {
+                            border: 6px solid $theme-white;
+                            height: 102px;
+                            width: 102px;
+                            left: 15px;
+                            top: 25px;
+                            bottom: 0;
+                        }
+                    }
+
+                }
+                .games-info {
+                    border: $theme-border;
+                    border-top-width: 0;
+                    border-bottom-width: 0;
+                    border-radius: 0;
+                    background-color: $theme-white;
+                    padding: 15px;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    @media only screen and (max-width : 480px) {
+                        border-radius: 0 0 $theme-border-radius $theme-border-radius;
+                        border-bottom: $theme-border;
+                    }
+                    .games-info-wrapper {
+                        display: flex;
+                        width: 100%;
+                        padding: 20px 15px 20px 175px;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        @media only screen and (max-width : 480px) {
+                            flex-wrap: wrap;
+                            padding: 0;
+                        }
+                        .games-info-details {
+                            font-size: $font-size-default - 1;
+                            color: $theme-secondary;
+                            min-width: 220px;
+                            margin-top: 0;
+                            display: flex;
+                            flex-wrap: wrap;
+                            flex-basis: 100%;
+                            @media only screen and (max-width : 480px) {
+                                margin-top: 20px;
+                            }
+                            .icon-container {
+                                display: flex;
+                                align-items: center;
+                                margin-bottom: 10px;
+                                border-bottom: $theme-border;
+                                padding-bottom: 10px;
+                                flex-basis: 50%;
+                                @media only screen and (max-width : 480px) {
+                                    flex-basis: 100%;
+                                }
+                                span {
+                                    font-size: $font-size-default + 1;
+                                    font-weight: $font-weight-heavy;
+                                    color: $theme-dark;
+                                    margin-left: 5px;
+                                }
+                                &:last-child {
+                                    margin-bottom: 0;
+                                    padding-bottom: 0;
+                                    border-bottom: none;
+                                }
+                            }
+                        }
+                    }
+                    .games-rates {
+                        display: flex;
+                        min-height: 50px;
+                        justify-content: center;
+                        flex-direction: column;
+                        &.games-rates-top {
+                            padding-left: 0;
+                            min-height: 0;
+                            @media only screen and (max-width : 480px) {
+                                padding-left: 104px;
+                            }
+                        }
+                        .games-ranking {
+                            margin-right: 40px;
+                            @media only screen and (max-width : 480px) {
+                                margin-right: 10px;
+                            }
+                            .ranking-stars-container {
+                                display: inline-block;
+                                position: relative;
+                                margin-bottom: 5px;
+                                .ranking-stars {
+                                    display: flex;
+                                    text-shadow: 0 0 1px $theme-white;
+                                    font-size: $font-size-lg;
+                                    &.ranking-stars-grey {
+                                        color: $theme-secondary;
+                                    }
+                                    &.ranking-stars-gold {
+                                        overflow: hidden;
+                                        color: $theme-warning;
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        margin-top: 0;
+                                    }
+                                    .fa {
+                                        margin-right: .3em;
+                                        &:last-child {
+                                            margin-right: .1em;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        span {
+                            font-weight: $font-weight-medium;
+                        }
+                        p.title {
+                            font-size: $font-size-default + 3;
+                            font-weight: $font-weight-heavy;
+                            line-height: 1.3em;
+                            margin-bottom: 15px;
+                        }
+                    }
+                    &:last-child {
+                        border-bottom: $theme-border;
+                        border-radius: 0 0 $theme-border-radius $theme-border-radius;
+                        padding: 0;
+                        margin-top: 0;
+                        border-top-width: 0;
+                        @media only screen and (max-width : 480px) {
+                            margin-top: 15px;
+                            border-radius: $theme-border-radius;
+                            border-top: $theme-border;
+                        }
+                    }
+                    .other-games {
+                        display: flex;
+                        flex-wrap: wrap;
+                        .game {
+                            border-top: $theme-border;
+                            display: flex;
+                            padding: 15px;
+                            flex-basis: 50%;
+                            @media only screen and (max-width : 480px) {
+                                margin-top: 15px;
+                                border-radius: $theme-border-radius;
+                                border-top: $theme-border;
+                                flex-basis: 100%;
+                            }
+                            &:first-child {
+                                border-top: $theme-border;
+                                @media only screen and (max-width : 480px) {
+                                    border-top: 0;
+                                }
+                            }
+                            &:nth-child(odd) {
+                                border-right: $theme-border;
+                                @media only screen and (max-width : 480px) {
+                                    border-right: 0;
+                                }
+                            }
+                            .game-logo {
+                                position: relative;
+                                height: 110px;
+                                width: 110px;
+                                background-size: auto 142%;
+                                background-position: 17% 40%;
+                                background-repeat: no-repeat;
+                                box-shadow: 0 0 $theme-dark;
+                                border-radius: 100%;
+                                margin: 0 20px 0 0;
+                                @media only screen and (max-width : 480px) {
+                                    width: 90px;
+                                    height: 90px;
+                                }
+                                &.jack-hammer {
+                                    background-image: url(./img/jack-hammer.jpg);
+                                }
+                                &.gonzo-quest {
+                                    background-image: url(./img/gonzo-quest.jpg);
+                                }
+                                &.guns-roses {
+                                    background-image: url(./img/guns-roses.jpg);
+                                }
+                                &.fruit-shop {
+                                    background-image: url(./img/fruit-shop.jpg);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    p {
+        margin: 0 0 13px;
+        font-size: $font-size-default;
+        line-height: 1.46em;
+    }
+    .w-100 {
+        width: 100%;
+    }
+    .w-90 {
+        width: 90%;
+    }
+    .w-80 {
+        width: 80%;
+    }
+}

@@ -1,0 +1,393 @@
+@import "sass-styling-vars";
+
+.content-blocks-highlights-games {
+    float: none;
+    box-sizing: border-box;
+    padding: 0;
+    padding-bottom: 48px;
+    width: 100%;
+    margin: 30px auto;
+    max-width: 1100px;
+    background-color: $theme-light;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    @media only screen and (max-width : 992px) {
+        background: none;
+        display: block;
+    }
+    .intro {
+        width: calc(100% - 730px);
+        padding: 40px 30px 0 0;
+        @media only screen and (max-width : 992px) {
+            width: 100%;
+            padding: 0;
+        }
+        .title {
+            display: block;
+            font-size: $font-size-default + 19;
+            line-height: 1.2em;
+            font-weight: $font-weight-heavy;
+            text-align: left;
+            margin-bottom: 12px;
+            @media only screen and (max-width : 992px) {
+                text-align: center;
+            }
+            @media only screen and (max-width : 480px) {
+                font-size: $font-size-default + 7;
+                line-height: 1.1em;
+            }
+            .color-brand {
+                color: $theme-primary;
+            }
+        }
+        .content {
+            font-size: $font-size-default + 5;
+            line-height: 1.4em;
+            margin-bottom: 24px;
+            @media only screen and (max-width : 480px) {
+                font-size: $font-size-default;
+                line-height: 1.3em;
+                margin-bottom: 12px;
+            }
+        }
+        .list {
+            padding-left: 28px;
+            margin-bottom: 24px;
+            @media only screen and (max-width : 480px) {
+                padding-left: 20px;
+                margin-bottom: 12px;
+            }
+            .item {
+                display: block;
+                position: relative;
+                font-size: $font-size-default + 5;
+                line-height: 1.4em;
+                margin-bottom: 12px;
+                margin-top: 0;
+                @media only screen and (max-width : 480px) {
+                    font-size: $font-size-default;
+                    line-height: 1.3em;
+                    margin-bottom: 6px;
+                }
+                &::after {
+                    position: absolute;
+                    top: 4px;
+                    left: -28px;
+                    content: "";
+                    width: 18px;
+                    height: 18px;
+                    background-image: url(./img/icon-check-circle-solid.svg);
+                    @media only screen and (max-width : 480px) {
+                        top: 0;
+                        left: -20px;
+                        width: 13px;
+                        height: 13px;
+                    }
+                }
+            }
+        }
+        .btn-wrap {
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+            padding: 6px;
+            @media only screen and (max-width : 480px) {
+                display: block;
+                background: 0 0;
+            }
+            .btn {
+                width: 100%;
+                &:hover {
+                    transform: translateY(2px);
+                }
+            }
+        }
+    }
+    .promote {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: stretch;
+        padding-top: 40px;
+        width: 730px;
+        @media only screen and (max-width : 992px) {
+            width: 100%;
+        }
+        @media only screen and (max-width : 992px) {
+            display: block;
+            padding-top: 12px;
+        }
+        .column {
+            &.column-first {
+                flex: 0 0 50%;
+                padding-right: 12px;
+                @media only screen and (max-width : 480px) {
+                    width: auto;
+                    padding: 0;
+                }
+                .box {
+                    background: linear-gradient(to bottom,$theme-dark 0,$theme-dark 49%,$theme-dark 100%);
+                    margin-bottom: 12px;
+                    height: 207px;
+                    @media only screen and (max-width : 480px) {
+                        height: auto;
+                    }
+                    &.box-promo {
+                        position: relative;
+                        overflow: hidden;
+                        @media only screen and (max-width : 480px) {
+                            height: 110px;
+                        }
+                        img {
+                            position: absolute;
+                            top: 0;
+                        }
+                        .promo-link {
+                            position: relative;
+                            flex-direction: column;
+                            display: flex;
+                            justify-content: flex-end;
+                            height: 100%;
+                            width: 100%;
+                            padding: 22px 65px 22px 17px;
+                            text-shadow: 0 0 14px $theme-dark;
+                            .sub-title {
+                                display: block;
+                                color: $theme-danger;
+                                font-size: $font-size-default;
+                                font-weight: $font-weight-heavy;
+                                line-height: 1em;
+                            }
+                            .title {
+                                display: block;
+                                font-weight: $font-weight-heavy;
+                                font-size: $font-size-default + 17;
+                                line-height: 1em;
+                                color: $theme-white;
+                            }
+                            .promo-icon {
+                                position: absolute;
+                                bottom: 23px;
+                                right: 21px;
+                                width: 39px;
+                                height: 39px;
+                                border: 2px solid $theme-warning;
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: center;
+                                align-items: center;
+                                color: $theme-white;
+                                transition: right .2s ease-in-out;
+                                font-size: $font-size-default + 4;
+                            }
+                            &:hover {
+                                text-decoration: none;
+                                .promo-icon {
+                                    right: 15px;
+                                }
+                            }
+                        }
+                    }
+                    &.box-counter {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        padding-top: 12px;
+                        padding-bottom: 12px;
+                        height: 207px;
+                        font-weight: $font-weight-heavy;
+                        @media only screen and (max-width : 480px) {
+                            height: auto;
+                        }
+                        .win-counter {
+                            display: flex;
+                            align-items: center;
+                            color: $theme-white;
+                            font-size: $font-size-default + 11;
+                            margin-bottom: 12px;
+                            @media only screen and (max-width : 480px) {
+                                font-size: $font-size-default + 9;
+                            }
+                            .curr {
+                                margin-right: 6px;
+                            }
+                        }
+                        .visitors {
+                            font-size: $font-size-default + 3;
+                            line-height: 1.375em;
+                            color: $theme-warning;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+            &.column-last {
+                .tiles {
+                    margin: calc(-12px / 2);
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    flex-wrap: wrap;
+                    position: relative;
+                    .item {
+                        margin: 6px;
+                        padding: 6px;
+                        width: calc(50% - 12px);
+                        height: 134px;
+                        text-decoration: none;
+                        outline: 0;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        position: relative;
+                        @media only screen and (max-width : 480px) {
+                            height: 115px;
+                        }
+                        &:hover {
+                            text-decoration: none;
+                            img {
+                                transform: scale(1.2);
+                            }
+                        }
+                        &.color-1 {
+                            background-color: #d7700c;
+                        }
+                        &.color-2 {
+                            background-color: #4b9fef;
+                        }
+                        &.color-3 {
+                            background-color: #82be37;
+                        }
+                        &.color-4 {
+                            background-color: #173959;
+                        }
+                        &.color-5 {
+                            background-color: #cc8e76;
+                        }
+                        &.color-6 {
+                            background-color: #666;
+                        }
+                        img {
+                            transition: transform .1s ease-in-out;
+                        }
+                        .item-text {
+                            color: $theme-white;
+                            font-weight: $font-weight-heavy;
+                            line-height: 1em;
+                            font-size: $font-size-default + 5;
+                            padding-top: 12px;
+                            @media only screen and (max-width : 480px) {
+                                padding-top: 6px;
+                                font-size: $font-size-default + 1;
+                            }
+                        }
+
+                    }
+                    .tiles-link {
+                        position: absolute;
+                        bottom: -24px;
+                        right: 6px;
+                        font-size: $font-size-default + 5;
+                        line-height: normal;
+                        color: $theme-danger;
+                        font-weight: $font-weight-heavy;
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    p {
+        margin: 0 0 13px;
+        font-size: $font-size-default;
+        line-height: 1.46em;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    //odometer plugin style
+    .odometer-inside {
+        display: flex;
+    }
+    .odometer-digit {
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        border-radius: .1em;
+        padding: 0 .15em;
+        background-color: $theme-border-color;
+        color: $theme-dark;
+    }
+    
+    .odometer-digit+.odometer-digit {
+        margin-left: .1em;
+    }
+    
+    .odometer-digit-spacer {
+        display: inline-block;
+        vertical-align: middle;
+        visibility: hidden;
+    }
+    
+    .odometer-digit-inner {
+        text-align: left;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow: hidden;
+    }
+    
+    .odometer-digit:last-child {
+        display: none;
+    }
+    
+    .odometer-ribbon {
+        display: block;
+        margin-top: .05em;
+        margin-left: .15em;
+    }
+    
+    .odometer-ribbon-inner {
+        display: block;
+        backface-visibility: hidden;
+    }
+    
+    .odometer-value {
+        display: block;
+        transform: translateZ(0);
+    }
+    
+    .odometer-value.odometer-last-value {
+        position: absolute;
+    }
+    
+    .odometer-formatting-mark {
+        margin: 0 .1em;
+    }
+    
+    .odometer-animating-up .odometer-ribbon-inner {
+        transition: transform 1s;
+    }
+    
+    .odometer-animating-down .odometer-ribbon-inner,
+    .odometer-animating-up.odometer-animating .odometer-ribbon-inner {
+        transform: translateY(-100%);
+    }
+    
+    .odometer-animating-down.odometer-animating .odometer-ribbon-inner {
+        transition: transform 1s;
+        transform: translateY(0);
+    }
+}

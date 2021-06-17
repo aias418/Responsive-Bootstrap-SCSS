@@ -1,0 +1,242 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+@import "sass-styling-vars";
+
+%d-flex{
+  display: -webkit-box;     
+  display: -moz-box;        
+  display: -ms-flexbox;     
+  display: -webkit-flex;    
+  display: flex; 
+}
+
+%flex-1{
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -webkit-flex: 1; 
+  -ms-flex: 1;
+  flex: 1;
+}
+
+%flex-full-center{
+    align-items: center;
+    justify-content: center;
+}
+%fas-icons{
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+%clear-btn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.sidebar-variation-01{
+    font-family: $font-family-default;
+    a{
+        text-decoration: none;
+    }
+    p{
+        font-size: $font-size-h6;
+        line-height: 26px;
+        color: $theme-dark;
+        margin-bottom: 15px;
+        a{
+            text-decoration: underline;
+        }
+    }
+    img{
+        max-width: 100%;
+    }
+    .main-title{
+        font-size: 32px;
+        line-height: 34px;
+        margin-bottom: 15px;
+        font-weight: $font-weight-heavy;
+        color: $theme-dark;
+    }
+    .content-blocks{
+        border: $theme-border;
+        min-height: 300px;
+        margin-bottom: 15px;
+        background-color: $theme-white;
+    }
+    .app-container{
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0 15px;
+        @extend %d-flex;
+    }
+    .app-sec-pad{
+        padding: 50px 0;
+    }
+    .app-header{
+        background-color: darken($theme-primary, 10%);
+        height: 52px;
+        .app-container{
+            height: 100%;
+            align-items: center;
+        }
+        .right-box{
+            margin-left: auto;
+        }
+        .res-sidemenu-toggle-btn{
+            @extend %clear-btn;
+            padding: 10px;
+            font-size: $font-size-h3;
+            color: $theme-white;
+            display: none;
+            span{
+                display: block;
+                font-size: $font-size-default - 3;
+            }
+        }
+    }
+    .app-content{
+        @extend %flex-1;
+        padding-right: 22px;
+    }
+    .app-sidenav{
+        min-width: 205px;
+        max-width: 205px;
+        position: relative;
+        .side-nav-close-btn{
+            @extend %clear-btn;
+            font-size: $font-size-h3;
+            color: $theme-dark;
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            padding: 10px;
+            display: none;
+        }
+        .sidenav-video-box{
+            .video-img{
+                width: 100%;
+            }
+            padding-bottom: 8px;
+            border-bottom: 4px solid $theme-warning;
+        }
+        .menu-sec-header{
+            @extend %d-flex;
+            align-items: center;
+            padding: 10px 0px;
+            .menu-link{
+                @extend %d-flex;
+                align-items: center;
+                &:hover{
+                    .header-text{
+                        color: darken($theme-primary, 20%);
+                    }
+                }
+            }
+            .header-icon{
+                height: 25px;
+                width: 24px;
+                margin-right: 10px;
+            }
+            .header-text{
+                font-size: $font-size-h6;
+                font-weight: $font-weight-heavy;
+                color: $theme-dark;
+                line-height: 16px;
+            }
+        }
+        .menu-row{
+            padding: 6px 0px;
+            .menu-link{
+                display: block;
+                .link-text{
+                    font-size: $font-size-default;
+                    color: $theme-dark;
+                    line-height: 20px;
+                }
+                &:hover{
+                    .link-text{
+                        font-weight: $font-weight-bold;
+                        color: darken($theme-primary, 20%);
+                    }
+                }
+            }
+            &.flag-row{
+                .menu-link{
+                    @extend %d-flex;
+                    align-items: center;
+                    .flag-icon{
+                        height: 16px;
+                        width: 16px;
+                        border-radius: 50%;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+        .with-collapse-btn{
+            position: relative;
+            padding-right: 25px;
+            .collapse-btn{
+                position: absolute;
+                right: 0px;
+                top: 6px;
+                font-size: $font-size-default;
+                color: $theme-dark;
+                padding: 5px;
+            }
+        }
+        .collapse-menu{
+            padding-left: 10px;
+            &.pad-left-0{
+                padding-left: 0px;
+            }
+        }
+        .section-seprator{
+            margin-top: 8px;
+            margin-bottom: 8px;
+            border-top-color: lighten($theme-secondary, 40%);
+        }
+    }
+    @media (max-width: 991px){
+        .main-title{
+            font-size: $font-size-h1 + 2 ;
+        }
+        .app-sec-pad {
+            padding: 30px 0;
+        }
+        .app-header{
+            .res-sidemenu-toggle-btn{display: block;}
+        }
+        .app-content{
+            padding-right: 0px;
+        }
+        .app-sidenav{
+            position: fixed;
+            right: -100%;
+            top: 0;
+            background: $theme-white;
+            min-width: 220px;
+            max-width: 220px;
+            max-height: 100vh;
+            overflow: auto;
+            padding: 40px 10px 10px;
+            box-shadow: -2px 0px 12px 0px rgba(0, 0, 0, 0.09);
+            -webkit-transition: all 150ms ease-in-out;
+            -moz-transition: all 150ms ease-in-out;
+            -ms-transition: all 150ms ease-in-out;
+            -o-transition: all 150ms ease-in-out;
+            transition: all 150ms ease-in-out;
+            &.menu-open{
+                right: 0px;
+            }
+            .side-nav-close-btn{
+                display: block;
+            }
+        }
+    }
+}

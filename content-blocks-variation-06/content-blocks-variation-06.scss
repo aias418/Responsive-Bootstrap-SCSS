@@ -1,0 +1,169 @@
+@import "sass-styling-vars";
+
+.content-blocks-variation-06 {
+    float: none;
+    box-sizing: border-box;
+    background-color: $theme-light;
+    background-clip: padding-box;
+    padding: 30px 15px;
+    width: 100%;
+    margin: 30px auto;
+    max-width: 1180px;
+    @media only screen and (max-width : 768px) {
+        padding: 20px 10px;
+        max-width: 100%;
+    }
+    .heading {
+        font-size: $font-size-default + 7;
+        line-height: 1.2em;
+        font-weight: $font-weight-regular;
+        @media only screen and (max-width : 480px) {
+            font-size: $font-size-default + 3;
+            line-height: 1.25em;
+            text-align: center;
+        }
+    }
+    .list {
+        position: relative;
+        overflow: hidden;
+        padding: 15px 60px 35px;
+        margin-bottom: 20px;
+        font-size: $font-size-default;
+        line-height: 1.53;
+        color: $theme-white;
+        background-color: #1b354c;
+        @media only screen and (max-width : 992px) {
+            padding: 25px 20px;
+        }
+        @media only screen and (max-width : 480px) {
+            padding: 25px 10px;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            top: 50%;
+            left: 50%;
+            border-radius: 50%;
+            box-shadow: 0 0 180px 130px rgba(140,208,255,.4);
+            background: rgba(140,208,255,.4);
+        }
+        ul {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            flex-flow: row wrap;
+            margin: 0 -20px;
+            @media only screen and (max-width : 992px) {
+                margin: 0 -10px;
+            }
+            @media only screen and (max-width : 480px) {
+                display: block;
+                margin: 0;
+            }
+            li {
+                position: relative;
+                flex: 0 0 25%;
+                padding: 0 20px 60px;
+                font-size: $font-size-default;
+                @media only screen and (max-width : 992px) {
+                    flex: 0 0 50%;
+                    padding: 0 10px 60px;
+                }
+                @media only screen and (max-width : 480px) {
+                    display: block;
+                    padding: 0;
+                }
+                strong {
+                    display: block;
+                    margin-bottom: 20px;
+                    font-size: $font-size-default + 7;
+                    color: $theme-primary;
+                    text-align: center;
+                    @media only screen and (max-width : 992px) {
+                        margin-bottom: 10px;
+                    }
+                }
+                a {
+                    display: block;
+                    padding: 10px 5px;
+                    margin: 15px 10px 0;
+                    font-size: $font-size-default + 1;
+                    color: $theme-white;
+                    text-align: center;
+                    text-decoration: none;
+                    position: absolute;
+                    right: 20px;
+                    left: 20px;
+                    bottom: 0;
+                    @media only screen and (max-width : 992px) {
+                        right: 10px;
+                        left: 10px;
+                    }
+                    @media only screen and (max-width : 480px) {
+                        position: static;
+                    }
+                }
+                &::before {
+                    content: '';
+                    display: block;
+                    width: 100px;
+                    height: 100px;
+                    margin: 0 auto;
+                    background-image: url(./img/four-boxes-sprite.png);
+                    background-repeat: no-repeat;
+                }
+                &.deposit-reload::before {
+                    background-position-x: -400px;
+                }
+                &.comp-points::before {
+                    background-position-x: -500px;
+                }
+                &.freerolls::before {
+                    background-position-x: -600px;
+                }
+                &.daily-deals::before {
+                    background-position-x: -700px;
+                }
+                &:nth-child(n+2) {
+                    @media only screen and (max-width : 480px) {
+                        margin-top: 25px;
+                    }
+                }
+                &:nth-child(n+3) {
+                    @media only screen and (max-width : 992px) {
+                        margin-top: 25px;
+                    }
+                }
+            }
+        }
+    }
+    img {
+        max-width: 100%;
+        border: none;
+        text-decoration: none;
+        object-fit: contain;
+    }
+    p {
+        margin: 0 0 20px;
+        font-size: $font-size-default + 1;
+        line-height: 1.857em;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            margin: 0;
+        }
+    }
+    a {
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;
+            outline: 0;
+        }
+    }
+    
+}

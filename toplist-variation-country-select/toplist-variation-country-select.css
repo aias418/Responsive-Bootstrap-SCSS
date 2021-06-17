@@ -1,0 +1,442 @@
+.toplist-variation-country-select .country-section .col {
+  flex-basis: 0;
+  flex-grow: 1;
+  float: left;
+  max-width: 100%;
+  padding-left: 6px;
+  padding-right: 6px;
+  position: relative;
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-country-select .country-section .col {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+.toplist-variation-country-select .country-section .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -6px;
+  margin-right: -6px;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-country-select .country-section .row {
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+}
+.toplist-variation-country-select .country-section .country-section-heading {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+@media only screen and (min-width: 480px) {
+  .toplist-variation-country-select .country-section .country-section-heading {
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.toplist-variation-country-select .country-section .country-section-heading .section-title {
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+  width: 100%;
+}
+.toplist-variation-country-select .country-section .country-section-heading .section-title h2 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+.toplist-variation-country-select .country-section .country-section-heading .section-title h2 a {
+  color: #212529;
+  text-decoration: none;
+}
+.toplist-variation-country-select .country-section .country-section-heading .section-title h2 a:after {
+  background: url("./img/arrow-right.svg") no-repeat;
+  content: "";
+  display: inline-block;
+  height: 15px;
+  margin-left: 10px;
+  width: 14px;
+}
+.toplist-variation-country-select .country-section .country-section-heading .section-title .country-select-wrapper {
+  border-radius: 6px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.02), 0 0 1px rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: #212529;
+  flex: 100%;
+  margin-bottom: 20px;
+  order: 3;
+  overflow: hidden;
+}
+@media only screen and (min-width: 480px) {
+  .toplist-variation-country-select .country-section .country-section-heading .section-title .country-select-wrapper {
+    border-radius: 0;
+    box-shadow: none;
+    flex: 0 0 39.4%;
+    margin-bottom: 0;
+    order: 2;
+    overflow: visible;
+    position: relative;
+  }
+}
+.toplist-variation-country-select .country-section .country-section-heading .section-title .country-select-wrapper .country-select-wrapper-heading {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 12px;
+  position: relative;
+}
+@media only screen and (min-width: 480px) {
+  .toplist-variation-country-select .country-section .country-section-heading .section-title .country-select-wrapper .country-select-wrapper-heading {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.06), 0 0 3px rgba(0, 0, 0, 0.08), 0 1px 1px rgba(0, 0, 0, 0.14);
+  }
+}
+.toplist-variation-country-select .country-section .country-section-heading .section-title .country-select-wrapper .country-select-wrapper-heading img {
+  height: 24px;
+  margin-right: 12px;
+  pointer-events: none;
+  width: 24px;
+}
+.toplist-variation-country-select .country-section .country-section-heading .section-title .country-select-wrapper .country-select-wrapper-heading span {
+  display: flex;
+  flex: 1;
+  pointer-events: none;
+}
+.toplist-variation-country-select .country-section .country-section-heading .section-title .country-select-wrapper .country-select-wrapper-heading:after {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #212529;
+  content: "";
+  display: inline-block;
+  height: 0;
+  position: absolute;
+  right: 15px;
+  top: 20px;
+  width: 0;
+}
+.toplist-variation-country-select .country-section .country-section-heading .section-title .country-select-wrapper .country-select-wrapper-heading.country-select-active {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.toplist-variation-country-select .country-section .country-section-heading .section-title .country-select-wrapper .country-select-wrapper-heading.country-select-active:after {
+  border-bottom: 5px solid #212529;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 0;
+}
+.toplist-variation-country-select .country-section .country-section-heading .section-title .country-select-wrapper .country-select-wrapper-main {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 54px;
+  z-index: 2;
+}
+@media only screen and (min-width: 480px) {
+  .toplist-variation-country-select .country-section .country-section-heading .section-title .country-select-wrapper .country-select-wrapper-main {
+    background: 0 0;
+    box-shadow: none;
+    padding: 0;
+    position: static;
+  }
+}
+.toplist-variation-country-select .country-section .country-section-heading .section-title .country-select-wrapper .country-select-wrapper-main.is-hidden {
+  display: none;
+}
+.toplist-variation-country-select .country-section .country-section-heading .section-title .country-select-wrapper .country-select-wrapper-main .country-select-wrapper-main-body {
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.06), 0 0 3px rgba(0, 0, 0, 0.08), 0 1px 1px rgba(0, 0, 0, 0.14);
+  font-size: 14px;
+  overflow: hidden;
+}
+@media only screen and (min-width: 480px) {
+  .toplist-variation-country-select .country-section .country-section-heading .section-title .country-select-wrapper .country-select-wrapper-main .country-select-wrapper-main-body {
+    box-shadow: 0 4px 8px rgba(39, 40, 51, 0.12);
+    border-radius: 0 0 6px 6px;
+    position: absolute;
+    right: 0;
+    top: 45px;
+    width: 100%;
+    z-index: 2;
+  }
+}
+.toplist-variation-country-select .country-section .country-section-heading .section-title .country-select-wrapper .country-select-wrapper-main .country-select-wrapper-main-body .country-select-wrapper-main-body-list {
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  max-height: 500px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 0;
+}
+@media only screen and (min-width: 480px) {
+  .toplist-variation-country-select .country-section .country-section-heading .section-title .country-select-wrapper .country-select-wrapper-main .country-select-wrapper-main-body .country-select-wrapper-main-body-list {
+    max-height: 260px;
+  }
+}
+.toplist-variation-country-select .country-section .country-section-heading .section-title .country-select-wrapper .country-select-wrapper-main .country-select-wrapper-main-body .country-select-wrapper-main-body-list .country-select-wrapper-main-body-list-item {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0;
+  padding: 14px 0 14px 20px;
+  position: relative;
+}
+.toplist-variation-country-select .country-section .country-section-heading .section-title .country-select-wrapper .country-select-wrapper-main .country-select-wrapper-main-body .country-select-wrapper-main-body-list .country-select-wrapper-main-body-list-item:hover {
+  background-color: #e5e5e5;
+}
+.toplist-variation-country-select .country-section .country-section-heading .section-title .country-select-wrapper .country-select-wrapper-main .country-select-wrapper-main-body .country-select-wrapper-main-body-list .country-select-wrapper-main-body-list-item img {
+  height: 24px;
+  margin-right: 12px;
+  width: 24px;
+}
+.toplist-variation-country-select .country-section .country-section-heading .section-title .section-intro {
+  color: #212529;
+  font-size: 14px;
+  line-height: 125%;
+  margin-bottom: 18px;
+  order: 2;
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-country-select .country-section .country-section-heading .section-title .section-intro {
+    width: 75%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .toplist-variation-country-select .country-section .country-section-heading .section-title .section-intro {
+    width: 55%;
+  }
+}
+.toplist-variation-country-select .country-section .casino-by-country-cards-container {
+  position: relative;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper {
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+}
+.toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .col {
+  flex: 0 0 50%;
+}
+@media only screen and (min-width: 480px) {
+  .toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .col {
+    flex: 0 0 25%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .col {
+    flex: 0 0 20%;
+  }
+}
+.toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card {
+  background-color: #ffffff;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card {
+    margin-bottom: 16px;
+  }
+}
+.toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card .card-header {
+  align-items: center;
+  border-radius: 6px 6px 0 0;
+  display: flex;
+  flex: 0 0 100%;
+  justify-content: center;
+  position: relative;
+  text-decoration: none;
+}
+.toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card .card-header:after {
+  box-shadow: inset 0 -1px 3px rgba(0, 0, 0, 0.06);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card .card-header .card-header-logo {
+  height: 0;
+  margin: 3.13% auto;
+  position: relative;
+  padding-top: 50%;
+  width: 50%;
+}
+.toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card .card-header .card-header-logo .card-media-overlay {
+  border-radius: 50%;
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+.toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card .card-header .card-header-logo .card-media-overlay img {
+  border-radius: 50%;
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card .card-body .card-body-info {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  line-height: 24px;
+  min-height: 45px;
+  padding: 10px;
+}
+.toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card .card-body .card-body-info .cot {
+  align-items: inherit;
+  display: flex;
+}
+.toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card .card-body .card-body-info .cot .cot-tooltip {
+  cursor: help;
+  display: inline-block;
+  font-style: normal;
+  line-height: 100%;
+  margin-bottom: 0;
+  margin-right: 6px;
+  position: relative;
+}
+.toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card .card-body .card-body-info .cot .cot-tooltip img {
+  height: 17px;
+  width: 17px;
+}
+.toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card .card-body .card-body-info .cot span {
+  color: #212529;
+  display: none;
+  font-size: 12px;
+  letter-spacing: 1.8px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card .card-body .card-body-info .cot span {
+    display: inline-block;
+    margin-right: 4px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card .card-body .card-body-info .cot span {
+    margin-right: 18px;
+  }
+}
+.toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card .card-body .card-body-info .rating {
+  align-items: inherit;
+  color: #212529;
+  display: flex;
+  font-size: 14px;
+}
+.toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card .card-body .card-body-info .rating img {
+  height: 15px;
+  margin-right: 6px;
+  width: 14px;
+}
+.toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card .card-body .card-body-title {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  align-items: center;
+  color: #212529;
+  display: -webkit-box;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 40px;
+  margin-bottom: 10px;
+  padding: 0 12px;
+  text-align: center;
+  text-decoration: none;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card .card-body .card-body-title {
+    padding: 0 16px;
+  }
+}
+.toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card .card-footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+}
+.toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card .card-footer .btn-primary {
+  background: #eee;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: none;
+  color: #0d6efd;
+  font-size: 14px;
+  line-height: 125%;
+  margin-bottom: 10px;
+  max-width: 110px;
+  min-width: 100px;
+  outline: none;
+  overflow: hidden;
+  outline: 0;
+  padding: 9px 16px;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  text-shadow: none;
+  text-transform: capitalize;
+  transition: 0.3s;
+  white-space: nowrap;
+  width: auto;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card .card-footer .btn-primary {
+    max-width: 160px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card .card-footer .btn-primary {
+    max-width: 240px;
+    overflow: visible;
+    text-overflow: unset;
+  }
+}
+.toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card .card-footer .btn-primary:hover {
+  background-color: #0d6efd;
+  color: #ffffff;
+}
+.toplist-variation-country-select .country-section .casino-by-country-cards-container .cards-wrapper .casino-card .card-footer .btn-link {
+  color: #212529;
+  font-size: 10px;
+  margin-bottom: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.toplist-variation-country-select .country-section .casino-by-country-cards-container .show-all .btn-primary {
+  background: none;
+  border: 0;
+  box-shadow: none;
+  color: #0d6efd;
+  font-size: 16px;
+  line-height: 125%;
+  outline: 0;
+  padding: 0;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+/*# sourceMappingURL=toplist-variation-country-select.css.map */

@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+.winners-scroller-variation .app-tbl-flex .tbl-cell, .winners-scroller-variation .app-tbl-flex .app-tbl, .winners-scroller-variation .app-tbl-flex .tbl-row, .winners-scroller-variation .app-tbl-flex .tbl-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.winners-scroller-variation .app-tbl-flex .tbl-row .tbl-cell {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.winners-scroller-variation .app-tbl-flex .tbl-cell {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.winners-scroller-variation {
+  font-family: "Montserrat", sans-serif;
+}
+
+.winners-scroller-variation img {
+  max-width: 100%;
+}
+
+.winners-scroller-variation .app-container {
+  max-width: 925px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.winners-scroller-variation .main-title {
+  font-size: 34px;
+  color: #ffffff;
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+
+.winners-scroller-variation .app-tbl-flex {
+  margin-bottom: 40px;
+}
+
+.winners-scroller-variation .app-tbl-flex .app-tbl {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.winners-scroller-variation .app-tbl-flex .tbl-row:last-child .tbl-cell:not(.head-cell) {
+  border-bottom: 1px solid #d3d8dc;
+}
+
+.winners-scroller-variation .app-tbl-flex .tbl-cell {
+  font-size: 12px;
+  padding: 16px;
+  border-top: 1px solid #d3d8dc;
+  border-right: 1px solid #d3d8dc;
+  border-collapse: collapse;
+}
+
+.winners-scroller-variation .app-tbl-flex .tbl-cell:first-child {
+  border-left: 1px solid #d3d8dc;
+}
+
+.winners-scroller-variation .app-tbl-flex .head-cell {
+  background-color: #e1edff;
+  color: #0d6efd;
+  font-weight: 700;
+  border-collapse: collapse;
+}
+
+.winners-scroller-variation .app-tbl-flex .tbl-content {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.winners-scroller-variation .recent-winner-tbl .app-tbl {
+  min-width: 666px;
+}
+
+.winners-scroller-variation .recent-winner-tbl .app-tbl .tbl-content {
+  height: 300px;
+  overflow: hidden;
+  border-bottom: 1px solid #d3d8dc;
+}
+
+.winners-scroller-variation .recent-winner-tbl .app-tbl .tbl-content ul {
+  margin-top: 0px;
+}
+
+.winners-scroller-variation .recent-winner-tbl .app-tbl .tbl-content ul li {
+  margin-top: -1px;
+}
+
+.winners-scroller-variation .sec-header {
+  background-color: #012e70;
+  padding: 10px 20px;
+}
+
+@media (max-width: 767px) {
+  .winners-scroller-variation .main-title {
+    font-size: 22px;
+  }
+}
+/*# sourceMappingURL=winners-scroller-variation.css.map */

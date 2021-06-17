@@ -1,0 +1,170 @@
+@import "sass-styling-vars";
+
+.games-list-content-block {
+    float: none;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    margin: 30px auto;
+    max-width: 935px;
+    .game-tiles {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: $font-size-default;
+        vertical-align: baseline;
+        p.title{
+            color: $theme-dark;
+            margin-bottom: 16px;
+            font-size: $font-size-h1;
+            line-height: 1.8em;
+            @media only screen and (max-width: 768px)
+            {
+                font-size: $font-size-h2;
+                line-height: 1.6em;
+            }
+        }
+        .game-tiles-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .text-element{
+                flex-basis: 65%;
+                @media only screen and (max-width: 992px){
+                    flex-basis: 100%;
+                }
+                p {
+                    font-size: $font-size-default;
+                    line-height: 1.8em;
+                    margin-bottom: 0;
+                    
+                }
+                a {
+                    text-decoration: none;
+                    font-weight: $font-weight-bold;
+                }
+            }
+            .fa{
+                color: $theme-white;
+            }
+            .btn {
+                @media only screen and (max-width: 768px){
+                    display: none; 
+                }
+            }
+        }
+        .game-btn-mobile {
+            width: 100%;
+            margin-top:24px;
+            .fa {
+                color: $theme-white;
+            }
+            .btn {
+                display: none;
+                @media only screen and (max-width: 992px){
+                    display: block; 
+                    width: 100%;
+                }
+            }
+        }
+        .game-tiles-wrapper {
+            width: 100%;
+            display: flex;
+            grid-template-columns: 50% 50%;
+            justify-content: space-between;
+            margin-top: 24px;
+            @media only screen and (max-width: 992px){
+                display: grid;
+            }
+            @media only screen and (max-width: 480px) {
+                grid-template-columns: 100%;
+            }
+            .game-tile {
+                flex-basis: 24%;
+                margin: 24px 0 0;
+                @media only screen and (max-width: 992px) {
+                    margin: 4px;
+                }
+                .image-container {
+                    position: relative;
+                    height: 200px;
+                    border-radius: $theme-border-radius;
+                    overflow: hidden;
+                    margin-bottom: 6px;
+                    cursor: pointer;
+                    
+                    .game-tile-image, .game-tile-overlay {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: absolute;
+                    }
+                    .game-tile-overlay {
+                        z-index: 1;
+                        width: 100%;
+                        height: 100%;
+                        border-radius: $theme-border-radius;
+                        cursor: pointer;
+                        transition: background-color .3s ease;
+                        will-change: background-color;
+                        .btn {
+                            width: 65%;
+                            display: none;
+                        }
+                        &:hover {
+                            background: $theme-secondary;
+                            .btn {
+                                display: block;
+                            }
+                        }
+                    }
+                    
+                    .game-tile-image {
+                        top: 0;
+                        right: 0;
+                        bottom: 0;
+                        left: 0;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        transition: transform .5s ease;
+                        will-change: transform;
+                        background-position: 50%;
+                    }
+                    .game-tile-rating {
+                        position: absolute;
+                        background: $theme-dark;
+                        border-radius: $theme-border-radius;
+                        bottom: 7px;
+                        left: 7px;
+                        color: $theme-white;
+                        font-weight: $font-weight-heavy;
+                        font-size: $font-size-md;
+                        padding: 4px;
+                        .game-tile-star {
+                            color: $theme-warning;
+                            margin-right: 4px;
+                            position: relative;
+                        }
+                    }
+                    
+                }
+                .game-tile-info {
+                    .game-tile-title {
+                        font-size: $font-size-lg;
+                        font-weight: $font-weight-heavy;
+                        color: $theme-dark;
+                        @media only screen and (max-width: 480px) {
+                            font-size: $font-size-md;
+                            font-weight: $font-weight-bold;
+                        }
+                    }
+                    .game-tile-secondary {
+                        font-size: $font-size-default;
+                        color: $theme-dark;
+                    }
+                }
+            }
+        }
+    }
+    
+}

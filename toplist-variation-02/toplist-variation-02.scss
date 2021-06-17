@@ -1,0 +1,346 @@
+@import 'sass-styling-vars';
+
+.toplist-variation-02 {
+    .title {
+        font-size: $font-size-xl;
+        font-weight: $font-weight-heavy;
+        line-height: 1.2;
+        padding-bottom: 10px;
+        img {
+            height: auto;
+            width: 30px;
+        }
+    }
+    .main-list {
+        counter-reset: badge;
+        margin: 0;
+        padding: 0;
+        .list-item {
+            background: $theme-border-color;
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            margin: 0 auto;
+            padding: 15px 0;
+            position: relative;
+            text-align: unset;
+            @media only screen and (max-width: 767px) {
+                padding: 20px 0;
+            }
+            &:nth-child(odd) {
+                @media only screen and (min-width: 768px) {
+                    background: $theme-white;
+                }
+            }
+            &:not(:last-child) {
+                @media only screen and (max-width: 767px) {
+                    margin-bottom: 16px;
+                }
+            }
+            .list-item-inner {
+                @media only screen and (max-width: 767px) {
+                    max-width: 290px;
+                }
+                @media only screen and (min-width: 768px) {
+                    display: grid;
+                    grid-template-columns: 0.8fr 2fr 3fr 1.3fr;
+                    grid-column-gap: 20px;
+                    max-width: unset;
+                    width: 100%;
+                }
+                .logo-block {
+                    @media only screen and (max-width: 767px) {
+                        -webkit-box-align: center;
+                        align-items: center;
+                        display: flex;
+                        -webkit-box-pack: start;
+                        justify-content: flex-start;
+                        margin-bottom: 10px;
+                    }
+                    .logo-container {
+                        .logo-link {
+                            -webkit-box-align: start;
+                            align-items: flex-start;
+                            display: flex;
+                            -webkit-box-pack: center;
+                            justify-content: center;
+                            position: relative;
+                            .logo-image {
+                                border: 1px solid $theme-border-color;
+                                border-radius: 50%;
+                                height: 80px;
+                                margin: 0 0 -2px;
+                                min-height: 60px;
+                                width: 80px;
+                                @media only screen and (max-width: 767px) {
+                                    margin: 10px 10px 15px;
+                                }
+                            }
+                            &:before {
+                                background: url('./img/badge.svg') no-repeat;
+                                color: $theme-white;
+                                content: counter(badge);
+                                counter-increment: badge;
+                                display: flex;
+                                font-size: $font-size-default;
+                                font-weight: $font-weight-heavy;
+                                height: 29px;
+                                -webkit-box-pack: center;
+                                justify-content: center;
+                                left: calc(50% - 45px);
+                                line-height: 1.6;
+                                position: absolute;
+                                width: 22px;
+                                @media only screen and (max-width: 991px) {
+                                    top: 10px;
+                                }
+                            }
+                        }
+                    }
+                    .rating-block {
+                        display: flex;
+                        flex-wrap: wrap;
+                        @media only screen and (min-width: 768px) {
+                            -webkit-box-pack: center;
+                            justify-content: center;
+                        }
+                        .rating-title {
+                            display: none;
+                            font-weight: $font-weight-heavy;
+                            line-height: 1.2;
+                            width: 100%;
+                            @media only screen and (max-width: 767px) {
+                                display: block;
+                            }
+                            .rating-name {
+                                color: $theme-dark;
+                                display: flex;
+                                font-size: $font-size-default - 1;
+                                font-weight: 600;
+                                margin-bottom: 4px;
+                            }
+                        }
+                        .rating-number {
+                            font-size: $font-size-default - 1;
+                            margin-bottom: 0;
+                            margin-right: 6px;
+                            white-space: nowrap;
+                            width: fit-content;
+                            word-break: break-word;
+                            @media only screen and (min-width: 768px) {
+                                background-color: $theme-white;
+                                border: 0.5px solid $theme-border-color;
+                                border-radius: 100px;
+                                margin: -10px 30px;
+                                padding: 3px 8px;
+                                position: relative;
+                                z-index: 1;
+                            }
+                        }
+                        .rating-stars {
+                            display: inline-flex;
+                            font-size: $font-size-default - 3;
+                            min-height: 16px;
+                            min-width: 57px;
+                            @media only screen and (min-width: 768px) {
+                                -webkit-box-align: center;
+                                align-items: center;
+                                border-radius: 0 0 4px 4px;
+                                display: -webkit-box;
+                                display: flex;
+                                font-size: $font-size-default + 1;
+                                -webkit-box-pack: center;
+                                justify-content: center;
+                                min-height: 32px;
+                                min-width: 100%;
+                                padding-top: 13px;
+                            }
+                            img {
+                                height: 12px;
+                                margin-top: 2px;
+                                max-width: 73px;
+                                @media only screen and (min-width: 768px) {
+                                    margin-top: 0;
+                                    max-width: 100px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .info {
+                display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                flex-direction: column;
+                -webkit-box-align: center;
+                align-items: center;
+                @media only screen and (min-width: 768px) {
+                    display: flex;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                    flex-direction: column;
+                    -webkit-box-align: start;
+                    align-items: flex-start;
+                }
+                .rating-title {
+                    display: none;
+                    font-size: $font-size-default;
+                    font-weight: $font-weight-heavy;
+                    line-height: 1.2;
+                    @media only screen and (min-width: 768px) {
+                        display: block;
+                    }
+                    .rating-name {
+                        color: $theme-dark;
+                        display: flex;
+                        font-size: $font-size-default - 1;
+                        font-weight: $font-weight-heavy;
+                        margin-bottom: 4px;
+                        @media only screen and (max-width: 991px) {
+                            font-size: $font-size-default + 3;
+                            font-weight: $font-weight-heavy;
+                        }
+                    }
+                }
+                .rating-line {
+                    font-size: $font-size-lg;
+                    font-weight: $font-weight-heavy;
+                    padding: unset;
+                    @media only screen and (max-width: 767px) {
+                        text-align: center;
+                    }
+                }
+            }
+            .benefits {
+                display: flex;
+                @media only screen and (max-width: 767px) {
+                    -webkit-box-pack: center;
+                    justify-content: center;
+                }
+                .games-flags {
+                    margin: 16px 16px 0 0;
+                    width: 40%;
+                    @media only screen and (max-width: 767px) {
+                        margin: 10px;
+                    }
+                    .flags {
+                        -webkit-box-align: center;
+                        align-items: center;
+                        display: flex;
+                        -webkit-box-pack: center;
+                        justify-content: center;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        list-style: none;
+                        margin: 0;
+                        padding: 10px 0 0;
+                        .game-block {
+                            border-radius: 3px;
+                            margin-bottom: 5px;
+                            margin-right: 5px;
+                            margin-top: 0;
+                            overflow: visible;
+                            position: relative;
+                            &.purple {
+                                background: #b44ec6;
+                            }
+                            &.orange {
+                                background: #ef7d02;
+                            }
+                            span {
+                                color: $theme-white;
+                                cursor: default;
+                                display: flex;
+                                font-size: $font-size-default - 3;
+                                font-weight: $font-weight-heavy;
+                                line-height: 1.2;
+                                margin: 0;
+                                padding: 4.5px 4px;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+                }
+                .benefits-list {
+                    color: $theme-dark;
+                    font-size: $font-size-default - 1;
+                    font-weight: $font-weight-medium;
+                    line-height: 1.8;
+                    list-style: none;
+                    margin: 16px 0 0;
+                    padding: 0;
+                    padding-left: 15px;
+                    text-align: left;
+                    text-transform: capitalize;
+                    word-break: break-word;
+                    @media only screen and (max-width: 991px) {
+                        margin: 10px;
+                        word-break: normal;
+                    }
+                    li {
+                        color: $theme-dark;
+                        font-size: $font-size-default - 3;
+                        font-weight: $font-weight-heavy;
+                        margin-top: 0;
+                        padding-left: 15px;
+                        position: relative;
+                        &:before {
+                            background: url('./img/right-arrow.svg') no-repeat;
+                            background-size: cover;
+                            content: '';
+                            display: inline-block;
+                            height: 6px;
+                            left: 4px;
+                            position: absolute;
+                            top: 7px;
+                            width: 5px;
+                        }
+                    }
+                }
+            }
+            .play-button {
+                font-weight: $font-weight-medium;
+                grid-column: 4;
+                margin: 16px 16px 0 0;
+                @media only screen and (max-width: 767px) {
+                    -webkit-box-align: center;
+                    align-items: center;
+                    display: flex;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                    flex-direction: column;
+                    margin: 0 auto;
+                }
+                .btn-primary {
+                    -webkit-box-align: center;
+                    align-items: center;
+                    background: $theme-primary;
+                    border: 0;
+                    border-radius: $theme-border-radius;
+                    box-shadow: none;
+                    color: $theme-white;
+                    display: flex;
+                    font-size: $font-size-default + 7;
+                    font-weight: $font-weight-heavy;
+                    -webkit-box-pack: center;
+                    justify-content: center;
+                    height: 48px;
+                    margin: 0 auto;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    width: 165px;
+                    white-space: nowrap;
+                    &:hover {
+                        opacity: 0.9;
+                    }
+                    @media only screen and (max-width: 991px) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

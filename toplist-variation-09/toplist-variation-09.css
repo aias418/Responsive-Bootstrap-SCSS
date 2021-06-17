@@ -1,0 +1,180 @@
+.toplist-variation-09 {
+  float: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #e5e5e5;
+  background-clip: padding-box;
+  padding: 30px 15px;
+  width: 100%;
+  margin: 30px auto;
+  max-width: 1200px;
+}
+
+.toplist-variation-09 .toplist-container {
+  font-weight: 300;
+}
+
+.toplist-variation-09 .toplist-container .heading {
+  display: block;
+  margin-bottom: 15px;
+  color: #dc3545;
+  font-size: 26px;
+  line-height: 1em;
+}
+
+.toplist-variation-09 .toplist-container .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 35px;
+  margin-bottom: 35px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+@media only screen and (max-width: 1200px) {
+  .toplist-variation-09 .toplist-container .box {
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .toplist-variation-09 .toplist-container .box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.toplist-variation-09 .toplist-container .box:last-child {
+  margin-bottom: 0;
+}
+
+.toplist-variation-09 .toplist-container .box .box-img {
+  width: 16.6%;
+  padding-left: 35px;
+}
+
+@media only screen and (max-width: 480px) {
+  .toplist-variation-09 .toplist-container .box .box-img {
+    width: 100%;
+    padding-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.toplist-variation-09 .toplist-container .box .box-content {
+  width: 66%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 35px;
+}
+
+@media only screen and (max-width: 480px) {
+  .toplist-variation-09 .toplist-container .box .box-content {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+
+.toplist-variation-09 .toplist-container .box .box-content .title {
+  font-size: 23px;
+  line-height: 1.13em;
+  color: #dc3545;
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.toplist-variation-09 .toplist-container .box .box-content .title i {
+  font-size: 18px;
+  line-height: 1.66em;
+  color: #ffc107;
+}
+
+.toplist-variation-09 .toplist-container .box .box-content .title i:first-child {
+  margin-left: 5px;
+}
+
+.toplist-variation-09 .toplist-container .box .box-content .content {
+  font-size: 16px;
+  line-height: 1.375em;
+}
+
+.toplist-variation-09 .toplist-container .box .box-content .content a {
+  color: #dc3545;
+}
+
+.toplist-variation-09 .toplist-container .box .box-btn {
+  width: 16.6%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 35px;
+}
+
+@media only screen and (max-width: 480px) {
+  .toplist-variation-09 .toplist-container .box .box-btn {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+
+.toplist-variation-09 .toplist-container .box .box-btn .btn {
+  font-size: 18px;
+}
+
+.toplist-variation-09 img {
+  max-width: 100%;
+  border: none;
+  text-decoration: none;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.toplist-variation-09 p {
+  margin: 0 0 13px;
+  font-size: 13px;
+  line-height: 1.46em;
+}
+
+.toplist-variation-09 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.toplist-variation-09 ul li {
+  margin: 0;
+}

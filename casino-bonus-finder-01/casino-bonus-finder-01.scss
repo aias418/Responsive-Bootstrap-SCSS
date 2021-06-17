@@ -1,0 +1,465 @@
+@import "sass-styling-vars";
+
+.casino-bonus-finder-01 {
+    float: none;
+    margin: 0 auto;
+    min-height: 10px;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+    .internal-wrapper {
+        clear: both;
+        display: inline-block;
+        min-height: 10px;
+        overflow: visible;
+        position: relative;
+        vertical-align: middle;
+        width: 100%;
+        z-index: 1;
+        .text-element {
+            overflow-wrap: break-word;
+            padding: 1px;
+            @media only screen and (max-width: 992px) {
+                padding: 0 20px;
+            }
+            &.paragraph {
+                margin: 0 auto;
+                max-width: 730px;
+            }
+            p {
+                color: $theme-dark;
+                font-weight: $font-weight-medium;
+                margin-bottom: 30px;
+                &.title {
+                    color: $theme-primary;
+                    font-weight: $font-weight-heavy;
+                    margin-bottom: 20px;
+                    padding: 0;
+                    text-align: center;
+                }
+            }
+        }
+        .modal-wrapper {
+            @media only screen and (max-width: 992px) {
+                padding: 0 20px;
+            }
+            .modal-content {
+                background-color: $theme-white;
+                border: 0;
+                border-radius: $theme-border-radius;
+                box-sizing: border-box;
+                box-shadow: $wrapper-box-shadow;
+                height: auto;
+                margin: auto;
+                max-width: 1000px;
+                padding: 30px 30px 40px;
+                position: relative;
+                @media only screen and (max-width: 992px) {
+                    max-width: 768px;
+                }
+                @media only screen and (max-width: 768px) {
+                    padding: 30px 20px 40px;
+                    width: 100%;
+                }
+                .question {
+                    display: none;
+                }
+                #survey {
+                    box-sizing: border-box;
+                    color: $theme-dark;
+                    display: block;
+                    margin: 0 auto;
+                    overflow: hidden;
+                    text-align: center;
+                    width:100%;
+                }
+                .question {
+                    p {
+                        color: $theme-primary;
+                        font-size: $font-size-xl;
+                        font-weight: $font-weight-heavy;
+                        line-height: 1em;
+                        margin: 20px 0 40px;
+                        @media only screen and (max-width: 992px) {
+                            font-size: $font-size-default + 9;
+                        }
+                        @media only screen and (max-width: 768px) {
+                            font-size: $font-size-default + 3;
+                            line-height: 1em;
+                        }
+                    }
+                    a {
+                        text-decoration: none;
+                    }
+                    .casino-container {
+                        height: auto;
+                        .casino-left, .casino-right {
+                            border: $wrapper-border;
+                            height: auto;
+                            margin: 0 0 20px;
+                            width: 100%;
+                            @media only screen and (max-width: 768px) {
+                                border: 0;
+                                height: auto;
+                                margin: 0 0 auto;
+                                width: 100%;
+                            }
+                        }
+                        .casino-left {
+                            align-items: center;
+                            border-right: 2px solid $theme-border-color;
+                            box-sizing: border-box;
+                            display: flex;
+                            float: left;
+                            justify-content: center;
+                            height: 250px;
+                            margin: 0 0 50px;
+                            padding: 15px 0;
+                            width: 50%;
+                            @media only screen and (max-width: 768px) {
+                                border-bottom: 1px solid $theme-border-color;
+                                border-right: 0;
+                                float: none;
+                                height: auto;
+                                margin: 0 0 20px;
+                                width: 100%;
+                            }
+                            p {
+                                font-size: $font-size-xl;
+                                margin-bottom: 22px;
+                                margin-top: 0;
+                            }
+                            img {
+                                margin-bottom: 20px;
+                            }
+                            .tool-stars {
+                                @media only screen and (max-width: 768px) { 
+                                    width: 120px !important;
+                                }
+                            }
+                        }
+                        .casino-right {
+                            align-items: center;
+                            box-sizing: border-box;
+                            display: flex;
+                            float: left;
+                            justify-content: center;
+                            height: 250px;
+                            margin: 0 0 50px;
+                            padding: 15px 0;
+                            width: 50%;
+                            @media only screen and (max-width: 768px) {
+                                float: none;
+                                height: auto;
+                                margin: 0 0 20px;
+                                padding-bottom: 0;
+                                width: 100%;
+                            }
+                            img {
+                                margin: 0 10px 0;
+                                @media only screen and (max-width: 768px) {
+                                    display: none;
+                                }
+                            }
+                            .casino-right-images {                                
+                                .selected-game, .selected-device {
+                                    background-position-y: -130px;
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                    border: 2px solid $theme-primary;
+                                    border-radius: 12px;
+                                    box-sizing: content-box;
+                                    display: inline-block;
+                                    height: 130px;
+                                    position: relative;
+                                    vertical-align: middle;
+                                    width: 130px;
+                                    @media only screen and (max-width: 992px) {
+                                        background-position-y: -100px;
+                                        height: 100px;
+                                        width: 100px;
+                                    }
+                                    @media only screen and (max-width: 768px) {
+                                        display: none;
+                                    }
+                                    &:before {
+                                        border: 4px solid $theme-white;
+                                        border-radius: 9px;
+                                        bottom: 0;
+                                        content: '';
+                                        left: 0;
+                                        position: absolute;
+                                        right: 0;
+                                        top: 0;
+                                    }
+                                }
+                                .selected-game {
+                                    margin-right: 10px;
+                                    @media only screen and (max-width: 992px) {
+                                        margin-right: 5px;
+                                    }
+                                }
+                                img {
+                                    border: 2px solid $theme-primary;
+                                    border-radius: 12px;
+                                    margin: 0 10px 0 0;
+                                    @media only screen and (max-width: 992px) {
+                                        margin: 0 5px 0 0;
+                                        width: 104px;
+                                    }
+                                    &:before {
+                                        border: 4px solid $theme-white;
+                                        bottom: 0;
+                                        content: '';
+                                        left: 0;
+                                        position: absolute;
+                                        right: 0;
+                                        top: 0;
+                                    }   
+                                }
+                            }
+                            ul {
+                                color: $theme-primary;
+                                font-size: $font-size-default + 3;
+                                line-height: 1em;
+                                margin-bottom: 0;
+                                text-align: left;
+                                @media only screen and (max-width: 768px) {
+                                    margin: 0;
+                                }
+                                li {
+                                    margin-top: 0;
+                                }
+                            }
+                        }
+                    }
+                    &#question4 {
+                        padding: 25px 0 0;
+                    }
+                    &.card-selector {
+                        input {
+                            -webkit-appearance: none;
+                            -moz-appearance: none;
+                            appearance: none;
+                            display: none;
+                            margin: 0;
+                            padding: 0;
+                            &:active, &:checked {
+                                &+.label-card {
+                                    background-position: -4px -194px;
+                                    @media only screen and (max-width: 768px) {
+                                        background-position: -2px -102px;
+                                    }
+                                    &:after {
+                                        background: url('img/checkmark.svg') no-repeat;
+                                        background-size: cover;
+                                        content: '';
+                                        display: inline-block;
+                                        height: 20px;
+                                        position: absolute;
+                                        right: 5px;
+                                        top: 5px;
+                                        width: 20px;
+                                        @media only screen and (max-width: 768px) {
+                                            height: 15px;
+                                            width: 15px;
+                                        }
+                                    }
+                                }
+                            }
+                            &:checked {
+                                &+.label-card {
+                                    border-color: $theme-primary;
+                                    @media only screen and (max-width: 768px) {
+                                        background-position: -2px -102px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .label-card {
+                        background-position: -4px -4px;
+                        background-repeat: no-repeat;
+                        border: 2px solid $theme-border-color;
+                        border-radius: 12px;
+                        cursor: pointer;
+                        display: inline-block;
+                        height: 180px;
+                        margin: 0 15px;
+                        position: relative;
+                        width: 180px;
+                        @media only screen and (max-width: 992px) {
+                            float: left;
+                        }
+                        @media only screen and (max-width: 768px) {
+                            background-position: -2px -2px;
+                        }
+                        @media only screen and (max-width: 320px) {
+                            float: none;
+                        }
+                        &:hover {
+                            background-position: -4px -194px;
+                            border-color: $theme-primary;
+                            @media only screen and (max-width: 768px) {
+                                background-position: -2px -102px;
+                            }
+                            &:after {
+                                background: url('img/checkmark.svg') no-repeat;
+                                background-size: cover;
+                                content: '';
+                                display: inline-block;
+                                height: 20px;
+                                position: absolute;
+                                right: 5px;
+                                top: 5px;
+                                width: 20px;
+                                @media only screen and (max-width: 768px) {
+                                    height: 15px;
+                                    width: 15px;
+                                }
+                            }
+                        }
+                        &.casino1 {
+                            background-image: url("./img/casino1.png");
+                            @media only screen and (max-width: 992px) {
+                                margin: 0 0 20px 155px;
+                            }
+                            @media only screen and (max-width: 768px) {
+                                margin: 0 0 20px calc(50% - 107.5px);
+                            }
+                            @media only screen and (max-width: 320px) {
+                                margin: 0 0 15px;
+                            }
+                        }
+                        &.casino2 {
+                            background-image: url("./img/casino2.png");
+                        }
+                        &.casino3 {
+                            background-image: url("./img/casino3.png");
+                            @media only screen and (max-width: 992px) {
+                                clear: both;
+                                margin: 0 0 20px 155px;
+                            }
+                            @media only screen and (max-width: 768px) {
+                                margin: 0 0 20px calc(50% - 107.5px);
+                            }
+                            @media only screen and (max-width: 320px) {
+                                margin: 0 0 15px;
+                            }
+                        }
+                        &.casino4 {
+                            background-image: url("./img/casino4.png");
+                        }
+                        &.game1 {
+                            background-image: url("./img/game-1.png");
+                            @media only screen and (max-width: 992px) {
+                                margin: 0 0 20px 155px;
+                            }
+                            @media only screen and (max-width: 768px) {
+                                margin: 0 0 20px calc(50% - 107.5px);
+                            }
+                            @media only screen and (max-width: 320px) {
+                                margin: 0 0 15px;
+                            }
+                        }
+                        &.game2 {
+                            background-image: url("./img/game-2.png");
+                        }
+                        &.game3 {
+                            background-image: url("./img/game-3.png");
+                            @media only screen and (max-width: 992px) {
+                                clear: both;
+                                margin: 0 0 20px 155px;
+                            }
+                            @media only screen and (max-width: 768px) {
+                                margin: 0 0 20px calc(50% - 107.5px);
+                            }
+                            @media only screen and (max-width: 320px) {
+                                margin: 0 0 15px;
+                            }
+                        }
+                        &.game4 {
+                            background-image: url("./img/game-4.png");
+                        }
+                        &.device1 {
+                            background-image: url("./img/device-1.png");
+                            @media only screen and (max-width: 992px) {
+                                margin: 0 0 20px 155px;
+                            }
+                            @media only screen and (max-width: 768px) {
+                                margin: 0 0 20px calc(50% - 107.5px);
+                            }
+                            @media only screen and (max-width: 320px) {
+                                margin: 0 0 15px;
+                            }
+                        }
+                        &.device2 {
+                            background-image: url("./img/device-2.png");
+                        }
+                        &.device3 {
+                            background-image: url("./img/device-3.png");
+                            @media only screen and (max-width: 992px) {
+                                clear: both;
+                                margin: 0 0 20px 258px;
+                            }
+                            @media only screen and (max-width: 768px) {
+                                margin: 0 0 20px calc(50% - 50px);
+                            }
+                            @media only screen and (max-width: 320px) {
+                                margin: 0 0 15px;
+                            }
+                        }
+                        @media only screen and (max-width: 768px) {
+                            background-size: 100px;
+                            height: 100px;
+                            margin: 0 0 0 15px;
+                            width: 100px;
+                        }
+                        @media only screen and (max-width: 320px) {
+                            margin: 0 0 15px;
+                        }
+                    }
+                    .btn-primary {
+                        background: $theme-primary;
+                        border: 0;
+                        border-radius: $theme-border-radius;
+                        box-shadow: none;
+                        clear: both;
+                        color: $theme-white;
+                        cursor: pointer;
+                        display: block;
+                        font-size: $font-size-default + 7;
+                        font-weight: $font-weight-bold;
+                        margin: 35px auto;
+                        padding: 20px 35px;
+                        text-align: center;
+                        width: 250px;
+                        &:hover {
+                            background: $theme-primary;
+                            opacity: 0.9;
+                        }
+                        @media only screen and (max-width: 768px) {
+                            font-size: 16px;
+                            padding: 15px 0;
+                            width: 210px;
+                        }
+                        &.unclickable {
+                            pointer-events: none;
+                        }
+                    }
+                    .progress {
+                        border-radius: 8px;
+                        clear: both;
+                        display: block;
+                        height: 12px;
+                        margin: 40px auto 0;
+                        width: 600px;
+                        @media only screen and (max-width: 768px) {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

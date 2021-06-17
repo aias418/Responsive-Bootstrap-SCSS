@@ -1,0 +1,281 @@
+@import "sass-styling-vars";
+
+.player-reviews-form {
+    float: none;
+    width: 100%;
+    max-width: 1137px;
+    min-height: 500px;
+    margin: 30px auto;
+    padding: 25px 0;
+    background-color: $theme-light;
+    box-sizing: border-box;
+    .playerReviews {
+        .title {
+            font-weight: $font-weight-heavy;
+            font-size: $font-size-h2;
+            line-height: 1.15em;
+            margin-bottom: 26px;
+            letter-spacing: 1px;
+            text-align: center;
+            @media only screen and (max-width : 768px) {
+                font-size: $font-size-default + 1;
+                width: 100%;
+                max-width: 100%;
+                margin-left: 0;
+            }
+        }   
+        .reviews {
+            // background: 0 0;
+            border-radius: $theme-border-radius;
+            margin-bottom: 40px;
+            box-shadow: none;
+            margin: 0 auto;
+            clear: both;
+            @media only screen and (max-width : 480px) {
+                display: none;
+            }
+            @media only screen and (max-width : 768px) {
+                border-radius: 0;
+            }
+            .reviews-header {
+                margin-bottom: 30px;
+                background: $theme-white;
+                box-shadow: $wrapper-box-shadow;
+                border-radius: $theme-border-radius;
+                height: auto;
+                padding: 10px;
+                @media only screen and (max-width : 992px) {
+                    margin-bottom: 0;
+                    border-radius: 0;
+                    padding: 20px;
+                    box-shadow: none;
+                    border-bottom: $theme-border;
+                }
+                .btn {
+                    float: right;
+                    @media only screen and (max-width : 992px) {
+                        margin-top: 10px;
+                        width: 100%;
+                    }
+                }
+                &:after {
+                    content: "";
+                    display: table;
+                    clear: both;
+                }
+            }
+        } 
+        .rev-rate {
+            float: left;
+            .rev-rate-img {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                float: left;
+                margin-right: 14px;
+                box-shadow: $wrapper-box-shadow;
+            }
+            .rev-rate-content {
+                float: left;
+                .rev-rate-title {
+                    font-size: $font-size-default - 1;
+                    line-height: 1.17em;
+                    padding-top: 2px;
+                }
+                .rev-rate-rating {
+                    margin-top: 10px;
+                    color: $theme-danger;
+                    position: relative;
+                    left: -4px;
+                }
+            }
+        }
+        .write {
+            background: $theme-white;
+            box-shadow: $wrapper-box-shadow;
+            border-radius: $theme-border-radius;
+            margin-bottom: 42px;
+            @media only screen and (max-width: 768px) {
+                border-radius: 0;
+            }
+            .reviews-header {
+                height: 90px;
+                padding: 30px;
+                padding-bottom: 0;
+                position: relative;
+                @media only screen and (max-width: 480px) {
+                    padding: 15px 20px;
+                }
+                .rev-rate {
+                    float:none;
+                    .rev-rate-content {
+                        @media only screen and (max-width: 480px) {
+                            float: none;
+                            display: flex;
+                            flex-direction: column;
+                        }
+                    }
+                    .is-hidden {
+                        display: none;
+                    }
+                }
+                .review-character {
+                    position: relative;
+                    bottom: -68px;
+                    @media only screen and (max-width: 580px) {
+                        bottom: -45px;
+                        margin-left: 10px;
+                    }
+                    .review-character-counter, .review-character-counter-negativ {
+                        position: absolute;
+                        right: 0;
+                        bottom: 15px;
+                        color: $theme-secondary;
+                        font-size: $font-size-default - 3;
+                        line-height: 1em;
+                        letter-spacing: 2px;
+                        display: block;
+                        margin: 5px;
+                        text-align: right;
+                    }
+                    .review-character-counter-negativ {
+                        bottom: 0;
+                    }
+                }
+                &:after {
+                    content: "";
+                    display: table;
+                    clear: both;
+                }
+            }
+            .write-review {
+                padding: 10px 30px 30px 96px;
+                @media only screen and (max-width: 480px) {
+                    padding: 20px;
+                }
+                .write-txtcontainer {
+                    margin-bottom: 20px;
+                    border: $theme-border-radius;
+                    border-color: transparent;
+                    &.write-txtcontainer-error {
+                        border: $theme-border;
+                        border-color: $theme-danger;
+                        border-radius: $theme-border-radius;
+                    }
+                    .write-txt {
+                        width: 100%;
+                        height: 150px;
+                        position: relative;
+                        background: $theme-light;
+                        &.write-txt-positive {
+                            border-top-left-radius: $theme-border-radius;
+                            border-top-right-radius: $theme-border-radius;
+                            &::before {
+                                background: url(./img/pros.svg) 0 0 no-repeat;
+                            }
+                            .write-textarea {
+                                border-radius: $theme-border-radius $theme-border-radius 0 0;
+                            }
+                        }
+                        &.write-txt-negative {
+                            margin-bottom: 0;
+                            border-bottom-left-radius: $theme-border-radius;
+                            border-bottom-right-radius: $theme-border-radius;
+                            &::before {
+                                background: url(./img/cons.svg) 0 0 no-repeat;
+                            }
+                            .write-textarea {
+                                border-radius: 0 0 $theme-border-radius $theme-border-radius;
+                            }   
+                        }
+                        &::before {
+                            position: absolute;
+                            top: 19px;
+                            left: 19px;
+                            width: 24px;
+                            height: 24px;
+                            content: "";
+                            font-size: $font-size-default + 1;
+                            display: block;
+                            z-index: 2;
+                        }
+                        .write-textarea {
+                            min-height: 100%;
+                            width: 100%;
+                            max-width: 100%;
+                            background: $theme-light;
+                            border: none;
+                            box-shadow: $wrapper-box-shadow;
+                            border-radius: $theme-border-radius;
+                            resize: none;
+                            padding: 68px 20px 0;
+                        }
+                        .write-dislike, .write-like {
+                            background: 0 0;
+                            position: relative;
+                            z-index: 1;
+                            padding: 20px 20px 20px 50px;
+                        }
+                    }
+                }
+                .write-agree {
+                    display: block;
+                    margin-bottom: 20px;
+                    font-weight: $font-weight-medium;
+                    line-height: 1.53em;
+                    white-space: nowrap;
+                    .agree-check {
+                        display: inline-block;
+                        vertical-align: top;
+                        width: 15px;
+                        input {
+                            width: 18px;
+                            height: 18px;
+                            margin: 0;
+                        }
+                    }
+                    .agree-text {
+                        margin-left: 5px;
+                        display: inline-block;
+                        padding-right: 100px;
+                        white-space: normal;
+                        @media only screen and (max-width: 768px) {
+                            padding-right: 20px;
+                        }
+                        a {
+                            &:hover {
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+                .write-captcha {
+                    margin-bottom: 25px;
+                }
+                .btn {
+                    @media only screen and (max-width: 480px) {
+                        width: 100%;
+                    }
+                }
+                .write-errors-container {
+                    margin-top: 10px;
+                    .write-error {
+                        font-size: $font-size-default - 1;
+                        color: $theme-danger;
+                        margin-bottom: 5px;
+                    }
+                    .write-txterrors {
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    p, label {
+        margin: 0;
+        font-size: $font-size-default;
+        line-height: 1em;
+    }
+
+}

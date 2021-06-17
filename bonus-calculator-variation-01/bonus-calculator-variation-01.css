@@ -1,0 +1,232 @@
+.bonus-calculator-variation-01 {
+  margin: 5px;
+}
+.bonus-calculator-variation-01 .bonus-calculator {
+  background-color: #e5e5e5;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  width: 100%;
+}
+@media only screen and (min-width: 992px) {
+  .bonus-calculator-variation-01 .bonus-calculator {
+    padding: 24px 16px;
+    width: 453px;
+  }
+}
+.bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-title {
+  font-family: Ubuntu, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-title {
+    padding: 0;
+  }
+}
+.bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-intro {
+  font-size: 14px;
+  margin-bottom: 12px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media only screen and (min-width: 768px) {
+  .bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-intro {
+    margin-top: 8px;
+    padding: 0;
+  }
+}
+.bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-body {
+  background-color: #ffffff;
+  border-top: 1px solid #e5e5e5;
+  padding: 24px;
+}
+@media only screen and (min-width: 768px) {
+  .bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-body {
+    border: 1px solid #e5e5e5;
+  }
+}
+.bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-calculate {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 19px;
+}
+.bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-calculate .bonus-calculator-input {
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  display: flex;
+  font-size: 14px;
+  font-weight: 700;
+  width: 250px;
+}
+.bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-calculate .bonus-calculator-input .bonus-calculator-input-symbol {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-calculate .bonus-calculator-input .bonus-calculator-input-number {
+  border: none;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-size: 100%;
+  font-weight: 700;
+  height: 44px;
+  line-height: 1.15;
+  padding-left: 15px;
+  width: 100%;
+}
+.bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-calculate .rounded-button-solid {
+  align-items: center;
+  background-color: #0d6efd;
+  border-radius: 22px;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 22px;
+  margin-left: 10px;
+  min-width: 109px;
+  opacity: 0.9;
+  padding: 11px 16px;
+}
+.bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-calculate .rounded-button-solid:hover {
+  opacity: 1;
+}
+.bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-header {
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  font-size: 12px;
+  padding-bottom: 8px;
+}
+@media only screen and (min-width: 768px) {
+  .bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-header {
+    font-size: 14px;
+  }
+}
+.bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-header .bonus-calculator-header-item {
+  align-items: flex-end;
+  display: flex;
+  flex-basis: 25%;
+  flex-grow: 0;
+  font-weight: 700;
+  word-break: break-word;
+}
+@media only screen and (min-width: 992px) {
+  .bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-header .bonus-calculator-header-item {
+    flex-basis: 23%;
+  }
+}
+.bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-header .bonus-calculator-header-item .bonus-calculator-tooltip {
+  align-items: center;
+  background-color: #000;
+  border-radius: 50%;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  font-size: 10px;
+  height: 13px;
+  justify-content: center;
+  margin-bottom: 2px;
+  margin-left: 5px;
+  position: relative;
+  width: 13px;
+}
+.bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-header .bonus-calculator-header-item .bonus-calculator-tooltip .bonus-calculator-tooltip-content {
+  background-color: #0d6efd;
+  color: #ffffff;
+  display: none;
+  position: absolute;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 16px;
+  right: -94px;
+  top: 25px;
+  transition: opacity 0.3s;
+  width: 200px;
+  z-index: 99;
+}
+.bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-header .bonus-calculator-header-item .bonus-calculator-tooltip .bonus-calculator-tooltip-content.visible {
+  display: block;
+}
+.bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-body-partner {
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+.bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-body-partner .bonus-calculator-body-partner-item {
+  align-items: center;
+  display: flex;
+  flex-basis: 25%;
+  font-size: 12px;
+  font-weight: 700;
+  overflow: hidden;
+}
+@media only screen and (min-width: 768px) {
+  .bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-body-partner .bonus-calculator-body-partner-item {
+    font-size: 14px;
+  }
+}
+.bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-body-partner .bonus-calculator-body-partner-item img {
+  height: auto;
+  max-width: 56px;
+}
+.bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-body-partner .bonus-calculator-results {
+  display: none;
+}
+.bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-body-partner .bonus-calculator-body-partner-item {
+  align-items: center;
+  display: flex;
+  flex-basis: 25%;
+  font-size: 12px;
+  font-weight: 700;
+  overflow: hidden;
+}
+@media only screen and (min-width: 768px) {
+  .bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-body-partner .bonus-calculator-body-partner-item {
+    font-size: 14px;
+  }
+}
+.bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-body-partner .bonus-calculator-claim-button {
+  align-items: center;
+  color: #0d6efd;
+  display: flex;
+  flex-basis: 25%;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+}
+@media only screen and (min-width: 992px) {
+  .bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-body-partner .bonus-calculator-claim-button {
+    flex-basis: 32%;
+  }
+}
+.bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-body-partner .bonus-calculator-claim-button:hover {
+  color: #212529;
+}
+@media only screen and (min-width: 768px) {
+  .bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-body-partner .bonus-calculator-claim-button {
+    font-size: 14px;
+    min-width: 100px;
+  }
+}
+.bonus-calculator-variation-01 .bonus-calculator .bonus-calculator-body-partner .bonus-calculator-claim-button svg {
+  color: #0d6efd;
+  height: 12px;
+  margin-left: 4px;
+  width: 12px;
+}
+
+/*# sourceMappingURL=bonus-calculator-variation-01.css.map */

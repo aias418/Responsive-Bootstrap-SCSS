@@ -1,0 +1,866 @@
+.toplist-variation-22 {
+  float: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: url(./img/header_casino_desktop41.jpg) fixed no-repeat;
+  background-position: top center;
+  background-color: #212529;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 480px) {
+  .toplist-variation-22 {
+    background-image: none;
+  }
+}
+
+.toplist-variation-22 .desktop-content {
+  padding: 0;
+}
+
+@media only screen and (max-width: 480px) {
+  .toplist-variation-22 .desktop-content {
+    display: none;
+  }
+}
+
+.toplist-variation-22 .desktop-content .container {
+  color: #ffffff;
+  max-width: 1000px;
+}
+
+.toplist-variation-22 .desktop-content .container .main-title {
+  padding-top: 75px;
+  color: #ffffff;
+}
+
+.toplist-variation-22 .desktop-content .container .main-title .heading {
+  margin-top: 30px;
+  margin-bottom: 16px;
+  font-size: 36px;
+  line-height: .69em;
+}
+
+.toplist-variation-22 .desktop-content .container .main-title .second-title {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6em;
+}
+
+.toplist-variation-22 .desktop-content .container .main-title .text-element {
+  position: relative;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.5em;
+  text-align: left;
+  width: 877px;
+  margin-top: 10px;
+  color: #e5e5e5;
+}
+
+.toplist-variation-22 .desktop-content .container .main-title .text-element .advertiser-disclosure {
+  display: inline-block;
+  line-height: .71;
+  cursor: pointer;
+  text-decoration: underline;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 5px 0 10px;
+}
+
+.toplist-variation-22 .desktop-content .container .main-title .text-element .advertiser-disclosure .disclosure-text {
+  visibility: hidden;
+  top: 55px;
+  left: 470px;
+  right: 60px;
+  width: 95%;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+  border: 1px solid #eee;
+  background: #ffffff;
+  z-index: 10;
+  max-width: 430px;
+  position: absolute;
+  text-align: center;
+  font-size: 11px;
+  line-height: 1.5em;
+  color: #6c757d;
+  padding: 22px 19px;
+  text-align: left;
+}
+
+.toplist-variation-22 .desktop-content .container .main-title .text-element .advertiser-disclosure .disclosure-text::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 81%;
+  top: -6px;
+  width: 10px;
+  height: 10px;
+  background: #ffffff;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-left: 1px solid #eee;
+  border-top: 1px solid #eee;
+}
+
+.toplist-variation-22 .desktop-content .container .main-title .text-element .advertiser-disclosure:hover .disclosure-text {
+  visibility: visible;
+  -webkit-transition: .75s ease .75s;
+  transition: .75s ease .75s;
+}
+
+.toplist-variation-22 .desktop-content .container .last-bonus-update {
+  padding-top: 10px;
+  padding-bottom: 14px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 2.57em;
+}
+
+.toplist-variation-22 .desktop-content .container .last-bonus-update .certificates {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (max-width: 1200px) {
+  .toplist-variation-22 .desktop-content .container .last-bonus-update .certificates {
+    display: none;
+  }
+}
+
+.toplist-variation-22 .desktop-content .container .last-bonus-update .certificates .cert-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 10px;
+}
+
+.toplist-variation-22 .desktop-content .container .last-bonus-update .certificates .cert-wrapper .sprite {
+  background: url(./img/ppc-icons.png);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.toplist-variation-22 .desktop-content .container .last-bonus-update .certificates .cert-wrapper .sprite.uk-licensed {
+  background-position: 18px -23px;
+}
+
+.toplist-variation-22 .desktop-content .container .last-bonus-update .certificates .cert-wrapper .sprite.mobile-site {
+  background-position: 20px -2px;
+}
+
+.toplist-variation-22 .desktop-content .container .last-bonus-update .certificates .cert-wrapper .sprite.expertly-reviewed {
+  background-position: -23px -2px;
+}
+
+.toplist-variation-22 .desktop-content .container .last-bonus-update p {
+  text-align: center;
+  font-size: 15px;
+  line-height: unset;
+  margin: 0 0 0 30px;
+}
+
+.toplist-variation-22 .desktop-content .container .last-bonus-update p .time {
+  color: #dc3545;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.toplist-variation-22 .mobile-content {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .toplist-variation-22 .mobile-content {
+    display: block;
+  }
+}
+
+.toplist-variation-22 .mobile-content .image-section {
+  background: url(./img/Slots-image.jpg) no-repeat;
+  padding-top: 63px;
+  background-size: contain;
+  background-position: center 52px;
+  background-color: #212529;
+}
+
+.toplist-variation-22 .mobile-content .image-section .container {
+  width: 100%;
+}
+
+.toplist-variation-22 .mobile-content .image-section .container .header-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.toplist-variation-22 .mobile-content .image-section .container .header-text .mobile-title {
+  color: #ffffff;
+  text-align: left;
+  font-size: 20px;
+  margin: 0;
+  line-height: 1em;
+}
+
+.toplist-variation-22 .mobile-content .image-section .container .header-text .mobile-title .year-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffc107;
+}
+
+.toplist-variation-22 .mobile-content .image-section .container .header-text .mobile-list {
+  display: block;
+  padding: 10px 0 0;
+  margin-bottom: 16px;
+}
+
+.toplist-variation-22 .mobile-content .image-section .container .header-text .mobile-list li {
+  font-size: 12px;
+  line-height: 2em;
+  color: #ffffff;
+}
+
+.toplist-variation-22 .mobile-content .image-section .container .header-text .mobile-list li::before {
+  content: " ";
+  background: url(./img/Group-3.svg) 50% no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 10px;
+  margin: 0 11px 0 0;
+}
+
+.toplist-variation-22 .mobile-content .image-section .disclosure-mobile {
+  font-size: 12px;
+  display: block;
+  position: relative;
+  text-align: left;
+  color: #ffffff;
+}
+
+.toplist-variation-22 .mobile-content .image-section .disclosure-mobile .disclosure-new {
+  border-top: 1px solid #ffc107;
+  width: 100%;
+  padding: 6px 0 0;
+  font-size: 11px;
+  line-height: 1.36em;
+  color: #e5e5e5;
+}
+
+.toplist-variation-22 .mobile-content .image-section .disclosure-mobile .disclosure-new span {
+  text-decoration: underline;
+}
+
+.toplist-variation-22 .mobile-content .image-section .disclosure-mobile .disclosure-new span:hover + div.disclosure-text-new {
+  display: block;
+}
+
+.toplist-variation-22 .mobile-content .image-section .disclosure-mobile .disclosure-new .disclosure-text-new {
+  display: none;
+  position: absolute;
+  z-index: 9999;
+  border-radius: 6px;
+  background-color: #ffffff;
+  padding: 10px;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+  bottom: unset;
+  right: unset;
+  top: 22px;
+  margin-top: 15px;
+  width: 90%;
+  left: 5%;
+  max-width: 500px;
+  color: #6c757d;
+}
+
+.toplist-variation-22 .mobile-content .image-section .disclosure-mobile .disclosure-new .disclosure-text-new a {
+  text-decoration: none;
+}
+
+.toplist-variation-22 .app .list-wrapper {
+  padding-bottom: 40px;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-headers {
+  background-color: #212529;
+  color: #ffffff;
+  font-size: 13px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-headers .cell {
+  padding: 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-headers .cell.logo {
+  width: 21%;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-headers .cell.bonus {
+  width: 30%;
+  position: relative;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-headers .cell.bonus i {
+  display: inline-block;
+  font-size: 12px;
+  padding: 0 4px;
+  cursor: pointer;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-headers .cell.bonus i:hover + span.info {
+  display: block;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-headers .cell.bonus .info {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  color: #212529;
+  width: 246px;
+  line-height: 1.5em;
+  padding: 5px 8px;
+  z-index: 1;
+  bottom: 87%;
+  left: 45%;
+  margin-left: -57px;
+  text-transform: none;
+  font-size: 11px;
+  text-align: center;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-headers .cell.bonus .info::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border: 5px solid transparent;
+  border-top-color: #ffffff;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-headers .cell.rating {
+  width: 15%;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-headers .cell.features {
+  width: 15%;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-headers .cell.get-bonus {
+  width: 19%;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  height: auto;
+  width: 100%;
+  margin-top: 8px;
+  border-radius: 6px;
+  background: none;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 113px;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part:hover {
+  background-color: #e5e5e5;
+  border: 2px solid #ffc107;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part:hover .cell {
+  background-color: inherit;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ffffff;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  padding: 0 0 10px;
+  position: relative;
+  width: 21%;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo.color-1 {
+  background-color: #0dcaf0;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo.color-2 {
+  background-color: #198754;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo.color-3 {
+  background-color: #212529;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo.color-4 {
+  background-color: #0d6efd;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo.color-5 {
+  background-color: #dc3545;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo.color-6 {
+  background-color: #6c757d;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo.color-7 {
+  background-color: #ffc107;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .ribbon-container {
+  position: absolute;
+  top: -5px;
+  left: -10px;
+  overflow: visible;
+  font-size: 16px;
+  line-height: 0.875em;
+  z-index: 6;
+  text-align: left;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .ribbon-container span {
+  display: block;
+  padding: 5px 8px 4px 10px;
+  position: relative;
+  background: #dc3545;
+  overflow: visible;
+  margin-right: 29px;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .ribbon-container span.blue {
+  background-color: #0d6efd;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .ribbon-container span.blue::before {
+  border-bottom: 23px solid #0d6efd;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .ribbon-container span.blue::after {
+  border-top: 7px solid #0d6efd;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .ribbon-container span::before {
+  content: "";
+  height: 0;
+  width: 0;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -8px;
+  border-bottom: 23px solid #dc3545;
+  border-right: 8px solid transparent;
+  border-left: 0 solid transparent;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .ribbon-container span::after {
+  content: "";
+  height: 0;
+  width: 0;
+  display: block;
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  border-top: 7px solid #dc3545;
+  border-left: 10px solid transparent;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo a {
+  display: block;
+  width: 100%;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo a img {
+  display: block;
+  max-width: 100%;
+  width: 80%;
+  max-height: 65px;
+  margin: 0 auto;
+  height: 60px;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .white-box {
+  position: absolute;
+  width: 3px;
+  height: 113px;
+  top: 0;
+  right: 6px;
+  background: #ffffff;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .t1, .toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .t2, .toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .t3 {
+  border-top: 57px solid transparent;
+  border-bottom: 56px solid transparent;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .t2 {
+  width: 0;
+  top: 0;
+  float: left;
+  position: absolute;
+  right: -15px;
+  z-index: 3;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .t2.triangle-1 {
+  border-left: 24px solid #0dcaf0;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .t2.triangle-2 {
+  border-left: 24px solid #198754;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .t2.triangle-3 {
+  border-left: 24px solid #212529;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .t2.triangle-4 {
+  border-left: 24px solid #0d6efd;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .t2.triangle-5 {
+  border-left: 24px solid #dc3545;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .t2.triangle-6 {
+  border-left: 24px solid #6c757d;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .t2.triangle-7 {
+  border-left: 24px solid #ffc107;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .t1 {
+  width: 0;
+  top: 0;
+  float: left;
+  position: absolute;
+  right: -18px;
+  z-index: 2;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .t1.triangle-1 {
+  border-left: 24px solid #ffffff;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .t3 {
+  width: 0;
+  top: 0;
+  float: left;
+  position: absolute;
+  right: -24px;
+  z-index: 1;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .t3.triangle-1 {
+  border-left: 24px solid #0dcaf0;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .t3.triangle-2 {
+  border-left: 24px solid #198754;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .t3.triangle-3 {
+  border-left: 24px solid #212529;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .t3.triangle-4 {
+  border-left: 24px solid #0d6efd;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .t3.triangle-5 {
+  border-left: 24px solid #dc3545;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .t3.triangle-6 {
+  border-left: 24px solid #6c757d;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.logo .t3.triangle-7 {
+  border-left: 24px solid #ffc107;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.bonus {
+  width: 30%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  position: relative;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.bonus p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.71em;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 0;
+  -webkit-transition: all .1s;
+  transition: all .1s;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.bonus p .big-bonus {
+  display: block;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: .88em;
+  padding: 2px 0;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.bonus::after {
+  content: "";
+  border-left: 1px solid #eee;
+  position: absolute;
+  height: 65%;
+  right: 0;
+  top: 18%;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.rating {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 15%;
+  position: relative;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.rating .score-stars .star-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.rating .score-stars .star-row li i {
+  display: block;
+  color: #ffc107;
+  font-size: 25px;
+  line-height: 1em;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.rating .score-stars .star-row li:first-child i {
+  font-size: 19px;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.rating .score-stars .star-row li:last-child i {
+  font-size: 19px;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.rating .score-stars .star-row li:nth-child(2n) i {
+  font-size: 22px;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.rating .score-stars .star-row li:nth-child(3) i {
+  font-size: 25px;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.rating .review-link {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.38em;
+  text-align: center;
+  color: #212529;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.rating .review-link:hover {
+  color: #0d6efd;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.rating::after {
+  content: "";
+  border-left: 1px solid #eee;
+  position: absolute;
+  height: 65%;
+  right: 0;
+  top: 18%;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.score {
+  width: 15%;
+  font-size: 48px;
+  line-height: .63em;
+  text-align: center;
+  color: #212529;
+  margin-bottom: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+  .toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.score {
+    display: none;
+  }
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.score::after {
+  content: "";
+  border-left: 1px solid #eee;
+  position: absolute;
+  height: 65%;
+  right: 0;
+  top: 18%;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.get-bonus {
+  width: 19%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.get-bonus .btn {
+  width: 80%;
+  text-decoration: none;
+  white-space: normal;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.get-bonus .visit-site {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.46em;
+  text-align: center;
+  color: #212529;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .top-part .cell.get-bonus .visit-site:hover {
+  color: #0d6efd;
+}
+
+.toplist-variation-22 .app .list-wrapper .tiny-container #dynamiclist-area .dl-list .table-row .bottom-part {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.33em;
+  text-align: center;
+  color: #e5e5e5;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.toplist-variation-22 img {
+  max-width: 100%;
+  border: none;
+  text-decoration: none;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.toplist-variation-22 p {
+  margin: 0;
+}
+
+.toplist-variation-22 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.toplist-variation-22 ul li {
+  margin: 0;
+}
+
+.toplist-variation-22 a {
+  text-decoration: underline;
+}
+
+.toplist-variation-22 a:hover {
+  text-decoration: none;
+  outline: 0;
+}

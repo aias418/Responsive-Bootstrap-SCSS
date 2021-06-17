@@ -1,0 +1,161 @@
+@import "sass-styling-vars";
+
+.content-blocks-variation-07 {
+    float: none;
+    box-sizing: border-box;
+    background-color: $theme-light;
+    padding: 0;
+    width: 100%;
+    margin: 30px auto;
+    max-width: 765px;
+    font-size: $font-size-default + 3;
+    line-height: 1em;
+    .header {
+        background-color: $theme-info;
+        padding: 30px 20px 44px;
+        position: relative;
+        color: $theme-white;
+        .heading {
+            margin-bottom: 15px;
+            font-size: $font-size-default + 11;
+            line-height: 1em;
+            font-weight: $font-weight-heavy;
+            @media only screen and (max-width : 480px) {
+                font-size: $font-size-default + 7;
+                line-height: 1.2em;
+            }
+            
+        }
+    }
+    .versus-container {
+        position: relative;
+        background-color: $theme-light;
+        padding: 15px;
+        .first-element {
+            margin-top: -54px;
+            .inner-header {
+                background-color: $theme-primary;
+                position: relative;
+                display: flex;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                border-radius: $theme-border-radius $theme-border-radius 0 0;
+                border: 0;
+                list-style: none;
+                @media only screen and (max-width : 480px) {
+                    border: $theme-border;
+                    border-bottom-width: 0;
+                }
+                .compared-item {
+                    padding: 20px 15px;
+                    margin: 0;
+                    flex-basis: 50%;
+                    color: $theme-white;
+                    text-align: center;
+                    font-weight: $font-weight-heavy;
+                    font-size: $font-size-default + 5;
+                    cursor: auto;
+                    @media only screen and (max-width : 480px) {
+                        font-size: $font-size-default + 3;
+                        cursor: pointer;
+                    }
+                    &.active {
+                        color: $theme-white;
+                        background-color: $theme-primary;
+                        @media only screen and (max-width : 480px) {
+                            background-color: $theme-white;
+                            color: $theme-primary;
+                        }
+                    }
+                }
+                &:after {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                    font-size: $font-size-default + 5;
+                    font-weight: $font-weight-heavy;
+                    color: $theme-warning;
+                    content: "vs";
+                    @media only screen and (max-width : 480px) {
+                        content: none;
+                    }
+                }
+            }
+        }
+        .versus-table {
+            border: $theme-border;
+            border-top-width: 0;
+            background-color: $theme-white;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            border-radius: 0 0 $theme-border-radius $theme-border-radius;
+            padding: 0;
+            .table-column {
+                flex-basis: 50%;
+                @media only screen and (max-width : 480px) {
+                    flex-basis: 100%;
+                }
+                .table-element {
+                    position: relative;
+                    display: block;
+                    align-items: center;
+                    border-bottom: $theme-border;
+                    width: 100%;
+                    padding: 15px 50px;
+                    &[data-compare]:before {
+                        position: absolute;
+                        width: 30px;
+                        font-family: "FontAwesome";
+                        font-size: $font-size-default + 7;
+                        color: $theme-success;
+                        left: 22px;
+                        top: 15px;
+                        content: "\f00c";
+                    }
+                    &[data-compare=miss]:before {
+                        content: "\f00d";
+                        color: $theme-danger;
+                    }
+                    p {
+                        margin: 0;
+                    }
+                    &:nth-child(3) {
+                        min-height: 85px;
+                        @media only screen and (max-width : 480px) {
+                            min-height: unset;
+                        }
+                    }
+                }
+                &:last-child {
+                    border-left: $theme-border;
+                    @media only screen and (max-width : 480px) {
+                        border-left: none;
+                    }
+                }
+                &.tab-pane {
+                    display: block;
+                    @media only screen and (max-width : 480px) {
+                        display:none;
+                    }
+                    &.active {
+                        display: block;
+                    }
+                }
+                
+            }
+        }
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    p {
+        margin: 0 0 13px;
+        font-size: $font-size-default;
+        line-height: 1.46em;
+    }
+}

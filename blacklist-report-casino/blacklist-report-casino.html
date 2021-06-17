@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blacklist report casino </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="./default-style.css">
+    <link rel="stylesheet" type="text/css" href="./blacklist-report-casino.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.js" crossorigin="anonymous"></script>
+    <script src="./scripts.min.js"></script>
+    <script src="./blacklist-report-casino.js"></script>
+</head>
+
+<body>
+    <div class="blacklist-report-casino">
+        <div class="app-container">
+            <p class="main-title">
+                The latest blacklisted online casinos
+            </p>
+            <p>
+                Every casino review we conduct is guided by our methodical <a title="25-step process" target="_blank" href="https://www.casino.org/how-we-rate/">25-step process</a>. Gaming variation, banking, bonuses and loyalty, customer support, mobile gaming - all of these and more are part of our review process. If a casino can’t pass every single step it means we don’t want you playing on it, and it’s added to our <a title="Blacklist" target="_blank" href="https://www.casino.org/blacklisted/">blacklist</a>.
+            </p>
+            <div class="row card-row">
+                <div class="col-sm-4 card-col">
+                    <div class="app-card">
+                        <div class="img-container">
+                            <img src="./img/bl-coolcat.svg" alt="logo" />
+                        </div>
+                        <ul class="list-unstyled info-list">
+                            <li class="list-header">
+                                <p>Cool Cat</p>
+                                <span>
+                                    <strong>2</strong> /10
+                                </span>
+                            </li>
+                            <li>Misleading advertising undermining player safety</li>
+                            <li>Unclear wagering requirements</li>
+                            <li>Low quality games displayed on site</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4 card-col">
+                    <div class="app-card">
+                        <div class="img-container">
+                            <img src="./img/bl-grandprive.svg" alt="logo" />
+                        </div>
+                        <ul class="list-unstyled info-list">
+                            <li class="list-header">
+                                <p>Grand Prive</p>
+                                <span><strong>2.3</strong>/10</span>
+                            </li>
+                            <li>Misleading advertising undermining player safety</li>
+                            <li>Unclear wagering requirements</li>
+                            <li>Low quality games displayed on site</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4 card-col">
+                    <div class="app-card">
+                        <div class="img-container">
+                            <img src="./img/bl-planet7.svg" alt="logo" />
+                        </div>
+                        <ul class="list-unstyled info-list">
+                            <li class="list-header">
+                                <p>Planet 7</p>
+                                <span><strong>1.2</strong>/10</span>
+                            </li>
+                            <li>Misleading advertising undermining player safety</li>
+                            <li>Unclear wagering requirements</li>
+                            <li>Low quality games displayed on site</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="report-form-section">
+                <div class="info-container">
+                    <p class="sec-title">
+                        <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                        <span>Report a Casino</span>
+                    </p>
+                    <div class="info-text">
+                        <p>Along with our own reviews of online casinos, we also count on our player community to flag up any issues they've experienced. If you believe that a casino deserves a place on our blacklist, share your experience with us and we'll investigate it further.</p>
+                        <button class="btn btn-lg btn-primary" id="formToggleBtn">
+                            REPORT A CASINO <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="form-container">
+                    <button class="btn close-btn" id="formCloseBtn">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </button>
+                    <form action="" class="report-casino-form" onSubmit="sendMessage(); return false;">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name" required/>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email Address" required/>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Casino Name" required/>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <div class="cust-select">
+                                        <select  class="form-control" required>
+                                            <option value="">Rigged Dames</option>
+                                            <option value="">Major Problem</option>
+                                            <option value="">Payment Problems</option>
+                                            <option value="">False Advertising</option>
+                                            <option value="">Spamming Players</option>
+                                            <option value="">Other Questionable Practices</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <textarea name="" id="" cols="30" rows="6" class="form-control" placeholder="Message" required></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-box">
+                            <button class="btn btn-lg btn-primary" >
+                                SEND MESSAGE
+                            </button>
+                            <span>* All fields are mandatory</span>
+                        </div>
+                    </form>
+                    <div class="message-box">
+                        <p class="message-title">
+                            Message sent
+                            <i class="fa fa-check-circle" aria-hidden="true"></i>
+                        </p>
+                        <p>Thank you for reporting this casino. Our team will be in touch shortly</p>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-link-box">
+                <a href="javascript:void(0)" target="_balank" title="See our top rated trusted casinos">
+                    See our top rated trusted casinos <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Casino Bonus Finder</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./default-style.css">
+        <link rel="stylesheet" type="text/css" href="./casino-bonus-finder-02.css">
+        <script src="https://code.jquery.com/jquery-3.1.0.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="./casino-bonus-finder-02.js"></script>
+    </head>
+    <body>
+        <div class="casino-bonus-finder-02">
+            <div class="internal-wrapper">
+                <div class="finder-module-header">
+                    <h2>Casino Match - Find your perfect casino</h2>
+                    <img alt="Casino.org Logo" src="./img/corg-logo.svg" />
+                </div>
+                <div class="modal-wrapper">
+                    <div class="modal-content">
+                        <div id="survey">
+                            <div class="question card-selector visible" id="step-1">
+                                <h2 class="question-text">Question 1</h2>
+                                <p>What game do you want to play the most?</p>
+                                <div class="cards-grid">
+                                    <input id="game1" type="radio" name="step-game" value="game1">
+                                    <label class="label-card game1" for="game1">
+                                        <img src="./img/game-1.svg" alt="Game 1" />
+                                        <span class="game-name">Slots</span>
+                                    </label>
+                                    <input id="game2" type="radio" name="step-game" value="game2">
+                                    <label class="label-card game2" for="game2">
+                                        <img src="./img/game-2.svg" alt="Game 2" />
+                                        <span class="game-name">Roulette</span>
+                                    </label>
+                                    <input id="game3" type="radio" name="step-game" value="game3">
+                                    <label class="label-card game3" for="game3">
+                                        <img src="./img/game-3.svg" alt="Game 3" />
+                                        <span class="game-name">Blackjack</span>
+                                    </label>
+                                    <input id="game4" type="radio" name="step-game" value="game4">
+                                    <label class="label-card game4" for="game4">
+                                        <img src="./img/game-4.svg" alt="Game 4" />
+                                        <span class="game-name">Baccarat</span>
+                                    </label>
+                                    <input id="game5" type="radio" name="step-game" value="game5">
+                                    <label class="label-card game5" for="game5">
+                                        <img src="./img/game-5.svg" alt="Game 5" />
+                                        <span class="game-name">Sic Bo</span>
+                                    </label>
+                                    <input id="game6" type="radio" name="step-game" value="game6">
+                                    <label class="label-card game6" for="game6">
+                                        <img src="./img/game-6.svg" alt="Game 6" />
+                                        <span class="game-name">Pai Gow</span>
+                                    </label>
+                                    <input id="game7" type="radio" name="step-game" value="game7">
+                                    <label class="label-card game7" for="game7">
+                                        <img src="./img/game-7.svg" alt="Game 7" />
+                                        <span class="game-name">Keno</span>
+                                    </label>
+                                    <input id="game8" type="radio" name="step-game" value="game8">
+                                    <label class="label-card game8" for="game8">
+                                        <img src="./img/game-8.svg" alt="Game 8" />
+                                        <span class="game-name">Craps</span>
+                                    </label>
+                                    <input id="game9" type="radio" name="step-game" value="game9">
+                                    <label class="label-card game9" for="game9">
+                                        <img src="./img/game-9.svg" alt="Game 9" />
+                                        <span class="game-name">Bingo</span>
+                                    </label>
+                                    <input id="game10" type="radio" name="step-game" value="game10">
+                                    <label class="label-card game10" for="game10">
+                                        <img src="./img/game-10.svg" alt="Game 10" />
+                                        <span class="game-name">Video Poker</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="question card-selector" id="step-2">
+                                <h2 class="question-text">Question 2</h2>
+                                <p>What is your preferred dealer type?</p>
+                                <div class="cards-grid dealer">
+                                    <input id="dealer1" type="radio" name="step-dealer" value="dealer1">
+                                    <label class="label-card dealer1" for="dealer1">
+                                        <img src="./img/dealer-1.svg" alt="Dealer 1" />
+                                        <span class="game-name">Online casino dealer</span>
+                                    </label>
+                                    <input id="dealer2" type="radio" name="step-dealer" value="dealer2">
+                                    <label class="label-card dealer2" for="dealer2">
+                                        <img src="./img/dealer-2.svg" alt="Dealer 2" />
+                                        <span class="game-name">Live dealer</span>
+                                    </label>
+                                    <input id="dealer3" type="radio" name="step-dealer" value="dealer3">
+                                    <label class="label-card dealer3" for="dealer3">
+                                        <img src="./img/dealer-3.svg" alt="Dealer 3" />
+                                        <span class="game-name">No preference</span>
+                                    </label>
+                                </div>
+                                <div class="question-container-nav">
+                                    <button class="prev-button">
+                                        <svg class="bwsvg-inline--fa bwfa-chevron-left bwfa-w-10" viewBox="0 0 320 512" id="reed-icons--chevron-left-solid" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+                                        Back
+                                    </button>
+                                    <button class="next-button">
+                                        <svg viewBox="0 0 16 16" fill="none" id="reed-icons--casino-match-restart" xmlns="http://www.w3.org/2000/svg"><path d="M.523 10.475c-.117-.507.225-1.013.765-1.13.54-.118 1.073.198 1.19.704.571 2.468 2.94 4.176 5.629 4.06 2.69-.116 4.934-2.023 5.334-4.532.4-2.51-1.157-4.906-3.703-5.696a.184.184 0 00-.158.023.163.163 0 00-.073.135l.005.594a.957.957 0 01-.612.882c-.373.153-.804.08-1.092-.184L5.823 3.512a.95.95 0 01-.295-.657.964.964 0 01.284-.67l1.964-1.9c.258-.246.637-.343.989-.25a.95.95 0 01.697.692c.014.064.022.13.023.196l.005.822c0 .076.056.14.134.157 3.66.746 6.15 3.912 5.852 7.44-.3 3.527-3.297 6.35-7.045 6.635-3.747.284-7.113-2.058-7.908-5.502z" fill="currentColor"></path></svg>
+                                        Start again
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="question card-selector" id="step-3">
+                                <h2 class="question-text">Question 3</h2>
+                                <p>What is your preferred payout speed?</p>
+                                <div class="cards-grid speed">
+                                    <input id="speed1" type="radio" name="step-speed" value="speed1">
+                                    <label class="label-card speed1" for="speed1">
+                                        <span class="game-name">1-2 Days</span>
+                                    </label>
+                                    <input id="speed2" type="radio" name="step-speed" value="speed2">
+                                    <label class="label-card speed2" for="speed2">
+                                        <span class="game-name">2-4 Days</span>
+                                    </label>
+                                    <input id="speed3" type="radio" name="step-speed" value="speed3">
+                                    <label class="label-card speed3" for="speed3">
+                                        <span class="game-name">1 Week</span>
+                                    </label>
+                                </div>
+                                <div class="question-container-nav">
+                                    <button class="prev-button">
+                                        <svg class="bwsvg-inline--fa bwfa-chevron-left bwfa-w-10" viewBox="0 0 320 512" id="reed-icons--chevron-left-solid" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+                                        Back
+                                    </button>
+                                    <button class="next-button">
+                                        <svg viewBox="0 0 16 16" fill="none" id="reed-icons--casino-match-restart" xmlns="http://www.w3.org/2000/svg"><path d="M.523 10.475c-.117-.507.225-1.013.765-1.13.54-.118 1.073.198 1.19.704.571 2.468 2.94 4.176 5.629 4.06 2.69-.116 4.934-2.023 5.334-4.532.4-2.51-1.157-4.906-3.703-5.696a.184.184 0 00-.158.023.163.163 0 00-.073.135l.005.594a.957.957 0 01-.612.882c-.373.153-.804.08-1.092-.184L5.823 3.512a.95.95 0 01-.295-.657.964.964 0 01.284-.67l1.964-1.9c.258-.246.637-.343.989-.25a.95.95 0 01.697.692c.014.064.022.13.023.196l.005.822c0 .076.056.14.134.157 3.66.746 6.15 3.912 5.852 7.44-.3 3.527-3.297 6.35-7.045 6.635-3.747.284-7.113-2.058-7.908-5.502z" fill="currentColor"></path></svg>
+                                        Start again
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="question card-selector" id="step-4">
+                                <h2 class="question-text">Question 4</h2>
+                                <p>What is the main device you play on?</p>
+                                <div class="cards-grid device">
+                                    <input id="device1" type="radio" name="step-device" value="device1">
+                                    <label class="label-card device1" for="device1">
+                                        <img src="./img/device-1.svg" alt="Device 1" />
+                                        <span class="game-name">Mobile</span>
+                                    </label>
+                                    <input id="device2" type="radio" name="step-device" value="device2">
+                                    <label class="label-card device2" for="device2">
+                                        <img src="./img/device-2.svg" alt="Device 2" />
+                                        <span class="game-name">Desktop</span>
+                                    </label>
+                                    <input id="device3" type="radio" name="step-device" value="device3">
+                                    <label class="label-card device3" for="device3">
+                                        <img src="./img/device-3.svg" alt="Device 3" />
+                                        <span class="game-name">Tablet</span>
+                                    </label>
+                                </div>
+                                <div class="question-container-nav">
+                                    <button class="prev-button">
+                                        <svg class="bwsvg-inline--fa bwfa-chevron-left bwfa-w-10" viewBox="0 0 320 512" id="reed-icons--chevron-left-solid" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+                                        Back
+                                    </button>
+                                    <button class="next-button">
+                                        <svg viewBox="0 0 16 16" fill="none" id="reed-icons--casino-match-restart" xmlns="http://www.w3.org/2000/svg"><path d="M.523 10.475c-.117-.507.225-1.013.765-1.13.54-.118 1.073.198 1.19.704.571 2.468 2.94 4.176 5.629 4.06 2.69-.116 4.934-2.023 5.334-4.532.4-2.51-1.157-4.906-3.703-5.696a.184.184 0 00-.158.023.163.163 0 00-.073.135l.005.594a.957.957 0 01-.612.882c-.373.153-.804.08-1.092-.184L5.823 3.512a.95.95 0 01-.295-.657.964.964 0 01.284-.67l1.964-1.9c.258-.246.637-.343.989-.25a.95.95 0 01.697.692c.014.064.022.13.023.196l.005.822c0 .076.056.14.134.157 3.66.746 6.15 3.912 5.852 7.44-.3 3.527-3.297 6.35-7.045 6.635-3.747.284-7.113-2.058-7.908-5.502z" fill="currentColor"></path></svg>
+                                        Start again
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="question" id="step-5">
+                                <div class="result">
+                                    <div class="result-title-container">
+                                        <p class="result-title">RESULT</p> 
+                                        <h2>From 150+ casinos searched this one matches your preference</h2>
+                                    </div>
+                                    <div class="result-casino-and-social-text-container">
+                                        <div class="result-matched-casino">
+                                            <div class="result-col-wrap-1">
+                                                <div class="result-img-container">
+                                                    <img src="./img/ruby-fortune.png" />
+                                                </div>
+                                                <div class="result-flag-wrap">
+                                                    <div class="result-flag-inner">
+                                                        <i aria-hidden="true" class="icon-flag-ca"></i> <img src="./img/checkmark.svg" class="checkmark">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="result-col-wrap-2">
+                                                <div class="result-stars-and-score">
+                                                    <div class="result-stars-container">
+                                                        <img src="./img/stars.png" alt="Stars" />
+                                                    </div>
+                                                    <div class="result-score">4.65<span >/5</span></div>
+                                                </div>
+                                                <div class="result-bonus-payout-container">
+                                                    <div class="result-bonus">C$ 750
+                                                        <span >Bonus</span>
+                                                    </div>
+                                                    <div class="result-payout">
+                                                        <p >N/A</p> <span >Payout speed</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="result-col-wrap-3">
+                                                <a href="/casinos/rubyfortune/casino" rel="nofollow noreferrer" target="_blank" class="btn-primary">Play now</a>
+                                                <a href="/reviews/ruby-fortune-casino" class="result-review-link">Read review</a>
+                                            </div>
+                                        </div>
+                                        <p class="result-social-text">
+                                            <strong >568 people</strong> have claimed this bonus in the past <strong >24 hours</strong>
+                                        </p>
+                                    </div>
+                                    <div class="result-footer">
+                                        <div class="result-best-for-container">
+                                            <img src="./img/trusted-eCogra.svg" />
+                                            <div class="footer-icons">
+                                                <p >This casino is best for:</p>
+                                                <div class="result-dynamic">
+                                                    <!-- <div class="result-best-icon-and-text">
+                                                        <img src="./img/game-2.svg" alt="Game" />
+                                                        <p>Baccarat</p>
+                                                    </div>
+                                                    <div class="result-best-icon-and-text">
+                                                        <img src="./img/game-3.svg" alt="Game" />
+                                                        <p>Live dealer</p>
+                                                    </div>
+                                                    <div class="result-best-icon-and-text">
+                                                        <img src="./img/game-4.svg" alt="Game" />
+                                                        <p>Tablet</p>
+                                                    </div> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="question-container-nav last">
+                                            <button class="next-button">
+                                                <svg viewBox="0 0 16 16" fill="none" id="reed-icons--casino-match-restart" xmlns="http://www.w3.org/2000/svg"><path d="M.523 10.475c-.117-.507.225-1.013.765-1.13.54-.118 1.073.198 1.19.704.571 2.468 2.94 4.176 5.629 4.06 2.69-.116 4.934-2.023 5.334-4.532.4-2.51-1.157-4.906-3.703-5.696a.184.184 0 00-.158.023.163.163 0 00-.073.135l.005.594a.957.957 0 01-.612.882c-.373.153-.804.08-1.092-.184L5.823 3.512a.95.95 0 01-.295-.657.964.964 0 01.284-.67l1.964-1.9c.258-.246.637-.343.989-.25a.95.95 0 01.697.692c.014.064.022.13.023.196l.005.822c0 .076.056.14.134.157 3.66.746 6.15 3.912 5.852 7.44-.3 3.527-3.297 6.35-7.045 6.635-3.747.284-7.113-2.058-7.908-5.502z" fill="currentColor"></path></svg>
+                                                Start again
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

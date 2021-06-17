@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Toplist Variation</title>
+    <link rel="stylesheet" type="text/css" href="./default-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./report-casino-variation.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <section class="container">
+        <div class="report-casino-variation">
+            <h2> <i class="fa fa-exclamation-triangle text-primary" aria-hidden="true"></i> Report a Casino </h2>
+            <p>If you have any concerns about an online casino, or you feel you have been mistreated by a casino, make sure you get in touch. You can report a casino site here and let us know all about your experience. Our team of experts will then investigate on your behalf.</p>
+            <div class="report-casino-variation-form">
+                <form id="" data-field-class="form-control">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input class="form-control" type="text" name="name" id="name" placeholder="Your name" required="required">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input class="form-control" type="email" name="email" id="email" placeholder="Email address" required="required">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input class="form-control" type="text" name="casino" id="casinoName" placeholder="Casino name" required="required">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <select class="form-control" name="issue" id="issue" required="required">
+                                    <option value="" selected="">Major problem</option>
+                                    <option value="Payment Problems">Payment problems</option>
+                                    <option value="Rigged Games">Rigged games</option>
+                                    <option value="False Advertising">False advertising</option>
+                                    <option value="Spamming Players">Spamming players</option>
+                                    <option value="Other Questionable Practices">Other questionable practices</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" cols="10" class="form-control" name="message" id="message" placeholder="Message" required="required"></textarea>
+                    </div>
+                    <p class="report-casino-variation-message"><sup>*</sup>All fields are mandatory</p>
+                    <div class="report-casino-variation-checkbox">
+                        <div class="checkbox">
+                            <label><input type="checkbox" value=""  required="required"><span>Please tick this box if you agree to your name and message being publicly displayed on the Casino.org website. If you would like to withdraw your agreement you can do so at any time, by <a href="javascript:;">emailing us</a>.</span></label>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary text-uppercase btn-lg" id="formSubmit" type="submit">Send message</button>
+                    <p class="report-casino-variation-privacy-message">By submitting your message, you understand that your personal data will be handled in accordance with our <a href="">privacy policy.</a></p>
+                </form>
+                <div class="alert alert-danger fade in">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

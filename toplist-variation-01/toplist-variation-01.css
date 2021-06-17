@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+.toplist-variation-01 .main-banner .right-box, .toplist-variation-01 .info-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.toplist-variation-01 .main-banner .left-box, .toplist-variation-01 .info-box .detail-info-col {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.toplist-variation-01 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.toplist-variation-01 .inner-container {
+  max-width: 1030px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.toplist-variation-01 img {
+  max-width: 100%;
+}
+
+.toplist-variation-01 .title-main {
+  display: block;
+  font-size: 36px;
+  color: #0d6efd;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.toplist-variation-01 p {
+  font-size: 14px;
+  color: #212529;
+  font-weight: 700;
+}
+
+.toplist-variation-01 a {
+  text-decoration: none;
+}
+
+.toplist-variation-01 a.blue-link {
+  color: #0d6efd;
+}
+
+.toplist-variation-01 a.pink-link {
+  color: #0d6efd;
+}
+
+.toplist-variation-01 .mar-b-0 {
+  margin-bottom: 0px;
+}
+
+.toplist-variation-01 .mar-y-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.toplist-variation-01 ul.check-list li {
+  padding-left: 44px;
+  padding-right: 20px;
+  position: relative;
+  font-size: 14px;
+  color: #212529;
+}
+
+.toplist-variation-01 ul.check-list li:before {
+  font-family: FontAwesome;
+  content: "\f00c";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  font-size: 15px;
+  color: #0d6efd;
+  position: absolute;
+  top: 50%;
+  left: 17px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.toplist-variation-01 .main-banner {
+  background-color: #f2f2f2;
+  padding-top: 16px;
+}
+
+.toplist-variation-01 .main-banner .inner-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.toplist-variation-01 .main-banner .left-box {
+  background-color: #ffffff;
+  padding: 55px 3px 50px;
+}
+
+.toplist-variation-01 .main-banner .right-box {
+  min-width: 418px;
+  max-width: 418px;
+  padding: 15px 0px 15px 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.toplist-variation-01 .main-banner .right-box img {
+  max-width: 100%;
+}
+
+.toplist-variation-01 .casinos-info {
+  background-color: #ffffff;
+  padding-top: 12px;
+}
+
+.toplist-variation-01 .info-box {
+  border: 2px solid #198754;
+  margin-bottom: 30px;
+}
+
+.toplist-variation-01 .info-box .summary-info-col,
+.toplist-variation-01 .info-box .banner-info-col {
+  width: 233px;
+  max-width: 233px;
+  background-color: #198754;
+  text-align: center;
+  padding: 38px 20px 20px;
+}
+
+.toplist-variation-01 .info-box .summary-info-col p,
+.toplist-variation-01 .info-box .banner-info-col p {
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  line-height: normal;
+  font-weight: 400;
+}
+
+.toplist-variation-01 .info-box .summary-info-col p.title-text,
+.toplist-variation-01 .info-box .banner-info-col p.title-text {
+  font-size: 32px;
+  line-height: 22px;
+  font-weight: 700;
+}
+
+.toplist-variation-01 .info-box .summary-info-col p.title-text.with-sub-text,
+.toplist-variation-01 .info-box .banner-info-col p.title-text.with-sub-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.toplist-variation-01 .info-box .summary-info-col p.title-text.with-sub-text span,
+.toplist-variation-01 .info-box .banner-info-col p.title-text.with-sub-text span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  text-align: left;
+  margin-left: 4px;
+}
+
+.toplist-variation-01 .info-box .summary-info-col .summary-info,
+.toplist-variation-01 .info-box .banner-info-col .summary-info {
+  margin-bottom: 15px;
+}
+
+.toplist-variation-01 .info-box .summary-info-col .strike-txt,
+.toplist-variation-01 .info-box .banner-info-col .strike-txt {
+  position: relative;
+}
+
+.toplist-variation-01 .info-box .summary-info-col .strike-txt::before,
+.toplist-variation-01 .info-box .banner-info-col .strike-txt::before {
+  content: "";
+  display: block;
+  border-bottom: 1px solid #ffffff;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 1;
+  width: 100%;
+}
+
+.toplist-variation-01 .info-box .banner-info-col .logo-img {
+  margin-bottom: 22px;
+}
+
+.toplist-variation-01 .info-box .banner-info-col p:not(.title-text) {
+  font-size: 17px;
+}
+
+.toplist-variation-01 .info-box .banner-info-col p.title-text {
+  line-height: 33px;
+  margin-bottom: 20px;
+}
+
+.toplist-variation-01 .info-box .banner-info-col .btn {
+  margin-top: 15px;
+}
+
+.toplist-variation-01 .info-box .detail-info-col {
+  padding: 30px 30px;
+}
+
+.toplist-variation-01 .info-box .detail-info-col .title-main {
+  color: #ffc107;
+  font-size: 30px;
+}
+
+.toplist-variation-01 .info-box .detail-info-col .sub-title {
+  font-size: 20px;
+  color: #212529;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.toplist-variation-01 .info-box .detail-info-col .check-list {
+  margin-bottom: 30px;
+}
+
+.toplist-variation-01 .info-box .detail-info-col .check-list li {
+  padding-left: 30px;
+}
+
+.toplist-variation-01 .info-box .detail-info-col .check-list li:before {
+  left: 0px;
+  color: #ffc107;
+}
+
+.toplist-variation-01 .info-box.with-dark-gray {
+  border-color: #434b53;
+}
+
+.toplist-variation-01 .info-box.with-dark-gray .summary-info-col,
+.toplist-variation-01 .info-box.with-dark-gray .banner-info-col {
+  background-color: #434b53;
+}
+
+.toplist-variation-01 .info-box.with-blue {
+  border-color: #0d6efd;
+}
+
+.toplist-variation-01 .info-box.with-blue .summary-info-col,
+.toplist-variation-01 .info-box.with-blue .banner-info-col {
+  background-color: #0d6efd;
+}
+
+@media (max-width: 991px) {
+  .toplist-variation-01 .title-main {
+    font-size: 18px;
+  }
+  .toplist-variation-01 .main-banner .inner-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .toplist-variation-01 .main-banner .inner-container .left-box, .toplist-variation-01 .main-banner .inner-container .right-box {
+    min-width: 100%;
+    text-align: center;
+  }
+  .toplist-variation-01 .main-banner .inner-container .left-box ul li {
+    text-align: left;
+  }
+  .toplist-variation-01 .main-banner .inner-container .right-box {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 850px) {
+  .toplist-variation-01 .casinos-info .info-box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .toplist-variation-01 .casinos-info .info-box .summary-info-col,
+  .toplist-variation-01 .casinos-info .info-box .detail-info-col,
+  .toplist-variation-01 .casinos-info .info-box .banner-info-col {
+    min-width: 100%;
+    text-align: center;
+  }
+  .toplist-variation-01 .casinos-info .info-box .summary-info-col,
+  .toplist-variation-01 .casinos-info .info-box .banner-info-col {
+    padding: 20px 15px 20px;
+  }
+  .toplist-variation-01 .casinos-info .info-box .summary-info-col .summary-info,
+  .toplist-variation-01 .casinos-info .info-box .banner-info-col .summary-info {
+    max-width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .toplist-variation-01 .casinos-info .info-box .summary-info-col p.title-text,
+  .toplist-variation-01 .casinos-info .info-box .banner-info-col p.title-text {
+    font-size: 20px;
+  }
+  .toplist-variation-01 .casinos-info .info-box .summary-info-col p.title-text span,
+  .toplist-variation-01 .casinos-info .info-box .banner-info-col p.title-text span {
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .toplist-variation-01 .casinos-info .info-box .detail-info-col {
+    padding: 15px 15px;
+  }
+  .toplist-variation-01 .casinos-info .info-box .detail-info-col .title-main, .toplist-variation-01 .casinos-info .info-box .detail-info-col .sub-title {
+    font-size: 18px;
+  }
+  .toplist-variation-01 .casinos-info .info-box .detail-info-col ul li {
+    text-align: left;
+    margin-top: 12px;
+  }
+  .toplist-variation-01 .casinos-info .info-box .banner-info-col img {
+    max-width: 230px;
+  }
+  .toplist-variation-01 .casinos-info .info-box .banner-info-col .p.title-text {
+    margin-bottom: 10px;
+  }
+}
+/*# sourceMappingURL=toplist-variation-01.css.map */

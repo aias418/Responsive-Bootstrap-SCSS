@@ -1,0 +1,1353 @@
+@import 'sass-styling-vars';
+
+body.modal-opened {
+    overflow: hidden;
+}
+
+.toplist-variation-34 {
+    .title {
+        font-size: $font-size-xl;
+        font-weight: $font-weight-heavy;
+        line-height: 1.2;
+        padding-bottom: 10px;
+        img {
+            height: auto;
+            width: 30px;
+        }
+    }
+    .main-list {
+        counter-reset: badge;
+        margin: 0;
+        padding: 0;
+        .list-item {
+            background: $theme-border-color;
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            margin: 0 auto;
+            padding: 15px 0;
+            position: relative;
+            text-align: unset;
+            @media only screen and (max-width: 767px) {
+                padding: 20px 0;
+            }
+            &:nth-child(odd) {
+                @media only screen and (min-width: 768px) {
+                    background: $theme-white;
+                }
+            }
+            &:not(:last-child) {
+                @media only screen and (max-width: 767px) {
+                    margin-bottom: 16px;
+                }
+            }
+            .list-item-inner {
+                @media only screen and (max-width: 767px) {
+                    max-width: 290px;
+                }
+                @media only screen and (min-width: 768px) {
+                    display: grid;
+                    grid-template-columns: 0.8fr 2fr 3fr 1.3fr;
+                    grid-column-gap: 20px;
+                    max-width: unset;
+                    width: 100%;
+                }
+                .logo-block {
+                    @media only screen and (max-width: 767px) {
+                        -webkit-box-align: center;
+                        align-items: center;
+                        display: flex;
+                        -webkit-box-pack: start;
+                        justify-content: flex-start;
+                        margin-bottom: 10px;
+                    }
+                    .logo-container {
+                        .logo-link {
+                            -webkit-box-align: start;
+                            align-items: flex-start;
+                            display: flex;
+                            -webkit-box-pack: center;
+                            justify-content: center;
+                            position: relative;
+                            .logo-image {
+                                border: 1px solid $theme-border-color;
+                                border-radius: 50%;
+                                height: 80px;
+                                margin: 0 0 -2px;
+                                min-height: 60px;
+                                width: 80px;
+                                @media only screen and (max-width: 767px) {
+                                    margin: 10px 10px 15px;
+                                }
+                            }
+                            &:before {
+                                background: url('./img/badge.svg') no-repeat;
+                                color: $theme-white;
+                                content: counter(badge);
+                                counter-increment: badge;
+                                display: flex;
+                                font-size: $font-size-default;
+                                font-weight: $font-weight-heavy;
+                                height: 29px;
+                                -webkit-box-pack: center;
+                                justify-content: center;
+                                left: calc(50% - 45px);
+                                line-height: 1.6;
+                                position: absolute;
+                                width: 22px;
+                                @media only screen and (max-width: 991px) {
+                                    top: 10px;
+                                }
+                            }
+                        }
+                    }
+                    .rating-block {
+                        display: flex;
+                        flex-wrap: wrap;
+                        @media only screen and (min-width: 768px) {
+                            -webkit-box-pack: center;
+                            justify-content: center;
+                        }
+                        .rating-title {
+                            display: none;
+                            font-weight: $font-weight-heavy;
+                            line-height: 1.2;
+                            width: 100%;
+                            @media only screen and (max-width: 767px) {
+                                display: block;
+                            }
+                            .rating-name {
+                                color: $theme-dark;
+                                display: flex;
+                                font-size: $font-size-default - 1;
+                                font-weight: 600;
+                                margin-bottom: 4px;
+                            }
+                        }
+                        .rating-number {
+                            font-size: $font-size-default - 1;
+                            margin-bottom: 0;
+                            margin-right: 6px;
+                            white-space: nowrap;
+                            width: fit-content;
+                            word-break: break-word;
+                            @media only screen and (min-width: 768px) {
+                                background-color: $theme-white;
+                                border: 0.5px solid $theme-border-color;
+                                border-radius: 100px;
+                                margin: -10px 30px;
+                                padding: 3px 8px;
+                                position: relative;
+                                z-index: 1;
+                            }
+                        }
+                        .rating-stars {
+                            display: inline-flex;
+                            font-size: $font-size-default - 3;
+                            min-height: 16px;
+                            min-width: 57px;
+                            @media only screen and (min-width: 768px) {
+                                -webkit-box-align: center;
+                                align-items: center;
+                                border-radius: 0 0 4px 4px;
+                                display: -webkit-box;
+                                display: flex;
+                                font-size: $font-size-default + 1;
+                                -webkit-box-pack: center;
+                                justify-content: center;
+                                min-height: 32px;
+                                min-width: 100%;
+                                padding-top: 13px;
+                            }
+                            img {
+                                height: 12px;
+                                margin-top: 2px;
+                                max-width: 73px;
+                                @media only screen and (min-width: 768px) {
+                                    margin-top: 0;
+                                    max-width: 100px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .info {
+                display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                flex-direction: column;
+                -webkit-box-align: center;
+                align-items: center;
+                @media only screen and (min-width: 768px) {
+                    display: flex;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                    flex-direction: column;
+                    -webkit-box-align: start;
+                    align-items: flex-start;
+                }
+                .rating-title {
+                    display: none;
+                    font-size: $font-size-default;
+                    font-weight: $font-weight-heavy;
+                    line-height: 1.2;
+                    @media only screen and (min-width: 768px) {
+                        display: block;
+                    }
+                    .rating-name {
+                        color: $theme-dark;
+                        display: flex;
+                        font-size: $font-size-default - 1;
+                        font-weight: $font-weight-heavy;
+                        margin-bottom: 4px;
+                        @media only screen and (max-width: 991px) {
+                            font-size: $font-size-default + 3;
+                            font-weight: $font-weight-heavy;
+                        }
+                    }
+                }
+                .rating-line {
+                    font-size: $font-size-lg;
+                    font-weight: $font-weight-heavy;
+                    padding: unset;
+                    @media only screen and (max-width: 767px) {
+                        text-align: center;
+                    }
+                }
+                .btn-primary {
+                    background: $theme-success;
+                    border: 0;
+                    border-radius: 6px;
+                    box-shadow: none;
+                    color: $theme-white;
+                    font-size: $font-size-default + 1;
+                    font-weight: $font-weight-heavy;
+                    margin-top: 8px;
+                    padding: 5px 10px;
+                }
+            }
+            .benefits {
+                display: flex;
+                @media only screen and (max-width: 767px) {
+                    -webkit-box-pack: center;
+                    justify-content: center;
+                }
+                .games-flags {
+                    margin: 16px 16px 0 0;
+                    width: 40%;
+                    @media only screen and (max-width: 767px) {
+                        margin: 10px;
+                    }
+                    .flags {
+                        -webkit-box-align: center;
+                        align-items: center;
+                        display: flex;
+                        -webkit-box-pack: center;
+                        justify-content: center;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        list-style: none;
+                        margin: 0;
+                        padding: 10px 0 0;
+                        .game-block {
+                            border-radius: 3px;
+                            margin-bottom: 5px;
+                            margin-right: 5px;
+                            margin-top: 0;
+                            overflow: visible;
+                            position: relative;
+                            &.purple {
+                                background: #b44ec6;
+                            }
+                            &.orange {
+                                background: #ef7d02;
+                            }
+                            span {
+                                color: $theme-white;
+                                cursor: default;
+                                display: flex;
+                                font-size: $font-size-default - 3;
+                                font-weight: $font-weight-heavy;
+                                line-height: 1.2;
+                                margin: 0;
+                                padding: 4.5px 4px;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+                }
+                .benefits-list {
+                    color: $theme-dark;
+                    font-size: $font-size-default - 1;
+                    font-weight: $font-weight-medium;
+                    line-height: 1.8;
+                    list-style: none;
+                    margin: 16px 0 0;
+                    padding: 0;
+                    padding-left: 15px;
+                    text-align: left;
+                    text-transform: capitalize;
+                    word-break: break-word;
+                    @media only screen and (max-width: 991px) {
+                        margin: 10px;
+                        word-break: normal;
+                    }
+                    li {
+                        color: $theme-dark;
+                        font-size: $font-size-default - 3;
+                        font-weight: $font-weight-heavy;
+                        margin-top: 0;
+                        padding-left: 15px;
+                        position: relative;
+                        &:before {
+                            background: url('./img/right-arrow.svg') no-repeat;
+                            background-size: cover;
+                            content: '';
+                            display: inline-block;
+                            height: 6px;
+                            left: 4px;
+                            position: absolute;
+                            top: 7px;
+                            width: 5px;
+                        }
+                    }
+                }
+            }
+            .play-button {
+                font-weight: $font-weight-medium;
+                grid-column: 4;
+                margin: 16px 16px 0 0;
+                @media only screen and (max-width: 767px) {
+                    -webkit-box-align: center;
+                    align-items: center;
+                    display: flex;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                    flex-direction: column;
+                    margin: 0 auto;
+                }
+                .btn-primary {
+                    -webkit-box-align: center;
+                    align-items: center;
+                    background: $theme-primary;
+                    border: 0;
+                    border-radius: $theme-border-radius;
+                    box-shadow: none;
+                    color: $theme-white;
+                    display: flex;
+                    font-size: $font-size-default + 7;
+                    font-weight: $font-weight-heavy;
+                    -webkit-box-pack: center;
+                    justify-content: center;
+                    height: 48px;
+                    margin: 0 auto;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    width: 165px;
+                    white-space: nowrap;
+                    &:hover {
+                        opacity: 0.9;
+                    }
+                    @media only screen and (max-width: 991px) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Compare line styles */
+
+.compare-widget {
+    background-color: $theme-primary;
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    &.js-visible {
+        display: block;
+    }
+    .main-layout {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+        @media only screen and (min-width: 992px) {
+            flex-flow: wrap;
+            margin: 0 auto;
+            max-width: 1140px;
+            width: 100%;
+        }
+        .compare-widget-selection {
+            display: flex;
+            flex: 1 1 auto;
+            justify-content: space-evenly;
+            padding: 10px 0;
+            @media only screen and (min-width: 768px) {
+                justify-content: space-between;
+                padding: 20px 0;
+            }
+            .compare-widget-selection-item {
+                background-color: $theme-white;
+                display: flex;
+                flex-basis: 25%;
+                justify-content: stretch;
+                min-height: 50px;
+                @media only screen and (min-width: 768px) {
+                    flex-basis: 25%;
+                    min-height: 106px;
+                }
+                &.casino-compared {
+                    display: none;
+                    margin: 0 10px;
+                    @media only screen and (min-width: 480px) {
+                        display: flex;
+                    }
+                }
+                .casino-compared-result {
+                    display: none;
+                    justify-content: center;
+                    padding: 10px;
+                    position: relative;
+                    width: 100%;
+                    .casino-compared-delete {
+                        align-items: center;
+                        background-color: $theme-info;
+                        border: 2px solid $theme-info;
+                        border-radius: 20px;
+                        color: $theme-white;
+                        cursor: pointer;
+                        display: flex;
+                        height: 26px;
+                        justify-content: center;
+                        line-height: 13px;
+                        padding: 4px;
+                        position: absolute;
+                        right: -11px;
+                        text-align: center;
+                        top: -11px;
+                        width: 26px;
+                        &:before {
+                            background: url('./img/close.svg') no-repeat;
+                            background-size: cover;
+                            content: '';
+                            display: inline-block;
+                            height: 15px;
+                            width: 15px;
+                        }
+                        &:hover {
+                            border-color: $theme-success;
+                        }
+                    }
+                }
+                .casino-compared-default-text {
+                    align-self: center;
+                    color: $theme-secondary;
+                    display: block;
+                    font-size: $font-size-default + 3;
+                    padding: 20px;
+                    text-align: center;
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
+                    width: 100%;
+                }
+                &.js-compare {
+                    .casino-compared-result {
+                        display: flex;
+                    }
+                    .casino-compared-default-text {
+                        display: none;
+                    }
+                }
+            }
+            .compare-widget-selection-submit {
+                align-items: center;
+                display: flex;
+                flex-basis: 100%;
+                flex-direction: row;
+                justify-content: space-around;
+                margin: 0 10px;
+                @media only screen and (min-width: 480px) {
+                    flex-basis: 25%;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+            }
+            .btn-primary {
+                background-image: none;
+                background-color: $theme-secondary;
+                border: none;
+                border-radius: 4px;
+                color: $theme-white;
+                cursor: default;
+                font-size: $font-size-default + 5;
+                font-weight: $font-weight-heavy;
+                line-height: 18px;
+                margin: 0 auto 12px;
+                order: 1;
+                padding: 12px 10px;
+                position: relative;
+                text-align: center;
+                text-shadow: 1px 1px 0 $theme-dark;
+                text-decoration: none;
+                width: 65%;
+                @media only screen and (min-width: 480px) {
+                    width: 100%;
+                }
+                &.js-enabled {
+                    background-color: $theme-primary;
+                    cursor: pointer;
+                }
+            }
+            .compare-widget-selection-reset-wrapper {
+                display: block;
+                margin-bottom: 18px;
+                order: 2;
+                text-align: center;
+                @media only screen and (min-width: 480px) {
+                    margin-bottom: 0;
+                }
+                .compare-widget-selection-reset {
+                    border-bottom: 1px solid $theme-white;
+                    color: $theme-white;
+                    font-size: $font-size-default + 1;
+                    padding-bottom: 3px;
+                    text-decoration: none;
+                    @media only screen and (min-width: 480px) {
+                        font-size: $font-size-default + 3;
+                    }
+                    .compare-widget-selection-reset-text {
+                        .close-image {
+                            height: 15px;
+                            width: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Compare modal styles */
+.main-compare-modal {
+    background: $theme-light;
+    display: none;
+    height: 100%;
+    left: 0;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    &.opened {
+        display: block;
+    }
+    .modal-dialog-sec {
+        margin: 0;
+        width: auto;
+        .modal-content-sec {
+            background: $theme-light;
+            border: 0;
+            box-shadow: none;
+            .popup-layout {
+                display: flex;
+                flex-direction: column;
+                padding-top: 318px;
+                overflow: hidden;
+                @media only screen and (min-width: 768px) {
+                    padding-top: 165px;
+                }
+                @media only screen and (min-width: 992px) {
+                    flex-flow: wrap;
+                    margin: 0 auto;
+                    max-width: 1000px;
+                    padding-top: 75px;
+                    width: 100%;
+                }
+                .popup-body {
+                    background: $theme-light;
+                    margin: 0;
+                    min-height: 0;
+                    min-width: 0;
+                    padding: 0;
+                    @media only screen and (min-width: 992px) {
+                        flex: 1;
+                        max-width: 795px;
+                    }
+                    .popup-header {
+                        background: $theme-light;
+                        border-bottom: none;
+                        color: $theme-white;
+                        display: block;
+                        left: 0;
+                        min-height: 60px;
+                        padding: 10px;
+                        position: fixed;
+                        right: 0;
+                        top: 0;
+                        z-index: 100;
+                        .popup-header-inner {
+                            align-items: center;
+                            display: flex;
+                            justify-content: space-between;
+                            .popup-header-compare-button {
+                                color: $theme-white;
+                                height: 30px;
+                                text-decoration: none;
+                                width: 30px;
+                                &.popup-header-compare-button-back {
+                                    align-self: center;
+                                    border-radius: 50%;
+                                    display: flex;
+                                    justify-content: center;
+                                    @media only screen and (min-width: 768px) {
+                                        background: $theme-primary;
+                                    }
+                                    img {
+                                        height: 17px;
+                                        margin-right: 2px;
+                                        margin-top: 6px;
+                                        width: 17px;
+                                    }
+                                }
+                                &.popup-header-compare-button-close {
+                                    align-items: center;
+                                    border-radius: 50%;
+                                    cursor: pointer;
+                                    display: flex;
+                                    justify-content: center;
+                                    @media only screen and (min-width: 768px) {
+                                        background: $theme-primary;
+                                    }
+                                    img {
+                                        height: 17px;
+                                        width: 18px;
+                                    }
+                                }
+                            }
+                            .popup-header-compare-heading {
+                                color: $theme-dark;
+                                flex-basis: 95%;
+                                font-size: $font-size-default + 3;
+                                text-align: center;
+                                text-transform: capitalize;
+                            }
+                        }
+                    }
+                    .vertical-toplist-compare {
+                        margin-bottom: 57px;
+                        position: relative;
+                        @media only screen and (min-width: 768px) {
+                            margin-bottom: 72px;
+                        }
+                    }
+                    .vertical-toplist-compare-columns {
+                        display: flex;
+                        flex-direction: row;
+                        position: relative;
+                        @media only screen and (min-width: 768px) {
+                            margin-top: 173px;
+                        }
+                        @media only screen and (min-width: 992px) {
+                            margin-top: 168px;
+                        }
+                        .vertical-toplist-compare-col {
+                            align-items: center;
+                            background: $theme-white;
+                            color: $theme-dark;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: flex-start;
+                            margin-bottom: 15px;
+                            position: relative;
+                            width: 50%;
+                            @media only screen and (min-width: 768px) {
+                                border-right: 1px solid $theme-border-color;
+                                justify-content: space-evenly;
+                                margin-bottom: 0;
+                                width: 25%;
+                            }
+                            &:last-child {
+                                border-right: none;
+                            }
+                            .vertical-toplist-compare-top-wrapper  {
+                                background: $theme-light;
+                                border-bottom: 1px solid $theme-border-color;
+                                border-left: none;
+                                border-top: 0;
+                                margin-bottom: 0;
+                                max-width: 100%;
+                                position: fixed;
+                                top: 50px;
+                                width: 100%;
+                                z-index: 100;
+                                @media only screen and (min-width: 768px) {
+                                    min-height: 181px;
+                                }
+                                @media only screen and (min-width: 992px) {
+                                    top: 60px;
+                                }
+                                &:before {
+                                    @media only screen and (min-width: 768px) {
+                                        background: $theme-light;
+                                        bottom: 0;
+                                        content: "";
+                                        display: block;
+                                        height: 5px;
+                                        left: 0;
+                                        position: absolute;
+                                        top: auto;
+                                        width: 100%;
+                                        z-index: 2;
+                                    }
+                                }
+                                &:after {
+                                    @media only screen and (min-width: 768px) {
+                                        box-shadow: 0 1px 3px 1px $theme-border-color;
+                                        content: "";
+                                        display: block;
+                                        left: 0;
+                                        position: absolute;
+                                        top: 100%;
+                                        width: 100%;
+                                        z-index: 1;
+                                    }
+                                }
+                                &.vertical-toplist-compare-description-item {
+                                    left: 0;
+                                }
+                            }
+                            .vertical-toplist-compare-mobile-heading {
+                                background: $theme-white;
+                                border-bottom: 1px solid $theme-border-color;
+                                border-top: 3px solid $theme-border-color;
+                                color: $theme-primary;
+                                display: block;
+                                font-size: $font-size-default + 3;
+                                font-weight: $font-weight-heavy;
+                                left: 0;
+                                margin: 0 auto;
+                                padding: 10px;
+                                position: absolute;
+                                right: 0;
+                                text-align: center;
+                                top: 0;
+                                width: 200%;
+                                z-index: 1;
+                                @media only screen and (min-width: 768px) {
+                                    display: none;
+                                }
+                            }
+                            .vertical-toplist-compare-bonus {
+                                font-size: $font-size-default + 2;
+                                min-height: 98px;
+                                text-align: center;
+                                width: 100%;
+                                @media only screen and (min-width: 768px) {
+                                    border-top: 1px solid $theme-border-color;
+                                    margin-top: 0;
+                                    min-height: 84px;
+                                }
+                                &.vertical-toplist-compare-item {
+                                    align-items: center;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    margin-bottom: 0;
+                                    padding: 50px 10px 10px;
+                                    position: relative;
+                                    @media only screen and (min-width: 768px) {
+                                        border-bottom: 1px solid $theme-border-color;
+                                        padding: 10px;
+                                    }
+                                }
+                                .vertical-toplist-compare-mobile-heading {
+                                    border-top: 1px solid $theme-border-color;
+                                }
+                                .vertical-toplist-compare-bonus-label {
+                                    font-size: $font-size-default;
+                                    font-weight: $font-weight-heavy;
+                                    line-height: 19px;
+                                    margin-bottom: 0;
+                                    .vertical-toplist-compare-bonus-value {
+                                        color: $theme-primary;
+                                        font-size: $font-size-default + 7;
+                                    }
+                                }
+                                .vertical-toplist-compare-bonus-text {
+                                    font-size: $font-size-default - 2;
+                                }
+                            }
+                            .vertical-toplist-compare-payout {
+                                &.vertical-toplist-compare-item {
+                                    align-items: center;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    margin-bottom: 0;
+                                    padding: 50px 10px 10px;
+                                    position: relative;
+                                    @media only screen and (min-width: 768px) {
+                                        border-bottom: 1px solid $theme-border-color;
+                                        padding: 10px;
+                                    }
+                                }
+                                .vertical-toplist-compare-mobile-heading {
+                                    border-top: 1px solid $theme-border-color;
+                                }
+                                .vertical-toplist-compare-payout-label {
+                                    font-size: $font-size-default;
+                                    font-weight: $font-weight-heavy;
+                                    line-height: 19px;
+                                    margin-bottom: 0;
+                                    .vertical-toplist-compare-payout-value {
+                                        color: $theme-primary;
+                                        font-size: $font-size-default + 7;
+                                    }
+                                }
+                            }
+                            .vertical-toplist-compare-payout-speed {
+                                &.vertical-toplist-compare-item {
+                                    align-items: center;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    margin-bottom: 0;
+                                    padding: 50px 10px 10px;
+                                    position: relative;
+                                    @media only screen and (min-width: 768px) {
+                                        border-bottom: 1px solid $theme-border-color;
+                                        padding: 10px;
+                                    }
+                                }
+                                .vertical-toplist-compare-mobile-heading {
+                                    border-top: 1px solid $theme-border-color;
+                                }
+                                .vertical-toplist-compare-payout-speed-label {
+                                    font-size: $font-size-default + 3;
+                                    font-weight: $font-weight-heavy;
+                                    margin: 0;
+                                    text-align: center;
+                                }
+                            }
+                            .vertical-toplist-compare-games {
+                                text-align: center;
+                                width: 100%;
+                                &.vertical-toplist-compare-item {
+                                    align-items: center;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    margin-bottom: 0;
+                                    padding: 50px 10px 10px;
+                                    position: relative;
+                                    @media only screen and (min-width: 768px) {
+                                        border-bottom: 1px solid $theme-border-color;
+                                        padding: 6px 10px;
+                                    }
+                                }
+                                .vertical-toplist-compare-mobile-heading {
+                                    border-top: 1px solid $theme-border-color;
+                                }
+                                .vertical-toplist-compare-games-number {
+                                    display: block;
+                                    font-size: $font-size-default + 3;
+                                    font-weight: $font-weight-heavy;
+                                    margin: 0;
+                                    text-align: center;
+                                }
+                                .vertical-toplist-compare-games-label {
+                                    font-size: $font-size-default - 2;
+                                    margin: 5px;
+                                }
+                                .vertical-toplist-compare-games-wrapper {
+                                    display: flex;
+                                    flex-direction: row;
+                                    .vertical-toplist-compare-icon-wrapper {
+                                        align-items: center;
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: flex-end;
+                                        img {
+                                            background-position: 50%;
+                                            background-repeat: no-repeat;
+                                            background-size: contain;
+                                            display: block;
+                                            height: auto;
+                                            margin: 0 3px;
+                                            width: 25px;
+                                        }
+                                        .vertical-toplist-compare-games-label {
+                                            font-size: $font-size-default - 2;
+                                            margin: 5px;
+                                        }
+                                    }
+                                }
+                            }
+                            .vertical-toplist-compare-free-games {
+                                text-align: center;
+                                width: 100%;
+                                &.vertical-toplist-compare-item {
+                                    align-items: center;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    margin-bottom: 0;
+                                    padding: 50px 10px 10px;
+                                    position: relative;
+                                    @media only screen and (min-width: 768px) {
+                                        border-bottom: 1px solid $theme-border-color;
+                                        padding: 14px 10px;
+                                    }
+                                }
+                                .vertical-toplist-compare-mobile-heading {
+                                    border-top: 1px solid $theme-border-color;
+                                }
+                                img {
+                                    width: 16px;
+                                }
+                            }
+                            .vertical-toplist-compare-compabitility {
+                                align-content: center;
+                                display: flex;
+                                flex-direction: row;
+                                flex-wrap: wrap;
+                                justify-content: space-around;
+                                text-align: center;
+                                width: 100%;
+                                &.vertical-toplist-compare-item {
+                                    align-items: center;
+                                    display: flex;
+                                    justify-content: center;
+                                    margin-bottom: 0;
+                                    padding: 50px 10px 10px;
+                                    position: relative;
+                                    @media only screen and (min-width: 768px) {
+                                        border-bottom: 1px solid $theme-border-color;
+                                        padding: 6px 10px;
+                                    }
+                                }
+                                .vertical-toplist-compare-mobile-heading {
+                                    border-top: 1px solid $theme-border-color;
+                                }
+                                .vertical-toplist-compare-compabitility-icon-wrapper {
+                                    align-content: center;
+                                    align-items: center;
+                                    display: flex;
+                                    flex: 0 0 50%;
+                                    justify-content: flex-start;
+                                    .vertical-toplist-compare-games-label-devices {
+                                        flex: 0 0 50%;
+                                        font-size: $font-size-default - 2;
+                                        margin: 3px 4px 4px 2px;
+                                    }
+                                    img {
+                                        flex: 0 0 30%;
+                                        margin: 5px;
+                                        max-height: 15px;
+                                    }
+                                }
+                            }
+                            .vertical-toplist-compare-deposit {
+                                min-height: 86px;
+                                text-align: center;
+                                width: 100%;
+                                &.vertical-toplist-compare-item {
+                                    align-items: center;
+                                    display: flex;
+                                    justify-content: center;
+                                    margin-bottom: 0;
+                                    padding: 50px 10px 10px;
+                                    position: relative;
+                                    @media only screen and (min-width: 768px) {
+                                        border-bottom: 1px solid $theme-border-color;
+                                        padding: 10px;
+                                    }
+                                }
+                                .vertical-toplist-compare-mobile-heading {
+                                    border-top: 1px solid $theme-border-color;
+                                }
+                                .vertical-toplist-compare-deposit-icon-wrapper {
+                                    align-content: center;
+                                    align-items: center;
+                                    display: flex;
+                                    flex-direction: row;
+                                    flex-wrap: wrap;
+                                    justify-content: flex-start;
+                                    img {
+                                        display: inline-block;
+                                        margin: 5px;
+                                        max-height: 22px;
+                                        max-width: 35px;
+                                        padding: 1px;
+                                    }
+                                }
+                            }
+                            .vertical-toplist-compare-language {
+                                text-align: center;
+                                width: 100%;
+                                &.vertical-toplist-compare-item {
+                                    align-items: center;
+                                    display: flex;
+                                    justify-content: center;
+                                    margin-bottom: 0;
+                                    padding: 50px 10px 10px;
+                                    position: relative;
+                                    @media only screen and (min-width: 768px) {
+                                        border-bottom: 1px solid $theme-border-color;
+                                        padding: 6px 10px;
+                                    }
+                                }
+                                .vertical-toplist-compare-mobile-heading {
+                                    border-top: 1px solid $theme-border-color;
+                                }
+                                .vertical-toplist-compare-language-icon-wrapper {
+                                    align-content: center;
+                                    align-items: center;
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: flex-start;
+                                    flex-wrap: wrap;
+                                    img {
+                                        height: auto;
+                                        width: 23px;
+                                        @media only screen and (min-width: 480px) {
+                                            margin: 2px 8px;
+                                        }
+                                    }
+                                }
+                            }
+                            .vertical-toplist-compare-support {
+                                flex-direction: column;
+                                font-size: $font-size-default - 1;
+                                text-align: center;
+                                width: 100%;
+                                &.vertical-toplist-compare-item {
+                                    align-items: center;
+                                    display: flex;
+                                    justify-content: center;
+                                    margin-bottom: 0;
+                                    padding: 50px 10px 10px;
+                                    position: relative;
+                                    @media only screen and (min-width: 768px) {
+                                        border-bottom: 1px solid $theme-border-color;
+                                        padding: 6px 10px;
+                                    }
+                                }
+                                .vertical-toplist-compare-mobile-heading {
+                                    border-top: 1px solid $theme-border-color;
+                                }
+                                img {
+                                    margin-left: 3px;
+                                    vertical-align: initial;
+                                    width: 11px;
+                                }
+                                .vertical-toplist-compare-support-info {
+                                    font-weight: $font-weight-heavy;
+                                    margin: 10px 0 0;
+                                }
+                            }
+                            .vertical-toplist-compare-operator {
+                                flex-direction: column;
+                                font-size: $font-size-default - 1;
+                                text-align: center;
+                                width: 100%;
+                                &.vertical-toplist-compare-item {
+                                    align-items: center;
+                                    display: flex;
+                                    justify-content: center;
+                                    margin-bottom: 0;
+                                    padding: 50px 10px 10px;
+                                    position: relative;
+                                    @media only screen and (min-width: 768px) {
+                                        border-bottom: 1px solid $theme-border-color;
+                                        padding: 5px 10px;
+                                    }
+                                }
+                                .vertical-toplist-compare-mobile-heading {
+                                    border-top: 1px solid $theme-border-color;
+                                }
+                                .vertical-toplist-compare-operator-wrapper {
+                                    margin-bottom: 6px;
+                                    .vertical-toplist-compare-operator-label {
+                                        color: $theme-primary;
+                                        font-size: $font-size-default + 1;
+                                        font-weight: $font-weight-heavy;
+                                        padding-bottom: 2px;
+                                        text-transform: uppercase;
+                                    }
+                                }
+                            }
+                            .vertical-toplist-compare-payout, .vertical-toplist-compare-payout-speed {
+                                min-height: 45px;
+                                text-align: center;
+                                width: 100%;
+                            }
+                            .vertical-toplist-compare-games {
+                                min-height: 110px;
+                            }
+                            .vertical-toplist-compare-compabitility {
+                                align-content: center;
+                                display: flex;
+                                flex-direction: row;
+                                flex-wrap: wrap;
+                                justify-content: flex-end;
+                                min-height: 170px;
+                                @media only screen and (min-width: 768px) {
+                                    min-height: 100px;
+                                }
+                            }
+                            .vertical-toplist-compare-deposit {
+                                min-height: 160px;
+                                text-align: center;
+                                @media only screen and (min-width: 768px) {
+                                    min-height: 86px;
+                                }
+                            }
+                            .vertical-toplist-compare-language {
+                                align-items: center;
+                                align-content: center;
+                                display: flex;
+                                flex-direction: row;
+                                flex-wrap: wrap;
+                                justify-content: flex-end;
+                                min-height: 195px;
+                                @media only screen and (min-width: 768px) {
+                                    min-height: 122px;
+                                }
+                            }
+                            .vertical-toplist-compare-support {
+                                font-size: $font-size-default - 1;
+                                min-height: 140px;
+                                @media only screen and (min-width: 768px) {
+                                    min-height: 120px;
+                                }
+                            }
+                            .vertical-toplist-compare-operator {
+                                border-bottom: 3px solid $theme-border-color;
+                                font-size: $font-size-default - 1;
+                                margin-bottom: 0;
+                                min-height: 190px;
+                                text-align: center;
+                                @media only screen and (min-width: 768px) {
+                                    border-bottom: none;
+                                    min-height: 117px;
+                                }
+                            }
+                            .vertical-toplist-compare-cta-wrapper {
+                                background: $theme-light;
+                                border: none;
+                                border-top: 1px solid $theme-border-color;
+                                bottom: 0;
+                                justify-content: center;
+                                left: 0;
+                                max-width: 100%;
+                                min-height: 73px;
+                                padding: 20px;
+                                position: fixed;
+                                width: 100%;
+                                z-index: 16;
+                                &.vertical-toplist-compare-item {
+                                    align-items: center;
+                                    background: $theme-white;
+                                    border-left: 0;
+                                    display: flex;
+                                    flex-direction: column;
+                                    left: auto;
+                                    width: 50%;
+                                    @media only screen and (min-width: 768px) {
+                                        border-left: 1px solid $theme-border-color;
+                                        width: 25.2%;
+                                    }
+                                    @media only screen and (min-width: 992px) {
+                                        max-width: 252px;
+                                    }
+                                    .vertical-toplist-compare-cta {
+                                        background-color: $theme-primary;
+                                        border: none;
+                                        border-radius: 4px;
+                                        color: $theme-white;
+                                        cursor: pointer;
+                                        display: block;
+                                        font-size: $font-size-default + 5;
+                                        font-weight: $font-weight-heavy;
+                                        line-height: 15px;
+                                        margin: 0;
+                                        padding: 9px 19px;
+                                        position: relative;
+                                        text-align: center;
+                                        text-decoration: none;
+                                        text-shadow: 1px 1px 0 $theme-dark;
+                                        z-index: 2;
+                                        @media only screen and (min-width: 768px) {
+                                            min-width: 150px;
+                                        }
+                                    }
+                                }
+                            }
+                            .vertical-toplist-compare-description-item {
+                                align-items: center;
+                                border-bottom: 1px solid $theme-border-color;
+                                color: $theme-primary;
+                                display: flex;
+                                flex-direction: row;
+                                font-size: $font-size-default + 1;
+                                font-weight: $font-weight-heavy;
+                                justify-content: flex-end;
+                                padding: 10px;
+                                text-align: right;
+                                width: 100%;
+                                &:before {
+                                    background: $theme-light;
+                                    bottom: auto;
+                                    content: "";
+                                    display: block;
+                                    height: 5px;
+                                    left: 0;
+                                    position: absolute;
+                                    top: 0;
+                                    width: 100%;
+                                    z-index: 2;
+                                }
+                            }
+                        }
+                        .vertical-toplist-compare-col-1, .vertical-toplist-compare-col-2, .vertical-toplist-compare-col-3 {
+                            .vertical-toplist-compare-top-wrapper {
+                                align-items: flex-start;
+                                background: $theme-white;
+                                border-bottom: 1px solid $theme-border-color;
+                                border-right: 1px solid $theme-border-color;
+                                border-top: none;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                margin-bottom: 0;
+                                max-width: 50%;
+                                padding: 0 0 0 10px;
+                                position: fixed;
+                                top: 60px;
+                                z-index: 100;
+                                @media only screen and (min-width: 768px) {
+                                    border-left: 1px solid $theme-border-color;
+                                    border-right: none;
+                                    max-width: 251px;
+                                    min-height: 174px;
+                                    padding: 20px 10px;
+                                    width: 25.2%;
+                                }
+                                .vertical-toplist-compare-logo-wrapper {
+                                    align-items: flex-start;
+                                    display: flex;
+                                    .vertical-toplist-compare-logo {
+                                        align-items: center;
+                                        display: flex;
+                                        height: 90px;
+                                        justify-content: center;
+                                        width: 80%;
+                                        img {
+                                            align-self: center;
+                                            height: auto;
+                                            margin-right: 5px;
+                                            max-height: 100%;
+                                            max-width: 100%;
+                                            width: 100%;
+                                        }
+                                    }
+                                    .vertical-toplist-compare-flag {
+                                        align-items: center;
+                                        background: $theme-primary;
+                                        border-radius: 3px;
+                                        color: $theme-white;
+                                        display: flex;
+                                        font-weight: $font-weight-heavy;
+                                        justify-content: space-between;
+                                        margin-top: 10px;
+                                        max-width: 40px;
+                                        padding: 2px;
+                                        img {
+                                            &.flag-icon {
+                                                margin-right: 4px;
+                                                height: 14px;
+                                                width: 20px;
+                                            }
+                                            &.check-icon {
+                                                height: 11px;
+                                                width: 11px;
+                                            }
+                                        }
+                                    }
+                                }
+                                .vertical-toplist-compare-top-wrapper-rating {
+                                    .vertical-toplist-compare-top-wrapper-label {
+                                        font-size: $font-size-default - 1;
+                                        line-height: 12px;
+                                    }
+                                    .popup-ranking-stars-container {
+                                        display: inline-block;
+                                        position: relative;
+                                        img.rating-stars {
+                                            vertical-align: sub;
+                                            width: 80px;
+                                        }
+                                    }
+                                }
+                                .vertical-toplist-compare-link-review {
+                                    color: $theme-primary;
+                                    cursor: pointer;
+                                    display: block;
+                                    font-size: $font-size-default - 1;
+                                    font-weight: $font-weight-heavy;
+                                    outline: 0;
+                                    padding: 5px 10px 10px 0;
+                                    position: relative;
+                                    text-decoration: none;
+                                    word-break: break-word;
+                                    z-index: 12;
+                                    &:hover {
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+                            .vertical-toplist-compare-mobile-heading {
+                                display: none;
+                            }
+                        }
+                        .vertical-toplist-compare-col-1 {
+                            .vertical-toplist-compare-mobile-heading {
+                                @media only screen and (max-width: 767px) {
+                                    display: block;
+                                }    
+                            }
+                            .vertical-toplist-compare-item {
+                                @media only screen and (max-width: 767px) {
+                                    border-right: 1px solid $theme-border-color;
+                                }
+                            }
+                        }
+                        .vertical-toplist-compare-col-3 {
+                            @media only screen and (max-width: 767px) {
+                                display: none;
+                            }
+                        }
+                        .vertical-toplist-compare-description {
+                            background: $theme-light;
+                            display: none;
+                            justify-content: flex-start;
+                            @media only screen and (min-width: 768px) {
+                                display: block;
+                                flex-basis: 25%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Karla:400&display=swap");
+img {
+  max-width: 100%;
+}
+
+.report-casino-variation {
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  background: #ffffff;
+  position: relative;
+  width: 100%;
+  padding: 15px;
+  font-size: 13px;
+}
+.report-casino-variation .report-casino-variation-form .form-control {
+  color: #000;
+  min-height: 40px;
+}
+.report-casino-variation .report-casino-variation-form .report-casino-variation-message {
+  font-size: 11px;
+  color: #212529;
+}
+.report-casino-variation .report-casino-variation-form .report-casino-variation-checkbox {
+  font-size: 13px;
+}
+.report-casino-variation .report-casino-variation-form .report-casino-variation-privacy-message {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=report-casino-variation.css.map */

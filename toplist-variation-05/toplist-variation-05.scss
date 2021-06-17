@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+@import "sass-styling-vars";
+
+%d-flex{
+  display: -webkit-box;     
+  display: -moz-box;        
+  display: -ms-flexbox;     
+  display: -webkit-flex;    
+  display: flex; 
+}
+
+%flex-1{
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -webkit-flex: 1; 
+  -ms-flex: 1;
+  flex: 1;
+}
+
+%full-center{
+    @extend %d-flex;
+    align-items: center;
+    justify-content: center;
+}
+%fa-font{
+    font: normal normal normal $font-size-default+1/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.toplist-variation-05{
+    font-family: $font-family-default;
+    img{
+        max-width: 100%;
+    }
+    p{
+        color: $theme-dark;
+    }
+    .app-container{
+        max-width: 795px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .main-title{
+        font-size: $font-size-h1 + 2;
+        color: $theme-dark;
+        font-weight: $font-weight-heavy;
+    }
+    .list-header-info{
+        background-color: darken($theme-primary , 25%);
+        padding: 16px 28px;
+        border-radius: $theme-border-radius $theme-border-radius 0 0;
+        .main-title, p{
+            color: $theme-white;
+        }
+    }
+    .list-content{
+        padding: 30px;
+        background-color: lighten($theme-secondary, 48%);
+    }
+    .sports-card{
+        @extend %d-flex;
+        border: $theme-border;
+        box-shadow: $wrapper-box-shadow;
+        background-color: $theme-white;
+        border-radius: $theme-border-radius;
+        border-bottom: none;
+        overflow: hidden;
+        min-height: 125px;
+        .img-col{
+            min-width: 140px;
+            border-right: $theme-border;
+            text-align: center;
+            @extend %full-center;
+            border-left: 15px solid;
+            padding: 15px 20px;
+            &.black-border{
+                border-color:  $theme-dark;
+                border-right-color: $theme-border-color;
+            }
+            &.darkBlue-border{
+                border-color:  darken($theme-primary , 25%);
+                border-right-color: $theme-border-color;
+            }
+            &.blue-border{
+                border-color:  $theme-primary;
+                border-right-color: $theme-border-color;
+            }
+            &.red-border{
+                border-color:  $theme-danger;
+                border-right-color: $theme-border-color;
+            }
+            &.gray-border{
+                border-color:  $theme-secondary;
+                border-right-color: $theme-border-color;
+            }
+        }
+        & + .sports-card{
+            margin-top: 12px;
+        }
+        .info-col{
+            padding: 14px 20px;
+            .info-title{
+                font-size: $font-size-h3;
+                font-weight: $font-weight-heavy;
+            }
+            p:not(.info-title){
+                margin-bottom: 0px;
+                a{
+                    color: $theme-primary;
+                    text-decoration: underline;
+                    &:hover{
+                        color: $theme-dark;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 575px) {
+        .list-header-info {
+            padding: 15px 16px;
+        }
+        .list-content{
+            padding: 15px;
+            .sports-card{
+                .img-col{
+                    border-bottom: 1px solid $theme-border-color;
+                }
+            }
+        }
+        .sports-card{
+            flex-direction: column;
+            .img-col{
+                border-top: 15px solid;
+                border-left: none;
+                border-right: none;
+            }
+        }
+    }
+}

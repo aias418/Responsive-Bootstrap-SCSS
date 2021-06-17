@@ -1,0 +1,1953 @@
+body.modal-opened {
+  overflow: hidden;
+}
+
+.toplist-variation-24 .title {
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1.2;
+  padding-bottom: 10px;
+}
+.toplist-variation-24 .main-toplist {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 175px;
+  position: relative;
+}
+.toplist-variation-24 .main-toplist img {
+  max-height: 86px;
+  max-width: 100%;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .vertical-toplist-columns {
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 32px;
+  }
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column {
+  align-items: center;
+  background-color: #eee;
+  border-radius: 6px;
+  color: #212529;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column {
+    margin-bottom: 0;
+    margin-top: 40px;
+    width: calc(33.33333% - 20px);
+  }
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column:first-of-type {
+    order: 2;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column:nth-of-type(2) {
+    order: 1;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column:nth-of-type(3) {
+    order: 3;
+  }
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column.first {
+  background-color: #ffffff;
+  border: 4px solid #0d6efd;
+  margin-top: 0;
+  padding-top: 30px;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .top-rated-arrow {
+  display: none;
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .top-rated-arrow {
+    display: block;
+    position: absolute;
+    right: -161px;
+    top: -43px;
+  }
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-ranking {
+  align-items: center;
+  background-color: #6c757d;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 700;
+  height: 32px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 32px;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-ranking.first {
+  background-color: #0d6efd;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 0;
+  font-size: 12px;
+  left: 50%;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  top: -1px;
+  transform: translateX(-50%);
+  width: 80%;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top {
+  position: relative;
+  width: 100%;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top .vertical-toplist-flag {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i:before {
+  content: "";
+  display: inline-block;
+  background-color: transparent;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 25px;
+  margin: 2px;
+  width: 25px;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-ca:before {
+  background-image: url("./img/ca.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-fr:before {
+  background-image: url("./img/fr.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-cn:before {
+  background-image: url("./img/cn.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-cz:before {
+  background-image: url("./img/cz.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-de:before {
+  background-image: url("./img/de.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-es:before {
+  background-image: url("./img/es.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-fi:before {
+  background-image: url("./img/fi.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-gb:before {
+  background-image: url("./img/gb.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-gr:before {
+  background-image: url("./img/gr.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-it:before {
+  background-image: url("./img/it.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-no:before {
+  background-image: url("./img/no.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-pl:before {
+  background-image: url("./img/pl.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-pt:before {
+  background-image: url("./img/pt.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-ru:before {
+  background-image: url("./img/ru.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-se:before {
+  background-image: url("./img/se.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper .checkmark {
+  height: 17px;
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  width: 17px;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top .vertical-toplist-logo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 120px;
+  margin: 0 auto;
+  position: relative;
+  width: calc(100% - 100px);
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top .vertical-toplist-logo img {
+  max-height: 120px;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top .vertical-toplist-logo.first {
+  margin: 20px auto;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-top .vertical-toplist-logo .vertical-toplist-winner-logo {
+  margin-bottom: 16px;
+  width: 50px;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-highlight {
+  align-items: center;
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 30px;
+  width: 100%;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-highlight.first {
+  background-color: #0d6efd;
+  color: #ffffff;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-highlight .vertical-toplist-bonus {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-highlight .vertical-toplist-bonus .vertical-toplist-bonus-value {
+  color: #0d6efd;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 10px;
+  max-width: 125px;
+  text-align: center;
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-highlight .vertical-toplist-bonus .vertical-toplist-bonus-value {
+    margin-right: 0;
+  }
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-highlight .vertical-toplist-bonus .vertical-toplist-bonus-text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-highlight .vertical-toplist-bonus .vertical-toplist-bonus-text {
+    margin-bottom: 0;
+  }
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-highlight .vertical-toplist-bonus .vertical-toplist-bonus-text .vertical-toplist-bonus-text-label {
+  font-size: 16px;
+  font-weight: 700;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-highlight.first .vertical-toplist-bonus .vertical-toplist-bonus-value {
+  color: #ffffff;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-highlight.first .vertical-toplist-bonus .vertical-toplist-bonus-text {
+  color: #ffffff;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-cta {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-cta .btn-primary {
+  align-items: center;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 18px;
+  margin-bottom: 24px;
+  min-width: 179px;
+  padding: 15px 20px 12px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-cta .btn-primary {
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 0;
+  }
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details {
+    display: flex;
+  }
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-stats {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-stats .vertical-toplist-stats-item {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  text-align: center;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-stats .vertical-toplist-stats-item .vertical-toplist-item-key {
+  font-size: 14px;
+  margin-right: 3px;
+  word-break: keep-all;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-stats .vertical-toplist-stats-item .vertical-toplist-item-value {
+  font-size: 16px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-hr {
+  background-color: #eee;
+  border: 0;
+  margin: 0;
+  height: 1px;
+  width: 90%;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-hr {
+    width: 70%;
+  }
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-bullets {
+  list-style: none;
+  margin: 0;
+  padding: 20px 25px;
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-bullets {
+    width: 100%;
+  }
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-bullets .vertical-toplist-bullets-item {
+  background-image: url("./img/tick.svg");
+  background-position: left 4px;
+  background-repeat: no-repeat;
+  background-size: 29px 14px;
+  font-size: 14px;
+  margin: 5px 0;
+  padding-left: 30px;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-bullets .vertical-toplist-bullets-item:first-of-type, .toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-bullets .vertical-toplist-bullets-item:last-of-type {
+  margin-top: 0;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-banking {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-banking {
+    margin-bottom: 0;
+  }
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-banking .vertical-toplist-banking-title {
+  font-size: 10px;
+  font-weight: 700;
+  text-align: center;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-banking .vertical-toplist-banking-icons {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 16px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-banking .vertical-toplist-banking-icons div {
+  background-color: #ffffff;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 4px;
+  padding: 4px;
+  width: 38px;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-banking .vertical-toplist-banking-icons div:last-child {
+  margin-right: 0;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-banking .vertical-toplist-banking-icons div img {
+  height: 32px;
+  max-height: 20px;
+  max-width: 100%;
+  min-width: 20px;
+  width: 50px;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-cta .btn-primary {
+  margin-bottom: 24px;
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-cta .btn-primary {
+    margin-bottom: 10px;
+  }
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-cta-review {
+  color: #0d6efd;
+  display: flex;
+  font-size: 11px;
+  font-weight: 700;
+  justify-content: center;
+  margin-bottom: 6px;
+  padding: 0 14px 14px;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-compare {
+  display: none;
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-compare {
+    display: block;
+  }
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox-input {
+  display: none;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox {
+  background-color: #e5e5e5;
+  border: none;
+  border-radius: 17px;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 16px auto;
+  max-width: 260px;
+  padding: 8px 15px;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox .cool-checkbox-tick {
+  background-color: #ffffff;
+  border: 2px solid #6c757d;
+  border-radius: 3px;
+  display: inline-block;
+  height: 18px;
+  position: relative;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  vertical-align: middle;
+  width: 18px;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox .cool-checkbox-tick:before {
+  background: #0d6efd;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 100%;
+  opacity: 1;
+  transform: scale(0);
+  width: 100%;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox .cool-checkbox-tick svg {
+  fill: none;
+  left: 2px;
+  position: absolute;
+  stroke: #ffffff;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 16px;
+  stroke-dashoffset: 16px;
+  top: 2px;
+  transition: all 0.3s ease;
+  transition-delay: 0.1s;
+  transform: translateZ(0);
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox .cool-checkbox-text {
+  padding-left: 3px;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox .cool-checkbox-text-non-selected {
+  display: inline-block;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox .cool-checkbox-text-selected {
+  display: none;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox.js-checked .cool-checkbox-tick svg {
+  stroke: #6c757d;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox.js-checked .cool-checkbox-text-non-selected {
+  display: none;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox.js-checked .cool-checkbox-text-selected {
+  display: inline-block;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox.js-checked span:first-child {
+  animation: wave 0.4s ease;
+  background: #ffffff;
+  border-color: #6c757d;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox.js-checked span:first-child:before {
+  opacity: 0;
+  transform: scale(3.5);
+  transition: all 0.6s ease;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-columns .vertical-toplist-column .vertical-toplist-details .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox.js-checked span:first-child svg {
+  stroke-dashoffset: 0;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row {
+  align-items: center;
+  border-top: 1px solid #eee;
+  color: #212529;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  justify-content: center;
+  padding-bottom: 20px;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 40px 5px 50px;
+  }
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-ranking {
+  align-items: center;
+  background-color: #6c757d;
+  color: #ffffff;
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  justify-content: center;
+  height: 32px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 32px;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top {
+  position: relative;
+  width: 100%;
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top {
+    height: 125px;
+    width: 185px;
+  }
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-flag {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-flag {
+    top: 0;
+  }
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i:before {
+  content: "";
+  display: inline-block;
+  background-color: transparent;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 25px;
+  margin: 2px;
+  width: 25px;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-ca:before {
+  background-image: url("./img/ca.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-fr:before {
+  background-image: url("./img/fr.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-cn:before {
+  background-image: url("./img/cn.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-cz:before {
+  background-image: url("./img/cz.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-de:before {
+  background-image: url("./img/de.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-es:before {
+  background-image: url("./img/es.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-fi:before {
+  background-image: url("./img/fi.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-gb:before {
+  background-image: url("./img/gb.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-gr:before {
+  background-image: url("./img/gr.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-it:before {
+  background-image: url("./img/it.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-no:before {
+  background-image: url("./img/no.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-pl:before {
+  background-image: url("./img/pl.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-pt:before {
+  background-image: url("./img/pt.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-ru:before {
+  background-image: url("./img/ru.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper i.icon-flag-se:before {
+  background-image: url("./img/se.svg");
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-flag .vertical-toplist-flag-wrapper .checkmark {
+  height: 17px;
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  width: 17px;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-logo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  width: calc(100% - 100px);
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-logo {
+    justify-content: center;
+    height: 80px;
+    margin: 0;
+    width: 120px;
+  }
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-logo img {
+  max-height: 80%;
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-logo img {
+    max-height: 80px;
+  }
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-compare {
+  bottom: 0;
+  display: none;
+  position: absolute;
+  z-index: 90;
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-compare {
+    display: block;
+  }
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox-input {
+  display: none;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox {
+  border: none;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 16px auto;
+  max-width: 260px;
+  padding: 8px 0 8px 15px;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox .cool-checkbox-tick {
+  background-color: #ffffff;
+  border: 2px solid #6c757d;
+  border-radius: 3px;
+  display: inline-block;
+  height: 18px;
+  position: relative;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  vertical-align: middle;
+  width: 18px;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox .cool-checkbox-tick:before {
+  background: #0d6efd;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 100%;
+  opacity: 1;
+  transform: scale(0);
+  width: 100%;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox .cool-checkbox-tick svg {
+  fill: none;
+  left: 2px;
+  position: absolute;
+  stroke: #ffffff;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 16px;
+  stroke-dashoffset: 16px;
+  top: 2px;
+  transition: all 0.3s ease;
+  transition-delay: 0.1s;
+  transform: translateZ(0);
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox .cool-checkbox-text {
+  padding-left: 3px;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox .cool-checkbox-text-non-selected {
+  display: inline-block;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox .cool-checkbox-text-selected {
+  display: none;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox.js-checked .cool-checkbox-tick svg {
+  stroke: #6c757d;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox.js-checked .cool-checkbox-text-non-selected {
+  display: none;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox.js-checked .cool-checkbox-text-selected {
+  display: inline-block;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox-input + .cool-checkbox.js-checked span:first-child {
+  animation: wave 0.4s ease;
+  background: #ffffff;
+  border-color: #6c757d;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox-input + .cool-checkbox.js-checked span:first-child:before {
+  opacity: 0;
+  transform: scale(3.5);
+  transition: all 0.6s ease;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-top .vertical-toplist-compare .vertical-toplist-compare-checkbox .cool-checkbox-input + .cool-checkbox.js-checked span:first-child svg {
+  stroke-dashoffset: 0;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-bonus {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 0;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-bonus .vertical-toplist-bonus-value {
+  color: #0d6efd;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-bonus .vertical-toplist-bonus-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 700;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-stats-item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
+  text-align: center;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-stats-item .vertical-toplist-item-key {
+  font-size: 14px;
+  margin-right: 3px;
+  order: 2;
+  word-break: keep-all;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-stats-item .vertical-toplist-item-value {
+  font-size: 16px;
+  font-weight: 700;
+  order: 1;
+  white-space: nowrap;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-cta {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-cta .btn-primary {
+  align-items: center;
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 14px;
+  margin-bottom: 24px;
+  min-width: 179px;
+  padding: 15px 20px 12px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-cta .btn-primary {
+    margin-bottom: 10px;
+  }
+}
+.toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-cta .vertical-toplist-cta-review {
+  color: #0d6efd;
+  display: flex;
+  font-size: 10px;
+  font-weight: 700;
+  justify-content: center;
+  margin-bottom: 6px;
+  padding: 0 14px 14px;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .vertical-toplist-rows .vertical-toplist-row .vertical-toplist-cta .vertical-toplist-cta-review {
+    margin-bottom: 0;
+    padding: 4px;
+  }
+}
+.toplist-variation-24 .main-toplist .btn-primary {
+  align-items: center;
+  align-self: center;
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: 1.5px;
+  margin-top: 8px;
+  min-width: 180px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 0.1s ease-in-out;
+}
+.toplist-variation-24 .main-toplist .btn-primary a {
+  color: inherit;
+  font-weight: 700;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.toplist-variation-24 .main-toplist .compare-widget {
+  background-color: #0d6efd;
+  bottom: 0;
+  display: none;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+.toplist-variation-24 .main-toplist .compare-widget.js-visible {
+  display: block;
+}
+.toplist-variation-24 .main-toplist .compare-widget .main-layout {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0;
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .compare-widget .main-layout {
+    flex-flow: wrap;
+    margin: 0 auto;
+    max-width: 1140px;
+    width: 100%;
+  }
+}
+.toplist-variation-24 .main-toplist .compare-widget .main-layout .compare-widget-selection {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-evenly;
+  padding: 10px 0;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .compare-widget .main-layout .compare-widget-selection {
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+}
+.toplist-variation-24 .main-toplist .compare-widget .main-layout .compare-widget-selection .compare-widget-selection-item {
+  background-color: #ffffff;
+  display: flex;
+  flex-basis: 25%;
+  justify-content: stretch;
+  min-height: 50px;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .compare-widget .main-layout .compare-widget-selection .compare-widget-selection-item {
+    flex-basis: 25%;
+    min-height: 106px;
+  }
+}
+.toplist-variation-24 .main-toplist .compare-widget .main-layout .compare-widget-selection .compare-widget-selection-item.casino-compared {
+  display: none;
+  margin: 0 10px;
+}
+@media only screen and (min-width: 480px) {
+  .toplist-variation-24 .main-toplist .compare-widget .main-layout .compare-widget-selection .compare-widget-selection-item.casino-compared {
+    display: flex;
+  }
+}
+.toplist-variation-24 .main-toplist .compare-widget .main-layout .compare-widget-selection .compare-widget-selection-item .casino-compared-result {
+  display: none;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+}
+.toplist-variation-24 .main-toplist .compare-widget .main-layout .compare-widget-selection .compare-widget-selection-item .casino-compared-result .casino-compared-delete {
+  align-items: center;
+  background-color: #0dcaf0;
+  border: 2px solid #0dcaf0;
+  border-radius: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  height: 26px;
+  justify-content: center;
+  line-height: 13px;
+  padding: 4px;
+  position: absolute;
+  right: -11px;
+  text-align: center;
+  top: -11px;
+  width: 26px;
+}
+.toplist-variation-24 .main-toplist .compare-widget .main-layout .compare-widget-selection .compare-widget-selection-item .casino-compared-result .casino-compared-delete:before {
+  background: url("./img/close.svg") no-repeat;
+  background-size: cover;
+  content: "";
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+}
+.toplist-variation-24 .main-toplist .compare-widget .main-layout .compare-widget-selection .compare-widget-selection-item .casino-compared-result .casino-compared-delete:hover {
+  border-color: #198754;
+}
+.toplist-variation-24 .main-toplist .compare-widget .main-layout .compare-widget-selection .compare-widget-selection-item .casino-compared-default-text {
+  align-self: center;
+  color: #6c757d;
+  display: block;
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+}
+.toplist-variation-24 .main-toplist .compare-widget .main-layout .compare-widget-selection .compare-widget-selection-item.js-compare .casino-compared-result {
+  display: flex;
+}
+.toplist-variation-24 .main-toplist .compare-widget .main-layout .compare-widget-selection .compare-widget-selection-item.js-compare .casino-compared-default-text {
+  display: none;
+}
+.toplist-variation-24 .main-toplist .compare-widget .main-layout .compare-widget-selection .compare-widget-selection-submit {
+  align-items: center;
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 10px;
+}
+@media only screen and (min-width: 480px) {
+  .toplist-variation-24 .main-toplist .compare-widget .main-layout .compare-widget-selection .compare-widget-selection-submit {
+    flex-basis: 25%;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.toplist-variation-24 .main-toplist .compare-widget .main-layout .compare-widget-selection .btn-primary {
+  background-image: none;
+  background-color: #6c757d;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: default;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  margin: 0 auto 12px;
+  order: 1;
+  padding: 12px 10px;
+  position: relative;
+  text-align: center;
+  text-shadow: 1px 1px 0 #212529;
+  text-decoration: none;
+  width: 65%;
+}
+@media only screen and (min-width: 480px) {
+  .toplist-variation-24 .main-toplist .compare-widget .main-layout .compare-widget-selection .btn-primary {
+    width: 100%;
+  }
+}
+.toplist-variation-24 .main-toplist .compare-widget .main-layout .compare-widget-selection .btn-primary.js-enabled {
+  background-color: #0d6efd;
+  cursor: pointer;
+}
+.toplist-variation-24 .main-toplist .compare-widget .main-layout .compare-widget-selection .compare-widget-selection-reset-wrapper {
+  display: block;
+  margin-bottom: 18px;
+  order: 2;
+  text-align: center;
+}
+@media only screen and (min-width: 480px) {
+  .toplist-variation-24 .main-toplist .compare-widget .main-layout .compare-widget-selection .compare-widget-selection-reset-wrapper {
+    margin-bottom: 0;
+  }
+}
+.toplist-variation-24 .main-toplist .compare-widget .main-layout .compare-widget-selection .compare-widget-selection-reset-wrapper .compare-widget-selection-reset {
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 14px;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+@media only screen and (min-width: 480px) {
+  .toplist-variation-24 .main-toplist .compare-widget .main-layout .compare-widget-selection .compare-widget-selection-reset-wrapper .compare-widget-selection-reset {
+    font-size: 16px;
+  }
+}
+.toplist-variation-24 .main-toplist .compare-widget .main-layout .compare-widget-selection .compare-widget-selection-reset-wrapper .compare-widget-selection-reset .compare-widget-selection-reset-text .close-image {
+  height: 15px;
+  width: 15px;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal {
+  background: #e5e5e5;
+  display: none;
+  height: 100%;
+  left: 0;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal.opened {
+  display: block;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec {
+  margin: 0;
+  width: auto;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec {
+  background: #e5e5e5;
+  border: 0;
+  box-shadow: none;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout {
+  display: flex;
+  flex-direction: column;
+  padding-top: 318px;
+  overflow: hidden;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout {
+    padding-top: 165px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout {
+    flex-flow: wrap;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding-top: 75px;
+    width: 100%;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body {
+  background: #e5e5e5;
+  margin: 0;
+  min-height: 0;
+  min-width: 0;
+  padding: 0;
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body {
+    flex: 1;
+    max-width: 795px;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .popup-header {
+  background: #e5e5e5;
+  border-bottom: none;
+  color: #ffffff;
+  display: block;
+  left: 0;
+  min-height: 60px;
+  padding: 10px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .popup-header .popup-header-inner {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .popup-header .popup-header-inner .popup-header-compare-button {
+  color: #ffffff;
+  height: 30px;
+  text-decoration: none;
+  width: 30px;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .popup-header .popup-header-inner .popup-header-compare-button.popup-header-compare-button-back {
+  align-self: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .popup-header .popup-header-inner .popup-header-compare-button.popup-header-compare-button-back {
+    background: #0d6efd;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .popup-header .popup-header-inner .popup-header-compare-button.popup-header-compare-button-back img {
+  height: 17px;
+  margin-right: 2px;
+  margin-top: 6px;
+  width: 17px;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .popup-header .popup-header-inner .popup-header-compare-button.popup-header-compare-button-close {
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .popup-header .popup-header-inner .popup-header-compare-button.popup-header-compare-button-close {
+    background: #0d6efd;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .popup-header .popup-header-inner .popup-header-compare-button.popup-header-compare-button-close img {
+  height: 17px;
+  width: 18px;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .popup-header .popup-header-inner .popup-header-compare-heading {
+  color: #212529;
+  flex-basis: 95%;
+  font-size: 16px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare {
+  margin-bottom: 57px;
+  position: relative;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare {
+    margin-bottom: 72px;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns {
+    margin-top: 173px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns {
+    margin-top: 168px;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col {
+  align-items: center;
+  background: #ffffff;
+  color: #212529;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+  position: relative;
+  width: 50%;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col {
+    border-right: 1px solid #eee;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+    width: 25%;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col:last-child {
+  border-right: none;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-top-wrapper {
+  background: #e5e5e5;
+  border-bottom: 1px solid #eee;
+  border-left: none;
+  border-top: 0;
+  margin-bottom: 0;
+  max-width: 100%;
+  position: fixed;
+  top: 50px;
+  width: 100%;
+  z-index: 100;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-top-wrapper {
+    min-height: 181px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-top-wrapper {
+    top: 60px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-top-wrapper:before {
+    background: #e5e5e5;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: auto;
+    width: 100%;
+    z-index: 2;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-top-wrapper:after {
+    box-shadow: 0 1px 3px 1px #eee;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-top-wrapper.vertical-toplist-compare-description-item {
+  left: 0;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-mobile-heading {
+  background: #ffffff;
+  border-bottom: 1px solid #eee;
+  border-top: 3px solid #eee;
+  color: #0d6efd;
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  left: 0;
+  margin: 0 auto;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 200%;
+  z-index: 1;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-mobile-heading {
+    display: none;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-bonus {
+  font-size: 15px;
+  min-height: 98px;
+  text-align: center;
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-bonus {
+    border-top: 1px solid #eee;
+    margin-top: 0;
+    min-height: 84px;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-bonus.vertical-toplist-compare-item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0;
+  padding: 50px 10px 10px;
+  position: relative;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-bonus.vertical-toplist-compare-item {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-bonus .vertical-toplist-compare-mobile-heading {
+  border-top: 1px solid #eee;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-bonus .vertical-toplist-compare-bonus-label {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 19px;
+  margin-bottom: 0;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-bonus .vertical-toplist-compare-bonus-label .vertical-toplist-compare-bonus-value {
+  color: #0d6efd;
+  font-size: 20px;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-bonus .vertical-toplist-compare-bonus-text {
+  font-size: 11px;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-payout.vertical-toplist-compare-item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0;
+  padding: 50px 10px 10px;
+  position: relative;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-payout.vertical-toplist-compare-item {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-payout .vertical-toplist-compare-mobile-heading {
+  border-top: 1px solid #eee;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-payout .vertical-toplist-compare-payout-label {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 19px;
+  margin-bottom: 0;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-payout .vertical-toplist-compare-payout-label .vertical-toplist-compare-payout-value {
+  color: #0d6efd;
+  font-size: 20px;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-payout-speed.vertical-toplist-compare-item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0;
+  padding: 50px 10px 10px;
+  position: relative;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-payout-speed.vertical-toplist-compare-item {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-payout-speed .vertical-toplist-compare-mobile-heading {
+  border-top: 1px solid #eee;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-payout-speed .vertical-toplist-compare-payout-speed-label {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-games {
+  text-align: center;
+  width: 100%;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-games.vertical-toplist-compare-item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0;
+  padding: 50px 10px 10px;
+  position: relative;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-games.vertical-toplist-compare-item {
+    border-bottom: 1px solid #eee;
+    padding: 6px 10px;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-games .vertical-toplist-compare-mobile-heading {
+  border-top: 1px solid #eee;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-games .vertical-toplist-compare-games-number {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-games .vertical-toplist-compare-games-label {
+  font-size: 11px;
+  margin: 5px;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-games .vertical-toplist-compare-games-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-games .vertical-toplist-compare-games-wrapper .vertical-toplist-compare-icon-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-games .vertical-toplist-compare-games-wrapper .vertical-toplist-compare-icon-wrapper img {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  height: auto;
+  margin: 0 3px;
+  width: 25px;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-games .vertical-toplist-compare-games-wrapper .vertical-toplist-compare-icon-wrapper .vertical-toplist-compare-games-label {
+  font-size: 11px;
+  margin: 5px;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-free-games {
+  text-align: center;
+  width: 100%;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-free-games.vertical-toplist-compare-item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0;
+  padding: 50px 10px 10px;
+  position: relative;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-free-games.vertical-toplist-compare-item {
+    border-bottom: 1px solid #eee;
+    padding: 14px 10px;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-free-games .vertical-toplist-compare-mobile-heading {
+  border-top: 1px solid #eee;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-free-games img {
+  width: 16px;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-compabitility {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  width: 100%;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-compabitility.vertical-toplist-compare-item {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  padding: 50px 10px 10px;
+  position: relative;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-compabitility.vertical-toplist-compare-item {
+    border-bottom: 1px solid #eee;
+    padding: 6px 10px;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-compabitility .vertical-toplist-compare-mobile-heading {
+  border-top: 1px solid #eee;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-compabitility .vertical-toplist-compare-compabitility-icon-wrapper {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex: 0 0 50%;
+  justify-content: flex-start;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-compabitility .vertical-toplist-compare-compabitility-icon-wrapper .vertical-toplist-compare-games-label-devices {
+  flex: 0 0 50%;
+  font-size: 11px;
+  margin: 3px 4px 4px 2px;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-compabitility .vertical-toplist-compare-compabitility-icon-wrapper img {
+  flex: 0 0 30%;
+  margin: 5px;
+  max-height: 15px;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-deposit {
+  min-height: 86px;
+  text-align: center;
+  width: 100%;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-deposit.vertical-toplist-compare-item {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  padding: 50px 10px 10px;
+  position: relative;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-deposit.vertical-toplist-compare-item {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-deposit .vertical-toplist-compare-mobile-heading {
+  border-top: 1px solid #eee;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-deposit .vertical-toplist-compare-deposit-icon-wrapper {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-deposit .vertical-toplist-compare-deposit-icon-wrapper img {
+  display: inline-block;
+  margin: 5px;
+  max-height: 22px;
+  max-width: 35px;
+  padding: 1px;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-language {
+  text-align: center;
+  width: 100%;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-language.vertical-toplist-compare-item {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  padding: 50px 10px 10px;
+  position: relative;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-language.vertical-toplist-compare-item {
+    border-bottom: 1px solid #eee;
+    padding: 6px 10px;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-language .vertical-toplist-compare-mobile-heading {
+  border-top: 1px solid #eee;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-language .vertical-toplist-compare-language-icon-wrapper {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-language .vertical-toplist-compare-language-icon-wrapper img {
+  height: auto;
+  width: 23px;
+}
+@media only screen and (min-width: 480px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-language .vertical-toplist-compare-language-icon-wrapper img {
+    margin: 2px 8px;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-support {
+  flex-direction: column;
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-support.vertical-toplist-compare-item {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  padding: 50px 10px 10px;
+  position: relative;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-support.vertical-toplist-compare-item {
+    border-bottom: 1px solid #eee;
+    padding: 6px 10px;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-support .vertical-toplist-compare-mobile-heading {
+  border-top: 1px solid #eee;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-support img {
+  margin-left: 3px;
+  vertical-align: initial;
+  width: 11px;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-support .vertical-toplist-compare-support-info {
+  font-weight: 700;
+  margin: 10px 0 0;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-operator {
+  flex-direction: column;
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-operator.vertical-toplist-compare-item {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  padding: 50px 10px 10px;
+  position: relative;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-operator.vertical-toplist-compare-item {
+    border-bottom: 1px solid #eee;
+    padding: 5px 10px;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-operator .vertical-toplist-compare-mobile-heading {
+  border-top: 1px solid #eee;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-operator .vertical-toplist-compare-operator-wrapper {
+  margin-bottom: 6px;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-operator .vertical-toplist-compare-operator-wrapper .vertical-toplist-compare-operator-label {
+  color: #0d6efd;
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 2px;
+  text-transform: uppercase;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-payout, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-payout-speed {
+  min-height: 45px;
+  text-align: center;
+  width: 100%;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-games {
+  min-height: 110px;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-compabitility {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  min-height: 170px;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-compabitility {
+    min-height: 100px;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-deposit {
+  min-height: 160px;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-deposit {
+    min-height: 86px;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-language {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  min-height: 195px;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-language {
+    min-height: 122px;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-support {
+  font-size: 12px;
+  min-height: 140px;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-support {
+    min-height: 120px;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-operator {
+  border-bottom: 3px solid #eee;
+  font-size: 12px;
+  margin-bottom: 0;
+  min-height: 190px;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-operator {
+    border-bottom: none;
+    min-height: 117px;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-cta-wrapper {
+  background: #e5e5e5;
+  border: none;
+  border-top: 1px solid #eee;
+  bottom: 0;
+  justify-content: center;
+  left: 0;
+  max-width: 100%;
+  min-height: 73px;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 16;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-cta-wrapper.vertical-toplist-compare-item {
+  align-items: center;
+  background: #ffffff;
+  border-left: 0;
+  display: flex;
+  flex-direction: column;
+  left: auto;
+  width: 50%;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-cta-wrapper.vertical-toplist-compare-item {
+    border-left: 1px solid #eee;
+    width: 25.2%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-cta-wrapper.vertical-toplist-compare-item {
+    max-width: 252px;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-cta-wrapper.vertical-toplist-compare-item .vertical-toplist-compare-cta {
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 15px;
+  margin: 0;
+  padding: 9px 19px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 #212529;
+  z-index: 2;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-cta-wrapper.vertical-toplist-compare-item .vertical-toplist-compare-cta {
+    min-width: 150px;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-description-item {
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  color: #0d6efd;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  font-weight: 700;
+  justify-content: flex-end;
+  padding: 10px;
+  text-align: right;
+  width: 100%;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col .vertical-toplist-compare-description-item:before {
+  background: #e5e5e5;
+  bottom: auto;
+  content: "";
+  display: block;
+  height: 5px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-1 .vertical-toplist-compare-top-wrapper, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-2 .vertical-toplist-compare-top-wrapper, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-3 .vertical-toplist-compare-top-wrapper {
+  align-items: flex-start;
+  background: #ffffff;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-top: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0;
+  max-width: 50%;
+  padding: 0 0 0 10px;
+  position: fixed;
+  top: 60px;
+  z-index: 100;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-1 .vertical-toplist-compare-top-wrapper, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-2 .vertical-toplist-compare-top-wrapper, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-3 .vertical-toplist-compare-top-wrapper {
+    border-left: 1px solid #eee;
+    border-right: none;
+    max-width: 251px;
+    min-height: 174px;
+    padding: 20px 10px;
+    width: 25.2%;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-1 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-logo-wrapper, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-2 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-logo-wrapper, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-3 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-logo-wrapper {
+  align-items: flex-start;
+  display: flex;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-1 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-logo-wrapper .vertical-toplist-compare-logo, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-2 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-logo-wrapper .vertical-toplist-compare-logo, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-3 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-logo-wrapper .vertical-toplist-compare-logo {
+  align-items: center;
+  display: flex;
+  height: 90px;
+  justify-content: center;
+  width: 80%;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-1 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-logo-wrapper .vertical-toplist-compare-logo img, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-2 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-logo-wrapper .vertical-toplist-compare-logo img, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-3 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-logo-wrapper .vertical-toplist-compare-logo img {
+  align-self: center;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+  width: 100%;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-1 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-logo-wrapper .vertical-toplist-compare-flag, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-2 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-logo-wrapper .vertical-toplist-compare-flag, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-3 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-logo-wrapper .vertical-toplist-compare-flag {
+  align-items: center;
+  background: #0d6efd;
+  border-radius: 3px;
+  color: #ffffff;
+  display: flex;
+  font-weight: 700;
+  justify-content: space-between;
+  margin-top: 10px;
+  max-width: 40px;
+  padding: 2px;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-1 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-logo-wrapper .vertical-toplist-compare-flag img.flag-icon, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-2 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-logo-wrapper .vertical-toplist-compare-flag img.flag-icon, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-3 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-logo-wrapper .vertical-toplist-compare-flag img.flag-icon {
+  margin-right: 4px;
+  height: 14px;
+  width: 20px;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-1 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-logo-wrapper .vertical-toplist-compare-flag img.check-icon, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-2 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-logo-wrapper .vertical-toplist-compare-flag img.check-icon, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-3 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-logo-wrapper .vertical-toplist-compare-flag img.check-icon {
+  height: 11px;
+  width: 11px;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-1 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-top-wrapper-rating .vertical-toplist-compare-top-wrapper-label, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-2 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-top-wrapper-rating .vertical-toplist-compare-top-wrapper-label, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-3 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-top-wrapper-rating .vertical-toplist-compare-top-wrapper-label {
+  font-size: 12px;
+  line-height: 12px;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-1 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-top-wrapper-rating .popup-ranking-stars-container, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-2 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-top-wrapper-rating .popup-ranking-stars-container, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-3 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-top-wrapper-rating .popup-ranking-stars-container {
+  display: inline-block;
+  position: relative;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-1 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-top-wrapper-rating .popup-ranking-stars-container img.rating-stars, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-2 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-top-wrapper-rating .popup-ranking-stars-container img.rating-stars, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-3 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-top-wrapper-rating .popup-ranking-stars-container img.rating-stars {
+  vertical-align: sub;
+  width: 80px;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-1 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-link-review, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-2 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-link-review, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-3 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-link-review {
+  color: #0d6efd;
+  cursor: pointer;
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  outline: 0;
+  padding: 5px 10px 10px 0;
+  position: relative;
+  text-decoration: none;
+  word-break: break-word;
+  z-index: 12;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-1 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-link-review:hover, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-2 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-link-review:hover, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-3 .vertical-toplist-compare-top-wrapper .vertical-toplist-compare-link-review:hover {
+  text-decoration: underline;
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-1 .vertical-toplist-compare-mobile-heading, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-2 .vertical-toplist-compare-mobile-heading, .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-3 .vertical-toplist-compare-mobile-heading {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-1 .vertical-toplist-compare-mobile-heading {
+    display: block;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-1 .vertical-toplist-compare-item {
+    border-right: 1px solid #eee;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-col-3 {
+    display: none;
+  }
+}
+.toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-description {
+  background: #e5e5e5;
+  display: none;
+  justify-content: flex-start;
+}
+@media only screen and (min-width: 768px) {
+  .toplist-variation-24 .main-toplist .main-compare-modal .modal-dialog-sec .modal-content-sec .popup-layout .popup-body .vertical-toplist-compare-columns .vertical-toplist-compare-description {
+    display: block;
+    flex-basis: 25%;
+  }
+}
+
+/*# sourceMappingURL=toplist-variation-24.css.map */

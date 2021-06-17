@@ -1,0 +1,210 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+@import "sass-styling-vars";
+
+%d-flex{
+  display: -webkit-box;     
+  display: -moz-box;        
+  display: -ms-flexbox;     
+  display: -webkit-flex;    
+  display: flex; 
+}
+
+%flex-1{
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -webkit-flex: 1; 
+  -ms-flex: 1;
+  flex: 1;
+}
+
+%full-center{
+    @extend %d-flex;
+    align-items: center;
+    justify-content: center;
+}
+%fa-font{
+    font: normal normal normal $font-size-default+1/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.why-trust-us-testimonials{
+    font-family: $font-family-default;
+    .inner-container{
+        background-color: lighten( $theme-secondary , 50%);
+        padding: 15px 15px 15px 15px;
+        position: relative;
+    }
+    .text-section{
+        padding-right: 190px;
+    }
+    img{
+        max-width: 100%;
+    }
+    .app-container{
+        max-width: 795px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .main-title{
+        font-size: $font-size-h3;
+        color: $theme-dark;
+        font-weight: $font-weight-heavy;
+    }
+    .app-slider{
+        .quote-box{
+            background-color: $theme-secondary;;
+        }
+    }
+    p {
+        a{
+            color: $theme-primary;
+            text-decoration: underline;
+        }
+    }
+    .check-list{
+        padding-left: 20px;
+        margin-bottom: 46px;
+        li{
+            position: relative;
+            padding-left: 42px;
+            padding-top: 5px;
+            &:before{
+                @extend %fa-font;
+                content: "\f00c";
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                display: inline-block;
+                height: 28px;
+                width: 28px;
+                line-height: 28px;
+                border-radius: 50%;
+                background-color: $theme-success;
+                text-align: center;
+                color: $theme-white;
+            }
+        }
+    }
+    .display-image{
+        position: absolute;
+        right: 15px;
+        top: 82px;
+    }
+    .app-slider{
+        .owl-item{
+            .item{
+                width: 360px;
+            }
+        }
+        .quote-box{
+            min-height: 138px;
+            background-color: $theme-white;
+            padding: 20px 20px 20px 85px;
+            border: 1px solid lighten($theme-dark , 65%);
+            box-shadow: 0 2px 5px lighten($theme-secondary, 35%);
+            border-radius: $theme-border-radius;
+            overflow: hidden;
+            position: relative;
+            &:before{
+                @extend %fa-font;
+                content: "\f10d";
+                position: absolute;
+                left: 25px;
+                top: 20px;
+                font-size: 30px;
+                color: lighten($theme-secondary, 40%);
+            }
+            .quote{
+                font-size: $font-size-h4;
+                color: darken($theme-primary , 20%);
+                font-weight: $font-weight-heavy;
+                line-height: 17px;
+                margin-bottom: 7px;
+                a{
+                    color: $theme-primary;
+                    text-decoration: underline;
+                }
+            }
+            .name{
+                font-size: $font-size-h4;
+                color: $theme-dark;
+                font-weight: $font-weight-heavy;
+                margin-bottom: 0px;
+
+            }
+            .location{
+                font-size: $font-size-default;
+                color: $theme-secondary;
+                font-style: italic;
+                margin-bottom: 0px;
+                line-height: normal;
+            }
+        }
+        .owl-dots{
+            .owl-dot{
+                outline: none;
+                span{
+                    background-color: lighten($theme-secondary, 20%) ;
+                }
+                &.active{
+                    span{
+                        background-color: darken($theme-warning, 5%);
+                        position: relative;
+                        &::before{
+                            content: "";
+                            position: absolute;
+                            top:0;
+                            left: 0;
+                            height: 100%;
+                            width: 100%;
+                            border-radius: 50%;
+                            z-index: -1;
+                            transform: scale(1.8) ;
+                            background-color: $theme-warning;
+                            opacity: 0.4;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media(max-width: 767px){
+        .app-slider{
+            .owl-item{
+                .item{
+                    width: 100%;
+                }
+            }
+            .quote-box {
+                padding: 15px 12px 15px 53px;
+                &:before {
+                    left: 16px;
+                    top: 15px;
+                    font-size: 20px;
+                }
+            }
+            .why-trust-us-testimonials .app-slider .quote-box {
+                background-color: #6c757d;
+            }
+        }
+        .display-image{
+            position: static;
+            max-width: 172px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 24px;
+        }
+        .text-section{
+            padding-right: 0px;
+        }
+        .check-list {
+            margin-bottom: 25px;
+        }
+    }
+    
+}

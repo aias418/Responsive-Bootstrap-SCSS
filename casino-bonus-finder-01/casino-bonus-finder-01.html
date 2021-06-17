@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Casino Bonus Finder</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./default-style.css">
+        <link rel="stylesheet" type="text/css" href="./casino-bonus-finder-01.css">
+        <script src="https://code.jquery.com/jquery-3.1.0.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="./casino-bonus-finder-01.js"></script>
+    </head>
+    <body>
+        <div class="casino-bonus-finder-01">
+            <div class="internal-wrapper">
+                <div class="text-element">
+                    <p class="title">Casino Bonus Finder</p>
+                </div>
+                <div class="text-element paragraph">
+                    <p>Answer 3 simple questions with this casino bonus finder and you will be matched with the best bonuses from one of Canada’s top-rated online casinos.</p>
+                </div>
+                <div class="modal-wrapper">
+                    <div class="modal-content">
+                        <div id="survey">
+                            <div class="question card-selector" style="display: block;">
+                                <p>What is Your Preferred Type of Bonus?</p>
+                                <input id="special1" type="radio" name="step-special" value="special1">
+                                <label class="label-card casino1" for="special1"></label>
+                                <input id="special2" type="radio" name="step-special" value="special2">
+                                <label class="label-card casino2" for="special2"></label>
+                                <input id="special3" type="radio" name="step-special" value="special3">
+                                <label class="label-card casino3" for="special3"></label>
+                                <input id="special4" type="radio" name="step-special" value="special4">
+                                <label class="label-card casino4" for="special4"></label>
+                                <button id="clickable" class="btn-primary unclickable">Next question</button>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="question card-selector">
+                                <p>What is Your Favorite Casino Game?</p>
+                                <input id="game1" type="radio" name="step-game" value="game1">
+                                <label class="label-card game1" for="game1"></label>
+                                <input id="game2" type="radio" name="step-game" value="game2">
+                                <label class="label-card game2" for="game2"></label>
+                                <input id="game3" type="radio" name="step-game" value="game3">
+                                <label class="label-card game3" for="game3"></label>
+                                <input id="game4" type="radio" name="step-game" value="game4">
+                                <label class="label-card game4" for="game4"></label>
+                                <button id="clickable2" class="btn-primary unclickable">Next question</button>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="question card-selector">
+                                <p>What Device Do You Prefer Playing on?</p>
+                                <input id="device1" type="radio" name="step-device" value="device1">
+                                <label class="label-card device1" for="device1"></label>
+                                <input id="device2" type="radio" name="step-device" value="device2">
+                                <label class="label-card device2" for="device2"></label>
+                                <input id="device3" type="radio" name="step-device" value="device3">
+                                <label class="label-card device3" for="device3"></label>
+                                <button id="clickable3" class="btn-primary unclickable">Results</button>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="question">
+                                <div id="casino-div-1" class="casino-container" style="display: block;">
+                                    <div class="casino-left">
+                                        <div>
+                                            <img src="./img/casino-classic-logo.png" />
+                                            <p>4.9/5</p>
+                                            <img class="tool-stars" src="./img/stars.png" />
+                                        </div>
+                                    </div>
+                                    <div class="casino-right">
+                                        <div>
+                                            <div class="casino-right-images">
+                                                <img src="./img/free-spins-tool.png" />
+                                                <div class="selected-game"></div>
+                                                <div class="selected-device"></div>
+                                            </div>
+                                            <ul>
+                                                <li>+600 exciting online games</li>
+                                                <li>Exclusive Multi-million dollar jackpots</li>
+                                                <li>Fun, safe, &amp; secure for over 20 years</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <a target="_blank" href="https://click.cr-brands.net/affiliate/referral.asp?site=rea&amp;url=brw/cc/6/&amp;seg=106671&amp;lid=205318&amp;aff_id=aff106671:onlinecasinoland_best_casino_bonus-toolcc001"><button class="btn-primary">Play Now</button></a>
+                                </div>
+                                <div id="casino-div-2" class="casino-container" style="display: none;">
+                                    <div class="casino-left">
+                                        <div>
+                                            <img src="./img/luxury-casino-logo.png" />
+                                            <p>4.7/5</p>
+                                            <img class="tool-stars" src="./img/stars.png" />
+                                        </div>
+                                    </div>
+                                    <div class="casino-right">
+                                        <div>
+                                            <div class="casino-right-images">
+                                                <img src="./img/match-bonus-tool.png" />
+                                                <div class="selected-game"></div>
+                                                <div class="selected-device"></div>
+                                            </div>
+                                            <ul>
+                                                <li>$1000 Free Match Bonus</li>
+                                                <li>Various withdrawal methods</li>
+                                                <li>Special VIP bonuses and priority gameplay</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <a target="_blank" href="https://click.cr-brands.net/affiliate/referral.asp?site=rea&amp;url=brw/lxc/13/&amp;seg=106671&amp;lid=205318&amp;aff_id=aff106671:onlinecasinoland_best_casino_bonus-toollxc001"><button class="btn-primary">Play Now</button></a>
+                                </div>
+                                <div id="casino-div-3" class="casino-container" style="display: none;">
+                                    <div class="casino-left">
+                                        <div>
+                                            <img src="./img/yukon-gold-logo.png" />
+                                            <p>4.8/5</p>
+                                            <img class="tool-stars" src="./img/stars.png" />
+                                        </div>
+                                    </div>
+                                    <div class="casino-right">
+                                        <div>
+                                            <div class="casino-right-images">
+                                                <img src="./img/exclusive-bonus-tool.png" />
+                                                <div class="selected-game"></div>
+                                                <div class="selected-device"></div>
+                                            </div>
+                                            <ul>
+                                                <li>125 spin on Immortal Romance</li>
+                                                <li>2nd Deposit Match Bonus</li>
+                                                <li>Top customer support 24/7/365</li>
+                                                <li>Personalized deals and Extra bonuses</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <a target="_blank" href="https://click.cr-brands.net/affiliate/referral.asp?site=rea&amp;url=brw/yg/1/&amp;seg=106671&amp;lid=205318&amp;aff_id=aff106671:onlinecasinoland_best_casino_bonus-toolyg001"><button class="btn-primary">Play Now</button></a>
+                                </div>
+                                <div id="casino-div-4" class="casino-container" style="display: none;">
+                                    <div class="casino-left">
+                                        <div>
+                                            <img src="./img/grand-mondial-logo.png" />
+                                            <p>4.7/5</p>
+                                            <img class="tool-stars" src="./img/stars.png" />
+                                        </div>
+                                    </div>
+                                    <div class="casino-right">
+                                        <div>
+                                            <div class="casino-right-images">
+                                                <img src="./img/loyalty-bonus-tool.png" />
+                                                <div class="selected-game"></div>
+                                                <div class="selected-device"></div>
+                                            </div>
+                                            <ul>
+                                                <li>Biggest progressive jackpots winners</li>
+                                                <li>Incredible rewards for VIP players</li>
+                                                <li>Access to VIP only games and special bonuses</li>
+                                                <li>High Roller &amp; Birthday Rewards</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <a target="_blank" href="https://click.cr-brands.net/affiliate/referral.asp?site=rea&amp;url=brw/gmd/1/&amp;seg=106671&amp;lid=205318&amp;aff_id=aff106671:onlinecasinoland_best_casino_bonus-toolgmd001"><button class="btn-primary">Play Now</button></a>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+.pros-cons-variation-02 .pro-cons-box, .pros-cons-variation-02 .pro-cons-box .list-box, .pros-cons-variation-02 .pro-cons-box .pro-con-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pros-cons-variation-02 .pro-cons-box .img-box {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.pros-cons-variation-02 .pro-cons-box .pro-con-list li.list-header:before, .pros-cons-variation-02 .pro-cons-box .pro-con-list li:not(.list-header):before {
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pros-cons-variation-02 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.pros-cons-variation-02 a {
+  text-decoration: none;
+}
+
+.pros-cons-variation-02 p {
+  font-size: 14px;
+  color: #212529;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+.pros-cons-variation-02 img {
+  max-width: 100%;
+}
+
+.pros-cons-variation-02 .app-container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.pros-cons-variation-02 .inner-container {
+  background-color: #f3f4f5;
+  padding: 15px 25px;
+}
+
+.pros-cons-variation-02 .main-title {
+  font-size: 24px;
+  color: #212529;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.pros-cons-variation-02 .pro-cons-box {
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #eee;
+  margin-bottom: 22px;
+}
+
+.pros-cons-variation-02 .pro-cons-box .img-box {
+  padding-right: 15px;
+}
+
+.pros-cons-variation-02 .pro-cons-box .list-box {
+  min-width: 236px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.pros-cons-variation-02 .pro-cons-box .pro-con-list {
+  margin-top: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.pros-cons-variation-02 .pro-cons-box .pro-con-list li:first-child {
+  margin-top: 0px;
+}
+
+.pros-cons-variation-02 .pro-cons-box .pro-con-list li + li {
+  margin-top: 5px;
+}
+
+.pros-cons-variation-02 .pro-cons-box .pro-con-list li.list-header {
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #212529;
+  padding: 3px 5px 3px 38px;
+  margin-bottom: 10px;
+  border-radius: 36px;
+}
+
+.pros-cons-variation-02 .pro-cons-box .pro-con-list li.list-header:before {
+  position: absolute;
+  font-size: 16px;
+  display: inline-block;
+  height: 28px;
+  width: 28px;
+  line-height: 28px;
+  border-radius: 50%;
+  color: #ffffff;
+  left: 0px;
+  top: 0px;
+  text-align: center;
+  line-height: 32px;
+}
+
+.pros-cons-variation-02 .pro-cons-box .pro-con-list li:not(.list-header) {
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 5px 10px 30px;
+  position: relative;
+  background-color: #fafafa;
+}
+
+.pros-cons-variation-02 .pro-cons-box .pro-con-list li:not(.list-header):before {
+  content: "\f105";
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 16px;
+}
+
+.pros-cons-variation-02 .pro-cons-box .pro-con-list.pros-list li.list-header {
+  background-color: #daf8ea;
+}
+
+.pros-cons-variation-02 .pro-cons-box .pro-con-list.pros-list li.list-header:before {
+  content: "\f067";
+  background-color: #23bb74;
+}
+
+.pros-cons-variation-02 .pro-cons-box .pro-con-list.pros-list li:not(.list-header):before {
+  color: #23bb74;
+}
+
+.pros-cons-variation-02 .pro-cons-box .pro-con-list.cons-list li.list-header {
+  background-color: #fceced;
+}
+
+.pros-cons-variation-02 .pro-cons-box .pro-con-list.cons-list li.list-header:before {
+  content: "\f068";
+  background-color: #e56975;
+}
+
+.pros-cons-variation-02 .pro-cons-box .pro-con-list.cons-list li:not(.list-header):before {
+  color: #e56975;
+}
+
+@media (max-width: 1024px) {
+  .pros-cons-variation-02 .pro-cons-box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .pros-cons-variation-02 .pro-cons-box .img-box {
+    min-width: 100%;
+    margin-bottom: 20px;
+    padding-right: 0px;
+  }
+  .pros-cons-variation-02 .pro-cons-box .list-box {
+    min-width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .pros-cons-variation-02 .pro-cons-box .list-box .pros-list {
+    width: 60%;
+    padding-right: 10px;
+  }
+  .pros-cons-variation-02 .pro-cons-box .list-box .cons-list {
+    width: 40%;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .pros-cons-variation-02 .inner-container {
+    padding: 15px 10px;
+  }
+  .pros-cons-variation-02 .pro-cons-box .list-box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .pros-cons-variation-02 .pro-cons-box .list-box .pros-list,
+  .pros-cons-variation-02 .pro-cons-box .list-box .cons-list {
+    min-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .pros-cons-variation-02 .pro-cons-box .list-box .cons-list {
+    margin-bottom: 0px;
+  }
+}
+/*# sourceMappingURL=pros-cons-variation-02.css.map */

@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+@import "sass-styling-vars";
+
+%d-flex{
+  display: -webkit-box;     
+  display: -moz-box;        
+  display: -ms-flexbox;     
+  display: -webkit-flex;    
+  display: flex; 
+}
+%flex-1{
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -webkit-flex: 1; 
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.toplist-variation-27 {
+    font-family: $font-family-default;
+    a{
+        text-decoration: none;
+        color: $theme-primary;
+    }
+    p{
+        font-size: $font-size-h4;
+        color: $theme-dark;
+        margin-bottom: 15px;
+    }
+    img{
+        max-width: 100%;
+    }
+    .app-container{
+        max-width: 918px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .main-title{
+        font-size: $font-size-xl;
+        color: $theme-dark;
+        margin-bottom: 34px;
+        font-weight: $font-weight-heavy;
+    }
+    .sec-title{
+        font-size: $font-size-h2;
+        color: $theme-dark;
+        margin-bottom: 24px;
+        font-weight: $font-weight-heavy;
+    }
+
+    .app-tbl-flex{
+        .app-tbl{
+            @extend %d-flex;
+            flex-direction: column;
+        }
+        .tbl-row{
+            @extend %d-flex;
+            .tbl-cell{
+                @extend %flex-1;
+            }
+        }
+        .tbl-cell{
+            font-size: $font-size-h4;
+            padding: 13px 5px;
+            min-height: 48px;
+        }
+        .head-cell{
+            background-color: $theme-dark;
+            color: $theme-white;
+            font-weight: $font-weight-heavy;
+        }
+        .tbl-content{
+            @extend %d-flex;
+            flex-direction: column;
+            .tbl-row{
+                &:nth-child(even){
+                    background-color: lighten($theme-secondary, 45%);
+                }
+            }
+        }
+        @media(max-width: 767px){
+            .app-tbl{
+                flex-direction: row;
+            }
+            .tbl-content{
+                flex-direction: row;
+
+            }
+            .tbl-row{
+                flex-direction: column;
+                .head-cell{
+                    width: auto;
+                }
+            }
+            .tbl-cell{
+                padding: 13px 8px;
+                white-space: nowrap;
+                font-size: $font-size-h6;
+            }
+            .tbl-header{
+                position: sticky;
+                left: 0;
+            }
+            
+        }
+    }
+   
+    .best-slots-tbl{
+        margin-bottom: 40px;
+        box-shadow: $wrapper-box-shadow;
+        .tbl-cell{
+            text-align: center;
+            &:nth-child(1), &:nth-child(4){
+                font-weight: $font-weight-heavy;
+            }
+        }
+    }
+    .banner-img{
+        margin-top: 10px;
+    }
+}

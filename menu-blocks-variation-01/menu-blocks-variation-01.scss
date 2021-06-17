@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+@import "sass-styling-vars";
+
+%d-flex{
+  display: -webkit-box;     
+  display: -moz-box;        
+  display: -ms-flexbox;     
+  display: -webkit-flex;    
+  display: flex; 
+}
+
+%flex-1{
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -webkit-flex: 1; 
+  -ms-flex: 1;
+  flex: 1;
+}
+
+%flex-full-center{
+    align-items: center;
+    justify-content: center;
+}
+%fas-icons{
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.menu-blocks-variation-01 {
+    font-family: $font-family-default;
+    background-color: $theme-dark;
+    .section-pad{
+        padding: 50px 0;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    img{
+        max-width: 100%;
+    }
+    .app-container{
+        max-width: 1290px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+   .menu-blocks-row{
+       margin-left: -12px;
+       margin-right: -12px;
+   }
+   .menu-block-col{
+       padding-left: 12px;
+       padding-right: 12px;
+   }
+   .menu-block{
+       background-color: $theme-dark;
+       padding: 10px 10px 15px;
+       border: 1px solid darken($theme-secondary , 20%);
+       text-align: center;
+       margin-bottom: 24px;
+       -webkit-transition: all 150ms ease-in-out;
+        -moz-transition: all 150ms ease-in-out;
+        -ms-transition: all 150ms ease-in-out;
+        -o-transition: all 150ms ease-in-out;
+        transition: all 150ms ease-in-out;
+        .menu-block-icon{
+            height: 70px;
+        }
+       .count-text{
+           font-size: $font-size-h5 * 2;
+           font-weight: $font-weight-heavy;
+           color: $theme-white;
+           margin-bottom: 0px;
+           line-height: 34px;
+       }
+       .block-label-text{
+           font-size: $font-size-h6;
+           color: lighten($theme-success, 15%);
+           line-height: 20px;
+        }
+        a.block-label-text{
+            text-decoration: underline;
+            position: relative;
+            padding-right: 20px;
+            i{
+                position: absolute;
+                right: 0px;
+                height: 16px;
+                width: 16px;
+                top: 2px;
+                text-align: center;
+                line-height: 16px;
+                border-radius: 50%;
+                background-color: lighten($theme-success, 15%);
+                color: $theme-white;
+                font-size: $font-size-default - 5;
+            }
+        }
+        &:hover{
+            background-color: darken($theme-secondary , 20%);
+        }
+       
+   }
+}

@@ -1,0 +1,223 @@
+@import "sass-styling-vars";
+
+.payment-blocks-variation-03 {
+    float: none;
+    box-sizing: border-box;
+    background-color: $theme-light;
+    width: 100%;
+    padding: 80px 0 50px;
+    @media only screen and (max-width : 992px) {
+        padding: 30px 0;
+    }
+    .container {
+        max-width: 1170px;
+        color: $theme-dark;
+        @media only screen and (max-width : 992px) {
+            padding-right: 0;
+        }
+        .section-title {
+            font-size: $font-size-default + 19;
+            font-weight: $font-weight-heavy + 100;
+            line-height: 1.31em;
+            margin-bottom: 22px;
+            @media only screen and (max-width : 992px) {
+                font-size: $font-size-default + 13;
+                line-height: 1.23em;
+            }
+        }
+        ul {
+            width: 100%;
+            text-align: center;
+            @media only screen and (max-width : 992px) {
+                white-space: nowrap;
+                overflow-x: auto;
+                padding-bottom: 20px;
+            }
+            li {
+                display: inline-block;
+                margin: 0 7px;
+                a {
+                    font-size: $font-size-default - 3;
+                    line-height: 1.4em;
+                    font-weight: $font-weight-bold + 100;
+                    color: $theme-dark;
+                    padding: 10px;
+                    outline: none;
+                    letter-spacing: 2.4px;
+                    @media only screen and (max-width : 480px) {
+                        padding: 10px 0;
+                    }
+                }
+                &.active {
+                    a {
+                        border-bottom: 2px solid $theme-primary;
+                    }
+                }
+            }
+        }
+        .blocks {
+            position: relative;
+            margin: 40px 0 0;
+            @media only screen and (max-width : 992px) {
+                margin: 20px 0 0;
+            }
+            .list {
+                position: relative;
+                width: 100%;
+                .row-flex {
+                    display: flex;
+                    align-items: stretch;
+                    flex-wrap: wrap;
+                    margin: 0 -15px;
+                    @media only screen and (max-width : 992px) {
+                        overflow: auto;
+                        margin: 0 -7.5px;
+                        flex-wrap: nowrap;
+                        white-space: nowrap;
+                    }
+                    .col {
+                        margin-bottom: 30px;
+                        @media only screen and (max-width : 992px) {
+                            width: auto;
+                            display: inline-block;
+                            float: none;
+                            vertical-align: top;
+                            padding: 0 7.5px;
+                        }
+                        .payment-box {
+                            background: $theme-white;
+                            box-shadow: $wrapper-box-shadow;
+                            height: 100%;
+                            @media only screen and (max-width : 992px) {
+                                max-width: 260px;
+                                min-width: 260px;
+                                white-space: normal;
+                                margin-bottom: 0;
+                            }
+                            .payment-box-top {
+                                padding: 30px 20px 20px;
+                                @media only screen and (max-width : 992px) {
+                                    padding: 10px;
+                                }
+                                .title-logo {
+                                    @media only screen and (max-width : 992px) {
+                                        display: flex;
+                                        align-items: center;
+                                        margin-bottom: 20px;
+                                    }
+                                    .logo-box {
+                                        width: 165px;
+                                        height: 165px;
+                                        margin: 0 auto 25px;
+                                        @media only screen and (max-width : 992px) {
+                                            width: 82px;
+                                            height: 82px;
+                                            margin: 0;
+                                        }
+                                        img {
+                                            width: 100%;
+                                            height: 100%;
+                                        }
+                                    }
+                                    .title {
+                                        display: none;
+                                        @media only screen and (max-width : 992px) {
+                                            display: block;
+                                            padding-left: 13px;
+                                            font-weight: $font-weight-bold + 100;
+                                            font-size: $font-size-default + 3;
+                                            line-height: 1.5em;
+                                        }
+                                    }
+                                }
+                                .desc-box {
+                                    text-align: center;
+                                    min-height: 161px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    @media only screen and (max-width : 992px) {
+                                        padding: 0 20px 7px;
+                                    }
+                                    .desc-title {
+                                        font-weight: $font-weight-bold + 100;
+                                        font-size: $font-size-default + 7;
+                                        line-height: 1.2em;
+                                        margin-bottom: 13px;
+                                        @media only screen and (max-width : 992px) {
+                                            display: none;
+                                        }
+                                    }
+                                    .desc {
+                                        font-size: $font-size-default + 3;
+                                        line-height: 1.5em;
+                                        width: 100%;
+                                        margin-bottom: 0;
+                                        @media only screen and (max-width : 992px) {
+                                            font-size: $font-size-default + 1;
+                                            line-height: 1.43em;
+                                        }
+                                    }
+                                    .btn {
+                                        margin-top: 16px;
+                                    }
+                                }
+                            }
+                            .payment-box-bottom {
+                                padding: 20px 15px;
+                                border-top: $theme-border;
+                                @media only screen and (max-width : 992px) {
+                                    padding: 10px;
+                                }
+                                ul {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    flex-wrap: wrap;
+                                    width: 100%;
+                                    padding-bottom: 0;
+                                    li {
+                                        display: inline-block;
+                                        width: 78px;
+                                        height: 78px;
+                                        margin: 0 2.2px 5px;
+                                        @media only screen and (max-width : 992px) {
+                                            width: 55px;
+                                            height: 55px;
+                                        }
+                                        img {
+                                            width: 100%;
+                                            height: 100%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    img {
+        max-width: 100%;
+        border: none;
+        text-decoration: none;
+        object-fit: contain;
+    }
+    p {
+        margin: 0;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            margin: 0;
+        }
+    }
+    a {
+        text-decoration: none;
+        transition: all .25s ease-in-out;
+    }
+}

@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Karla:400&display=swap');
+@import "sass-styling-vars";
+
+img {
+    max-width: 100%;
+}
+
+.toplist-variation-30 {
+    .toplist-variation-30-list {
+
+        font-family: $font-family-default;
+        color: $theme-body-font-color;
+        overflow: hidden;
+        background: $theme-toplist-bg;
+        box-shadow: $wrapper-box-shadow;
+        border: 2px solid $theme-border-color;
+        position: relative;
+        width: 100%;
+        display: inline-block;
+        font-size: $font-size-default;
+        border-radius: $theme-border-radius;
+        margin-bottom: 15px;
+        .toplist-variation-30-hub__number {
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            background: $theme-border-color;
+            color: $theme-white;
+            font-weight: $font-weight-heavy;
+            text-align: center;
+            font-size: $font-size-default;
+            padding: 6px;
+        }
+        .toplist-variation-30-hub__top-casino {
+            background-color: $theme-border-color;
+            font-size: $font-size-default;
+            text-transform: uppercase;
+            border-bottom-left-radius: $theme-border-radius;
+            border-bottom-right-radius: $theme-border-radius;
+            position: absolute;
+            top: 0px;
+            font-weight: $font-weight-heavy;
+            padding: 10px 25px;
+            left: 0;
+            right: 0;
+            width: 220px;
+            text-align: center;
+            margin: auto;
+        }
+        &:first-child{
+            border-color:$theme-primary;
+            .toplist-variation-30-hub__top-casino{
+                background: $theme-primary;
+                color: $theme-white;
+            }
+
+        }
+        
+
+        
+
+        .toplist-variation-30-hub__block-inner {
+            padding: 30px;
+            padding-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+
+            @media (min-width: 768px) {
+                justify-content: space-evenly;
+            }
+
+            .toplist-variation-30-hub__info,
+            .toplist-variation-30-hub__logo {
+                text-align: center;
+                width: 100%;
+                padding: 10px;
+                position: relative;
+
+                @media (min-width: 768px) {
+                    border-right: $theme-border;
+                    width: auto;
+                    max-width: 220px;
+                }
+            }
+
+            @media (min-width: 768px) {
+                .toplist-variation-30-hub__logo {
+                    order: 1;
+                    padding-right: 60px;
+                }
+            }
+
+            .toplist-variation-30-hub__flag {
+                position: absolute;
+                top: 0;
+                right: 30px;
+
+                .toplist-variation-30-hub__flag__wrapper {
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .icon-flag:before {
+                        content: "";
+                        display: inline-block;
+                        background-image: url(./img/in.svg);
+                        background-repeat: no-repeat;
+                        background-position: 50%;
+                        background-size: cover;
+                        background-color: transparent;
+                        margin: 2px;
+                        width: 25px;
+                        height: 25px;
+                        border-radius: 50%;
+                    }
+
+                    .fa-check {
+                        position: absolute;
+                        right: -5px;
+                        top: -5px;
+
+                        &:before {
+                            width: 17px;
+                            height: 17px;
+                            border-radius: 50%;
+                            color: $theme-white;
+                            background-color: $theme-primary;
+                            font-size: $font-size-sm - 3;
+                            padding: 3px;
+                        }
+                    }
+
+                }
+            }
+
+            .toplist-variation-30-hub__info--rating {
+                order: 4;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                padding: 16px 25px;
+
+                @media (min-width: 768px) {
+                    & {
+                        order: 2;
+                        flex-direction: column;
+                        border-bottom: none;
+                        justify-content: flex-start;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                    }
+                }
+
+                .toplist-variation-30-hub__stat-title {
+                    font-size: $font-size-sm;
+                    flex-basis: 100%;
+
+                    @media (min-width: 768px) {
+                        flex-basis: auto;
+                    }
+                }
+
+                .toplist-variation-30-hub__rating-wrapper {
+                    display: flex;
+                    align-items: center;
+
+                    @media (min-width: 768px) {
+                        flex-direction: column;
+
+                    }
+
+                    .corg-ranking__stars-container {
+                        position: relative;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        height: 17px;
+
+                        .corg-ranking__stars {
+                            display: flex;
+                            text-shadow: 0 0 1px #fff;
+                            font-size: $star-rating-font-size-lg;
+                            color: $star-rating-color;
+
+                            i {
+                                margin-right: 7px;
+                            }
+                        }
+                    }
+
+                    .toplist-variation-30-hub__rating-score {
+                        display: flex;
+                        align-items: center;
+                        margin-top: 5px;
+                        font-size: $font-size-default;
+
+                        span {
+                            font-size: $font-size-sm;
+                        }
+                    }
+                }
+            }
+
+            .toplist-variation-30-hub__info--payout {
+                order: 6;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 20px 25px 0;
+
+                @media (min-width: 768px) {
+                    order: 3;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+
+                .toplist-variation-30-hub__stat {
+                    font-weight: $font-weight-heavy;
+                    order: 2;
+
+                    @media (min-width: 768px) {
+                        order: 1;
+                    }
+                }
+
+                .toplist-variation-30-hub__stat-title {
+                    margin-right: 5px;
+                    order: 1;
+                    font-size: $font-size-sm;
+
+                    @media (min-width: 768px) {
+                        order: 2;
+                    }
+                }
+            }
+
+            .toplist-variation-30-hub__info--bonus {
+                line-height: 1.2;
+                order: 2;
+                display: flex;
+                justify-content: center;
+                padding-bottom: 10px;
+
+                @media (min-width: 768px) {
+                    justify-content: flex-start;
+                    order: 4;
+                    flex-direction: column;
+                    max-width: 160px;
+                    padding: 10px 25px;
+                }
+
+                .toplist-variation-30-hub__stat {
+                    font-size: $font-size-lg;
+                    font-weight: $font-weight-heavy;
+                    color: $theme-primary;
+                    margin-right: 10px;
+
+                    @media (min-width: 768px) {
+                        margin-right: 0;
+                    }
+                }
+
+                .toplist-variation-30-hub__bonus-wrapper {
+                    display: flex;
+                    flex-direction: column;
+
+                    .toplist-variation-30-hub__stat-title {
+                        font-weight: $font-weight-heavy;
+                    }
+                }
+            }
+
+            .toplist-variation-30-hub__info--payout-percentage {
+                border-right: none;
+                order: 7;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 5px 25px 20px;
+                border-bottom: $theme-border;
+
+                @media (min-width: 768px) {
+                    order: 5;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    border-bottom: 0;
+                    padding: 10px 25px;
+                }
+            }
+
+            .toplist-variation-30-hub__bullets {
+                padding-top: 16px;
+                flex-basis: 100%;
+                order: 8;
+                border-bottom: $theme-border;
+
+                @media (min-width: 768px) {
+                    flex-basis: 50%;
+                    order: 6;
+                    border-bottom: 0;
+                }
+
+                .toplist-variation-30-hub__title {
+                    font-weight: $font-weight-heavy;
+                    margin-bottom: 5px;
+                }
+
+                .content-list {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+
+                    @media (min-width: 768px) {
+                        column-count: 2;
+                    }
+
+                    li {
+                        margin: .3em 0 1em;
+                        padding-left: 30px;
+                        background-repeat: no-repeat;
+                        background-size: 19px 15px;
+                        background-position: left 3px;
+                        background-image: url(./img/tick.svg);
+                        display: inline-block;
+                        width: 100%;
+                    }
+                }
+            }
+
+            .toplist-variation-30-hub__games {
+                padding-top: 16px;
+                order: 10;
+                text-align: center;
+                flex-basis: 100%;
+
+                @media (min-width: 768px) {
+                    order: 7;
+                    text-align: left;
+                    flex-basis: auto;
+                    width: 23%;
+                }
+
+                .toplist-variation-30-hub__title {
+                    font-weight: $font-weight-heavy;
+                    margin-bottom: 5px;
+                }
+
+                .toplist-variation-30-hub__game-icons {
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+
+                    img {
+                        margin-right: 10px;
+                        max-width: 30px;
+                    }
+                }
+
+                p {
+                    span {
+                        color: $theme-primary;
+                        font-weight: $font-weight-heavy;
+                    }
+                }
+            }
+
+            .toplist-variation-30-hub__cta-block {
+                display: flex;
+                flex-direction: column;
+                order: 3;
+                padding: 0 30px 15px;
+                border-bottom: $theme-border;
+                width: 100%;
+                min-height: 92px;
+
+                @media (min-width: 768px) {
+                    order: 8;
+                    padding: 10px 0 0;
+                    border-bottom: none;
+                    width: 25%;
+                    min-height: 0;
+                }
+
+                .btn,
+                .btn-link {
+                    text-align: center;
+                    text-transform: uppercase;
+                    max-width: 156px;
+                    margin: 10px auto;
+                    width: 100%;
+                    white-space: normal;
+                }
+            }
+
+        }
+
+    }
+}
+.toplist-variation-30-filter{
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: $theme-border-radius;
+    border: $theme-border;
+    background-color: $theme-toplist-bg;
+    .dropdown {
+        .dropdown-select,.chosen-choices {
+            width: 100%;
+            min-height: 40px;
+            border-radius: $theme-border-radius;
+            background-color: $theme-toplist-bg;
+            border: $theme-border;
+            text-align: left;
+            padding: 7.5px 15px;
+            color: $theme-body-font-color;
+            letter-spacing: 0.7px;
+            cursor: pointer;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            background-image: none;
+            &:hover, &:focus {
+                outline: 0;
+            }
+        }
+    }
+    .btn-link{
+        margin: 10px;
+        
+    }
+}

@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Karla:400&display=swap");
+img {
+  max-width: 100%;
+}
+
+.toplist-variation-04 {
+  border: 1px solid #eee;
+  border-radius: 6px;
+  padding: 5px;
+}
+.toplist-variation-04 .toplist-variation-04-list {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #ffffff;
+  position: relative;
+  margin: 10px 0;
+}
+.toplist-variation-04 .toplist-variation-04-list .toplist-variation-04-list-row {
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+.toplist-variation-04 .toplist-variation-04-list .toplist-variation-04-list-row .toplist-variation-04-list-col-5 {
+  display: flex;
+  padding: 5px;
+  flex: 0 0 41.6666666667%;
+  max-width: 41.6666666667%;
+  background: #e5e5e5;
+}
+.toplist-variation-04 .toplist-variation-04-list .toplist-variation-04-list-row .toplist-variation-04-list-col-5 .toplist-variation-04-list-image {
+  align-self: center;
+  width: 100%;
+  text-align: center;
+}
+.toplist-variation-04 .toplist-variation-04-list .toplist-variation-04-list-row .toplist-variation-04-list-col-5 .btn-review {
+  white-space: normal;
+  align-self: flex-end;
+  width: 100%;
+}
+.toplist-variation-04 .toplist-variation-04-list .toplist-variation-04-list-row .toplist-variation-04-list-col-7 {
+  display: flex;
+  padding: 5px;
+  flex: 0 0 58.3333333333%;
+  max-width: 58.3333333333%;
+}
+.toplist-variation-04 .toplist-variation-04-list .toplist-variation-04-list-row .toplist-variation-04-list-col-7 p {
+  align-self: center;
+  margin: 0;
+  color: #000;
+  font-weight: 700;
+  text-align: center;
+  font-size: 13px;
+  width: 100%;
+}
+.toplist-variation-04 .toplist-variation-04-list .toplist-variation-04-list-row .toplist-variation-04-list-col-7 p em {
+  color: #dc3545;
+}
+.toplist-variation-04 .toplist-variation-04-list .toplist-variation-04-list-row .toplist-variation-04-list-col-7 p span {
+  font-size: 11px;
+  width: 100%;
+  display: block;
+  font-weight: 100;
+}
+.toplist-variation-04 .toplist-variation-04-list .toplist-variation-04-list-row .toplist-variation-04-list-col-7 .btn {
+  align-self: flex-end;
+}
+
+/*# sourceMappingURL=toplist-variation-04.css.map */

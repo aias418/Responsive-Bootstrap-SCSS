@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Toplist Variation</title>
+    <link rel="stylesheet" type="text/css" href="./default-style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./games-gallery.css">
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $(".popup-link").fancybox({
+            'opacity'       : true,
+            'overlayShow'   : true,
+            'transitionIn'  : 'elastic',
+            'transitionOut' : 'none',
+            'padding'           : 0,
+        });
+    });
+    </script>
+</head>
+
+<body>
+    <section class="container">
+        <div class="games-gallery">
+            <ul>
+                <li>
+                    <a class="popup-link" href="./img/moon-princess-slot-mobile-big.jpg"><img src="./img/moon-princess-slot-mobile.jpg" alt="Moon Princess Slot Mobile" width="400" height="248"></a><span class="games-gallery-title">Moon Princess Slot on Mobile</span>
+                </li>
+                <li>
+                    <a class="popup-link" href="./img/moon-princess-slot-bonus-round-big.jpg"><img src="./img/moon-princess-slot-bonus-round.jpg" alt="Moon Princess Slot Bonus Round" width="400" height="248"></a><span class="games-gallery-title">Moon Princess Slot Bonus Round</span>
+                </li>
+                <li>
+                    <a class="popup-link" href="./img/moon-princess-slot-free-spins-big.jpg"><img src="./img/moon-princess-slot-free-spins.jpg" alt="Moon Princess Slot Free Spins" width="400" height="248"></a><span class="games-gallery-title">Moon Princess Slot Free Spins</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+@import "sass-styling-vars";
+
+.faq-variation-01 {
+    float: none;
+    box-sizing: border-box;
+    background-color: $theme-light;
+    padding: 30px;
+    width: 100%;
+    margin: 30px auto;
+    max-width: 765px;
+    line-height: 1.5em;
+    @media only screen and (max-width: 480px) {
+        padding: 20px;
+    }
+    .faqs-header {
+        margin-bottom: 20px;
+        p.title {
+            font-size: $font-size-h1;
+            line-height: 1.2em;
+            margin-bottom: 0;
+            @media only screen and (max-width: 480px) {
+                font-size: $font-size-h2;
+            }
+        }
+    }
+    .faqs-body {
+        .faqs-item {
+            border-radius: $theme-border-radius;
+            background-color: $theme-white;
+            box-shadow: $wrapper-box-shadow;
+            border: 0;
+            .faqs-item-header {
+                position: relative;
+                display: flex;
+                align-items: center;
+                padding: 15px 30px 15px 20px;
+                cursor: default;
+                @media only screen and (max-width: 480px) {
+                    padding: 15px 65px 15px 20px;
+                    cursor: pointer;
+                }
+                .faqs-item-icon {
+                    display: inline-block;
+                    flex: 0 0 25px;
+                    width: 25px;
+                    height: 25px;
+                    margin-right: 10px;
+                    font-size: $font-size-default + 12;
+                    color: $theme-primary;
+                }
+                .faqs-item-heading {
+                    margin-bottom: 0;
+                    color: $theme-primary;
+                    line-height: 1.2em;
+                    font-weight: $font-weight-heavy;
+                }
+                &:after {
+                    @media only screen and (max-width: 480px) {
+                        position: absolute;
+                        right: 20px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 25px;
+                        height: 25px;
+                        border-radius: 50%;
+                        background-color: $theme-warning;
+                        font-family: "FontAwesome";
+                        color: $theme-white;
+                        content: "\f106";
+                    }
+                }
+                &.collapsed::after {
+                    transform: rotate(180deg);
+                }
+            }
+            .faqs-item-body {
+                padding: 20px 30px;
+                border-top: $theme-border;
+                @media only screen and (max-width: 480px) {
+                    padding: 20px;
+                }
+                p {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        &>*+* {
+            margin-top: 10px;
+        }
+        &.desktop {
+            display: block;
+            @media only screen and (max-width: 480px) {
+                display: none;
+            }
+        }
+        &.mobile {
+            display: none;
+            @media only screen and (max-width: 480px) {
+                display: block;
+            }
+        }
+    }
+}

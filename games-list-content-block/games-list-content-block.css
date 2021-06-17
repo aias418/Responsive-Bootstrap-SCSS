@@ -1,0 +1,232 @@
+.games-list-content-block {
+  float: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  margin: 30px auto;
+  max-width: 935px;
+}
+
+.games-list-content-block .game-tiles {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 13px;
+  vertical-align: baseline;
+}
+
+.games-list-content-block .game-tiles p.title {
+  color: #212529;
+  margin-bottom: 16px;
+  font-size: 22px;
+  line-height: 1.8em;
+}
+
+@media only screen and (max-width: 768px) {
+  .games-list-content-block .game-tiles p.title {
+    font-size: 20px;
+    line-height: 1.6em;
+  }
+}
+
+.games-list-content-block .game-tiles .game-tiles-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.games-list-content-block .game-tiles .game-tiles-top .text-element {
+  -ms-flex-preferred-size: 65%;
+      flex-basis: 65%;
+}
+
+@media only screen and (max-width: 992px) {
+  .games-list-content-block .game-tiles .game-tiles-top .text-element {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
+
+.games-list-content-block .game-tiles .game-tiles-top .text-element p {
+  font-size: 13px;
+  line-height: 1.8em;
+  margin-bottom: 0;
+}
+
+.games-list-content-block .game-tiles .game-tiles-top .text-element a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.games-list-content-block .game-tiles .game-tiles-top .fa {
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+  .games-list-content-block .game-tiles .game-tiles-top .btn {
+    display: none;
+  }
+}
+
+.games-list-content-block .game-tiles .game-btn-mobile {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.games-list-content-block .game-tiles .game-btn-mobile .fa {
+  color: #ffffff;
+}
+
+.games-list-content-block .game-tiles .game-btn-mobile .btn {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .games-list-content-block .game-tiles .game-btn-mobile .btn {
+    display: block;
+    width: 100%;
+  }
+}
+
+.games-list-content-block .game-tiles .game-tiles-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 24px;
+}
+
+@media only screen and (max-width: 992px) {
+  .games-list-content-block .game-tiles .game-tiles-wrapper {
+    display: -ms-grid;
+    display: grid;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .games-list-content-block .game-tiles .game-tiles-wrapper {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+}
+
+.games-list-content-block .game-tiles .game-tiles-wrapper .game-tile {
+  -ms-flex-preferred-size: 24%;
+      flex-basis: 24%;
+  margin: 24px 0 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .games-list-content-block .game-tiles .game-tiles-wrapper .game-tile {
+    margin: 4px;
+  }
+}
+
+.games-list-content-block .game-tiles .game-tiles-wrapper .game-tile .image-container {
+  position: relative;
+  height: 200px;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.games-list-content-block .game-tiles .game-tiles-wrapper .game-tile .image-container .game-tile-image, .games-list-content-block .game-tiles .game-tiles-wrapper .game-tile .image-container .game-tile-overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+}
+
+.games-list-content-block .game-tiles .game-tiles-wrapper .game-tile .image-container .game-tile-overlay {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  -webkit-transition: background-color .3s ease;
+  transition: background-color .3s ease;
+  will-change: background-color;
+}
+
+.games-list-content-block .game-tiles .game-tiles-wrapper .game-tile .image-container .game-tile-overlay .btn {
+  width: 65%;
+  display: none;
+}
+
+.games-list-content-block .game-tiles .game-tiles-wrapper .game-tile .image-container .game-tile-overlay:hover {
+  background: #6c757d;
+}
+
+.games-list-content-block .game-tiles .game-tiles-wrapper .game-tile .image-container .game-tile-overlay:hover .btn {
+  display: block;
+}
+
+.games-list-content-block .game-tiles .game-tiles-wrapper .game-tile .image-container .game-tile-image {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
+  will-change: transform;
+  background-position: 50%;
+}
+
+.games-list-content-block .game-tiles .game-tiles-wrapper .game-tile .image-container .game-tile-rating {
+  position: absolute;
+  background: #212529;
+  border-radius: 6px;
+  bottom: 7px;
+  left: 7px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 4px;
+}
+
+.games-list-content-block .game-tiles .game-tiles-wrapper .game-tile .image-container .game-tile-rating .game-tile-star {
+  color: #ffc107;
+  margin-right: 4px;
+  position: relative;
+}
+
+.games-list-content-block .game-tiles .game-tiles-wrapper .game-tile .game-tile-info .game-tile-title {
+  font-size: 17px;
+  font-weight: 700;
+  color: #212529;
+}
+
+@media only screen and (max-width: 480px) {
+  .games-list-content-block .game-tiles .game-tiles-wrapper .game-tile .game-tile-info .game-tile-title {
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+
+.games-list-content-block .game-tiles .game-tiles-wrapper .game-tile .game-tile-info .game-tile-secondary {
+  font-size: 13px;
+  color: #212529;
+}

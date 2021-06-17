@@ -1,0 +1,293 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+@import "sass-styling-vars";
+
+%d-flex{
+  display: -webkit-box;     
+  display: -moz-box;        
+  display: -ms-flexbox;     
+  display: -webkit-flex;    
+  display: flex; 
+}
+%flex-1{
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -webkit-flex: 1; 
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.toplist-variation-01 {
+    font-family: $font-family-default;
+    .inner-container{
+        max-width: 1030px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    img{
+        max-width: 100%;
+    }
+    .title-main{
+        display: block;
+        font-size: $font-size-h3 * 2;
+        color: $theme-primary;
+        font-weight: $font-weight-heavy;
+        margin-bottom: 6px;
+    }
+    p{
+        font-size: $font-size-h6;
+        color: $theme-dark;
+        font-weight: $font-weight-heavy;
+    }
+    a{
+        text-decoration: none;
+        &.blue-link{
+            color: $theme-primary;
+        }
+        &.pink-link{
+            color: $theme-primary;
+        }
+    }
+    .mar-b-0{
+        margin-bottom: 0px;
+    }
+    .mar-y-0{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    ul.check-list{
+        li{
+            padding-left: 44px;
+            padding-right: 20px;
+            position: relative;
+            font-size: $font-size-h6;
+            color: $theme-dark;
+            &:before {
+                font-family: FontAwesome;
+                content: "\f00c";
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                position: absolute;
+                font-size: 15px;
+                color: $theme-primary;
+                position: absolute;
+                top: 50%;
+                left: 17px;
+                transform: translateY(-50%);
+            }
+        }
+    }
+
+    .main-banner{
+        background-color: darken($theme-body-bg , 3%);
+        padding-top: 16px;
+        .inner-container{
+            display: flex;
+        }
+        .left-box{
+            background-color: $theme-white;
+            padding: 55px 3px 50px;
+            @extend %flex-1;
+        }
+        .right-box{
+            min-width: 418px;
+            max-width: 418px;
+            padding: 15px 0px 15px 15px;
+            @extend %d-flex;
+            align-items: center;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+    .casinos-info{
+        background-color: $theme-white;
+        padding-top: 12px;
+    }
+    .info-box{
+        @extend %d-flex;
+        border: 2px solid $theme-success;
+        margin-bottom: 30px;
+        .summary-info-col,
+        .banner-info-col{
+            width: 233px;
+            max-width: 233px;
+            background-color: $theme-success;
+            text-align: center;
+            padding: 38px 20px 20px;
+            p{
+                color: $theme-white;
+                font-size: $font-size-h6;
+                text-transform: uppercase;
+                margin-bottom: 5px;
+                line-height: normal;
+                font-weight: 400;
+            }
+            p.title-text{
+                font-size: $font-size-h4 * 2;
+                line-height: 22px;
+                font-weight: 700;
+                &.with-sub-text{
+                    display: flex;
+                    justify-content: center;
+                    span{
+                        font-size: $font-size-default - 1;
+                        font-weight: 500;
+                        line-height: 12px;
+                        text-align: left;
+                        margin-left: 4px;
+                    }
+                }
+            }
+            .summary-info{
+                margin-bottom: 15px;
+            }
+            .strike-txt{
+                position: relative;
+                &::before{
+                    content: "";
+                    display: block;
+                    border-bottom: 1px solid $theme-white;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    z-index: 1;
+                    width: 100%;
+                }
+            }
+            
+        }
+        .banner-info-col{
+            .logo-img{
+                margin-bottom: 22px;
+            }
+            p:not(.title-text){
+                font-size: $font-size-lg;
+            }
+            p.title-text{
+                line-height: 33px;
+                margin-bottom: 20px;
+            }
+            .btn{
+                margin-top: 15px;
+            }
+        }
+        .detail-info-col{
+            @extend %flex-1;
+            padding: 30px 30px;
+            .title-main{
+                color: $theme-warning;
+                font-size: $font-size-h5 * 2;
+            }
+            .sub-title{
+                font-size: $font-size-h2;
+                color: $theme-dark;
+                font-weight: $font-weight-heavy;
+                margin-bottom: 15px;
+            }
+            .check-list {
+                margin-bottom: 30px;
+                li{
+                    padding-left: 30px;
+                    &:before{
+                        left: 0px;
+                        color: $theme-warning;
+                    }
+                }
+            }
+        }
+        &.with-dark-gray{
+            border-color: lighten($theme-dark , 15%);
+            .summary-info-col,
+            .banner-info-col{
+                background-color: lighten($theme-dark , 15%);
+            }
+        }
+        &.with-blue{
+            border-color: $theme-primary;
+            .summary-info-col,
+            .banner-info-col{
+                background-color: $theme-primary;
+            }
+        }
+        
+    }
+    @media (max-width: 991px){
+        .title-main{
+            font-size: $font-size-h3;
+        }
+        .main-banner{
+            .inner-container{
+                flex-wrap: wrap;
+                .left-box,.right-box{
+                    min-width: 100%;
+                    text-align: center;
+                }
+                .left-box{
+                    ul{
+                        li{
+                            text-align: left;
+                        }
+                    }
+                }
+                .right-box{
+                    justify-content: center;
+                }
+            }
+        }
+    }
+    @media(max-width: 850px){
+        .casinos-info{
+            .info-box{
+                flex-wrap: wrap;
+                .summary-info-col,
+                .detail-info-col,
+                .banner-info-col{
+                    min-width: 100%;
+                    text-align: center;
+                }
+                .summary-info-col,
+                .banner-info-col{
+                    padding: 20px 15px 20px;
+                    .summary-info{
+                        max-width: 230px;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    p.title-text{
+                        font-size: $font-size-h2;
+                        span{
+                            font-size: $font-size-default - 4;
+                            line-height: 10px;
+                        }
+                    }
+                }
+
+                .detail-info-col{
+                    padding: 15px 15px;
+                    .title-main, .sub-title{
+                        font-size: $font-size-h3;
+                    }
+                    ul{
+                        li{
+                            text-align: left;
+                            margin-top: 12px;
+                        }
+                    }
+                }
+                .banner-info-col{
+                    img{
+                        max-width: 230px;
+                    }
+                    .p.title-text{
+                        margin-bottom: 10px;
+                    }
+                        
+                }
+            }
+        }
+    }
+}

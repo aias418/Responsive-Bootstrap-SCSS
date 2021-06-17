@@ -1,0 +1,279 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Karla:400&display=swap");
+img {
+  max-width: 100%;
+}
+
+.casino-pros-cons-collapse-write-review {
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  font-size: 13px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.casino-pros-cons-collapse-write-review .mx-0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+.casino-pros-cons-collapse-write-review .collapse-flex {
+  margin-left: 0;
+  margin-right: 0;
+}
+@media (min-width: 768px) {
+  .casino-pros-cons-collapse-write-review .collapse-flex {
+    display: flex;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .casino-pros-cons-collapse-write-review .collapse-flex .collapse-flex-left {
+    flex: 1;
+    max-width: 66.66667%;
+  }
+}
+.casino-pros-cons-collapse-write-review .collapse-flex .collapse-flex-left .btn-link {
+  margin-bottom: 15px;
+}
+@media (min-width: 768px) {
+  .casino-pros-cons-collapse-write-review .collapse-flex .collapse-flex-right {
+    flex: 1;
+    max-width: 33.33333%;
+    padding: 0;
+  }
+}
+.casino-pros-cons-collapse-write-review .collapse-flex .collapse-flex-right .review-slider--wrapper {
+  height: 100%;
+  display: flex;
+  background: #e5e5e5;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+@media (min-width: 768px) {
+  .casino-pros-cons-collapse-write-review .collapse-flex .collapse-flex-right .review-slider--wrapper {
+    padding: 0;
+  }
+}
+.casino-pros-cons-collapse-write-review .collapse-flex .collapse-flex-right .review-slider--wrapper blockquote {
+  margin: 0;
+  padding: 0 40px;
+  position: relative;
+  text-align: center;
+  border: 0;
+}
+.casino-pros-cons-collapse-write-review .collapse-flex .collapse-flex-right .review-slider--wrapper blockquote:before {
+  font: normal normal normal 14px/1 FontAwesome;
+  content: "";
+  top: -20px;
+  left: 12px;
+  position: absolute;
+  font-size: 17px;
+}
+.casino-pros-cons-collapse-write-review .collapse-flex .collapse-flex-right .review-slider--wrapper blockquote:after {
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 17px;
+  content: "";
+  bottom: -20px;
+  right: 12px;
+  position: absolute;
+}
+.casino-pros-cons-collapse-write-review .collapse-flex .collapse-flex-right .review-slider--wrapper blockquote p {
+  margin-bottom: 35px;
+  color: #323232;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+}
+.casino-pros-cons-collapse-write-review .collapse-flex .collapse-flex-right .review-slider--wrapper blockquote .btn {
+  width: 100%;
+  max-width: 200px;
+  text-transform: uppercase;
+}
+.casino-pros-cons-collapse-write-review .collapse-write-h2 h2 {
+  border-bottom: 1px solid #eee;
+  min-height: 50px;
+  margin: 0 0 10px;
+  line-height: 50px;
+}
+.casino-pros-cons-collapse-write-review .review-pros, .casino-pros-cons-collapse-write-review .review-cons {
+  display: inline-block;
+  margin: 0 0 15px;
+}
+.casino-pros-cons-collapse-write-review .review-pros li, .casino-pros-cons-collapse-write-review .review-cons li {
+  background-size: 10px;
+  background-position: 10px calc(50% - 1px);
+  margin: 0;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  height: auto !important;
+  padding-bottom: 3px;
+}
+.casino-pros-cons-collapse-write-review .review-cons li {
+  background-image: url(img/cons.svg);
+}
+.casino-pros-cons-collapse-write-review .review-pros li {
+  background-image: url(img/pros.svg);
+}
+.casino-pros-cons-collapse-write-review .review-main__show {
+  width: 100%;
+  display: block;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #000;
+  border-top: 1px solid #eee;
+}
+.casino-pros-cons-collapse-write-review .casino-pros-review-table .casino-pros-review-table-left {
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+@media (min-width: 768px) {
+  .casino-pros-cons-collapse-write-review .casino-pros-review-table .casino-pros-review-table-left {
+    font-size: 15px;
+    border-bottom: 1px solid #eee;
+    height: 30px;
+    line-height: 30px;
+  }
+}
+.casino-pros-cons-collapse-write-review .casino-pros-review-table .casino-pros-review-table-right {
+  border-bottom: 1px solid #eee;
+  font-size: 11px;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 10px;
+  text-align: left;
+  text-overflow: ellipsis;
+  padding: 0;
+}
+@media (min-width: 768px) {
+  .casino-pros-cons-collapse-write-review .casino-pros-review-table .casino-pros-review-table-right {
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+  }
+}
+.casino-pros-cons-collapse-write-review .screenshot {
+  float: left;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.casino-pros-cons-collapse-write-review-form {
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  font-size: 13px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.casino-pros-cons-collapse-write-review-form .casino-pros-cons-collapse-write-reviews__header {
+  width: 100%;
+  float: left;
+  margin-bottom: 15px;
+}
+.casino-pros-cons-collapse-write-review-form .casino-pros-cons-collapse-write-reviews__header .casino-pros-cons-collapse-write-image {
+  float: left;
+  width: 80px;
+}
+.casino-pros-cons-collapse-write-review-form .casino-pros-cons-collapse-write-reviews__header .casino-pros-cons-collapse-write-image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+.casino-pros-cons-collapse-write-review-form .casino-pros-cons-collapse-write-reviews__header .casino-pros-cons-collapse-write-content {
+  float: left;
+  width: calc(100% - 80px);
+}
+@media (max-width: 480px) {
+  .casino-pros-cons-collapse-write-review-form .casino-pros-cons-collapse-write-reviews__header .casino-pros-cons-collapse-write-content {
+    width: 100%;
+  }
+}
+.casino-pros-cons-collapse-write-review-form .casino-pros-cons-collapse-write-reviews__header .casino-pros-cons-collapse-write-content .text-md-right {
+  text-align: right;
+}
+@media (max-width: 767px) {
+  .casino-pros-cons-collapse-write-review-form .casino-pros-cons-collapse-write-reviews__header .casino-pros-cons-collapse-write-content .text-md-right {
+    text-align: left;
+  }
+}
+.casino-pros-cons-collapse-write-review-form .casino-pros-cons-collapse-write-reviews__header .casino-pros-cons-collapse-write-content .casino-pros-cons-collapse-write-star {
+  margin: 0;
+}
+.casino-pros-cons-collapse-write-review-form .casino-pros-cons-collapse-write-reviews__header .casino-pros-cons-collapse-write-content .casino-pros-cons-collapse-write-star li {
+  margin: 0;
+  color: #0dcaf0;
+  padding: 2px;
+}
+.casino-pros-cons-collapse-write-review-form .casino-pros-cons-collapse-write-reviews__header .casino-pros-cons-collapse-write-content .casino-pros-cons-collapse-write-star li i {
+  margin: 0;
+}
+.casino-pros-cons-collapse-write-review-form .casino-pros-cons-collapse-write-reviews__header .casino-pros-cons-collapse-write-content .casino-pros-cons-collapse-write-textarea .casino-pros-cons-collapse-write-textarea-pos, .casino-pros-cons-collapse-write-review-form .casino-pros-cons-collapse-write-reviews__header .casino-pros-cons-collapse-write-content .casino-pros-cons-collapse-write-textarea .casino-pros-cons-collapse-write-textarea-nag {
+  position: relative;
+}
+.casino-pros-cons-collapse-write-review-form .casino-pros-cons-collapse-write-reviews__header .casino-pros-cons-collapse-write-content .casino-pros-cons-collapse-write-textarea .casino-pros-cons-collapse-write-textarea-pos:before, .casino-pros-cons-collapse-write-review-form .casino-pros-cons-collapse-write-reviews__header .casino-pros-cons-collapse-write-content .casino-pros-cons-collapse-write-textarea .casino-pros-cons-collapse-write-textarea-nag:before {
+  position: absolute;
+  top: 19px;
+  left: 19px;
+  width: 24px;
+  height: 24px;
+  content: "";
+  font-size: 14px;
+  display: block;
+  z-index: 2;
+}
+.casino-pros-cons-collapse-write-review-form .casino-pros-cons-collapse-write-reviews__header .casino-pros-cons-collapse-write-content .casino-pros-cons-collapse-write-textarea .casino-pros-cons-collapse-write-textarea-pos:before {
+  background: url(./img/pros.cd3dc76f55841ef15acf8891e23c3256.svg) 0 0 no-repeat;
+}
+.casino-pros-cons-collapse-write-review-form .casino-pros-cons-collapse-write-reviews__header .casino-pros-cons-collapse-write-content .casino-pros-cons-collapse-write-textarea .casino-pros-cons-collapse-write-textarea-pos:before .form-control {
+  border-radius: 6px 6px 0 0;
+}
+.casino-pros-cons-collapse-write-review-form .casino-pros-cons-collapse-write-reviews__header .casino-pros-cons-collapse-write-content .casino-pros-cons-collapse-write-textarea .casino-pros-cons-collapse-write-textarea-nag:before {
+  background: url(./img/cons.44c604896b253bf77f3f2167764e4184.svg) 0 0 no-repeat;
+}
+.casino-pros-cons-collapse-write-review-form .casino-pros-cons-collapse-write-reviews__header .casino-pros-cons-collapse-write-content .casino-pros-cons-collapse-write-textarea .casino-pros-cons-collapse-write-textarea-nag:before .form-control {
+  border-radius: 0 0 6px 6px;
+}
+.casino-pros-cons-collapse-write-review-form .casino-pros-cons-collapse-write-reviews__header .casino-pros-cons-collapse-write-content .casino-pros-cons-collapse-write-textarea .casino-pros-cons-collapse-write-textarea-nag {
+  margin-bottom: 20px;
+}
+.casino-pros-cons-collapse-write-review-form .casino-pros-cons-collapse-write-reviews__header .casino-pros-cons-collapse-write-content .casino-pros-cons-collapse-write-textarea .form-control {
+  resize: none;
+  position: relative;
+  z-index: 1;
+  padding: 20px 20px 20px 50px;
+  min-height: 150px;
+  color: #000;
+}
+.casino-pros-cons-collapse-write-review-form .write__agree {
+  width: 100%;
+  float: left;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.casino-pros-cons-collapse-write-review-form .write__agree .agree__check {
+  float: left;
+  margin: 0;
+  width: 20px;
+}
+.casino-pros-cons-collapse-write-review-form .write__agree .agree__text {
+  font-weight: normal;
+}
+
+/*# sourceMappingURL=casino-pros-cons-collapse-write-review.css.map */

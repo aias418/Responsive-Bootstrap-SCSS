@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+@import "sass-styling-vars";
+
+%d-flex{
+  display: -webkit-box;     
+  display: -moz-box;        
+  display: -ms-flexbox;     
+  display: -webkit-flex;    
+  display: flex; 
+}
+%flex-1{
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -webkit-flex: 1; 
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.item-ratings-variation {
+    font-family: $font-family-default;
+    .app-container{
+        max-width: 920px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .main-title{
+        font-size: $font-size-h1 + 2;
+        color: $theme-dark;
+        font-weight: $font-weight-heavy;
+        margin-bottom: 20px;
+    }
+    .circular-chart {
+        display: block;
+        max-height: 303px;
+        margin: 0 auto;
+        .circle-bg {
+          fill: none;
+          stroke: $theme-light;
+          stroke-width: 3.8;
+        }
+        
+        .circle {
+          fill: none;
+          stroke-width: 3.8;
+          stroke-linecap: square;
+          animation: progress-circle 1s ease-out forwards;
+        }
+        
+       
+        .percentage {
+          fill: $theme-secondary;
+          text-anchor: middle;
+          .chart-prog-val{
+              font-size: 30%;
+              font-weight: $font-weight-heavy;
+              fill: $theme-primary
+          }
+          .chart-prog-lbl{
+            font-size: 20%;
+            font-weight: $font-weight-heavy;
+            color: $theme-dark;
+          }
+        }
+        &.orange{
+            .circle {
+                stroke: $theme-warning;
+            }
+        }
+        &.green{
+            .circle {
+                stroke: $theme-success;
+            }
+        }
+        &.blue{
+            .circle {
+                stroke: $theme-primary;
+            }
+        }
+        @keyframes progress-circle {
+            0% {
+                stroke-dasharray: 0 200;
+            }
+        }
+    }
+
+    .charts-wrapper{
+        @extend %d-flex;
+        .left-box{
+            min-width: 290px
+        }
+        .right-box{
+            @extend %flex-1;
+            @extend %d-flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 54px
+
+        }
+    }
+    .prog-bar-wrapper{
+        margin-bottom: 12px;
+        &:last-child{
+            margin-bottom: 0px;
+        }
+        .text-info{
+            @extend %d-flex;
+            justify-content: space-between;
+            font-size: $font-size-h4;
+            color: $theme-dark;
+            font-weight: $font-weight-bold;
+            margin-bottom: 5px;
+        }
+        .progress{
+            height: 3px;
+            .progress-bar{
+                line-height: 3px;
+                background-color: transparent;
+                box-shadow: none;
+                .prog-inner{
+                    display: block;
+                    width: 0%;
+                    height: 100%;
+                    background-color: $theme-primary;
+                    animation: progress-bar 1s ease-out forwards;
+                }
+            }
+        }
+        @keyframes progress-bar {
+            0% {
+                width: 0%;
+            }
+            100% {
+                width: 100%;
+            }
+        }
+    }
+    @media (max-width: 767px) {
+        .charts-wrapper{
+            flex-wrap: wrap;
+            .left-box,
+            .right-box{
+                min-width: 100%;
+            }
+            .left-box{
+                margin-bottom: 50px;
+            }
+            .right-box{
+                padding-left: 0px;
+            }
+        }
+        .circular-chart{
+            max-height: 215px;
+        }
+    }
+}

@@ -1,0 +1,317 @@
+@import "sass-styling-vars";
+
+.toplist-variation-15 {
+    float: none;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 30px 0;
+    .heading {
+        padding-top: 24px;
+        max-width: 1140px;
+        .title {
+            color: $theme-warning;
+            font-size: $font-size-default + 15;
+            font-weight: $font-weight-heavy + 200;
+            line-height: 1.46em;
+            text-align: center;
+            letter-spacing: .11px;
+            padding-bottom: 9px;
+            height: auto;
+            width: auto;
+        }
+    }
+    .casino-list {
+        .sorting-buttons {
+            max-width: 1140px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            margin: 8px auto 40px;
+            @media only screen and (max-width : 480px) {
+                justify-content: flex-start;
+            }
+            .btn {
+                font-size: $font-size-default + 3;
+                @media only screen and (max-width : 480px) {
+                    margin-bottom: 16px;
+                }
+                &:not(:last-child) {
+                    margin-right: 20px;
+                }
+                i {
+                    color: $theme-white;
+                    margin-right: 5px;
+                }
+            }
+        }
+        .list {
+            max-width: 1140px;
+            margin-top: 20px;
+            .casino {
+                margin-bottom: 20px;
+                background-color: $theme-white;
+                border-radius: $theme-border-radius;
+                box-shadow: $wrapper-box-shadow;
+                padding: 8px 17px;
+                display: flex;
+                flex-flow: row wrap;
+                align-items: center;
+                @media only screen and (max-width : 480px) {
+                    flex-direction: column;
+                    padding: 8px 0;
+                }
+                .single-casino {
+                    display: flex;
+                    background-color: $theme-white;
+                    justify-content: space-between;
+                    flex-direction: row;
+                    padding: 16px 20px;
+                    border-radius: $theme-border-radius;
+                    .casino-img {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        img {
+                            border-radius: $theme-border-radius;
+                        }
+                    }
+                }
+                .page-score {
+                    align-items: center;
+                    color: $theme-warning;
+                    &.mobile {
+                        display: none;
+                        @media only screen and (max-width : 480px) {
+                            display: flex;
+                            flex-direction: column;
+                        }
+                    }
+                    &.desktop {
+                        display: flex;
+                        flex-direction: column;
+                        @media only screen and (max-width : 480px) {
+                            display: none;
+                        }
+                    }
+                    .score-text {
+                        margin-bottom: 0;
+                        font-size: $font-size-default - 1;
+                        line-height: 1.67em;
+                    }
+                    .score-number {
+                        font-size: $font-size-default + 27;
+                        line-height: .5em;
+                        font-weight: $font-weight-heavy + 200;
+                    }
+                    .average-text {
+                        font-size: $font-size-default + 4;
+                        line-height: 1.18em;
+                        font-weight: $font-weight-heavy + 200;
+                        color: $theme-dark;
+                        letter-spacing: .1px;
+                    }
+                    .score-link {
+                        font-size: $font-size-default - 1;
+                        line-height: 1.5em;
+                        white-space: nowrap;
+                    }
+                    .score-wrapper {
+                        position: relative;
+                        transition: all .3s ease;
+                        .score-number {
+                            display: block;
+                            padding-top: 8px;
+                            padding-bottom: 24px;
+                        }
+                        #hover-score {
+                            display: none;
+                            position: absolute;
+                            bottom: -300px;
+                            text-align: left;
+                            left: -200px;
+                            width: 300px;
+                            background: $theme-white;
+                            box-shadow: $wrapper-box-shadow;
+                            z-index: 99999999;
+                            padding: 20px 24px;
+                            transition: all .3s ease;
+                            .text {
+                                display: flex;
+                                justify-content: space-between;
+                                margin-bottom: 4px;
+                                font-size: $font-size-default - 1;
+                                line-height: 1.67em;
+                                font-weight: $font-weight-heavy;
+                                color: $theme-dark;
+                            }
+                            .progress {
+                                margin-bottom: 10px;
+                                overflow: unset;
+                                border-radius: 20px 20px;
+                                .progress-bar {
+                                    background: linear-gradient(45deg,$theme-danger,$theme-warning);
+                                }
+                            }
+                        }
+                        &:hover {
+                            #hover-score {
+                                display: block;
+                                transition: all .3s ease;
+                            }
+                        }
+                    }
+                }
+                .bonuses {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    width: 100%;
+                    @media only screen and (max-width : 480px) {
+                        display: none;
+                    }
+                    .free-spins {
+                        .spin {
+                            margin-bottom: 0;
+                            font-size: $font-size-default;
+                            line-height: 1.54em;
+                            color: $theme-secondary;
+                            i {
+                                color: $theme-warning;
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+                    .bonus {
+                        font-size: $font-size-default + 4;
+                        line-height: 1.176em;
+                        font-weight: $font-weight-heavy + 100;
+                    }
+                    .more-info {
+                        margin-top: 16px;
+                        a {
+                            font-size: $font-size-default + 3;
+                            line-height: 1.125em;
+                            font-weight: $font-weight-heavy + 200;
+                        }
+                    }
+                    &.mobile-block {
+                        display: none;
+                        margin-top: 16px;
+                        margin-bottom: 16px;
+                        @media only screen and (max-width : 480px) {
+                            display: block;
+                        }
+                    }
+                    &.desktop-block {
+                        @media only screen and (max-width : 480px) {
+                            display: none;
+                        }
+                    }
+                }
+                .pros-list {
+                    display: block;
+                    @media only screen and (max-width : 480px) {
+                        display: none;
+                    }
+                    ul {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        padding: 0;
+                        font-size: $font-size-default - 1;
+                        text-align: left;
+                        li {
+                            display: flex;
+                            font-size: $font-size-default + 2;
+                            font-weight: $font-weight-regular;
+                            line-height: 1.67em;
+                            color: $theme-secondary;
+                            z-index: 0;
+                            &:not(:last-child) {
+                                margin-bottom: 5px;
+                            }
+                            i {
+                                margin-right: 10px;
+                                font-size: $font-size-default + 7;
+                                color: $theme-success;
+                                vertical-align: middle;
+                            }
+                        }
+                    }
+                }
+                .claim-wrapper {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    .btn {
+                        color: $theme-white;
+                    }
+                    .terms {
+                        display: block;
+                        width: 100%;
+                        color: $theme-secondary;
+                        margin-top: 10px;
+                        font-size: $font-size-default - 4;
+                        line-height: 2em;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-align: center;
+                        @media only screen and (max-width : 480px) {
+                            display: inline-block;
+                        }
+                    }
+                    .lg-none-text {
+                        display: none;
+                        color: $theme-secondary;
+                        font-size: $font-size-default - 6;
+                        line-height: 1.5em;
+                        margin-top: 10px;
+                        text-align: center;
+                        @media only screen and (max-width : 768px) {
+                            display: block;
+                        }
+                    }
+                }
+                .text-muted {
+                    display: block;
+                    width: 100%;
+                    color: $theme-secondary;
+                    font-size: $font-size-default - 4;
+                    line-height: 1.5em;
+                    margin-top: 10px;
+                    text-align: center;
+                    @media only screen and (max-width : 768px) {
+                        display: none;
+                    }
+                    &.d-none {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    img {
+        max-width: 100%;
+        border: none;
+        text-decoration: none;
+        object-fit: contain;
+    }
+    p {
+        margin: 0 0 15px;
+    }
+    ul {
+        margin: 0;
+        margin-bottom: 16px;
+        padding: 0;
+        list-style: none;
+        li {
+            margin: 0;
+        }
+    }
+    a {
+        text-decoration: none;
+        color: $theme-warning;
+    }
+}

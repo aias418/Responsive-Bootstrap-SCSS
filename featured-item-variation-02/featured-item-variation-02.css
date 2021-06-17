@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+.featured-item-variation-02 .featured-item-card .card-content .logo-col, .featured-item-variation-02 .featured-item-card .card-content .bonus-info-col, .featured-item-variation-02 .featured-item-card .card-content .brands-info-col, .featured-item-variation-02 .featured-item-card .card-content .action-col, .featured-item-variation-02 .featured-item-card .card-content, .featured-item-variation-02 .featured-item-card .card-content .brands-info-col .inner-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.featured-item-variation-02 .featured-item-card .card-content > * {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.featured-item-variation-02 .featured-item-card .card-content .logo-col, .featured-item-variation-02 .featured-item-card .card-content .bonus-info-col, .featured-item-variation-02 .featured-item-card .card-content .brands-info-col, .featured-item-variation-02 .featured-item-card .card-content .action-col {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.featured-item-variation-02 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.featured-item-variation-02 img {
+  max-width: 100%;
+}
+
+.featured-item-variation-02 .app-container {
+  max-width: 796px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.featured-item-variation-02 .featured-item-card {
+  border: 2px solid #012e70;
+}
+
+.featured-item-variation-02 .featured-item-card .header {
+  background-color: #012e70;
+}
+
+.featured-item-variation-02 .featured-item-card .header .main-title {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 0px;
+  text-align: center;
+  padding: 8px 15px;
+  font-weight: 500;
+}
+
+.featured-item-variation-02 .featured-item-card .card-content {
+  border: 2px solid #012e70;
+  position: relative;
+}
+
+.featured-item-variation-02 .featured-item-card .card-content:hover .action-col .play-btn {
+  -webkit-box-shadow: 0px 2px 0px #198754;
+          box-shadow: 0px 2px 0px #198754;
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+}
+
+.featured-item-variation-02 .featured-item-card .card-content .logo-col {
+  padding: 15px;
+}
+
+.featured-item-variation-02 .featured-item-card .card-content .bonus-info-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15px;
+}
+
+.featured-item-variation-02 .featured-item-card .card-content .bonus-info-col p {
+  font-size: 18px;
+  color: #0d462c;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.featured-item-variation-02 .featured-item-card .card-content .bonus-info-col .star-rating i {
+  font-size: 16px;
+  color: #ffc107;
+}
+
+.featured-item-variation-02 .featured-item-card .card-content .brands-info-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15px;
+}
+
+.featured-item-variation-02 .featured-item-card .card-content .brands-info-col .inner-row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.featured-item-variation-02 .featured-item-card .card-content .brands-info-col .inner-row:first-child {
+  margin-bottom: 5px;
+}
+
+.featured-item-variation-02 .featured-item-card .card-content .brands-info-col .inner-row i {
+  font-size: 30px;
+  margin: 0 5px;
+}
+
+.featured-item-variation-02 .featured-item-card .card-content .brands-info-col .inner-row i.fa-android {
+  color: #198754;
+}
+
+.featured-item-variation-02 .featured-item-card .card-content .brands-info-col .inner-row i.fa-apple {
+  color: #6c757d;
+}
+
+.featured-item-variation-02 .featured-item-card .card-content .brands-info-col .inner-row i.fa-windows {
+  color: #0d6efd;
+}
+
+.featured-item-variation-02 .featured-item-card .card-content .brands-info-col .img-wraper {
+  width: 50px;
+  text-align: center;
+}
+
+.featured-item-variation-02 .featured-item-card .card-content .brands-info-col .img-wraper img {
+  vertical-align: middle;
+}
+
+.featured-item-variation-02 .featured-item-card .card-content .action-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.featured-item-variation-02 .featured-item-card .card-content .action-col .play-btn {
+  background-color: #25c87c;
+  background-image: none;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 0px 20px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 3px 0px #198754;
+          box-shadow: 0px 3px 0px #198754;
+  text-shadow: 1px 1px #198754;
+  min-width: 140px;
+  margin-bottom: 8px;
+}
+
+.featured-item-variation-02 .featured-item-card .card-content .action-col a {
+  font-size: 15px;
+  color: #0d6efd;
+  text-decoration: none;
+  position: relative;
+  z-index: 2;
+}
+
+.featured-item-variation-02 .featured-item-card .card-content .box-links {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .featured-item-variation-02 .featured-item-card .header .main-title {
+    font-size: 18px;
+  }
+  .featured-item-variation-02 .featured-item-card .card-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 15px;
+  }
+  .featured-item-variation-02 .featured-item-card .card-content > * {
+    width: 100%;
+  }
+  .featured-item-variation-02 .featured-item-card .card-content .logo-col {
+    max-width: 160px;
+    padding-bottom: 5px;
+  }
+  .featured-item-variation-02 .featured-item-card .card-content .bonus-info-col {
+    padding-bottom: 5px;
+  }
+  .featured-item-variation-02 .featured-item-card .card-content .brands-info-col {
+    margin-bottom: 10px;
+  }
+}
+/*# sourceMappingURL=featured-item-variation-02.css.map */

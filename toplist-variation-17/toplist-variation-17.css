@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Karla:400&display=swap");
+img {
+  max-width: 100%;
+}
+
+.toplist-variation-17 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+}
+.toplist-variation-17 .toplist-variation-17-providersDataBanner {
+  text-decoration: none;
+  font-size: 13px;
+  color: #000;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #eee;
+  transition: all 0.2s ease 0s;
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.toplist-variation-17 .toplist-variation-17-providersDataBanner:before {
+  font: normal normal normal 14px/1 FontAwesome;
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 2px;
+}
+.toplist-variation-17 .toplist-variation-17-aFrmSubmit {
+  text-transform: uppercase;
+  border-radius: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.toplist-variation-17 .toplist-variation-17-aFrmSubmit:before {
+  font: normal normal normal 14px/1 FontAwesome;
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 4px;
+}
+.toplist-variation-17 .toplist-variation-17-filter-heading {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.toplist-variation-17 .caret {
+  float: right;
+  margin-top: 9px;
+  display: block;
+}
+.toplist-variation-17 .dropdown .dropdown-select, .toplist-variation-17 .dropdown .chosen-choices {
+  width: 240px;
+  min-height: 40px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  border: 1px solid #eee;
+  text-align: left;
+  padding: 7.5px 15px;
+  color: #000;
+  letter-spacing: 0.7px;
+  cursor: pointer;
+  background-image: none;
+}
+.toplist-variation-17 .dropdown .dropdown-select:hover, .toplist-variation-17 .dropdown .dropdown-select:focus, .toplist-variation-17 .dropdown .chosen-choices:hover, .toplist-variation-17 .dropdown .chosen-choices:focus {
+  outline: 0;
+}
+.toplist-variation-17 .toplist-variation-17-list {
+  background: #212529;
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.toplist-variation-17 .toplist-variation-17-list h3 {
+  margin: 10px;
+  font-size: 15px;
+}
+.toplist-variation-17 .toplist-variation-17-list h3 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.toplist-variation-17 .toplist-variation-17-list h3 a:hover {
+  color: #0d6efd;
+}
+.toplist-variation-17 .toplist-variation-17-list .flag-image {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.toplist-variation-17 .toplist-variation-17-list .providerCard-spoiler-title {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.toplist-variation-17 .toplist-variation-17-list .spoiler-body-providerCard {
+  border-top: 1px solid #eee;
+  padding: 5px 10px;
+  top: 100%;
+  width: calc(100% - 30px);
+  float: left;
+  position: absolute;
+  background: #212529;
+  z-index: 10;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+.toplist-variation-17 .toplist-variation-17-list .spoiler-body-providerCard h5 {
+  font-size: 13px;
+  margin: 10px 0;
+  color: #ffffff;
+}
+.toplist-variation-17 .toplist-variation-17-list .spoiler-body-providerCard .toplist-game-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.toplist-variation-17 .toplist-variation-17-list .spoiler-body-providerCard .toplist-game-list li {
+  margin: 0;
+  padding: 0px 5px 0 0;
+  width: 24%;
+  display: inline-flex;
+}
+.toplist-variation-17 .toplist-variation-17-list .spoiler-body-providerCard .toplist-game-list li a {
+  background: #e5e5e5;
+  width: 100%;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 100%;
+}
+.toplist-variation-17 .toplist-variation-17-list .spoiler-body-providerCard .toplist-game-list li img {
+  border-radius: 50%;
+  border: 3px solid #eee;
+}
+.toplist-variation-17 .toplist-variation-17-list .spoiler-body-providerCard .btn-link {
+  margin: 10px 0;
+  display: block;
+}
+.toplist-variation-17 .toplist-variation-17-filter-dropdown {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+.toplist-variation-17 .toplist-variation-17-filter-dropdown .dropdown-select, .toplist-variation-17 .toplist-variation-17-filter-dropdown .chosen-choices {
+  width: 100%;
+}
+
+/*# sourceMappingURL=toplist-variation-17.css.map */

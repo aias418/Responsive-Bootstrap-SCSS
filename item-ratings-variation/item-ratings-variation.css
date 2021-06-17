@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+.item-ratings-variation .charts-wrapper, .item-ratings-variation .charts-wrapper .right-box, .item-ratings-variation .prog-bar-wrapper .text-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item-ratings-variation .charts-wrapper .right-box {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 20%;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.item-ratings-variation {
+  font-family: "Montserrat", sans-serif;
+}
+
+.item-ratings-variation .app-container {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.item-ratings-variation .main-title {
+  font-size: 24px;
+  color: #212529;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.item-ratings-variation .circular-chart {
+  display: block;
+  max-height: 303px;
+  margin: 0 auto;
+}
+
+.item-ratings-variation .circular-chart .circle-bg {
+  fill: none;
+  stroke: #e5e5e5;
+  stroke-width: 3.8;
+}
+
+.item-ratings-variation .circular-chart .circle {
+  fill: none;
+  stroke-width: 3.8;
+  stroke-linecap: square;
+  -webkit-animation: progress-circle 1s ease-out forwards;
+          animation: progress-circle 1s ease-out forwards;
+}
+
+.item-ratings-variation .circular-chart .percentage {
+  fill: #6c757d;
+  text-anchor: middle;
+}
+
+.item-ratings-variation .circular-chart .percentage .chart-prog-val {
+  font-size: 30%;
+  font-weight: 700;
+  fill: #0d6efd;
+}
+
+.item-ratings-variation .circular-chart .percentage .chart-prog-lbl {
+  font-size: 20%;
+  font-weight: 700;
+  color: #212529;
+}
+
+.item-ratings-variation .circular-chart.orange .circle {
+  stroke: #ffc107;
+}
+
+.item-ratings-variation .circular-chart.green .circle {
+  stroke: #198754;
+}
+
+.item-ratings-variation .circular-chart.blue .circle {
+  stroke: #0d6efd;
+}
+
+@-webkit-keyframes progress-circle {
+  0% {
+    stroke-dasharray: 0 200;
+  }
+}
+
+@keyframes progress-circle {
+  0% {
+    stroke-dasharray: 0 200;
+  }
+}
+
+.item-ratings-variation .charts-wrapper .left-box {
+  min-width: 290px;
+}
+
+.item-ratings-variation .charts-wrapper .right-box {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 54px;
+}
+
+.item-ratings-variation .prog-bar-wrapper {
+  margin-bottom: 12px;
+}
+
+.item-ratings-variation .prog-bar-wrapper:last-child {
+  margin-bottom: 0px;
+}
+
+.item-ratings-variation .prog-bar-wrapper .text-info {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 16px;
+  color: #212529;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.item-ratings-variation .prog-bar-wrapper .progress {
+  height: 3px;
+}
+
+.item-ratings-variation .prog-bar-wrapper .progress .progress-bar {
+  line-height: 3px;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.item-ratings-variation .prog-bar-wrapper .progress .progress-bar .prog-inner {
+  display: block;
+  width: 0%;
+  height: 100%;
+  background-color: #0d6efd;
+  -webkit-animation: progress-bar 1s ease-out forwards;
+          animation: progress-bar 1s ease-out forwards;
+}
+
+@-webkit-keyframes progress-bar {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes progress-bar {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .item-ratings-variation .charts-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .item-ratings-variation .charts-wrapper .left-box,
+  .item-ratings-variation .charts-wrapper .right-box {
+    min-width: 100%;
+  }
+  .item-ratings-variation .charts-wrapper .left-box {
+    margin-bottom: 50px;
+  }
+  .item-ratings-variation .charts-wrapper .right-box {
+    padding-left: 0px;
+  }
+  .item-ratings-variation .circular-chart {
+    max-height: 215px;
+  }
+}
+/*# sourceMappingURL=item-ratings-variation.css.map */

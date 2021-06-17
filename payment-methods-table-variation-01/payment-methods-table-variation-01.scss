@@ -1,0 +1,109 @@
+@import "sass-styling-vars";
+
+.payment-methods-table-variation-01 {
+    float: none;
+    box-sizing: border-box;
+    background-color: $theme-light;
+    background-clip: padding-box;
+    padding: 30px 15px;
+    width: 100%;
+    margin: 30px auto;
+    max-width: 1180px;
+    @media only screen and (max-width : 768px) {
+        padding: 20px 10px;
+        max-width: 100%;
+    }
+    .heading {
+        font-size: $font-size-default + 15;
+        line-height: 1.2em;
+        font-weight: $font-weight-heavy;
+        @media only screen and (max-width : 480px) {
+            font-size: $font-size-default + 7;
+            line-height: 1.2em;
+            text-align: center;
+        }
+    }
+    .table-wrapper {
+        margin-bottom: 20px;
+        .payment-table {
+            display: flex;
+            flex-direction: column;
+            min-width: 528px;
+            .tbl-row {
+                display: flex;
+                flex-wrap: nowrap;
+                &:nth-child(even) {
+                    background-color: $theme-white;
+                }
+                .head-cell {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 5px 10px;
+                    color: $theme-white;
+                    background-color: $theme-secondary;
+                    font-weight: $font-weight-heavy;
+                    text-align: center;
+                    font-size: $font-size-default + 1;
+                    line-height: 1.143em;
+                    border-bottom: 4px solid $theme-success;
+                    width: 15%;
+                    &:first-child {
+                        width: 25%;
+                    }
+                }
+                .tbl-cell {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 8px 16px;
+                    text-align: center;
+                    font-size: $font-size-default;
+                    line-height: 1.154em;
+                    border: $theme-border;
+                    border-width: 0 1px 1px 0;
+                    border-color: $theme-secondary;
+                    width: 15%;
+                    &:first-child {
+                        width: 25%;
+                        font-size: $font-size-default + 3;
+                        font-weight: $font-weight-heavy;
+                        border-left-width: 1px;
+                        line-height: .937;
+                    }
+                    &:nth-child(2) {
+                        font-weight: $font-weight-heavy;
+                    }
+                }
+            }
+        }
+    }
+
+    img {
+        max-width: 100%;
+        border: none;
+        text-decoration: none;
+        object-fit: contain;
+    }
+    p {
+        margin: 0 0 20px;
+        font-size: $font-size-default + 1;
+        line-height: 1.857em;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            margin: 0;
+        }
+    }
+    a {
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;
+            outline: 0;
+        }
+    }
+    
+}
